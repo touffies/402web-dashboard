@@ -1,6 +1,6 @@
-title: DashLord example
+title: Bashboard OS
 description: Bonnes pratiques techniques
-entity: Ministères sociaux
+entity: Pôle conformité
 footer: Powered by SocialGouv
 marianne: false
 tools:
@@ -18,11 +18,21 @@ tools:
   dependabot: true
   codescan: true
   stats: false
-  declaration-a11y: true
+  declaration-a11y: false
 urls:
-  - url: https://www.fabrique.social.gouv.fr
-    repositories:
-      - socialgouv/www
-    docker:
-      - ghcr.io/socialgouv/fabrique/frontend
-  - url: https://beta.gouv.fr
+  - url: http://402web.fr
+    title : 402WEB
+    tags:
+      - agence
+  - url: http://402web.fr
+    title : Les Murmures du Ligon
+    tags:
+      - client
+  - url: https://www.coque-en-bois.fr
+    title : Coque en Bois
+    tags:
+      - client
+  - url: https://www.salaisonsduvelay.com
+    title : Salaisons du Velay
+    tags:
+      - client
