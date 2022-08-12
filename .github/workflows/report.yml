@@ -5,7 +5,7 @@ on:
   workflow_run:
    workflows: ["DashLord scans"]
    branches: [main]
-   types: 
+   types:
      - completed
 
 # allow only one concurrent report action
@@ -31,7 +31,7 @@ jobs:
       - id: dashlord-report
         uses: SocialGouv/dashlord-actions/report@main
         with:
-          base-path: /dashlord
+          base-path: /402web-dashboard
 
       # to save the generated report.json as artifact
       #- uses: actions/upload-artifact@v2
