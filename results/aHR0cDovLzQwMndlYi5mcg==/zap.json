@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Fri, 12 Aug 2022 10:53:51",
+	"@generated": "Fri, 12 Aug 2022 13:10:58",
 	"site":[ 
 		{
 			"@name": "http://402web.fr",
@@ -395,7 +395,7 @@
 					"reference": "<p>https://github.com/jquery/jquery/issues/2432</p><p>http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/</p><p>http://research.insecurelabs.org/jquery/test/</p><p>https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2019-11358</p><p>https://nvd.nist.gov/vuln/detail/CVE-2015-9251</p><p>https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b</p><p>https://bugs.jquery.com/ticket/11974</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "184"
+					"sourceid": "182"
 				},
 				{
 					"pluginid": "10017",
@@ -510,7 +510,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "184"
+					"sourceid": "182"
 				},
 				{
 					"pluginid": "10009",
@@ -1029,7 +1029,21 @@
 							"evidence": ""
 						},
 						{
+							"uri": "http://402web.fr/wp-json/oembed/1.0/embed?format=xml&url=http%3A%2F%2F402web.fr%2Fnos-realisations%2Fe-flamme%2F",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "http://402web.fr/wp-json/oembed/1.0/embed?format=xml&url=http%3A%2F%2F402web.fr%2Fnos-realisations%2Felknerium-escape-game-au-puy-en-velay%2F",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "http://402web.fr/wp-json/oembed/1.0/embed?format=xml&url=http%3A%2F%2F402web.fr%2Fnos-realisations%2Flapprentie-patissiere%2F",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1064,13 +1078,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "10",
+					"count": "12",
 					"solution": "<p>Force UTF-8 for all text content in both the HTTP header and meta tags in HTML or encoding declarations in XML.</p>",
 					"otherinfo": "<p>There was a charset mismatch between the HTTP Header and the XML encoding declaration: [UTF-8] and [null] do not match.</p>",
 					"reference": "<p>http://code.google.com/p/browsersec/wiki/Part2#Character_set_handling_and_detection</p>",
 					"cweid": "436",
 					"wascid": "15",
-					"sourceid": "172"
+					"sourceid": "180"
 				},
 				{
 					"pluginid": "10027",
@@ -1227,7 +1241,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "218"
+					"sourceid": "212"
 				},
 				{
 					"pluginid": "10049",
@@ -1244,14 +1258,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Fri, 12 Aug 2022 11:51:24 GMT"
+							"evidence": "Fri, 12 Aug 2022 13:18:01 GMT"
 						},
 						{
 							"uri": "http://402web.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Fri, 12 Aug 2022 11:51:24 GMT"
+							"evidence": "Fri, 12 Aug 2022 13:18:01 GMT"
 						},
 						{
 							"uri": "http://402web.fr/krug",
@@ -1272,28 +1286,28 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Fri, 12 Aug 2022 11:48:45 GMT"
+							"evidence": "Fri, 12 Aug 2022 14:06:38 GMT"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/coque-en-bois/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Fri, 12 Aug 2022 11:48:41 GMT"
+							"evidence": "Fri, 12 Aug 2022 14:06:35 GMT"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/elknerium-escape-game-au-puy-en-velay/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Fri, 12 Aug 2022 11:48:50 GMT"
+							"evidence": "Fri, 12 Aug 2022 14:06:41 GMT"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/salaisons-du-velay/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Fri, 12 Aug 2022 11:48:54 GMT"
+							"evidence": "Fri, 12 Aug 2022 14:06:44 GMT"
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
@@ -1342,7 +1356,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "72"
+					"sourceid": "56"
 				},
 				{
 					"pluginid": "10031",
@@ -1368,7 +1382,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "389"
+					"sourceid": "394"
 				}
 			]
 		}
