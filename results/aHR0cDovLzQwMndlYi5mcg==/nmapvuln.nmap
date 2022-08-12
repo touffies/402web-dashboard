@@ -1,0 +1,94 @@
+# Nmap 7.92 scan initiated Fri Aug 12 10:57:20 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+Nmap scan report for 402web.fr (72.47.224.100)
+Host is up (0.069s latency).
+rDNS record for 72.47.224.100: agaacqmass.c03.gridserver.com
+Not shown: 989 filtered tcp ports (no-response)
+PORT    STATE SERVICE  VERSION
+21/tcp  open  ftp      Pure-FTPd
+22/tcp  open  ssh      OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:6.7p1: 
+|     	CVE-2015-5600	8.5	https://vulners.com/cve/CVE-2015-5600
+|     	CVE-2015-6564	6.9	https://vulners.com/cve/CVE-2015-6564
+|     	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
+|     	CVE-2017-15906	5.0	https://vulners.com/cve/CVE-2017-15906
+|_    	SSV:90447	4.6	https://vulners.com/seebug/SSV:90447	*EXPLOIT*
+25/tcp  open  smtp     Exim smtpd 4.94.2
+| vulners: 
+|   cpe:/a:exim:exim:4.94.2: 
+|     	CVE-2020-28026	9.3	https://vulners.com/cve/CVE-2020-28026
+|     	CVE-2020-28021	9.0	https://vulners.com/cve/CVE-2020-28021
+|     	CVE-2020-28024	7.5	https://vulners.com/cve/CVE-2020-28024
+|     	CVE-2020-28022	7.5	https://vulners.com/cve/CVE-2020-28022
+|     	CVE-2020-28018	7.5	https://vulners.com/cve/CVE-2020-28018
+|     	CVE-2020-28016	7.2	https://vulners.com/cve/CVE-2020-28016
+|     	CVE-2020-28015	7.2	https://vulners.com/cve/CVE-2020-28015
+|     	CVE-2020-28013	7.2	https://vulners.com/cve/CVE-2020-28013
+|     	CVE-2020-28012	7.2	https://vulners.com/cve/CVE-2020-28012
+|     	CVE-2020-28011	7.2	https://vulners.com/cve/CVE-2020-28011
+|     	CVE-2020-28010	7.2	https://vulners.com/cve/CVE-2020-28010
+|     	CVE-2020-28009	7.2	https://vulners.com/cve/CVE-2020-28009
+|     	CVE-2020-28008	7.2	https://vulners.com/cve/CVE-2020-28008
+|     	CVE-2020-28007	7.2	https://vulners.com/cve/CVE-2020-28007
+|     	CVE-2021-27216	6.3	https://vulners.com/cve/CVE-2021-27216
+|     	CVE-2020-28014	5.6	https://vulners.com/cve/CVE-2020-28014
+|     	CVE-2021-38371	5.0	https://vulners.com/cve/CVE-2021-38371
+|     	CVE-2020-28025	5.0	https://vulners.com/cve/CVE-2020-28025
+|     	CVE-2020-28023	5.0	https://vulners.com/cve/CVE-2020-28023
+|_    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019
+80/tcp  open  http     nginx
+110/tcp open  pop3     Dovecot pop3d
+143/tcp open  imap     Dovecot imapd
+443/tcp open  ssl/http nginx
+465/tcp open  ssl/smtp Exim smtpd 4.94.2
+| vulners: 
+|   cpe:/a:exim:exim:4.94.2: 
+|     	CVE-2020-28026	9.3	https://vulners.com/cve/CVE-2020-28026
+|     	CVE-2020-28021	9.0	https://vulners.com/cve/CVE-2020-28021
+|     	CVE-2020-28024	7.5	https://vulners.com/cve/CVE-2020-28024
+|     	CVE-2020-28022	7.5	https://vulners.com/cve/CVE-2020-28022
+|     	CVE-2020-28018	7.5	https://vulners.com/cve/CVE-2020-28018
+|     	CVE-2020-28016	7.2	https://vulners.com/cve/CVE-2020-28016
+|     	CVE-2020-28015	7.2	https://vulners.com/cve/CVE-2020-28015
+|     	CVE-2020-28013	7.2	https://vulners.com/cve/CVE-2020-28013
+|     	CVE-2020-28012	7.2	https://vulners.com/cve/CVE-2020-28012
+|     	CVE-2020-28011	7.2	https://vulners.com/cve/CVE-2020-28011
+|     	CVE-2020-28010	7.2	https://vulners.com/cve/CVE-2020-28010
+|     	CVE-2020-28009	7.2	https://vulners.com/cve/CVE-2020-28009
+|     	CVE-2020-28008	7.2	https://vulners.com/cve/CVE-2020-28008
+|     	CVE-2020-28007	7.2	https://vulners.com/cve/CVE-2020-28007
+|     	CVE-2021-27216	6.3	https://vulners.com/cve/CVE-2021-27216
+|     	CVE-2020-28014	5.6	https://vulners.com/cve/CVE-2020-28014
+|     	CVE-2021-38371	5.0	https://vulners.com/cve/CVE-2021-38371
+|     	CVE-2020-28025	5.0	https://vulners.com/cve/CVE-2020-28025
+|     	CVE-2020-28023	5.0	https://vulners.com/cve/CVE-2020-28023
+|_    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019
+587/tcp open  smtp     Exim smtpd 4.94.2
+| vulners: 
+|   cpe:/a:exim:exim:4.94.2: 
+|     	CVE-2020-28026	9.3	https://vulners.com/cve/CVE-2020-28026
+|     	CVE-2020-28021	9.0	https://vulners.com/cve/CVE-2020-28021
+|     	CVE-2020-28024	7.5	https://vulners.com/cve/CVE-2020-28024
+|     	CVE-2020-28022	7.5	https://vulners.com/cve/CVE-2020-28022
+|     	CVE-2020-28018	7.5	https://vulners.com/cve/CVE-2020-28018
+|     	CVE-2020-28016	7.2	https://vulners.com/cve/CVE-2020-28016
+|     	CVE-2020-28015	7.2	https://vulners.com/cve/CVE-2020-28015
+|     	CVE-2020-28013	7.2	https://vulners.com/cve/CVE-2020-28013
+|     	CVE-2020-28012	7.2	https://vulners.com/cve/CVE-2020-28012
+|     	CVE-2020-28011	7.2	https://vulners.com/cve/CVE-2020-28011
+|     	CVE-2020-28010	7.2	https://vulners.com/cve/CVE-2020-28010
+|     	CVE-2020-28009	7.2	https://vulners.com/cve/CVE-2020-28009
+|     	CVE-2020-28008	7.2	https://vulners.com/cve/CVE-2020-28008
+|     	CVE-2020-28007	7.2	https://vulners.com/cve/CVE-2020-28007
+|     	CVE-2021-27216	6.3	https://vulners.com/cve/CVE-2021-27216
+|     	CVE-2020-28014	5.6	https://vulners.com/cve/CVE-2020-28014
+|     	CVE-2021-38371	5.0	https://vulners.com/cve/CVE-2021-38371
+|     	CVE-2020-28025	5.0	https://vulners.com/cve/CVE-2020-28025
+|     	CVE-2020-28023	5.0	https://vulners.com/cve/CVE-2020-28023
+|_    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019
+993/tcp open  ssl/imap Dovecot imapd
+995/tcp open  ssl/pop3 Dovecot pop3d
+Service Info: Hosts: n11.c03.server-system.net, n10.c03.server-system.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Fri Aug 12 10:57:45 2022 -- 1 IP address (1 host up) scanned in 25.17 seconds
