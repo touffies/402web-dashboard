@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Fri, 12 Aug 2022 11:29:04",
+	"@generated": "Fri, 12 Aug 2022 13:32:21",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -339,7 +339,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_437_c3cc10fc55e34d0678817ebbb88a3911_all.css\" type=\"text/css\" media=\"all\" />"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_441_39eddf5a33ae7bc25e39a7b972f0e315_all.css\" type=\"text/css\" media=\"all\" />"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com",
@@ -353,7 +353,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com",
@@ -374,7 +374,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_437_c3cc10fc55e34d0678817ebbb88a3911_all.css\" type=\"text/css\" media=\"all\" />"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_441_39eddf5a33ae7bc25e39a7b972f0e315_all.css\" type=\"text/css\" media=\"all\" />"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -388,7 +388,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -402,7 +402,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_437_c3cc10fc55e34d0678817ebbb88a3911_all.css\" type=\"text/css\" media=\"all\" />"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_441_39eddf5a33ae7bc25e39a7b972f0e315_all.css\" type=\"text/css\" media=\"all\" />"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -416,7 +416,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -446,6 +446,13 @@
 					"instances":[ 
 						{
 							"uri": "https://www.salaisonsduvelay.com",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
@@ -508,13 +515,6 @@
 							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/33-epicerie-salee",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/nous-contacter",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -557,9 +557,9 @@
 						{
 							"uri": "https://www.salaisonsduvelay.com",
 							"method": "GET",
-							"param": "https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
+							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com",
@@ -578,9 +578,9 @@
 						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
-							"param": "https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
+							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
@@ -599,9 +599,9 @@
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
 							"method": "GET",
-							"param": "https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
+							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -620,9 +620,9 @@
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
 							"method": "GET",
-							"param": "https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
+							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js",
 							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
+							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_211_ea747fa18459bd4c68eef1d1f45489ce.js\"></script>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -875,7 +875,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1660303673"
+							"evidence": "1660311069"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -896,7 +896,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1660303675"
+							"evidence": "1660311071"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -917,7 +917,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1660303674"
+							"evidence": "1660311070"
 						}
 					],
 					"count": "9",
@@ -940,6 +940,13 @@
 					"instances":[ 
 						{
 							"uri": "https://www.salaisonsduvelay.com",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa="
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -975,13 +982,6 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa="
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1132,7 +1132,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "746"
+					"sourceid": "752"
 				},
 				{
 					"pluginid": "10027",
@@ -1252,7 +1252,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-321\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
+							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-297\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
@@ -1262,7 +1262,7 @@
 							"evidence": "<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-597P2DN&nojscript=true\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&tag=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderway=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1322,7 +1322,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-557\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
+							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-914\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -1523,7 +1523,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "82"
+					"sourceid": "128"
 				},
 				{
 					"pluginid": "10049",
