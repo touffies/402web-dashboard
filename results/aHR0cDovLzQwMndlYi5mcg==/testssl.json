@@ -360,7 +360,7 @@
               "ip"           : "402web.fr/72.47.224.100",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "205 >= 60 days"
+              "finding"      : "203 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,14 +556,14 @@
               "ip"           : "402web.fr/72.47.224.100",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "402web.fr/72.47.224.100",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1660309937"
+              "finding"      : "1660440385"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "402web.fr/72.47.224.100",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "73"
+              "finding"      : "129"
           }
 ]

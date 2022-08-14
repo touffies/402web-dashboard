@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Fri Aug 12 13:13:12 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+# Nmap 7.92 scan initiated Sun Aug 14 01:27:47 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
 Host: 72.47.224.100 (agaacqmass.c03.gridserver.com)	Status: Up
 Host: 72.47.224.100 (agaacqmass.c03.gridserver.com)	Ports: 21/open/tcp//ftp//Pure-FTPd/, 22/open/tcp//ssh//OpenSSH 6.7p1 Debian 5+deb8u8 (protocol 2.0)/, 25/open/tcp//smtp//Exim smtpd 4.94.2/, 80/open/tcp//http//nginx/, 110/open/tcp//pop3//Dovecot pop3d/, 143/open/tcp//imap//Dovecot imapd/, 443/open/tcp//ssl|http//nginx/, 465/open/tcp//ssl|smtp//Exim smtpd 4.94.2/, 587/open/tcp//smtp//Exim smtpd 4.94.2/, 993/open/tcp//ssl|imap//Dovecot imapd/, 995/open/tcp//ssl|pop3//Dovecot pop3d/	Ignored State: filtered (989)
-# Nmap done at Fri Aug 12 13:13:50 2022 -- 1 IP address (1 host up) scanned in 38.51 seconds
+# Nmap done at Sun Aug 14 01:28:18 2022 -- 1 IP address (1 host up) scanned in 31.14 seconds
