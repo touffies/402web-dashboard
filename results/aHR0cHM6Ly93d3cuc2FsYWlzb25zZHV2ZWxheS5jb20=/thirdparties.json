@@ -57,6 +57,14 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.77&r=stable",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "google analytics",
       "url": "https://www.google-analytics.com/plugins/ua/ec.js",
       "details": {
@@ -65,16 +73,8 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.75&r=stable",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=352393025&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAAC~&jid=2115299983&gjid=799853510&cid=1903112193.1660441723&tid=UA-109038707-1&_gid=1144758210.1660441723&_r=1&gtm=2wg880597P2DN&z=1271119886",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j96&a=1761174982&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAAC~&jid=1592318620&gjid=422712926&cid=2140779567.1661046143&tid=UA-109038707-1&_gid=1948654856.1661046143&_r=1&gtm=2wg8h0597P2DN&z=1685281452",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
@@ -82,10 +82,34 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1660441722857&sw=800&sh=600&v=2.9.75&r=stable&ec=0&o=158&fbp=fb.1.1660441722856.1216364270&it=1660441722771&coo=false&rqm=GET",
+      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1661046143014&sw=800&sh=600&v=2.9.77&r=stable&ec=0&o=158&fbp=fb.1.1661046143012.828610012&it=1661046142894&coo=false&rqm=GET",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google",
+      "url": "https://www.gstatic.com/recaptcha/releases/PRMRaAwB3KlylGQR57Dyk-pF/recaptcha__en.js",
+      "details": {
+        "id": "google",
+        "message": "Use hosted Matomo instance"
       }
     },
     {
@@ -113,30 +137,6 @@
       }
     },
     {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google",
-      "url": "https://www.gstatic.com/recaptcha/releases/mq0-U1BHZ5YTcoDC-CvsLPNc/recaptcha__en.js",
-      "details": {
-        "id": "google",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
       "type": "facebook",
       "url": "https://connect.facebook.net/fr_FR/all.js",
       "details": {
@@ -146,7 +146,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/fr_FR/all.js?hash=4c7ca400a503a1c4c4c67f849aac4a40",
+      "url": "https://connect.facebook.net/fr_FR/all.js?hash=d62652beeb31346043d88d2bb21ed6df",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -162,7 +162,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2b9aa4747ff02%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff1b0864d0437864%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
+      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1b9de0a741a348%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff12ef6c8cd826e8%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -170,7 +170,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Flike_box.php%3Fapp_id%3D334341610034299%26channel%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df2b9aa4747ff02%2526domain%253Dwww.salaisonsduvelay.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.salaisonsduvelay.com%25252Ff1b0864d0437864%2526relation%253Dparent.parent%26color_scheme%3Dlight%26container_width%3D0%26header%3Dfalse%26href%3Dhttps%253A%252F%252Fwww.facebook.com%252Fsalaisonsduvelay%252F%26locale%3Dfr_FR%26sdk%3Djoey%26show_border%3Dfalse%26show_faces%3Dtrue%26stream%3Dfalse%26width%3D256",
+      "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Flike_box.php%3Fapp_id%3D334341610034299%26channel%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df1b9de0a741a348%2526domain%253Dwww.salaisonsduvelay.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.salaisonsduvelay.com%25252Ff12ef6c8cd826e8%2526relation%253Dparent.parent%26color_scheme%3Dlight%26container_width%3D0%26header%3Dfalse%26href%3Dhttps%253A%252F%252Fwww.facebook.com%252Fsalaisonsduvelay%252F%26locale%3Dfr_FR%26sdk%3Djoey%26show_border%3Dfalse%26show_faces%3Dtrue%26stream%3Dfalse%26width%3D256",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -180,10 +180,10 @@
   "cookies": [
     {
       "name": "_gid",
-      "value": "GA1.2.1144758210.1660441723",
+      "value": "GA1.2.1948654856.1661046143",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1660528122,
+      "expires": 1661132542,
       "size": 31,
       "httpOnly": false,
       "secure": false,
@@ -194,11 +194,11 @@
     },
     {
       "name": "_fbp",
-      "value": "fb.1.1660441722856.1216364270",
+      "value": "fb.1.1661046143012.828610012",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1668217723,
-      "size": 33,
+      "expires": 1668822143,
+      "size": 32,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -208,10 +208,10 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.2.1903112193.1660441723",
+      "value": "GA1.2.2140779567.1661046143",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1723513722,
+      "expires": 1724118142,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -225,7 +225,7 @@
       "value": "1",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1660441782,
+      "expires": 1661046202,
       "size": 20,
       "httpOnly": false,
       "secure": false,
@@ -236,11 +236,11 @@
     },
     {
       "name": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-      "value": "3d0f619ad7637de5b893bef3523046575b4e5178876a5cac4d79f798eb8721d0%3AG%2Fd9WWgt%2Bvy%2BDh%2BlHjQ6cdkbFLEHaGbKaQlZ3MxDtlcjE0ojesQWSP%2BqrzkJO7msdmClC%2Bhk5zvEA7IwEYLdr960XNEPDs2YW1ktZxwfRa1w2uXDwF0lR4UMzfaXt1E4MBa2rWdfMPcrbgu%2B%2FrSUbLpCci7S83wF%2BVC9DchWO4Iqfil7AgUQY9C2ewgRrnS2",
+      "value": "e5239649ff438c16ee9b9346918003b92417c98d65a141a0b0f7d5acc33e78e6%3AG%2Fd9WWgt%2Bvy%2BDh%2BlHjQ6cd7IRQ%2F7ErThQBb856AA18%2FK67%2BG9ZB%2B8gmmu066nm1GS1SZ4Z0J44bZ06CrCRffOmzshCFQUjkCrmWmHPep3dN0fMh2xxqSxi9ULMUsSHq4lh%2F6yhA1IMbakScXRfU4a7JtUVcwqKDmXOPHHTS1fk%2BNdxmISH6el7S%2Fr%2FftYCQP",
       "domain": ".www.salaisonsduvelay.com",
       "path": "/",
-      "expires": 1662169722.53575,
-      "size": 320,
+      "expires": 1662774142.755694,
+      "size": 326,
       "httpOnly": true,
       "secure": true,
       "session": false,
@@ -252,14 +252,14 @@
   "headers": {
     "cache-control": "max-age=0",
     "content-encoding": "gzip",
-    "content-length": "15528",
+    "content-length": "15446",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 14 Aug 2022 01:48:42 GMT",
-    "expires": "Sun, 14 Aug 2022 01:48:42 GMT",
+    "date": "Sun, 21 Aug 2022 01:42:22 GMT",
+    "expires": "Sun, 21 Aug 2022 01:42:22 GMT",
     "p3p": "CP=\"IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\"",
     "powered-by": "PrestaShop",
     "server": "Apache",
-    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=3d0f619ad7637de5b893bef3523046575b4e5178876a5cac4d79f798eb8721d0%3AG%2Fd9WWgt%2Bvy%2BDh%2BlHjQ6cdkbFLEHaGbKaQlZ3MxDtlcjE0ojesQWSP%2BqrzkJO7msdmClC%2Bhk5zvEA7IwEYLdr960XNEPDs2YW1ktZxwfRa1w2uXDwF0lR4UMzfaXt1E4MBa2rWdfMPcrbgu%2B%2FrSUbLpCci7S83wF%2BVC9DchWO4Iqfil7AgUQY9C2ewgRrnS2; expires=Sat, 03-Sep-2022 01:48:42 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
+    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=e5239649ff438c16ee9b9346918003b92417c98d65a141a0b0f7d5acc33e78e6%3AG%2Fd9WWgt%2Bvy%2BDh%2BlHjQ6cd7IRQ%2F7ErThQBb856AA18%2FK67%2BG9ZB%2B8gmmu066nm1GS1SZ4Z0J44bZ06CrCRffOmzshCFQUjkCrmWmHPep3dN0fMh2xxqSxi9ULMUsSHq4lh%2F6yhA1IMbakScXRfU4a7JtUVcwqKDmXOPHHTS1fk%2BNdxmISH6el7S%2Fr%2FftYCQP; expires=Sat, 10-Sep-2022 01:42:22 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-ua-compatible": "IE=edge"
@@ -323,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.72.170",
+      "ip": "142.251.16.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -377,7 +377,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.68.40",
+      "ip": "172.253.122.97",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -431,19 +431,13 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.22.25",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "en": "Ashburn",
+            "ru": "Ашберн"
           }
         },
         "continent": {
@@ -476,41 +470,40 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "95052"
+          "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -518,7 +511,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.250.72.238",
+      "ip": "172.253.63.102",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -572,7 +565,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.188.234",
+      "ip": "172.217.13.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -626,7 +619,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.188.228",
+      "ip": "172.253.122.105",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -680,19 +673,13 @@
     },
     {
       "hostname": "www.facebook.com",
-      "ip": "157.240.22.35",
+      "ip": "31.13.66.35",
       "geoip": {
         "city": {
-          "geoname_id": 5393015,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Santa Clara",
-            "en": "Santa Clara",
-            "es": "Santa Clara",
-            "fr": "Santa Clara",
-            "ja": "サンタクララ",
-            "pt-BR": "Santa Clara",
-            "ru": "Санта-Клара",
-            "zh-CN": "圣克拉拉"
+            "en": "Ashburn",
+            "ru": "Ашберн"
           }
         },
         "continent": {
@@ -725,41 +712,40 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 37.353,
-          "longitude": -121.9543,
-          "metro_code": 807,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "95052"
+          "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
           {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -767,7 +753,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.176.3",
+      "ip": "142.251.111.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -821,7 +807,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.176.3",
+      "ip": "172.253.115.94",
       "geoip": {
         "continent": {
           "code": "NA",
