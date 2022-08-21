@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 14 Aug 2022 01:24:17",
+	"@generated": "Sun, 21 Aug 2022 01:22:54",
 	"site":[ 
 		{
 			"@name": "http://402web.fr",
@@ -325,14 +325,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						},
 						{
 							"uri": "http://402web.fr/",
@@ -353,17 +353,38 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
+						},
+						{
+							"uri": "http://402web.fr/projets",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<link\nhref=\"http://fonts.googleapis.com/css?family=Montserrat+Alternates:400,700\" rel=stylesheet type=text/css>"
+						},
+						{
+							"uri": "http://402web.fr/projets",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
+						},
+						{
+							"uri": "http://402web.fr/projets",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						}
 					],
-					"count": "8",
+					"count": "11",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
@@ -395,7 +416,7 @@
 					"reference": "<p>https://github.com/jquery/jquery/issues/2432</p><p>http://blog.jquery.com/2016/01/08/jquery-2-2-and-1-12-released/</p><p>http://research.insecurelabs.org/jquery/test/</p><p>https://blog.jquery.com/2019/04/10/jquery-3-4-0-released/</p><p>https://nvd.nist.gov/vuln/detail/CVE-2019-11358</p><p>https://nvd.nist.gov/vuln/detail/CVE-2015-9251</p><p>https://github.com/jquery/jquery/commit/753d591aea698e57d6db58c9f722cd0808619b1b</p><p>https://bugs.jquery.com/ticket/11974</p><p>https://blog.jquery.com/2020/04/10/jquery-3-5-0-released/</p><p></p>",
 					"cweid": "829",
 					"wascid": "-1",
-					"sourceid": "183"
+					"sourceid": "182"
 				},
 				{
 					"pluginid": "10017",
@@ -410,72 +431,72 @@
 						{
 							"uri": "http://402web.fr",
 							"method": "GET",
-							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232",
+							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr",
 							"method": "GET",
-							"param": "https://stats.wp.com/e-202232.js",
+							"param": "https://stats.wp.com/e-202233.js",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						},
 						{
 							"uri": "http://402web.fr/",
 							"method": "GET",
-							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232",
+							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr/",
 							"method": "GET",
-							"param": "https://stats.wp.com/e-202232.js",
+							"param": "https://stats.wp.com/e-202233.js",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/affutage-43/",
 							"method": "GET",
-							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232",
+							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/affutage-43/",
 							"method": "GET",
-							"param": "https://stats.wp.com/e-202232.js",
+							"param": "https://stats.wp.com/e-202233.js",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/coque-en-bois/",
 							"method": "GET",
-							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232",
+							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/coque-en-bois/",
 							"method": "GET",
-							"param": "https://stats.wp.com/e-202232.js",
+							"param": "https://stats.wp.com/e-202233.js",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						},
 						{
 							"uri": "http://402web.fr/projets",
 							"method": "GET",
-							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232",
+							"param": "https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233",
 							"attack": "",
-							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202232'></script>"
+							"evidence": "<script src='https://s0.wp.com/wp-content/js/devicepx-jetpack.js?ver=202233'></script>"
 						},
 						{
 							"uri": "http://402web.fr/projets",
 							"method": "GET",
-							"param": "https://stats.wp.com/e-202232.js",
+							"param": "https://stats.wp.com/e-202233.js",
 							"attack": "",
-							"evidence": "<script src=https://stats.wp.com/e-202232.js async=async defer=defer></script>"
+							"evidence": "<script src=https://stats.wp.com/e-202233.js async=async defer=defer></script>"
 						}
 					],
 					"count": "10",
@@ -510,7 +531,7 @@
 					"reference": "<p>https://angular.io/guide/security</p>",
 					"cweid": "749",
 					"wascid": "-1",
-					"sourceid": "183"
+					"sourceid": "182"
 				},
 				{
 					"pluginid": "10009",
@@ -1084,7 +1105,7 @@
 					"reference": "<p>http://code.google.com/p/browsersec/wiki/Part2#Character_set_handling_and_detection</p>",
 					"cweid": "436",
 					"wascid": "15",
-					"sourceid": "172"
+					"sourceid": "174"
 				},
 				{
 					"pluginid": "10027",
@@ -1241,7 +1262,7 @@
 					"reference": "",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "218"
+					"sourceid": "220"
 				},
 				{
 					"pluginid": "10049",
@@ -1258,14 +1279,14 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Sun, 14 Aug 2022 02:21:54 GMT"
+							"evidence": "Sun, 21 Aug 2022 01:30:15 GMT"
 						},
 						{
 							"uri": "http://402web.fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Sun, 14 Aug 2022 02:21:54 GMT"
+							"evidence": "Sun, 21 Aug 2022 01:30:15 GMT"
 						},
 						{
 							"uri": "http://402web.fr/krug",
@@ -1286,28 +1307,28 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Sun, 14 Aug 2022 01:26:10 GMT"
+							"evidence": "Sun, 21 Aug 2022 02:18:22 GMT"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/coque-en-bois/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Sun, 14 Aug 2022 02:19:54 GMT"
+							"evidence": "Sun, 21 Aug 2022 02:18:18 GMT"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/elknerium-escape-game-au-puy-en-velay/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Sun, 14 Aug 2022 02:19:58 GMT"
+							"evidence": "Sun, 21 Aug 2022 02:18:25 GMT"
 						},
 						{
 							"uri": "http://402web.fr/nos-realisations/salaisons-du-velay/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Sun, 14 Aug 2022 02:20:01 GMT"
+							"evidence": "Sun, 21 Aug 2022 02:18:28 GMT"
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
@@ -1356,7 +1377,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "70"
+					"sourceid": "53"
 				},
 				{
 					"pluginid": "10031",
@@ -1382,7 +1403,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "389"
+					"sourceid": "412"
 				}
 			]
 		}
