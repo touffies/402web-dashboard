@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Aug 21 01:25:49 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+# Nmap 7.92 scan initiated Sun Aug 28 01:34:56 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
 Nmap scan report for 402web.fr (72.47.224.100)
-Host is up (0.052s latency).
+Host is up (0.070s latency).
 rDNS record for 72.47.224.100: agaacqmass.c03.gridserver.com
 Not shown: 989 filtered tcp ports (no-response)
 PORT    STATE SERVICE  VERSION
@@ -87,7 +87,7 @@ PORT    STATE SERVICE  VERSION
 |_    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019
 993/tcp open  ssl/imap Dovecot imapd
 995/tcp open  ssl/pop3 Dovecot pop3d
-Service Info: Hosts: n10.c03.server-system.net, n11.c03.server-system.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
+Service Info: Hosts: n11.c03.server-system.net, n10.c03.server-system.net; OS: Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Aug 21 01:26:13 2022 -- 1 IP address (1 host up) scanned in 24.18 seconds
+# Nmap done at Sun Aug 28 01:35:20 2022 -- 1 IP address (1 host up) scanned in 24.00 seconds
