@@ -213,14 +213,14 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "off by -5 seconds from your localtime"
+              "finding"      : "off by -4 seconds from your localtime"
           }
 ,         {
               "id"           : "certificate_compression",
@@ -353,7 +353,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "56 >= 30 days"
+              "finding"      : "49 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1661651098"
+              "finding"      : "1662255654"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -591,7 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=25, db;dur=9 cloudflare"
+              "finding"      : "Server-Timing: processing;dur=22, db;dur=8 cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -641,13 +641,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;"
-          }
-,         {
-              "id"           : "Expect-CT",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "max-age=604800, report-uri='https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct'"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -1168,6 +1161,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "80"
+              "finding"      : "67"
           }
 ]
