@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr</pre>
-<p class="lead">Sun Aug 28 01:34:56 2022 – Sun Aug 28 01:35:20 2022<br>1 hosts scanned.
+<p class="lead">Sun Sep  4 01:30:04 2022 – Sun Sep  4 01:30:27 2022<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -76,9 +76,9 @@
 </tr></thead>
 <tbody><tr>
 <td><span class="label label-success">up</span></td>
-<td>72.47.224.100</td>
+<td>83.166.138.63</td>
 <td>402web.fr</td>
-<td>11</td>
+<td>5</td>
 <td>0</td>
 </tr></tbody>
 </table></div>
@@ -91,12 +91,12 @@
             });
           </script><h2 id="onlinehosts" class="target">Online Hosts</h2>
 <div class="panel panel-default">
-<div class="panel-heading clickable" data-toggle="collapse" data-target="#72-47-224-100"><h3 class="panel-title">72.47.224.100 - 402web.fr</h3></div>
-<div class="panel-body collapse in" id="72-47-224-100">
+<div class="panel-heading clickable" data-toggle="collapse" data-target="#83-166-138-63"><h3 class="panel-title">83.166.138.63 - 402web.fr</h3></div>
+<div class="panel-body collapse in" id="83-166-138-63">
 <h4>Hostnames</h4>
 <ul>
 <li>402web.fr (user)</li>
-<li>agaacqmass.c03.gridserver.com (PTR)</li>
+<li>h2web104.infomaniak.ch (PTR)</li>
 </ul>
 <h4>Ports</h4>
 <div class="table-responsive"><table class="table table-bordered">
@@ -110,16 +110,25 @@
 <th>Extra Info</th>
 </tr></thead>
 <tbody>
+<tr class="active">
+<td>20</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>ftp-data</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
 <tr class="success">
 <td title="Port">21</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">ftp</td>
-<td title="Product">Pure-FTPd</td>
+<td title="Product">ProFTPD</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:pureftpd:pure-ftpd">cpe:/a:pureftpd:pure-ftpd</a></td></tr>
+<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:proftpd:proftpd">cpe:/a:proftpd:proftpd</a></td></tr>
 <tr class="success">
 <td title="Port">22</td>
 <td title="Protocol">tcp</td>
@@ -139,167 +148,67 @@
     	SSV:90447	4.6	https://vulners.com/seebug/SSV:90447	*EXPLOIT*</pre>
 </td></tr>
 <tr class="success">
-<td title="Port">25</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">smtp</td>
-<td title="Product">Exim smtpd</td>
-<td title="Version">4.94.2</td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.94.2">cpe:/a:exim:exim:4.94.2</a><h5>vulners</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:exim:exim:4.94.2: 
-    	CVE-2020-28026	9.3	https://vulners.com/cve/CVE-2020-28026
-    	CVE-2020-28021	9.0	https://vulners.com/cve/CVE-2020-28021
-    	CVE-2020-28024	7.5	https://vulners.com/cve/CVE-2020-28024
-    	CVE-2020-28022	7.5	https://vulners.com/cve/CVE-2020-28022
-    	CVE-2020-28018	7.5	https://vulners.com/cve/CVE-2020-28018
-    	CVE-2020-28016	7.2	https://vulners.com/cve/CVE-2020-28016
-    	CVE-2020-28015	7.2	https://vulners.com/cve/CVE-2020-28015
-    	CVE-2020-28013	7.2	https://vulners.com/cve/CVE-2020-28013
-    	CVE-2020-28012	7.2	https://vulners.com/cve/CVE-2020-28012
-    	CVE-2020-28011	7.2	https://vulners.com/cve/CVE-2020-28011
-    	CVE-2020-28010	7.2	https://vulners.com/cve/CVE-2020-28010
-    	CVE-2020-28009	7.2	https://vulners.com/cve/CVE-2020-28009
-    	CVE-2020-28008	7.2	https://vulners.com/cve/CVE-2020-28008
-    	CVE-2020-28007	7.2	https://vulners.com/cve/CVE-2020-28007
-    	CVE-2021-27216	6.3	https://vulners.com/cve/CVE-2021-27216
-    	CVE-2020-28014	5.6	https://vulners.com/cve/CVE-2020-28014
-    	CVE-2021-38371	5.0	https://vulners.com/cve/CVE-2021-38371
-    	CVE-2020-28025	5.0	https://vulners.com/cve/CVE-2020-28025
-    	CVE-2020-28023	5.0	https://vulners.com/cve/CVE-2020-28023
-    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019</pre>
-</td></tr>
-<tr class="success">
 <td title="Port">80</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Product">Apache httpd</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
-<tr class="success">
-<td title="Port">110</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">pop3</td>
-<td title="Product">Dovecot pop3d</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
-<tr class="success">
-<td title="Port">143</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">imap</td>
-<td title="Product">Dovecot imapd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
+<tr><td colspan="7">
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+</td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">nginx</td>
+<td title="Product">Apache httpd</td>
 <td title="Version"></td>
-<td title="Extra Info"></td>
-</tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:igor_sysoev:nginx">cpe:/a:igor_sysoev:nginx</a></td></tr>
-<tr class="success">
-<td title="Port">465</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">smtp</td>
-<td title="Product">Exim smtpd</td>
-<td title="Version">4.94.2</td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.94.2">cpe:/a:exim:exim:4.94.2</a><h5>vulners</h5>
-<pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:exim:exim:4.94.2: 
-    	CVE-2020-28026	9.3	https://vulners.com/cve/CVE-2020-28026
-    	CVE-2020-28021	9.0	https://vulners.com/cve/CVE-2020-28021
-    	CVE-2020-28024	7.5	https://vulners.com/cve/CVE-2020-28024
-    	CVE-2020-28022	7.5	https://vulners.com/cve/CVE-2020-28022
-    	CVE-2020-28018	7.5	https://vulners.com/cve/CVE-2020-28018
-    	CVE-2020-28016	7.2	https://vulners.com/cve/CVE-2020-28016
-    	CVE-2020-28015	7.2	https://vulners.com/cve/CVE-2020-28015
-    	CVE-2020-28013	7.2	https://vulners.com/cve/CVE-2020-28013
-    	CVE-2020-28012	7.2	https://vulners.com/cve/CVE-2020-28012
-    	CVE-2020-28011	7.2	https://vulners.com/cve/CVE-2020-28011
-    	CVE-2020-28010	7.2	https://vulners.com/cve/CVE-2020-28010
-    	CVE-2020-28009	7.2	https://vulners.com/cve/CVE-2020-28009
-    	CVE-2020-28008	7.2	https://vulners.com/cve/CVE-2020-28008
-    	CVE-2020-28007	7.2	https://vulners.com/cve/CVE-2020-28007
-    	CVE-2021-27216	6.3	https://vulners.com/cve/CVE-2021-27216
-    	CVE-2020-28014	5.6	https://vulners.com/cve/CVE-2020-28014
-    	CVE-2021-38371	5.0	https://vulners.com/cve/CVE-2021-38371
-    	CVE-2020-28025	5.0	https://vulners.com/cve/CVE-2020-28025
-    	CVE-2020-28023	5.0	https://vulners.com/cve/CVE-2020-28023
-    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019</pre>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
 </td></tr>
 <tr class="success">
-<td title="Port">587</td>
+<td title="Port">2222</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">smtp</td>
-<td title="Product">Exim smtpd</td>
-<td title="Version">4.94.2</td>
-<td title="Extra Info"></td>
+<td title="Service">ssh</td>
+<td title="Product">OpenSSH</td>
+<td title="Version">6.7p1 Debian 5+deb8u8</td>
+<td title="Extra Info">protocol 2.0</td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:exim:exim:4.94.2">cpe:/a:exim:exim:4.94.2</a><h5>vulners</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:openbsd:openssh:6.7p1">cpe:/a:openbsd:openssh:6.7p1</a><h5>vulners</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
-  cpe:/a:exim:exim:4.94.2: 
-    	CVE-2020-28026	9.3	https://vulners.com/cve/CVE-2020-28026
-    	CVE-2020-28021	9.0	https://vulners.com/cve/CVE-2020-28021
-    	CVE-2020-28024	7.5	https://vulners.com/cve/CVE-2020-28024
-    	CVE-2020-28022	7.5	https://vulners.com/cve/CVE-2020-28022
-    	CVE-2020-28018	7.5	https://vulners.com/cve/CVE-2020-28018
-    	CVE-2020-28016	7.2	https://vulners.com/cve/CVE-2020-28016
-    	CVE-2020-28015	7.2	https://vulners.com/cve/CVE-2020-28015
-    	CVE-2020-28013	7.2	https://vulners.com/cve/CVE-2020-28013
-    	CVE-2020-28012	7.2	https://vulners.com/cve/CVE-2020-28012
-    	CVE-2020-28011	7.2	https://vulners.com/cve/CVE-2020-28011
-    	CVE-2020-28010	7.2	https://vulners.com/cve/CVE-2020-28010
-    	CVE-2020-28009	7.2	https://vulners.com/cve/CVE-2020-28009
-    	CVE-2020-28008	7.2	https://vulners.com/cve/CVE-2020-28008
-    	CVE-2020-28007	7.2	https://vulners.com/cve/CVE-2020-28007
-    	CVE-2021-27216	6.3	https://vulners.com/cve/CVE-2021-27216
-    	CVE-2020-28014	5.6	https://vulners.com/cve/CVE-2020-28014
-    	CVE-2021-38371	5.0	https://vulners.com/cve/CVE-2021-38371
-    	CVE-2020-28025	5.0	https://vulners.com/cve/CVE-2020-28025
-    	CVE-2020-28023	5.0	https://vulners.com/cve/CVE-2020-28023
-    	CVE-2020-28019	5.0	https://vulners.com/cve/CVE-2020-28019</pre>
+  cpe:/a:openbsd:openssh:6.7p1: 
+    	CVE-2015-5600	8.5	https://vulners.com/cve/CVE-2015-5600
+    	CVE-2015-6564	6.9	https://vulners.com/cve/CVE-2015-6564
+    	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
+    	SSV:90447	4.6	https://vulners.com/seebug/SSV:90447	*EXPLOIT*</pre>
 </td></tr>
-<tr class="success">
-<td title="Port">993</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">imap</td>
-<td title="Product">Dovecot imapd</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
+<tr class="active">
+<td>8000</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>http-alt</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
-<tr class="success">
-<td title="Port">995</td>
-<td title="Protocol">tcp</td>
-<td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">pop3</td>
-<td title="Product">Dovecot pop3d</td>
-<td title="Version"></td>
-<td title="Extra Info"></td>
+<tr class="active">
+<td>42510</td>
+<td>tcp</td>
+<td>closed<br>reset</td>
+<td>caerpc</td>
+<td></td>
+<td></td>
+<td></td>
 </tr>
-<tr><td colspan="7"><a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:dovecot:dovecot">cpe:/a:dovecot:dovecot</a></td></tr>
 </tbody>
 </table></div>
 </div>
@@ -318,17 +227,17 @@
 </tr></thead>
 <tbody>
 <tr>
-<td>72.47.224.100 - 402web.fr</td>
+<td>83.166.138.63 - 402web.fr</td>
 <td>21</td>
 <td>tcp</td>
 <td>ftp</td>
-<td>Pure-FTPd</td>
+<td>ProFTPD</td>
 <td></td>
-<td>cpe:/a:pureftpd:pure-ftpd</td>
+<td>cpe:/a:proftpd:proftpd</td>
 <td></td>
 </tr>
 <tr>
-<td>72.47.224.100 - 402web.fr</td>
+<td>83.166.138.63 - 402web.fr</td>
 <td>22</td>
 <td>tcp</td>
 <td>ssh</td>
@@ -338,94 +247,34 @@
 <td>protocol 2.0</td>
 </tr>
 <tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>25</td>
-<td>tcp</td>
-<td>smtp</td>
-<td>Exim smtpd</td>
-<td>4.94.2</td>
-<td>cpe:/a:exim:exim:4.94.2</td>
-<td></td>
-</tr>
-<tr>
-<td>72.47.224.100 - 402web.fr</td>
+<td>83.166.138.63 - 402web.fr</td>
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
+<td>Apache httpd</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td></td>
-</tr>
-<tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>110</td>
-<td>tcp</td>
-<td>pop3</td>
-<td>Dovecot pop3d</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
+<td>cpe:/a:apache:http_server</td>
 <td></td>
 </tr>
 <tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>143</td>
-<td>tcp</td>
-<td>imap</td>
-<td>Dovecot imapd</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
-</tr>
-<tr>
-<td>72.47.224.100 - 402web.fr</td>
+<td>83.166.138.63 - 402web.fr</td>
 <td>443</td>
 <td>tcp</td>
 <td>http</td>
-<td>nginx</td>
+<td>Apache httpd</td>
 <td></td>
-<td>cpe:/a:igor_sysoev:nginx</td>
-<td></td>
-</tr>
-<tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>465</td>
-<td>tcp</td>
-<td>smtp</td>
-<td>Exim smtpd</td>
-<td>4.94.2</td>
-<td>cpe:/a:exim:exim:4.94.2</td>
+<td>cpe:/a:apache:http_server</td>
 <td></td>
 </tr>
 <tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>587</td>
+<td>83.166.138.63 - 402web.fr</td>
+<td>2222</td>
 <td>tcp</td>
-<td>smtp</td>
-<td>Exim smtpd</td>
-<td>4.94.2</td>
-<td>cpe:/a:exim:exim:4.94.2</td>
-<td></td>
-</tr>
-<tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>993</td>
-<td>tcp</td>
-<td>imap</td>
-<td>Dovecot imapd</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
-</tr>
-<tr>
-<td>72.47.224.100 - 402web.fr</td>
-<td>995</td>
-<td>tcp</td>
-<td>pop3</td>
-<td>Dovecot pop3d</td>
-<td></td>
-<td>cpe:/a:dovecot:dovecot</td>
-<td></td>
+<td>ssh</td>
+<td>OpenSSH</td>
+<td>6.7p1 Debian 5+deb8u8</td>
+<td>cpe:/a:openbsd:openssh:6.7p1</td>
+<td>protocol 2.0</td>
 </tr>
 </tbody>
 </table></div>
