@@ -29,47 +29,9 @@
       "ns42.infomaniak.com.",
       "ns41.infomaniak.com."
     ],
-    "request": ";; opcode: QUERY, status: NOERROR, id: 3487\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 4096\n\n;; QUESTION SECTION:\n;402web.fr.\tIN\t NS\n",
-    "response": ";; opcode: QUERY, status: NOERROR, id: 3487\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 512\n\n;; QUESTION SECTION:\n;402web.fr.\tIN\t NS\n\n;; ANSWER SECTION:\n402web.fr.\t3600\tIN\tNS\tns42.infomaniak.com.\n402web.fr.\t3600\tIN\tNS\tns41.infomaniak.com.\n",
-    "timestamp": "2022-09-04T01:35:13.054813891Z",
-    "matcher-status": true,
-    "matched-line": null
-  },
-  {
-    "template": "dns/mx-fingerprint.yaml",
-    "template-url": "https://github.com/projectdiscovery/nuclei-templates/blob/master/dns/mx-fingerprint.yaml",
-    "template-id": "mx-fingerprint",
-    "info": {
-      "name": "MX Record Detection",
-      "author": [
-        "pdteam"
-      ],
-      "tags": [
-        "dns",
-        "mx"
-      ],
-      "description": "An MX record was detected. MX records direct emails to a mail exchange server.",
-      "reference": [
-        "https://www.cloudflare.com/learning/dns/dns-records/dns-mx-record/",
-        "https://mxtoolbox.com/"
-      ],
-      "severity": "info",
-      "classification": {
-        "cve-id": null,
-        "cwe-id": [
-          "cwe-200"
-        ]
-      }
-    },
-    "type": "dns",
-    "host": "http://402web.fr",
-    "matched-at": "http://402web.fr",
-    "extracted-results": [
-      "5 mta-gw.infomaniak.ch."
-    ],
-    "request": ";; opcode: QUERY, status: NOERROR, id: 47259\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 4096\n\n;; QUESTION SECTION:\n;402web.fr.\tIN\t MX\n",
-    "response": ";; opcode: QUERY, status: NOERROR, id: 47259\n;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 512\n\n;; QUESTION SECTION:\n;402web.fr.\tIN\t MX\n\n;; ANSWER SECTION:\n402web.fr.\t3600\tIN\tMX\t5 mta-gw.infomaniak.ch.\n",
-    "timestamp": "2022-09-04T01:39:58.113434622Z",
+    "request": ";; opcode: QUERY, status: NOERROR, id: 24355\n;; flags: rd; QUERY: 1, ANSWER: 0, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 4096\n\n;; QUESTION SECTION:\n;402web.fr.\tIN\t NS\n",
+    "response": ";; opcode: QUERY, status: NOERROR, id: 24355\n;; flags: qr rd ra; QUERY: 1, ANSWER: 2, AUTHORITY: 0, ADDITIONAL: 1\n\n;; OPT PSEUDOSECTION:\n; EDNS: version 0; flags: ; udp: 512\n\n;; QUESTION SECTION:\n;402web.fr.\tIN\t NS\n\n;; ANSWER SECTION:\n402web.fr.\t3600\tIN\tNS\tns42.infomaniak.com.\n402web.fr.\t3600\tIN\tNS\tns41.infomaniak.com.\n",
+    "timestamp": "2022-09-11T01:53:52.679433063Z",
     "matcher-status": true,
     "matched-line": null
   }
