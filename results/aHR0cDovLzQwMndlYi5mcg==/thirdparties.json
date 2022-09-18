@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 11 Sep 2022 01:41:43 GMT",
+    "date": "Sun, 18 Sep 2022 01:55:13 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -53,16 +53,10 @@
       "ip": "83.166.138.63",
       "geoip": {
         "city": {
-          "geoname_id": 2658145,
+          "geoname_id": 2658680,
           "names": {
-            "de": "Vevey",
-            "en": "Vevey",
-            "es": "Vevey",
-            "fr": "Vevey",
-            "ja": "ヴヴェイ",
-            "pt-BR": "Vevey",
-            "ru": "Веве",
-            "zh-CN": "沃韦"
+            "de": "Schwarzenburg BE",
+            "en": "Schwarzenburg"
           }
         },
         "continent": {
@@ -94,13 +88,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 46.4496,
-          "longitude": 6.8373,
+          "accuracy_radius": 50,
+          "latitude": 46.8094,
+          "longitude": 7.3444,
           "time_zone": "Europe/Zurich"
         },
         "postal": {
-          "code": "1800"
+          "code": "3150"
         },
         "registered_country": {
           "geoname_id": 2658434,
@@ -118,12 +112,12 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 2658182,
-            "iso_code": "VD",
+            "geoname_id": 2661551,
+            "iso_code": "BE",
             "names": {
-              "de": "Waadt",
-              "en": "Vaud",
-              "fr": "Vaud"
+              "de": "Bern",
+              "en": "Bern",
+              "fr": "Berne"
             }
           }
         ]
@@ -185,7 +179,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.62.95",
+      "ip": "172.217.164.106",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -293,7 +287,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.122.94",
+      "ip": "142.250.191.35",
       "geoip": {
         "continent": {
           "code": "NA",
