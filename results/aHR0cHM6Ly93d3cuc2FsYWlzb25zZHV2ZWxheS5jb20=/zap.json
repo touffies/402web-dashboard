@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 18 Sep 2022 02:15:50",
+	"@generated": "Sun, 25 Sep 2022 02:07:18",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -552,7 +552,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1663467279"
+							"evidence": "1664071566"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -573,7 +573,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1663467281"
+							"evidence": "1664071568"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -594,7 +594,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1663467281"
+							"evidence": "1664071568"
 						}
 					],
 					"count": "9",
@@ -616,6 +616,13 @@
 					"desc": "<p>The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.</p>",
 					"instances":[ 
 						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=160&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token"
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=23&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
@@ -631,13 +638,6 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=35&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=40&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
 							"attack": "",
@@ -706,7 +706,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "756"
+					"sourceid": "697"
 				},
 				{
 					"pluginid": "10027",
