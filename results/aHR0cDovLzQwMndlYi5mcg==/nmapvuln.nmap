@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Sep 18 01:58:36 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+# Nmap 7.92 scan initiated Sun Sep 25 01:46:56 2022 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
 Nmap scan report for 402web.fr (83.166.138.63)
 Host is up (0.16s latency).
 rDNS record for 83.166.138.63: h2web104.infomaniak.ch
@@ -29,4 +29,4 @@ PORT      STATE  SERVICE  VERSION
 Service Info: Host: 83.166.138.63; OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Sep 18 01:59:01 2022 -- 1 IP address (1 host up) scanned in 25.82 seconds
+# Nmap done at Sun Sep 25 01:47:30 2022 -- 1 IP address (1 host up) scanned in 34.30 seconds

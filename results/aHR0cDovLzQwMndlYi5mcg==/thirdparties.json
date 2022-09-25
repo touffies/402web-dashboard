@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 18 Sep 2022 01:55:13 GMT",
+    "date": "Sun, 25 Sep 2022 01:43:41 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -52,13 +52,6 @@
       "hostname": "402web.fr",
       "ip": "83.166.138.63",
       "geoip": {
-        "city": {
-          "geoname_id": 2658680,
-          "names": {
-            "de": "Schwarzenburg BE",
-            "en": "Schwarzenburg"
-          }
-        },
         "continent": {
           "code": "EU",
           "geoname_id": 6255148,
@@ -88,13 +81,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 46.8094,
-          "longitude": 7.3444,
+          "accuracy_radius": 100,
+          "latitude": 47.1449,
+          "longitude": 8.1551,
           "time_zone": "Europe/Zurich"
-        },
-        "postal": {
-          "code": "3150"
         },
         "registered_country": {
           "geoname_id": 2658434,
@@ -109,18 +99,7 @@
             "ru": "Швейцария",
             "zh-CN": "瑞士"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 2661551,
-            "iso_code": "BE",
-            "names": {
-              "de": "Bern",
-              "en": "Bern",
-              "fr": "Berne"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -179,7 +158,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.164.106",
+      "ip": "142.250.189.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -287,7 +266,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.191.35",
+      "ip": "142.250.191.67",
       "geoip": {
         "continent": {
           "code": "NA",
