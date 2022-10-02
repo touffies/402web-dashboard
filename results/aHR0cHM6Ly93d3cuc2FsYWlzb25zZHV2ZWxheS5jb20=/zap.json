@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 25 Sep 2022 02:07:18",
+	"@generated": "Sun, 2 Oct 2022 02:27:58",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -335,13 +335,6 @@
 							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -392,6 +385,13 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/23-epicerie-fine",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/34-epicerie-sucree",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
@@ -552,28 +552,28 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1664071566"
+							"evidence": "1664677604"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "1639672612"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "1645699448"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1664071568"
+							"evidence": "1664677607"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -594,7 +594,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1664071568"
+							"evidence": "1664677606"
 						}
 					],
 					"count": "9",
@@ -644,6 +644,13 @@
 							"evidence": "token"
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=40&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token"
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=59&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
@@ -686,14 +693,7 @@
 							"evidence": "token"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=72&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=74&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=76&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
 							"attack": "",
@@ -706,7 +706,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "697"
+					"sourceid": "691"
 				},
 				{
 					"pluginid": "10027",
@@ -864,7 +864,7 @@
 							"evidence": "max-age=0"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
+							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
 							"method": "GET",
 							"param": "Cache-Control",
 							"attack": "",
