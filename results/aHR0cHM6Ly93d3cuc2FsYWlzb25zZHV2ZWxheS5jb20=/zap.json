@@ -1,6 +1,6 @@
 {
 	"@version": "2.11.1",
-	"@generated": "Sun, 16 Oct 2022 02:16:24",
+	"@generated": "Sun, 23 Oct 2022 02:09:06",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -452,13 +452,6 @@
 							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -509,6 +502,13 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/23-epicerie-fine",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/33-epicerie-salee",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
@@ -875,7 +875,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1665886510"
+							"evidence": "1666490873"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -896,7 +896,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1665886511"
+							"evidence": "1666490876"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -917,7 +917,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1665886511"
+							"evidence": "1666490875"
 						}
 					],
 					"count": "9",
@@ -940,13 +940,6 @@
 					"instances":[ 
 						{
 							"uri": "https://www.salaisonsduvelay.com",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa="
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -982,6 +975,13 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa="
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1042,6 +1042,13 @@
 					"desc": "<p>The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.</p>",
 					"instances":[ 
 						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=144&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token"
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=23&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
@@ -1063,21 +1070,7 @@
 							"evidence": "token"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=40&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=59&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=60&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
 							"attack": "",
@@ -1124,6 +1117,13 @@
 							"param": "token",
 							"attack": "",
 							"evidence": "token"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=76&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token"
 						}
 					],
 					"count": "12",
@@ -1132,7 +1132,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "752"
+					"sourceid": "794"
 				},
 				{
 					"pluginid": "10027",
@@ -1252,7 +1252,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-388\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
+							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-29\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
@@ -1322,7 +1322,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-890\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
+							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-21\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -1523,7 +1523,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "128"
+					"sourceid": "82"
 				},
 				{
 					"pluginid": "10049",
@@ -1694,7 +1694,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "511"
+					"sourceid": "508"
 				}
 			]
 		}
