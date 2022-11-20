@@ -153,20 +153,6 @@
               "finding"      : "server"
           }
 ,         {
-              "id"           : "protocol_negotiated",
-              "ip"           : "402web.fr/83.166.138.63",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "Default protocol TLS1.2"
-          }
-,         {
-              "id"           : "cipher_negotiated",
-              "ip"           : "402web.fr/83.166.138.63",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "ECDHE-RSA-AES128-GCM-SHA256, 256 bit ECDH (P-256)"
-          }
-,         {
               "id"           : "FS",
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
@@ -311,7 +297,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE----- MIIDVDCCAjwCCQDEnhiSQLl+LjANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJD SDEPMA0GA1UECAwGR2VuZXZhMRAwDgYDVQQHDAdDYXJvdWdlMRIwEAYDVQQKDAk0 MDJ3ZWIuZnIxEjAQBgNVBAsMCTQwMndlYi5mcjESMBAGA1UEAwwJNDAyd2ViLmZy MB4XDTIxMDIyMjA3NDA1NVoXDTMxMDIyMDA3NDA1NVowbDELMAkGA1UEBhMCQ0gx DzANBgNVBAgMBkdlbmV2YTEQMA4GA1UEBwwHQ2Fyb3VnZTESMBAGA1UECgwJNDAy d2ViLmZyMRIwEAYDVQQLDAk0MDJ3ZWIuZnIxEjAQBgNVBAMMCTQwMndlYi5mcjCC ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM1AGxmTkntytl0jggO5aq4X FlQnXs7RkzSTHcklc/MZQh3k021pjXetFitzl2IntCK1jE9lUGJnd40DMR1ZoFjW XJvbgrwAytFxyQcSXkGQOKKNIoOI5zEyEmB/qD1rIv7NV/87CkTSvwKTQdRT2Gdd zJ425o+XwXhavL6TNpUIjFCpJsSt6B0PMGXNCCMoW8MAUvge8bgOJUBbKOrZycSi iddWXojPXBmOGK0HVp+Ua0cD4JTPfJsmfAxeqA0D+3/dZLFx8BlQAPPMNAtfL32r zUm47h/ZTvFlgETJEFP2yVBQuS11LUpkahKQwVcFNqmqQmiRQGBiMS+tqapICjkC AwEAATANBgkqhkiG9w0BAQsFAAOCAQEAgiJuEjwo95nRzsnLFBRTR6gufaGdME23 5mzK8uLa2EXCRkvOAkiFASnpBIjN64vuSgA7zAZLCGxeejDhD3Qal628308ztu6n uOw5Ln9Bg5hIDRErc1mPkxYs4skY94otDsXI/B2jrIGZGSBwFKtFLU121Ncnuvo4 rKHjNFX/obVibFupX8UZkhzzsS10VBIHjgTHkZd9BxXS0xT0ucF2KLcexTV9gceq Zf8H+/48SzNnLeaoqCd5JivlUxPgi7Myw9b7ce1gtjBWWVsjqmuqcVqNrVG3VkqL uDG2zJEpJuac0Ielh+oF07ybZMVZRxD8e+zY3QJvNbrV3c5f64eJ7w== -----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIDVDCCAjwCCQDEnhiSQLl+LjANBgkqhkiG9w0BAQsFADBsMQswCQYDVQQGEwJDSDEPMA0GA1UECAwGR2VuZXZhMRAwDgYDVQQHDAdDYXJvdWdlMRIwEAYDVQQKDAk0MDJ3ZWIuZnIxEjAQBgNVBAsMCTQwMndlYi5mcjESMBAGA1UEAwwJNDAyd2ViLmZyMB4XDTIxMDIyMjA3NDA1NVoXDTMxMDIyMDA3NDA1NVowbDELMAkGA1UEBhMCQ0gxDzANBgNVBAgMBkdlbmV2YTEQMA4GA1UEBwwHQ2Fyb3VnZTESMBAGA1UECgwJNDAyd2ViLmZyMRIwEAYDVQQLDAk0MDJ3ZWIuZnIxEjAQBgNVBAMMCTQwMndlYi5mcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAM1AGxmTkntytl0jggO5aq4XFlQnXs7RkzSTHcklc/MZQh3k021pjXetFitzl2IntCK1jE9lUGJnd40DMR1ZoFjWXJvbgrwAytFxyQcSXkGQOKKNIoOI5zEyEmB/qD1rIv7NV/87CkTSvwKTQdRT2GddzJ425o+XwXhavL6TNpUIjFCpJsSt6B0PMGXNCCMoW8MAUvge8bgOJUBbKOrZycSiiddWXojPXBmOGK0HVp+Ua0cD4JTPfJsmfAxeqA0D+3/dZLFx8BlQAPPMNAtfL32rzUm47h/ZTvFlgETJEFP2yVBQuS11LUpkahKQwVcFNqmqQmiRQGBiMS+tqapICjkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAgiJuEjwo95nRzsnLFBRTR6gufaGdME235mzK8uLa2EXCRkvOAkiFASnpBIjN64vuSgA7zAZLCGxeejDhD3Qal628308ztu6nuOw5Ln9Bg5hIDRErc1mPkxYs4skY94otDsXI/B2jrIGZGSBwFKtFLU121Ncnuvo4rKHjNFX/obVibFupX8UZkhzzsS10VBIHjgTHkZd9BxXS0xT0ucF2KLcexTV9gceqZf8H+/48SzNnLeaoqCd5JivlUxPgi7Myw9b7ce1gtjBWWVsjqmuqcVqNrVG3VkqLuDG2zJEpJuac0Ielh+oF07ybZMVZRxD8e+zY3QJvNbrV3c5f64eJ7w==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -360,7 +346,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "3021 >= 60 days"
+              "finding"      : "3014 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -486,7 +472,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1668302518"
+              "finding"      : "1668907374"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1056,6 +1042,6 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "174"
+              "finding"      : "180"
           }
 ]
