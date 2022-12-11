@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 4 Dec 2022 01:15:15",
+	"@generated": "Sun, 11 Dec 2022 01:18:38",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -140,27 +140,34 @@
 					"desc": "<p>Base64 encoded data was disclosed by the application/web server. Note: in the interests of performance not all base64 strings in the response were analyzed individually, the entire response should be looked at by the analyst/security team/developer(s).</p>",
 					"instances":[ 
 						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2BBwUfSg3X1xYjEI9DHYz334cYo8Q4pvJa8PLSilU2OGNMWa68Cpoqor"
+						},
+						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BGV6KfKsNIB3NZFFV6W7XzCOL3MkAw6WSAMGD"
+							"evidence": "2BqeQt3ZkVzt5In1rfYrCSkbhMJQz2"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2F4VltgYBzfNx1FbQi06k5ctbrzrzJ0iAAIIlu2s9cYiQ0ASRYe2gkedjnbWPABOVR"
+							"evidence": "2BfCrRGDLztg5IpkFDYg87ex4kg5Gj"
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x0011\uFFFD\uFFFD\u02B0\uFFFD\\x0001\uFFFD\uFFFDE\\x0015^\uFFFD\uFFFD|\uFFFD8\uFFFD\u0310\\x000c:Y \\x000c\\x0018</p>",
+					"otherinfo": "<p>\uFFFD\\x0010pQ\uFFFD\uFFFD\uFFFD}qb1\\x0008\uFFFD1\uFFFD\uFFFD}\uFFFDq\uFFFD<C\uFFFDo%\uFFFD\\x000f-(\uFFFDSc\uFFFD4\u015A\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD+</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
