@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 4 Dec 2022 01:28:39",
+	"@generated": "Sun, 11 Dec 2022 01:33:37",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -130,13 +130,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/*/modules/*.css",
 							"method": "GET",
 							"param": "",
@@ -214,7 +207,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
@@ -254,13 +247,6 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/14-les-produits-regionaux",
-							"method": "GET",
-							"param": "X-Frame-Options",
-							"attack": "",
-							"evidence": ""
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
 							"method": "GET",
 							"param": "X-Frame-Options",
@@ -282,14 +268,14 @@
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
+							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
 							"evidence": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/23-epicerie-fine",
+							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
 							"method": "GET",
 							"param": "X-Frame-Options",
 							"attack": "",
@@ -324,7 +310,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
@@ -481,13 +467,6 @@
 							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/14-les-produits-regionaux",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -524,6 +503,13 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/23-epicerie-fine",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/34-epicerie-sucree",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
@@ -584,27 +570,6 @@
 							"evidence": "<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\"></script>"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
-							"method": "GET",
-							"param": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
-							"method": "GET",
-							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_216_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_216_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
-							"method": "GET",
-							"param": "https://www.google.com/recaptcha/api.js",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\"></script>"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
@@ -626,21 +591,21 @@
 							"evidence": "<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\"></script>"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
 							"attack": "",
 							"evidence": "<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_216_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
 							"attack": "",
 							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_216_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "https://www.google.com/recaptcha/api.js",
 							"attack": "",
@@ -689,7 +654,7 @@
 							"evidence": "<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\"></script>"
 						}
 					],
-					"count": "18",
+					"count": "15",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -715,6 +680,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*&orderway=",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*/modules/*.css",
 							"method": "GET",
 							"param": "",
@@ -723,13 +695,6 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*/modules/*.js",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -867,6 +832,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*?tag",
 							"method": "GET",
 							"param": "",
@@ -895,7 +867,7 @@
 							"evidence": ""
 						}
 					],
-					"count": "12",
+					"count": "13",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
@@ -932,7 +904,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1670117250"
+							"evidence": "1670722348"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/",
@@ -953,7 +925,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1670117252"
+							"evidence": "1670722350"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -974,7 +946,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1670117251"
+							"evidence": "1670722350"
 						}
 					],
 					"count": "9",
@@ -1031,14 +1003,14 @@
 							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa="
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/19-jambons-d-auvergne",
+							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
 							"method": "GET",
 							"param": "",
 							"attack": "",
 							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa="
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
+							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1106,13 +1078,6 @@
 							"evidence": "token"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=23&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=59&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
@@ -1121,13 +1086,6 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=60&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=66&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
 							"attack": "",
@@ -1162,13 +1120,13 @@
 							"evidence": "token"
 						}
 					],
-					"count": "9",
+					"count": "7",
 					"solution": "<p>Do not pass sensitive information in URIs.</p>",
 					"otherinfo": "<p>The URL contains potentially sensitive information. The following string was found via the pattern: token</p><p>token</p>",
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "735"
+					"sourceid": "689"
 				},
 				{
 					"pluginid": "10027",
@@ -1302,7 +1260,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-211\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
+							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-255\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
@@ -1312,7 +1270,7 @@
 							"evidence": "<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-597P2DN&nojscript=true\" height=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&tag=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderway=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1372,7 +1330,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-81\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
+							"evidence": "<a class=\"tp-caption \" href=\"/\" target=\"_self\" id=\"slide-4-layer-272\" data-x=\"['center','center','center','center']\" data-hoffset=\"['0','0','0','0']\" data-y=\"['middle','middle','middle','middle']\" data-voffset=\"['-60','-60','-90','-60']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"y:-50px;opacity:0;s:1800;e:Power3.easeIn;\" data-transform_out=\"opacity:0;\" data-start=\"1220\" data-actions='' data-basealign=\"slide\" data-responsive_offset=\"off\" style=\"z-index: 5;\"><img src=\"https://static2.salaisonsduvelay.com/modules/revsliderprestashop/uploads/logo-comptoirs-blanc-510.png\" alt=\"logo-comptoirs-blanc-510\" data-ww=\"['350px','350px','350px','350px']\" data-hh=\"['350px','350px','350px','350px']\" data-no-retina> </a>"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -1553,6 +1511,13 @@
 							"evidence": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*?tag",
 							"method": "GET",
 							"param": "",
@@ -1574,13 +1539,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "10",
+					"count": "11",
 					"solution": "<p>Validate that the response does not contain sensitive, personal or user-specific information.  If it does, consider the use of the following HTTP response headers, to limit, or prevent the content being stored and retrieved from the cache by another user:</p><p>Cache-Control: no-cache, no-store, must-revalidate, private</p><p>Pragma: no-cache</p><p>Expires: 0</p><p>This configuration directs both HTTP 1.0 and HTTP 1.1 compliant caching servers to not store the response, and to not retrieve the response (without validation) from the cache, in response to a similar request. </p>",
 					"otherinfo": "<p>In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "82"
+					"sourceid": "141"
 				},
 				{
 					"pluginid": "10049",
@@ -1751,7 +1716,7 @@
 					"reference": "<p>http://websecuritytool.codeplex.com/wikipage?title=Checks#user-controlled-html-attribute</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "507"
+					"sourceid": "505"
 				}
 			]
 		}
