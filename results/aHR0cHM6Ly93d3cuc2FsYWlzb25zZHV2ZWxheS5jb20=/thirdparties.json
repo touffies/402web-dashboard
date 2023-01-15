@@ -41,6 +41,14 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.92&r=stable",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "google",
       "url": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
       "details": {
@@ -65,59 +73,19 @@
       }
     },
     {
+      "type": "facebook",
+      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1673746490264&sw=800&sh=600&v=2.9.92&r=stable&ec=0&o=158&fbp=fb.1.1673746490261.1869505374&it=1673746490123&coo=false&rqm=GET",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1405498628&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAACAMI~&jid=740984023&gjid=742837415&cid=1233259869.1673141903&tid=UA-109038707-1&_gid=410125305.1673141903&_r=1&gtm=2wg120597P2DN&z=1064694883",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j98&a=1259736838&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAACAMI~&jid=1435567203&gjid=230069870&cid=1960857053.1673746490&tid=UA-109038707-1&_gid=1020931853.1673746490&_r=1&gtm=2wg1a1597P2DN&z=1076589730",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.91&r=stable",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
-      "type": "facebook",
-      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1673141903560&sw=800&sh=600&v=2.9.91&r=stable&ec=0&o=158&fbp=fb.1.1673141903559.1372141380&it=1673141903459&coo=false&exp=c0&rqm=GET",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
     },
     {
@@ -129,11 +97,43 @@
       }
     },
     {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
       "type": "google",
-      "url": "https://www.gstatic.com/recaptcha/releases/5qcenVbrhOy8zihcc2aHOWD4/recaptcha__en.js",
+      "url": "https://www.gstatic.com/recaptcha/releases/u35fw2Dx4G0WsO6SztVYg4cV/recaptcha__en.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
+      }
+    },
+    {
+      "type": "google fonts",
+      "url": "https://fonts.gstatic.com/s/montserrat/v25/JTUHjIg1_i6t8kCHKm4532VJOt5-QNFgpCuM73w5aXo.woff2",
+      "details": {
+        "id": "google fonts",
+        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
     },
     {
@@ -146,7 +146,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/fr_FR/all.js?hash=dd1d76409d081f282f1bc5299a53f965",
+      "url": "https://connect.facebook.net/fr_FR/all.js?hash=e64a01c9ebf232dcbc6550b8f6f59eec",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -162,25 +162,29 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1cd8e62f93854%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff1bd1631d2e82%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
+      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df2c27b8a61eac08%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff31c3fd68a1bc0c%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
-      "type": "unknown",
-      "url": "https://static.xx.fbcdn.net/rsrc.php/v3/y3/l/0,cross/jd8GPwQbHX9.css?_nc_x=Ij3Wp8lg5Kz"
+      "type": "facebook",
+      "url": "https://www.facebook.com/login/?next=https%3A%2F%2Fwww.facebook.com%2Fplugins%2Flike_box.php%3Fapp_id%3D334341610034299%26channel%3Dhttps%253A%252F%252Fstaticxx.facebook.com%252Fx%252Fconnect%252Fxd_arbiter%252F%253Fversion%253D46%2523cb%253Df2c27b8a61eac08%2526domain%253Dwww.salaisonsduvelay.com%2526is_canvas%253Dfalse%2526origin%253Dhttps%25253A%25252F%25252Fwww.salaisonsduvelay.com%25252Ff31c3fd68a1bc0c%2526relation%253Dparent.parent%26color_scheme%3Dlight%26container_width%3D0%26header%3Dfalse%26href%3Dhttps%253A%252F%252Fwww.facebook.com%252Fsalaisonsduvelay%252F%26locale%3Dfr_FR%26sdk%3Djoey%26show_border%3Dfalse%26show_faces%3Dtrue%26stream%3Dfalse%26width%3D256",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
     }
   ],
   "cookies": [
     {
       "name": "_gid",
-      "value": "GA1.2.410125305.1673141903",
+      "value": "GA1.2.1020931853.1673746490",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1673228303,
-      "size": 30,
+      "expires": 1673832890,
+      "size": 31,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -190,10 +194,10 @@
     },
     {
       "name": "_fbp",
-      "value": "fb.1.1673141903559.1372141380",
+      "value": "fb.1.1673746490261.1869505374",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1680917904,
+      "expires": 1681522490,
       "size": 33,
       "httpOnly": false,
       "secure": false,
@@ -204,10 +208,10 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.2.1233259869.1673141903",
+      "value": "GA1.2.1960857053.1673746490",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1736213903,
+      "expires": 1736818490,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -221,7 +225,7 @@
       "value": "1",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1673141963,
+      "expires": 1673746550,
       "size": 20,
       "httpOnly": false,
       "secure": false,
@@ -232,10 +236,10 @@
     },
     {
       "name": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-      "value": "d6b76fdeef6f3bc82ae3006cdf2927dbb8d4f0505d39804e8e2c91447a82115e%3AA1FH7AZx36RCSt0Ca56iR2hheQRaAOCQEsghWvB55idX35trBr9O%2F5RTpf7Wu2uyFjt7%2Fbk%2BwKzJWJQQYQI684RbCBkPSlpqsgYcxjltkFkRbU5GWrjZHAjvAHh1CJRAlx%2FU5kEIepCfi9DaUJ4QJVGQpGluvGMFqXHOCmM%2FY5d7XSb1umqLbjj%2BTr8RdkF3",
+      "value": "ff78cb3b0b201fb672b79c35cc34ba405832b7b938af0503323d61ab90749295%3AA1FH7AZx36RCSt0Ca56iR7uE%2BLk7LQRSOlZVaCMy2awzo7I9GCer7Jbgfb3XE%2FwjCF9UXRQKUBTpyuv8KoRbBjgSaO3JpMrrWr%2FG6QjAYSsSUsB8SonXckuat8uh9MW3Alvilz7nx577sfHhj9%2FmUQH8vp76VxBas5DJG5FcPZx8gy0QT%2FLtFv%2F53g7Z8kgZ",
       "domain": ".www.salaisonsduvelay.com",
       "path": "/",
-      "expires": 1674869902.199655,
+      "expires": 1675474489.944598,
       "size": 314,
       "httpOnly": true,
       "secure": true,
@@ -248,14 +252,14 @@
   "headers": {
     "cache-control": "max-age=0",
     "content-encoding": "gzip",
-    "content-length": "15130",
+    "content-length": "15216",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 08 Jan 2023 01:38:22 GMT",
-    "expires": "Sun, 08 Jan 2023 01:38:22 GMT",
+    "date": "Sun, 15 Jan 2023 01:34:49 GMT",
+    "expires": "Sun, 15 Jan 2023 01:34:49 GMT",
     "p3p": "CP=\"IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\"",
     "powered-by": "PrestaShop",
     "server": "Apache",
-    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=d6b76fdeef6f3bc82ae3006cdf2927dbb8d4f0505d39804e8e2c91447a82115e%3AA1FH7AZx36RCSt0Ca56iR2hheQRaAOCQEsghWvB55idX35trBr9O%2F5RTpf7Wu2uyFjt7%2Fbk%2BwKzJWJQQYQI684RbCBkPSlpqsgYcxjltkFkRbU5GWrjZHAjvAHh1CJRAlx%2FU5kEIepCfi9DaUJ4QJVGQpGluvGMFqXHOCmM%2FY5d7XSb1umqLbjj%2BTr8RdkF3; expires=Sat, 28-Jan-2023 01:38:22 GMT; Max-Age=1727999; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
+    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=ff78cb3b0b201fb672b79c35cc34ba405832b7b938af0503323d61ab90749295%3AA1FH7AZx36RCSt0Ca56iR7uE%2BLk7LQRSOlZVaCMy2awzo7I9GCer7Jbgfb3XE%2FwjCF9UXRQKUBTpyuv8KoRbBjgSaO3JpMrrWr%2FG6QjAYSsSUsB8SonXckuat8uh9MW3Alvilz7nx577sfHhj9%2FmUQH8vp76VxBas5DJG5FcPZx8gy0QT%2FLtFv%2F53g7Z8kgZ; expires=Sat, 04-Feb-2023 01:34:49 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-ua-compatible": "IE=edge"
@@ -319,7 +323,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.115.95",
+      "ip": "142.250.191.74",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -373,7 +377,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "216.58.193.136",
+      "ip": "142.250.189.168",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -427,17 +431,19 @@
     },
     {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.24.13",
+      "ip": "157.240.22.25",
       "geoip": {
         "city": {
-          "geoname_id": 4699066,
+          "geoname_id": 5393015,
           "names": {
-            "en": "Houston",
-            "fr": "Houston",
-            "ja": "ヒューストン",
-            "pt-BR": "Houston",
-            "ru": "Хьюстон",
-            "zh-CN": "休斯敦"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -470,13 +476,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 29.7646,
-          "longitude": -95.3657,
-          "metro_code": 618,
-          "time_zone": "America/Chicago"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "77002"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -494,15 +500,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 4736286,
-            "iso_code": "TX",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Texas",
-              "es": "Texas",
-              "fr": "Texas",
-              "ja": "テキサス州",
-              "ru": "Техас",
-              "zh-CN": "德克萨斯州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -510,7 +518,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.116.113",
+      "ip": "142.250.189.238",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -564,7 +572,7 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.35.202",
+      "ip": "142.250.189.234",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -618,7 +626,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.251.35.196",
+      "ip": "142.251.32.36",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -672,17 +680,19 @@
     },
     {
       "hostname": "www.facebook.com",
-      "ip": "157.240.24.35",
+      "ip": "157.240.22.35",
       "geoip": {
         "city": {
-          "geoname_id": 4699066,
+          "geoname_id": 5393015,
           "names": {
-            "en": "Houston",
-            "fr": "Houston",
-            "ja": "ヒューストン",
-            "pt-BR": "Houston",
-            "ru": "Хьюстон",
-            "zh-CN": "休斯敦"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -715,13 +725,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 29.7646,
-          "longitude": -95.3657,
-          "metro_code": 618,
-          "time_zone": "America/Chicago"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "77002"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -739,15 +749,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 4736286,
-            "iso_code": "TX",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Texas",
-              "es": "Texas",
-              "fr": "Texas",
-              "ja": "テキサス州",
-              "ru": "Техас",
-              "zh-CN": "德克萨斯州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -755,7 +767,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.1.131",
+      "ip": "142.251.46.195",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -809,7 +821,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.45.35",
+      "ip": "142.251.214.131",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -859,89 +871,6 @@
             "zh-CN": "美国"
           }
         }
-      }
-    },
-    {
-      "hostname": "static.xx.fbcdn.net",
-      "ip": "157.240.24.13",
-      "geoip": {
-        "city": {
-          "geoname_id": 4699066,
-          "names": {
-            "en": "Houston",
-            "fr": "Houston",
-            "ja": "ヒューストン",
-            "pt-BR": "Houston",
-            "ru": "Хьюстон",
-            "zh-CN": "休斯敦"
-          }
-        },
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 29.7646,
-          "longitude": -95.3657,
-          "metro_code": 618,
-          "time_zone": "America/Chicago"
-        },
-        "postal": {
-          "code": "77002"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4736286,
-            "iso_code": "TX",
-            "names": {
-              "en": "Texas",
-              "es": "Texas",
-              "fr": "Texas",
-              "ja": "テキサス州",
-              "ru": "Техас",
-              "zh-CN": "德克萨斯州"
-            }
-          }
-        ]
       }
     }
   ]
