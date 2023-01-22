@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 15 Jan 2023 01:14:56",
+	"@generated": "Sun, 22 Jan 2023 01:17:43",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -20,6 +20,20 @@
 					"desc": "<p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page \u2014 covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>",
 					"instances":[ 
 						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
@@ -27,13 +41,13 @@
 							"evidence": ""
 						}
 					],
-					"count": "1",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "8"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10063",
@@ -73,7 +87,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10035",
@@ -113,7 +127,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10094",
@@ -130,23 +144,30 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FhOxvUVdqem6M6RwHe48sD7NwLmyQFgOC53yKFpS6Rn5ZTvDsl6"
+							"evidence": "2F2msmOyA6LX1gqb1OlD0mEd8Wj3tLPLydP8eut"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2F7XIAzF3tf8Zz46dQIB8iuy60DiLPsrb3S1wgLhuDWKqIIy3RkNq6B5TTDn9W9VR3ua"
+							"evidence": "2Bs0SUpv3mQaAwQEcBTrLkCWOt8LhU5zypTJlVZ95vmLw7q5slI20A4jfqwqP3Tk"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "OYSZ93cMrXAvDNzbkYTucy8fROmt12"
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFDXN\uFFFD\uFFFD\\x0015v\uFFFD\uFFFD\uFFFD\u0391\uFFFDw\uFFFD\uFFFD\uFFFD\uFFFD7\\x0002\uFFFD\uFFFD\\x0001`8.w\u0221iK\uFFFDg\uFFFD\uFFFD\\x000e\uFFFDz</p>",
+					"otherinfo": "<p>\uFFFD]\uFFFD\uFFFDc\uFFFD\\x0003\uFFFD\uFFFD\uFFFD</p><p>\uFFFD\uFFFD\uFFFDC\uFFFDa\\x001d\uFFFDh\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDz\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				},
 				{
 					"pluginid": "10049",
@@ -186,7 +207,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "6"
 				}
 			]
 		}
