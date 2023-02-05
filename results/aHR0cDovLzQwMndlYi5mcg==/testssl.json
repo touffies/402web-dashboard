@@ -1,5 +1,12 @@
 [
          {
+              "id"           : "engine_problem",
+              "ip"           : "402web.fr/",
+              "port"         : "443",
+              "severity"     : "WARN",
+              "finding"      : "No engine or GOST support via engine with your /home/testssl/bin/openssl.Linux.x86_64"
+          }
+,         {
               "id"           : "service",
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
@@ -346,7 +353,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2944 >= 60 days"
+              "finding"      : "2937 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -472,7 +479,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1674954813"
+              "finding"      : "1675559544"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1042,6 +1049,6 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "173"
+              "finding"      : "151"
           }
 ]
