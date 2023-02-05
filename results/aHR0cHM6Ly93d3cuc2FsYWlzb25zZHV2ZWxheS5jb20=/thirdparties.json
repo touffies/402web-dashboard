@@ -41,14 +41,6 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.92&r=stable",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "google",
       "url": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
       "details": {
@@ -74,7 +66,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1674956415483&sw=800&sh=600&v=2.9.92&r=stable&ec=0&o=158&fbp=fb.1.1674956415478.1641788414&it=1674956415331&coo=false&rqm=GET",
+      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.95&r=stable",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -82,10 +74,18 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j99&a=601508566&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAACAMI~&jid=354891155&gjid=1379156301&cid=1069733659.1674956415&tid=UA-109038707-1&_gid=2001661272.1674956415&_r=1&_slc=1&gtm=2wg1p0597P2DN&z=998076753",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j99&a=426518866&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAACAMI~&jid=1785298738&gjid=1166960440&cid=344707179.1675560919&tid=UA-109038707-1&_gid=619260540.1675560919&_r=1&_slc=1&gtm=45He3210n81597P2DN&z=242759744",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1675560919474&sw=800&sh=600&v=2.9.95&r=stable&ec=0&o=158&cs_est=true&fbp=fb.1.1675560919472.2003715267&it=1675560919362&coo=false&rqm=GET",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
@@ -114,7 +114,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.gstatic.com/recaptcha/releases/RGRQD9tdxHtnt-Bxkx9pM75S/recaptcha__en.js",
+      "url": "https://www.gstatic.com/recaptcha/releases/gEr-ODersURoIfof1hiDm7R5/recaptcha__en.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -146,7 +146,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/fr_FR/all.js?hash=fda6f58c8f640847f276c3d466784103",
+      "url": "https://connect.facebook.net/fr_FR/all.js?hash=6d92091c96e8697d19400bca028224b4",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -162,7 +162,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df10bde9d4d52c18%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff28c5c02ae9d984%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
+      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df16bbe8cdf4806%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff463172d5207d%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -170,17 +170,17 @@
     },
     {
       "type": "unknown",
-      "url": "https://static.xx.fbcdn.net/rsrc.php/v3/yK/l/0,cross/cFb4RPxemH5.css?_nc_x=Ij3Wp8lg5Kz"
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v3/yd/l/0,cross/hsMLJITcXEm.css?_nc_x=Ij3Wp8lg5Kz"
     }
   ],
   "cookies": [
     {
       "name": "_gid",
-      "value": "GA1.2.2001661272.1674956415",
+      "value": "GA1.2.619260540.1675560919",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1675042815,
-      "size": 31,
+      "expires": 1675647319,
+      "size": 30,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -190,10 +190,10 @@
     },
     {
       "name": "_fbp",
-      "value": "fb.1.1674956415478.1641788414",
+      "value": "fb.1.1675560919472.2003715267",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1682732415,
+      "expires": 1683336919,
       "size": 33,
       "httpOnly": false,
       "secure": false,
@@ -204,11 +204,11 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.2.1069733659.1674956415",
+      "value": "GA1.2.344707179.1675560919",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1738028415,
-      "size": 30,
+      "expires": 1738632919,
+      "size": 29,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -221,7 +221,7 @@
       "value": "1",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1674956475,
+      "expires": 1675560979,
       "size": 20,
       "httpOnly": false,
       "secure": false,
@@ -232,11 +232,11 @@
     },
     {
       "name": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-      "value": "25dedcaa7a3f3d4db4683f71918443761826033357f9d512f9ff4145d054bd24%3AA1FH7AZx36RCSt0Ca56iR%2F7KCXVo3RuRqTRmY34oR1CZpfhrUG2uOuzc6gGP%2FYvCKm%2FYGtUMW%2BT2WlYx8Aso%2B%2BNlujTVbC3mUpv8NEo0TVJPM%2BfNYPxXkO%2BSUJ4U6MBnzUaSJ3a%2FbHWLJu0F%2FbD7V2C7D5O3xNU1Jg%2FzoMU%2FZUSd3iBmbaAXRtsGA%2FeyNr7e",
+      "value": "ba0608eea310d77478eb0487906f1ea42e01b879ef6c8baa76ac6fc7e4ad38c9%3Aa40rxgWWsLpxCs5yRslO2ukHWwKC4QPYiyi7jaPWBbvBOz0ZjPE4oM9v83JFE0bYchhssMTg86mUOYet0cE0CUUYGneTPrp8OK8cxwKZsXS31skVhtgotnOdZuYmadTtAWE9XJlto78Qg2o1b1V%2B88JhkvH8qaCUi8aPw85d6WVI1Ysh8uurGKO%2B0WwenZYJ",
       "domain": ".www.salaisonsduvelay.com",
       "path": "/",
-      "expires": 1676684415.15875,
-      "size": 328,
+      "expires": 1677288919.128585,
+      "size": 306,
       "httpOnly": true,
       "secure": true,
       "session": false,
@@ -248,14 +248,14 @@
   "headers": {
     "cache-control": "max-age=0",
     "content-encoding": "gzip",
-    "content-length": "15157",
+    "content-length": "15136",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 29 Jan 2023 01:40:14 GMT",
-    "expires": "Sun, 29 Jan 2023 01:40:14 GMT",
+    "date": "Sun, 05 Feb 2023 01:35:18 GMT",
+    "expires": "Sun, 05 Feb 2023 01:35:18 GMT",
     "p3p": "CP=\"IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\"",
     "powered-by": "PrestaShop",
     "server": "Apache",
-    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=25dedcaa7a3f3d4db4683f71918443761826033357f9d512f9ff4145d054bd24%3AA1FH7AZx36RCSt0Ca56iR%2F7KCXVo3RuRqTRmY34oR1CZpfhrUG2uOuzc6gGP%2FYvCKm%2FYGtUMW%2BT2WlYx8Aso%2B%2BNlujTVbC3mUpv8NEo0TVJPM%2BfNYPxXkO%2BSUJ4U6MBnzUaSJ3a%2FbHWLJu0F%2FbD7V2C7D5O3xNU1Jg%2FzoMU%2FZUSd3iBmbaAXRtsGA%2FeyNr7e; expires=Sat, 18-Feb-2023 01:40:14 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
+    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=ba0608eea310d77478eb0487906f1ea42e01b879ef6c8baa76ac6fc7e4ad38c9%3Aa40rxgWWsLpxCs5yRslO2ukHWwKC4QPYiyi7jaPWBbvBOz0ZjPE4oM9v83JFE0bYchhssMTg86mUOYet0cE0CUUYGneTPrp8OK8cxwKZsXS31skVhtgotnOdZuYmadTtAWE9XJlto78Qg2o1b1V%2B88JhkvH8qaCUi8aPw85d6WVI1Ysh8uurGKO%2B0WwenZYJ; expires=Sat, 25-Feb-2023 01:35:18 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-ua-compatible": "IE=edge"
@@ -319,8 +319,16 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.46.234",
+      "ip": "142.250.72.170",
       "geoip": {
+        "city": {
+          "geoname_id": 5118626,
+          "names": {
+            "en": "Glen Cove",
+            "ja": "グレンコーブ",
+            "ru": "Глен-Коув"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -351,9 +359,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.8627,
+          "longitude": -73.6351,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11542"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -368,12 +380,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "142.250.189.232",
+      "ip": "142.251.40.40",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -514,7 +542,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "142.250.189.206",
+      "ip": "142.250.188.238",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -568,8 +596,16 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.46.170",
+      "ip": "142.250.72.170",
       "geoip": {
+        "city": {
+          "geoname_id": 5118626,
+          "names": {
+            "en": "Glen Cove",
+            "ja": "グレンコーブ",
+            "ru": "Глен-Коув"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -600,9 +636,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.8627,
+          "longitude": -73.6351,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11542"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -617,12 +657,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.191.68",
+      "ip": "142.250.188.228",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -763,7 +819,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.214.131",
+      "ip": "142.250.176.3",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -817,8 +873,16 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.251.46.227",
+      "ip": "142.250.68.3",
       "geoip": {
+        "city": {
+          "geoname_id": 5118626,
+          "names": {
+            "en": "Glen Cove",
+            "ja": "グレンコーブ",
+            "ru": "Глен-Коув"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -849,9 +913,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.8627,
+          "longitude": -73.6351,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11542"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -866,7 +934,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
