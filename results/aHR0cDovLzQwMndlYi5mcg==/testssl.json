@@ -117,7 +117,7 @@
               "finding"      : "not offered"
           }
 ,         {
-              "id"           : "cipherlist_AVERAGE",
+              "id"           : "cipherlist_OBSOLETED",
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "LOW",
@@ -125,14 +125,14 @@
               "finding"      : "offered"
           }
 ,         {
-              "id"           : "cipherlist_GOOD",
+              "id"           : "cipherlist_STRONG_NOFS",
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "offered"
           }
 ,         {
-              "id"           : "cipherlist_STRONG",
+              "id"           : "cipherlist_STRONG_FS",
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "OK",
@@ -353,7 +353,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2937 >= 60 days"
+              "finding"      : "2930 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -479,7 +479,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1675559544"
+              "finding"      : "1676164363"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1049,6 +1049,6 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "151"
+              "finding"      : "155"
           }
 ]
