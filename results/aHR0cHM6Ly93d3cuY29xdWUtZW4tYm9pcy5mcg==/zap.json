@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 5 Feb 2023 01:13:20",
+	"@generated": "Sun, 12 Feb 2023 01:13:56",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -25,23 +25,9 @@
 							"param": "",
 							"attack": "",
 							"evidence": ""
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": ""
 						}
 					],
-					"count": "3",
+					"count": "1",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
@@ -87,7 +73,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -144,37 +130,37 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BwccW4tmbFtyZMB67pI0Y32PHW64q"
+							"evidence": "2BkNnWh6oZSgvw153v1Z08HftiumDSckqdVApnNUXNiPxBV"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FoyszgGCZY93WRlDfu4TVhwIR5pcpWcTesOk3UI8Xxlelhz"
+							"evidence": "2Bv8RQB1W4mSvfYi0hTWgCitWIxXaP0lq612j2aIWAaaRnpkkegQih"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FVXAxt47Wle7OB9EEFYct7ykx9h3DXErktKY6j460AE0eIY85up13ikvv33tIbWmuimRr1j33tDql46y9OytdOwlAJTPzFd46RD"
+							"evidence": "WyIDNbnoqRiBrNHxcuGuhxNdOx2QeTQrQ9"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "UPvezRML8JVYPpc2R3sbtjtVufXvJ8oEe6s2AF"
+							"evidence": "2FEo7p4lgNVYVN1HMQj1aYUddDwOQTAaofaQmDI1ao"
 						}
 					],
 					"count": "4",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x001c\\x001cqn-\uFFFD\uFFFDm\u0253\\x0001\uFFFDH\u044D\uFFFD<u\uFFFD\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD\\x0019\r\uFFFDhz\uFFFD\uFFFD\uFFFD\uFFFD\ry\uFFFD\uFFFDY\uFFFD\uFFFD\u07F6+\uFFFD\r'$\uFFFD\uFFFD@\uFFFDsT\\\u060F\uFFFD\\x0015</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
@@ -214,7 +200,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				}
 			]
 		}
