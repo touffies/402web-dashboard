@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 12 Feb 2023 01:13:56",
+	"@generated": "Sun, 19 Feb 2023 01:12:07",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -25,15 +25,29 @@
 							"param": "",
 							"attack": "",
 							"evidence": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": ""
 						}
 					],
-					"count": "1",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header, to achieve optimal browser support: \"Content-Security-Policy\" for Chrome 25+, Firefox 23+ and Safari 7+, \"X-Content-Security-Policy\" for Firefox 4.0+ and Internet Explorer 10+, and \"X-WebKit-CSP\" for Chrome 14+ and Safari 6+.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -113,7 +127,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10094",
@@ -130,37 +144,37 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BkNnWh6oZSgvw153v1Z08HftiumDSckqdVApnNUXNiPxBV"
+							"evidence": "2F4Ia5RnAe8XEsGQdA9vTpEvUs1t02q5g3SXHFYh"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Bv8RQB1W4mSvfYi0hTWgCitWIxXaP0lq612j2aIWAaaRnpkkegQih"
+							"evidence": "2FgAsm80a1C2VBsDmipmLmPU02I3VqS5WzFgCQYdj2c2Sr"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "WyIDNbnoqRiBrNHxcuGuhxNdOx2QeTQrQ9"
+							"evidence": "2BLOoVhlupRmOo8HeT58rqZifPTOqemT91UQbQSgEPRyWhjQIw3GEd6KT8prr2Hab58PXCpheWFACTJEj6"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FEo7p4lgNVYVN1HMQj1aYUddDwOQTAaofaQmDI1ao"
+							"evidence": "2BB00jDowzKz3qBeQnStfE9fBFfhVegHRY33ztvwvLi2V1kmYPofICBrccaBqNk64s1oEG4XNm"
 						}
 					],
 					"count": "4",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x0019\r\uFFFDhz\uFFFD\uFFFD\uFFFD\uFFFD\ry\uFFFD\uFFFDY\uFFFD\uFFFD\u07F6+\uFFFD\r'$\uFFFD\uFFFD@\uFFFDsT\\\u060F\uFFFD\\x0015</p>",
+					"otherinfo": "<p>\uFFFD^\\x0008k\uFFFDg\\x0001\uFFFD\\x0017\\x0012\uFFFD\uFFFDt\\x000foN\uFFFD/R\uFFFDm\uFFFDj\uFFFD\uFFFDt\uFFFD\\x001cV!</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -200,7 +214,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				}
 			]
 		}

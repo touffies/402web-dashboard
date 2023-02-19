@@ -213,7 +213,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "supported"
+              "finding"      : "not supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -353,7 +353,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "67 >= 30 days"
+              "finding"      : "60 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1676164550"
+              "finding"      : "1676769229"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -591,7 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=20, db;dur=7, asn;desc='8075', edge;desc='IAD', country;desc='US', theme;desc='COQUE EN BOIS - SITE + ACCESSOIRES', pageType;desc='index' Server-Timing: cfRequestDuration;dur=60.999870 cloudflare"
+              "finding"      : "Server-Timing: processing;dur=22, db;dur=8, asn;desc='8075', edge;desc='LAX', country;desc='US', theme;desc='COQUE EN BOIS - SITE + ACCESSOIRES', pageType;desc='index' Server-Timing: cfRequestDuration;dur=105.999947 cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -726,7 +726,7 @@
               "severity"     : "MEDIUM",
               "cve"          : "CVE-2013-3587",
               "cwe"          : "CWE-310",
-              "finding"      : "potentially VULNERABLE, br gzip HTTP compression detected  - only supplied '/' tested"
+              "finding"      : "potentially VULNERABLE, gzip HTTP compression detected  - only supplied '/' tested"
           }
 ,         {
               "id"           : "POODLE_SSL",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "82"
+              "finding"      : "62"
           }
 ]
