@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 19 Feb 2023 01:12:07",
+	"@generated": "Sun, 26 Feb 2023 01:19:18",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -87,7 +87,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10035",
@@ -144,37 +144,30 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2F4Ia5RnAe8XEsGQdA9vTpEvUs1t02q5g3SXHFYh"
+							"evidence": "EV7kIAUkcvHdVMuBMHok8XzlvKpmS6gKhlb7xJ7t3P4Xm0pOsR0wLEAbtPAk5DL4tzgxJaXJtVKHmJvKCI44ThDOHgWYx2GdMs0ZHZ1gLCXzScKpcVJP6QVKHI9dMuFY8lTM2KAA"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FgAsm80a1C2VBsDmipmLmPU02I3VqS5WzFgCQYdj2c2Sr"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/robots.txt",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2BLOoVhlupRmOo8HeT58rqZifPTOqemT91UQbQSgEPRyWhjQIw3GEd6KT8prr2Hab58PXCpheWFACTJEj6"
+							"evidence": "2F6i2XQawNDwKgWH6040Mgp650zXp0q3jPaEN0"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BB00jDowzKz3qBeQnStfE9fBFfhVegHRY33ztvwvLi2V1kmYPofICBrccaBqNk64s1oEG4XNm"
+							"evidence": "2BFV3JpUvgOdBlYNMfEPSJvHtr9JKJ"
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD^\\x0008k\uFFFDg\\x0001\uFFFD\\x0017\\x0012\uFFFD\uFFFDt\\x000foN\uFFFD/R\uFFFDm\uFFFDj\uFFFD\uFFFDt\uFFFD\\x001cV!</p>",
+					"otherinfo": "<p>\\x0011^\uFFFD \\x0005$r\uFFFD\uFFFDT\u02C10z$\uFFFD|\u5F2AfK\uFFFD</p><p>\uFFFDV\uFFFD\u011E\uFFFD\uFFFD\uFFFD\\x0017\uFFFDJN\uFFFD\\x001d0,@\\x001b\uFFFD\uFFFD$\uFFFD2\uFFFD\uFFFD81%\uFFFD\u0275R\uFFFD\uFFFD\uFFFD\uFFFD\\x0008\uFFFD8N\\x0010\uFFFD\\x001e\\x0005\uFFFD\uFFFDa\uFFFD2\uFFFD\\x0019\\x001d\uFFFD`,%\uFFFDI\u00A9qRO\uFFFD\\x0005J\\x001c\uFFFD]2\uFFFDX\uFFFDT\uFFFD\u0620\\x0000</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
@@ -214,7 +207,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				}
 			]
 		}
