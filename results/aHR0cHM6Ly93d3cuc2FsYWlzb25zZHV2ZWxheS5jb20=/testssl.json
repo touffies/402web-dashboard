@@ -353,7 +353,7 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "MEDIUM",
-              "finding"      : "expires < 30 days (24)"
+              "finding"      : "expires < 30 days (17)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1677980336"
+              "finding"      : "1678585010"
           }
 ,         {
               "id"           : "HSTS",
@@ -1133,6 +1133,6 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "130"
+              "finding"      : "150"
           }
 ]
