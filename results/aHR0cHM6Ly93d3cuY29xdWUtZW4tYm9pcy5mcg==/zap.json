@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 5 Mar 2023 01:19:39",
+	"@generated": "Sun, 12 Mar 2023 01:13:58",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -47,7 +47,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10063",
@@ -87,7 +87,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10035",
@@ -127,7 +127,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10094",
@@ -144,26 +144,33 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Bsmb2ZTWRcbRPD5Zvrn5BKuIROFJFUcWp"
+							"evidence": "2B54F7z88BqzxDfNmZSsYApL4ruQAIJIUJVAUyW06imezp8DbDf"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2F0mgagYxlJ7Bn1WsdHP2E5ymHCSmPV5bIdcRMj3zcZj03hDLjTWTGZATmLl4gHBFKUzfMhhjCA39lbwEdrSBkv6uz6wNGUqekPdd2RCtXKoPquBhArD"
+							"evidence": "2FXJUfJ4i3d1HVEMAPW1PY5a6F02pzVkolHbNSQAgICpH8APdVK8QQv4"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2BBr33G7RlmN0uVIKv6TUzEeJeRQIiEKFejUzDZj"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FztHyYw1GKAOsU3iKmAZsmlsvtuJ2BBohOZ7qcb1rU"
+							"evidence": "YLRVeeQDU1Fnn0A2HAzbVEK1p48iz3jSi3p"
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\\x001b&ofSY\\x0017\\x001bD\uFFFD\uFFFDf\uFFFD\uFFFD\uFFFD\\x0012\uFFFD!\\x0013\uFFFD$U\\x001cZ</p>",
+					"otherinfo": "<p>\uFFFD\\x001ex\\x0017\uFFFD\uFFFD\uFFFD\\x001a\uFFFD\uFFFD7\u0359\uFFFD\uFFFD`</p><p>K\u2ED0\\x0000\uFFFDHP\uFFFD@S%\uFFFD\uFFFD)\uFFFD\u039F\\x0003l7</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
@@ -207,7 +214,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				}
 			]
 		}
