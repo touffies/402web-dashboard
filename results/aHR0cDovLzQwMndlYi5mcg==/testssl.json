@@ -353,7 +353,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2930 >= 60 days"
+              "finding"      : "2895 >= 60 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -479,7 +479,7 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1676164363"
+              "finding"      : "1679188429"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -1049,6 +1049,6 @@
               "ip"           : "402web.fr/83.166.138.63",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "155"
+              "finding"      : "165"
           }
 ]
