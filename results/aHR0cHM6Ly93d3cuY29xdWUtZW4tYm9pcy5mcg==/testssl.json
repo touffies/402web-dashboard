@@ -276,7 +276,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03C520BE10FC52C257EC7BEEF2B0AA729E51"
+              "finding"      : "03B35A66A828211F743B2D64D152A22CDC7F"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -290,21 +290,21 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "7095DF1D2D3DA13D528A260B18F8456A50C01849"
+              "finding"      : "A77AD00DB4457BB9564DC87D34C82F3BA0A94A10"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "528DC514C73FFB3374D72DBB480D345875691947E504F969DD66DA821E42DB94"
+              "finding"      : "C7F475176D4A9EE2ADD5454D376BC47D0B3142694B61EC723AA319C083D2A2DD"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFLjCCBBagAwIBAgISA8UgvhD8UsJX7Hvu8rCqcp5RMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzAxMjEwMDAyNTBaFw0yMzA0MjEwMDAyNDlaMB8xHTAbBgNVBAMTFHd3dy5jb3F1ZS1lbi1ib2lzLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxXW0mblHz3aU3tnf27ADTI8/SyAncOzYVqSKpEPIRDJgpZnNWmNV/JyXYRDs/eGMAIsMBILpObDmvA8l4SqSCYgZ3K/VcN6sC3WQUmxuvrWvlCpT/kouGSrf/ARz58URC2ldsg1Nizij+g0Itm4k5QnZJ+j6nC1zulKJVsC8qtPssfJMU7bXred4gcjqD3txWl1IOS0T++4Q1UNn9QQr/CcUUdKCxkgDyi9emulKtQvJ4zVmF+x0xy6radLeGX34OvUCyiNr/sY/cTI4z22IXb3C2HT3z9gUYYSzV9MtCQZHRkUUP0hFtfzYFlCOTRz9a4rjRm+Cw2/KYsceLNoouwIDAQABo4ICTzCCAkswDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQXmUvg4mr/IETlaiy1blDohs09TTAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAfBgNVHREEGDAWghR3d3cuY29xdWUtZW4tYm9pcy5mcjBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB3AHoyjFTYty22IOo44FIe6YQWcDIThU070ivBOlejUutSAAABhdHZgEAAAAQDAEgwRgIhAIhllw1aWmMFLsAY46/tnhGdREf6jc+AziSzjImL6/QeAiEA0Au6Z/bw1D/gIHWgt7Xyo1klZTmYxbQP2qOSjQnWzAgAdQC3Pvsk35xNunXyOcW6WPRsXfxCz3qfNcSeHQmBJe20mQAAAYXR2YHzAAAEAwBGMEQCIEX8RhBaYcrWBbPpAwoGY3EYubp2MZ/IMwkXjsV5njbzAiAl4Sub5d1OQbMtW3Vx+k3QikiHDAI243SFc0DyX11W6jANBgkqhkiG9w0BAQsFAAOCAQEAjakayJOMnRJDhsKTtsI0K46UjdYWF18+Cbrhp52s138ho64cHgeGjtk69IdLXLQqbggvTk3K+DL8G5j2mmLndQx+5RmNYO01xqck4M0u0x9Ji1XzAKRr/wBGZqKvQTRrLRt1gJuxYGzunJjh+n2WacpaQVMKXfqWrGq6rbeUxwQnWlfPvXaCckw69FNBV6z8BEc5wZe/OItnZz3grrnytgAVrhCmA97y7+bOCWqmMiIoiXrLX3b4Li82fEAagv7ahfhKcQgm124FZDGmj46yD0r8FgNy3tL1e7MvKqljb+Xzdhqjhc6pBRhyH/76Vewi4NeLFtXs5QVyxU3umwWOTw==\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIFLjCCBBagAwIBAgISA7NaZqgoIR90Oy1k0VKiLNx/MA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzAzMjEyMzA0NDdaFw0yMzA2MTkyMzA0NDZaMB8xHTAbBgNVBAMTFHd3dy5jb3F1ZS1lbi1ib2lzLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0L2mvvip7sZFWvZUtatwG54u6RQRJ/8oLaphqtSk1nTL1Q0stAQbaGDmIN11OkKZ9FmMR5SUxvTTZGCpzNsN7d62423rNk1U1DZZceIRA3wGsFJ9hjIQ9j3bXPES46R5da9id/Fc4S+QE8GkmTlVpnsF/unhZ6MrdSdi3FaVErvscbqA1io9ZBh7OZzPFv40jbmwWmgJr1ITemL8RnN9u9NDjhenyZgy3qJpGmVZ3pMWOpJBes+4W9zaMtNFQeR3M3ZhYhbWxGuG8uIZZTWDaX10hivRnjJDT4nebXr5ly24MxVZbUPtb0fVMek0V4BxJEwkFiFmAeKyXXEMTWwWPwIDAQABo4ICTzCCAkswDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBTm2JhU8Fv+9qJJIekhlUS9guH2DjAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAfBgNVHREEGDAWghR3d3cuY29xdWUtZW4tYm9pcy5mcjBMBgNVHSAERTBDMAgGBmeBDAECATA3BgsrBgEEAYLfEwEBATAoMCYGCCsGAQUFBwIBFhpodHRwOi8vY3BzLmxldHNlbmNyeXB0Lm9yZzCCAQQGCisGAQQB1nkCBAIEgfUEgfIA8AB2ALc++yTfnE26dfI5xbpY9Gxd/ELPep81xJ4dCYEl7bSZAAABhwah7PEAAAQDAEcwRQIgdG60tyvadRvB5fZcAN2FreDCH/U3lksyJ29gybreljICIQCYOjPPiLpIFsY0LOvpLUrqS+lK4x/e2EnufR2XTdn72gB2AHoyjFTYty22IOo44FIe6YQWcDIThU070ivBOlejUutSAAABhwah7QcAAAQDAEcwRQIgZiWltEgae5c0YcHZy/VnOX/QhRQgme3Sz2gXzIXS3TECIQCrH7xSCgpvgXDVoQZoLWIMlrSpiXvViNm+KYOrtVYJBDANBgkqhkiG9w0BAQsFAAOCAQEAYXj+l2d8iloRGWlFE1ca+vAiqNqksy3c80IcE95RoPv+w4WYA/CmIHcwftuGMWZFFlAtB8/KgOFXJ++b/w+lHUrfhPuEi7pxORAC7bqgpx9bfQiTg9VuWTbqvDTqVFO9aGvbK+7mn7pgU3XmCyjrC53j/IcS5zmIO2jqyXtY4C0wFW9M5koFVyogms/DIvhG9lawsKuyL5k7Z8YAZ9aeeiVEi8P1xcu4wzg1rn0l9MCNIV2M8j7Nl9ACQe7CzuULM6pIsUGGClWOOc1TY1BJRw2NtpnTfdTibIhIFgnWk2I7ox5gnampg5UD/gc6DExwxjsCggeUCwTHV0kTdN2ABw==\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -353,21 +353,21 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "32 >= 30 days"
+              "finding"      : "85 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-01-21 00:02"
+              "finding"      : "2023-03-21 23:04"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2023-04-21 00:02"
+              "finding"      : "2023-06-19 23:04"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -563,7 +563,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1679188728"
+              "finding"      : "1679793190"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -598,7 +598,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=16, db;dur=5, asn;desc='8075', edge;desc='SJC', country;desc='US', theme;desc='coque-en-bois/main', pageType;desc='index'Server-Timing: cfRequestDuration;dur=198.999882cloudflare"
+              "finding"      : "Server-Timing: processing;dur=13, db;dur=5, asn;desc='8075', edge;desc='LAX', country;desc='US', theme;desc='coque-en-bois/main', pageType;desc='index'Server-Timing: cfRequestDuration;dur=187.000036cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -785,7 +785,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=528DC514C73FFB3374D72DBB480D345875691947E504F969DD66DA821E42DB94"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=C7F475176D4A9EE2ADD5454D376BC47D0B3142694B61EC723AA319C083D2A2DD"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1168,6 +1168,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "76"
+              "finding"      : "65"
           }
 ]
