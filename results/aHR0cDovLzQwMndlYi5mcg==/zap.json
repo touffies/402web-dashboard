@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 2 Apr 2023 01:04:02",
+	"@generated": "Sun, 9 Apr 2023 01:01:44",
 	"site":[ 
 		{
 			"@name": "http://402web.fr",
@@ -24,17 +24,27 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": ""
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
+							"uri": "http://402web.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": ""
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
-					"count": "2",
+					"count": "3",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to set the Content-Security-Policy header.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
@@ -57,42 +67,48 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://assets.storage.infomaniak.com/fonts/font-awesome/4.3.0/css/font-awesome.min.css\">"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://assets.storage.infomaniak.com/fonts/font-awesome/4.3.0/css/font-awesome.min.css\">",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Open Sans\">"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Open Sans\">",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://assets.storage.infomaniak.com/fonts/font-awesome/4.3.0/css/font-awesome.min.css\">"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://assets.storage.infomaniak.com/fonts/font-awesome/4.3.0/css/font-awesome.min.css\">",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Open Sans\">"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Open Sans\">",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://assets.storage.infomaniak.com/fonts/font-awesome/4.3.0/css/font-awesome.min.css\">"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://assets.storage.infomaniak.com/fonts/font-awesome/4.3.0/css/font-awesome.min.css\">",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Open Sans\">"
+							"evidence": "<link rel=\"stylesheet\" href=\"https://fonts.googleapis.com/css?family=Open Sans\">",
+							"otherinfo": ""
 						}
 					],
 					"count": "6",
@@ -101,7 +117,7 @@
 					"reference": "<p>https://developer.mozilla.org/en/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -118,21 +134,24 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": ""
+							"evidence": "",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": ""
+							"evidence": "",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": ""
+							"evidence": "",
+							"otherinfo": ""
 						}
 					],
 					"count": "3",
@@ -141,7 +160,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10096",
@@ -158,21 +177,24 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1661853377"
+							"evidence": "1661853377",
+							"otherinfo": "1661853377, which evaluates to: 2022-08-30 09:56:17"
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1661853377"
+							"evidence": "1661853377",
+							"otherinfo": "1661853377, which evaluates to: 2022-08-30 09:56:17"
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1661853377"
+							"evidence": "1661853377",
+							"otherinfo": "1661853377, which evaluates to: 2022-08-30 09:56:17"
 						}
 					],
 					"count": "3",
@@ -181,7 +203,7 @@
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10094",
@@ -198,21 +220,24 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "website/images/background/unsplash/6PF6DaiWz48"
+							"evidence": "website/images/background/unsplash/6PF6DaiWz48",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\u05FF\uFFFDf\uFFFDz\uFFFD\uFFFDi\uFFFD \uFFFD\uFFFD\uFFFDw\uFFFD\uFFFD\uFFFD\uFFFDZ\uFFFD\\x001f\uFFFD<^\uFFFDj%\uFFFD\uFFFD"
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "website/images/background/unsplash/6PF6DaiWz48"
+							"evidence": "website/images/background/unsplash/6PF6DaiWz48",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\u05FF\uFFFDf\uFFFDz\uFFFD\uFFFDi\uFFFD \uFFFD\uFFFD\uFFFDw\uFFFD\uFFFD\uFFFD\uFFFDZ\uFFFD\\x001f\uFFFD<^\uFFFDj%\uFFFD\uFFFD"
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "website/images/background/unsplash/6PF6DaiWz48"
+							"evidence": "website/images/background/unsplash/6PF6DaiWz48",
+							"otherinfo": "\uFFFD\uFFFD\uFFFD\u05FF\uFFFDf\uFFFDz\uFFFD\uFFFDi\uFFFD \uFFFD\uFFFD\uFFFDw\uFFFD\uFFFD\uFFFD\uFFFDZ\uFFFD\\x001f\uFFFD<^\uFFFDj%\uFFFD\uFFFD"
 						}
 					],
 					"count": "3",
@@ -238,21 +263,24 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "503"
+							"evidence": "503",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "503"
+							"evidence": "503",
+							"otherinfo": ""
 						},
 						{
 							"uri": "http://402web.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "503"
+							"evidence": "503",
+							"otherinfo": ""
 						}
 					],
 					"count": "3",
@@ -261,7 +289,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "6"
+					"sourceid": "1"
 				}
 			]
 		}
