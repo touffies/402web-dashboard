@@ -18,7 +18,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2",
+      "url": "https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -26,7 +26,7 @@
     },
     {
       "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/opensans/v34/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2",
+      "url": "https://fonts.gstatic.com/s/opensans/v35/memSYaGs126MiZpBA-UvWbX2vVnXBbObj2OVZyOOSr4dVJWUgsjZ0B4gaVI.woff2",
       "details": {
         "id": "google fonts",
         "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 30 Apr 2023 01:07:54 GMT",
+    "date": "Sun, 07 May 2023 01:06:49 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -179,8 +179,21 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "142.251.32.170",
       "geoip": {
+        "city": {
+          "geoname_id": 5263045,
+          "names": {
+            "de": "Milwaukee",
+            "en": "Milwaukee",
+            "es": "Milwaukee",
+            "fr": "Milwaukee",
+            "ja": "ミルウォーキー",
+            "pt-BR": "Milwaukee",
+            "ru": "Милуоки",
+            "zh-CN": "密尔沃基"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -211,9 +224,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
+          "latitude": 43.1475,
+          "longitude": -87.905,
+          "metro_code": 617,
           "time_zone": "America/Chicago"
+        },
+        "postal": {
+          "code": "53217"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -228,7 +245,21 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5279468,
+            "iso_code": "WI",
+            "names": {
+              "en": "Wisconsin",
+              "es": "Wisconsin",
+              "fr": "Wisconsin",
+              "ja": "ウィスコンシン州",
+              "ru": "Висконсин",
+              "zh-CN": "威斯康辛州"
+            }
+          }
+        ]
       }
     },
     {
@@ -287,7 +318,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.115.94",
+      "ip": "142.251.45.35",
       "geoip": {
         "continent": {
           "code": "NA",
