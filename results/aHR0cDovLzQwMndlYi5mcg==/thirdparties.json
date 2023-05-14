@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 07 May 2023 01:06:49 GMT",
+    "date": "Sun, 14 May 2023 01:06:07 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -179,21 +179,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.32.170",
+      "ip": "142.250.191.74",
       "geoip": {
-        "city": {
-          "geoname_id": 5263045,
-          "names": {
-            "de": "Milwaukee",
-            "en": "Milwaukee",
-            "es": "Milwaukee",
-            "fr": "Milwaukee",
-            "ja": "ミルウォーキー",
-            "pt-BR": "Milwaukee",
-            "ru": "Милуоки",
-            "zh-CN": "密尔沃基"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -224,13 +211,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 43.1475,
-          "longitude": -87.905,
-          "metro_code": 617,
+          "latitude": 37.751,
+          "longitude": -97.822,
           "time_zone": "America/Chicago"
-        },
-        "postal": {
-          "code": "53217"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -245,21 +228,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5279468,
-            "iso_code": "WI",
-            "names": {
-              "en": "Wisconsin",
-              "es": "Wisconsin",
-              "fr": "Wisconsin",
-              "ja": "ウィスコンシン州",
-              "ru": "Висконсин",
-              "zh-CN": "威斯康辛州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -318,7 +287,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.45.35",
+      "ip": "142.250.189.163",
       "geoip": {
         "continent": {
           "code": "NA",
