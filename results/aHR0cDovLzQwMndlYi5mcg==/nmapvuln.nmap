@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun May 21 01:09:43 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+# Nmap 7.92 scan initiated Sun May 28 01:12:29 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
 Nmap scan report for 402web.fr (83.166.138.63)
 Host is up (0.13s latency).
 Other addresses for 402web.fr (not scanned): 2001:1600:4:13:d294:66ff:fe0e:a4d4
@@ -23,4 +23,4 @@ PORT      STATE  SERVICE      VERSION
 Service Info: Host: 83.166.138.63; OS: Unix
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun May 21 01:10:07 2023 -- 1 IP address (1 host up) scanned in 24.24 seconds
+# Nmap done at Sun May 28 01:12:53 2023 -- 1 IP address (1 host up) scanned in 24.15 seconds

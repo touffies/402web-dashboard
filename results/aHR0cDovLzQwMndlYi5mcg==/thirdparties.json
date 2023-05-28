@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 21 May 2023 01:07:11 GMT",
+    "date": "Sun, 28 May 2023 01:09:55 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -179,7 +179,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "216.58.193.138",
+      "ip": "142.250.115.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -287,8 +287,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.40.67",
+      "ip": "142.250.68.163",
       "geoip": {
+        "city": {
+          "geoname_id": 5139568,
+          "names": {
+            "en": "Staten Island"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -319,9 +325,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 40.5956,
+          "longitude": -74.0806,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "10305"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -336,7 +346,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     }
   ]
