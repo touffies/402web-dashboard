@@ -346,7 +346,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "82 >= 30 days"
+              "finding"      : "75 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -541,8 +541,8 @@
               "id"           : "HTTP_status_code",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "200 OK ('/')"
+              "severity"     : "WARN",
+              "finding"      : "Unexpected 430  @ '/'"
           }
 ,         {
               "id"           : "HTTP_clock_skew",
@@ -556,28 +556,14 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1685236875"
+              "finding"      : "1685842081"
           }
 ,         {
-              "id"           : "HSTS_time",
+              "id"           : "HSTS",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
-              "severity"     : "MEDIUM",
-              "finding"      : "max-age too short. 91 days (=7889238 seconds) < 15552000 seconds"
-          }
-,         {
-              "id"           : "HSTS_subdomains",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "only for this domain"
-          }
-,         {
-              "id"           : "HSTS_preload",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "domain is NOT marked for preloading"
+              "severity"     : "LOW",
+              "finding"      : "not offered"
           }
 ,         {
               "id"           : "HPKP",
@@ -591,7 +577,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=13, db;dur=5, asn;desc='8075', edge;desc='IAD', country;desc='US', theme;desc='coque-en-bois/main', pageType;desc='index', servedBy;desc='96kn', requestID;desc='b86fcfda-0585-45ec-bf81-00a98db8acdd'Server-Timing: cfRequestDuration;dur=113.999844cloudflare"
+              "finding"      : "Server-Timing: cfRequestDuration;dur=26.000023cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -605,28 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9 at '/'"
-          }
-,         {
-              "id"           : "cookie_secure",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1/9 at '/' marked as secure"
-          }
-,         {
-              "id"           : "cookie_httponly",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "INFO",
-              "finding"      : "1/9 at '/' marked as HttpOnly"
-          }
-,         {
-              "id"           : "X-Frame-Options",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "DENY"
+              "finding"      : "0 at '/' (30x detected, better try target URL of 30x)"
           }
 ,         {
               "id"           : "X-Content-Type-Options",
@@ -634,13 +599,6 @@
               "port"         : "443",
               "severity"     : "OK",
               "finding"      : "nosniff"
-          }
-,         {
-              "id"           : "Content-Security-Policy",
-              "ip"           : "www.coque-en-bois.fr/23.227.38.74",
-              "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;"
           }
 ,         {
               "id"           : "X-XSS-Protection",
@@ -655,7 +613,7 @@
               "port"         : "443",
               "severity"     : "INFO",
               "cwe"          : "CWE-200",
-              "finding"      : "X-Cache: hit, server"
+              "finding"      : "--"
           }
 ,         {
               "id"           : "heartbleed",
@@ -1154,13 +1112,13 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Grade capped to A. HSTS max-age is too short"
+              "finding"      : "Grade capped to A. HSTS is not offered"
           }
 ,         {
               "id"           : "scanTime",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "71"
           }
 ]
