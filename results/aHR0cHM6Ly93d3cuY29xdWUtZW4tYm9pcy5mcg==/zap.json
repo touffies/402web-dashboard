@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 18 Jun 2023 01:23:42",
+	"@generated": "Sun, 25 Jun 2023 01:29:13",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -53,6 +53,49 @@
 					"sourceid": "7"
 				},
 				{
+					"pluginid": "10054",
+					"alertRef": "10054",
+					"alert": "Cookie with SameSite Attribute None",
+					"name": "Cookie with SameSite Attribute None",
+					"riskcode": "1",
+					"confidence": "2",
+					"riskdesc": "Low (Medium)",
+					"desc": "<p>A cookie has been set with its SameSite attribute set to \"none\", which means that the cookie can be sent as a result of a 'cross-site' request. The SameSite attribute is an effective counter measure to cross-site request forgery, cross-site script inclusion, and timing attacks.</p>",
+					"instances":[ 
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "__cf_bm",
+							"attack": "",
+							"evidence": "Set-Cookie: __cf_bm",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/robots.txt",
+							"method": "GET",
+							"param": "__cf_bm",
+							"attack": "",
+							"evidence": "Set-Cookie: __cf_bm",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
+							"method": "GET",
+							"param": "__cf_bm",
+							"attack": "",
+							"evidence": "Set-Cookie: __cf_bm",
+							"otherinfo": ""
+						}
+					],
+					"count": "3",
+					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
+					"otherinfo": "",
+					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
+					"cweid": "1275",
+					"wascid": "13",
+					"sourceid": "7"
+				},
+				{
 					"pluginid": "10063",
 					"alertRef": "10063-1",
 					"alert": "Permissions Policy Header Not Set",
@@ -93,7 +136,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Feature-Policy</p><p>https://developers.google.com/web/updates/2018/06/feature-policy</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10035",
@@ -139,6 +182,57 @@
 					"sourceid": "7"
 				},
 				{
+					"pluginid": "10096",
+					"alertRef": "10096",
+					"alert": "Timestamp Disclosure - Unix",
+					"name": "Timestamp Disclosure - Unix",
+					"riskcode": "1",
+					"confidence": "1",
+					"riskdesc": "Low (Low)",
+					"desc": "<p>A timestamp was disclosed by the application/web server - Unix</p>",
+					"instances":[ 
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1687656550",
+							"otherinfo": "1687656550, which evaluates to: 2023-06-25 01:29:10"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1687656551",
+							"otherinfo": "1687656551, which evaluates to: 2023-06-25 01:29:11"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/robots.txt",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1687656551",
+							"otherinfo": "1687656551, which evaluates to: 2023-06-25 01:29:11"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1687656551",
+							"otherinfo": "1687656551, which evaluates to: 2023-06-25 01:29:11"
+						}
+					],
+					"count": "4",
+					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
+					"otherinfo": "<p>1687656550, which evaluates to: 2023-06-25 01:29:10</p>",
+					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
+					"cweid": "200",
+					"wascid": "13",
+					"sourceid": "1"
+				},
+				{
 					"pluginid": "10094",
 					"alertRef": "10094-3",
 					"alert": "Base64 Disclosure",
@@ -153,33 +247,33 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "GBdT09pkQBW4slY3P6RNbPInxHGGk6QGahQf5bl9sAfD53lql6jVc7h2YJ6VNOcQHAh5n2nFl3MlZ69IxGva6mqRgbVpiAfujldSS1xx6l",
-							"otherinfo": "\\x0018\\x0017S\uFFFD\uFFFDd@\\x0015\uFFFD\uFFFDV7?\uFFFDMl\uFFFD'\uFFFDq\uFFFD\uFFFD\uFFFD\\x0006j\\x0014\\x001f\uFFFD}\uFFFD\\x0007\uFFFD\uFFFDyj\uFFFD\uFFFD\uFFFDs\uFFFDv`\uFFFD\uFFFD4\uFFFD\\x0010\\x001c\\x0008y\uFFFDi\u0157s%g\uFFFDH\uFFFDk\uFFFD\uFFFDj\uFFFD\uFFFD\uFFFDi\uFFFD\\x0007\uFFFDWRK\\q\uFFFD"
+							"evidence": "2F9uJNdwBiC3Yc7p6rizYtlwB9rz9aA0nedsYch2QozbZuzvBYGd1ekvannaZQlNhwWhSzVJerm4PDR6",
+							"otherinfo": "\uFFFD_n$\uFFFDp\\x0006 \uFFFDa\uFFFD\uFFFD\uAE33b\uFFFDp\\x0007\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFDla\uFFFDvB\uFFFD\uFFFDf\uFFFD\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\uFFFD/jy\uFFFDe\tM\uFFFD\\x0005\uFFFDK5Iz\uFFFD\uFFFD<4z"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2FfKLfrI22o8sUlZevWUsUQHdszlmdq",
+							"otherinfo": "\uFFFDW\uFFFD-\uFFFD\uFFFD\uFFFDj<\uFFFDIYz\uFFFD\uFFFD\uFFFDD\\x0007v\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "vlCpb7B6eGgyfNHqWLrs5J0C3YfKflioBG6LP9uRspFlOUvgEhJbu6F2j7e9MvgKdaanwanP818URACTsFHQeEg98wD19I1mrIVYaYeoxKaOokgG4IUDhKbEnQFrgd1DDhturrEf",
-							"otherinfo": "\uFFFDP\uFFFDo\uFFFDzxh2|\uFFFD\uFFFDX\uFFFD\uFFFD\uFFFD\\x0002\u0747\uFFFD~X\uFFFD\\x0004n\uFFFD?\u06D1\uFFFD\uFFFDe9K\uFFFD\\x0012\\x0012[\uFFFD\uFFFDv\uFFFD\uFFFD\uFFFD2\uFFFD\nu\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD_\\x0014D\\x0000\uFFFD\uFFFDQ\uFFFDxH=\uFFFD\\x0000\uFFFD\uFFFDf\uFFFD\uFFFDXi\uFFFD\uFFFD\u0126\uFFFD\uFFFDH\\x0006\uFFFD\uFFFD\\x0003\uFFFD\uFFFD\u011D\\x0001k\uFFFD\uFFFDC\\x000e\\x001bn\uFFFD\uFFFD\\x001f"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "2BSHKIvrQIv70eNFMbLavT8uoo2nnIrgwu0E7aCZ2zf55fC0fCwYw0TY0LuGJIPMQlucQO5N9uarCXNxdmkw2e6Dn4HfvYg2o5qRwWtL9pMO",
-							"otherinfo": "\uFFFD\\x0014\uFFFD(\uFFFD\uFFFD@\uFFFD\uFFFD\uFFFD\uFFFDE1\uFFFD\u06BD?.\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\uFFFD\uFFFD7\uFFFD\uFFFD\uFFFD|,\\x0018\uFFFDD\uFFFD\u043B\uFFFD$\uFFFD\uFFFDB[\uFFFD@\uFFFDM\uFFFD\uFFFD\tsqvi0\uFFFD\uE0DF\uFFFD\u07FD\uFFFD6\uFFFD\uFFFD\uFFFD\uFFFDkK\uFFFD\uFFFD\\x000e"
+							"evidence": "2FMo4mZzF95GwMnlkjYVGkfqdsnxbHsa2f7H",
+							"otherinfo": "\uFFFDS(\uFFFDfs\\x0017\uFFFDF\uFFFD\uFFFD\uFFFD6\\x0015\\x001aG\uFFFDv\uFFFD\uFFFDl{\\x001a\uFFFD\uFFFD\uFFFD"
 						}
 					],
 					"count": "3",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\\x0018\\x0017S\uFFFD\uFFFDd@\\x0015\uFFFD\uFFFDV7?\uFFFDMl\uFFFD'\uFFFDq\uFFFD\uFFFD\uFFFD\\x0006j\\x0014\\x001f\uFFFD}\uFFFD\\x0007\uFFFD\uFFFDyj\uFFFD\uFFFD\uFFFDs\uFFFDv`\uFFFD\uFFFD4\uFFFD\\x0010\\x001c\\x0008y\uFFFDi\u0157s%g\uFFFDH\uFFFDk\uFFFD\uFFFDj\uFFFD\uFFFD\uFFFDi\uFFFD\\x0007\uFFFDWRK\\q\uFFFD</p>",
+					"otherinfo": "<p>\uFFFD_n$\uFFFDp\\x0006 \uFFFDa\uFFFD\uFFFD\uAE33b\uFFFDp\\x0007\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFDla\uFFFDvB\uFFFD\uFFFDf\uFFFD\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\uFFFD/jy\uFFFDe\tM\uFFFD\\x0005\uFFFDK5Iz\uFFFD\uFFFD<4z</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10049",
