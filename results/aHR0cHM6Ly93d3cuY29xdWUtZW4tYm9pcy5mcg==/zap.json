@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.12.0",
-	"@generated": "Sun, 25 Jun 2023 01:29:13",
+	"@generated": "Sun, 2 Jul 2023 01:30:07",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -50,7 +50,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10054",
@@ -93,7 +93,7 @@
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
 					"cweid": "1275",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10063",
@@ -196,41 +196,33 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1687656550",
-							"otherinfo": "1687656550, which evaluates to: 2023-06-25 01:29:10"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "1687656551",
-							"otherinfo": "1687656551, which evaluates to: 2023-06-25 01:29:11"
+							"evidence": "1688261404",
+							"otherinfo": "1688261404, which evaluates to: 2023-07-02 01:30:04"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1687656551",
-							"otherinfo": "1687656551, which evaluates to: 2023-06-25 01:29:11"
+							"evidence": "1688261404",
+							"otherinfo": "1688261404, which evaluates to: 2023-07-02 01:30:04"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1687656551",
-							"otherinfo": "1687656551, which evaluates to: 2023-06-25 01:29:11"
+							"evidence": "1688261404",
+							"otherinfo": "1688261404, which evaluates to: 2023-07-02 01:30:04"
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
-					"otherinfo": "<p>1687656550, which evaluates to: 2023-06-25 01:29:10</p>",
+					"otherinfo": "<p>1688261404, which evaluates to: 2023-07-02 01:30:04</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "7"
 				},
 				{
 					"pluginid": "10094",
@@ -247,33 +239,41 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2F9uJNdwBiC3Yc7p6rizYtlwB9rz9aA0nedsYch2QozbZuzvBYGd1ekvannaZQlNhwWhSzVJerm4PDR6",
-							"otherinfo": "\uFFFD_n$\uFFFDp\\x0006 \uFFFDa\uFFFD\uFFFD\uAE33b\uFFFDp\\x0007\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFDla\uFFFDvB\uFFFD\uFFFDf\uFFFD\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\uFFFD/jy\uFFFDe\tM\uFFFD\\x0005\uFFFDK5Iz\uFFFD\uFFFD<4z"
+							"evidence": "SUqpcdnlgIRlvMR3Q2aNnZIv3J2Oirf",
+							"otherinfo": "IJ\uFFFDq\uFFFD\u5004e\uFFFD\uFFFDwCf\uFFFD\uFFFD\uFFFD/\u071D\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FfKLfrI22o8sUlZevWUsUQHdszlmdq",
-							"otherinfo": "\uFFFDW\uFFFD-\uFFFD\uFFFD\uFFFDj<\uFFFDIYz\uFFFD\uFFFD\uFFFDD\\x0007v\uFFFD\uFFFD\uFFFD"
+							"evidence": "2F3Qav3BR1EQ4Rb2bIdOUPfn8l2LyktNlcwSvFekx07jyf",
+							"otherinfo": "\uFFFD]\uFFFDj\uFFFD\uFFFDGQ\\x0010\uFFFD\\x0016\uFFFDl\uFFFDNP\uFFFD\uFFFD\uFFFD]\uFFFD\uFFFDKM\uFFFD\uFFFD\\x0012\uFFFDW\uFFFD\uFFFDN\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FMo4mZzF95GwMnlkjYVGkfqdsnxbHsa2f7H",
-							"otherinfo": "\uFFFDS(\uFFFDfs\\x0017\uFFFDF\uFFFD\uFFFD\uFFFD6\\x0015\\x001aG\uFFFDv\uFFFD\uFFFDl{\\x001a\uFFFD\uFFFD\uFFFD"
+							"evidence": "B74WtOstDugPcu4pTih8mrnWrAoTqF7U",
+							"otherinfo": "\\x0007\uFFFD\\x0016\uFFFD\uFFFD-\\x000e\uFFFD\\x000fr\uFFFD)N(|\uFFFD\uFFFD\u05AC\n\\x0013\uFFFD^\uFFFD"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "8DoTd9msMQerMOMCAn8xZDX0jAhR2E-1688261404-0-AS9BZqzECADB+DyQ1eNRVm90lpKvfABHrutS2hxsXmtjDYOdjT8jce/eKkceQCQle85/2BjbSd1jgZMaTZ2RHDg=",
+							"otherinfo": "\uFFFD:\\x0013w\u066C1\\x0007\uFFFD0\uFFFD\\x0002\\x00021d5\uFFFD\\x0008Q\uFFFDO\uFFFD\uFFFD\uFFFD6\uFFFD^4\uFFFD\uFFFD>\\x0001/Af\uFFFD\uFFFD\\x0008\\x0000\uFFFD\uFFFD<\uFFFD\uFFFD\uFFFDQVot\uFFFD\uFFFD\uFFFD|\\x0000G\uFFFD\uFFFDR\uFFFD\\x001cl^kc\r\uFFFD\uFFFD\uFFFD?#q\uFFFD\uFFFD*G\\x001e@$%{\uFFFD\uFFFD\\x0018\uFFFDI\uFFFDc\uFFFD\uFFFD\\x001aM\uFFFD\uFFFD\\x001c8"
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD_n$\uFFFDp\\x0006 \uFFFDa\uFFFD\uFFFD\uAE33b\uFFFDp\\x0007\uFFFD\uFFFD\uFFFD\uFFFD4\uFFFD\uFFFDla\uFFFDvB\uFFFD\uFFFDf\uFFFD\uFFFD\\x0005\uFFFD\uFFFD\uFFFD\uFFFD/jy\uFFFDe\tM\uFFFD\\x0005\uFFFDK5Iz\uFFFD\uFFFD<4z</p>",
+					"otherinfo": "<p>IJ\uFFFDq\uFFFD\u5004e\uFFFD\uFFFDwCf\uFFFD\uFFFD\uFFFD/\u071D\uFFFD\uFFFD\uFFFD</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				},
 				{
 					"pluginid": "10049",
@@ -316,7 +316,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "7"
+					"sourceid": "1"
 				}
 			]
 		}
