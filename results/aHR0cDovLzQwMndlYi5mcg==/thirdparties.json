@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 02 Jul 2023 01:21:48 GMT",
+    "date": "Sun, 09 Jul 2023 01:23:04 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -178,7 +178,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.176.10",
+      "ip": "142.251.6.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -286,14 +286,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.72.131",
+      "ip": "74.125.70.94",
       "geoip": {
-        "city": {
-          "geoname_id": 5139568,
-          "names": {
-            "en": "Staten Island"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -324,13 +318,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 40.5956,
-          "longitude": -74.0806,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "10305"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -348,17 +338,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]

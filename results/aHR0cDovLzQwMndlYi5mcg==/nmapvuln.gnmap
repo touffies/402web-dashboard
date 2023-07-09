@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jul  2 01:23:39 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+# Nmap 7.92 scan initiated Sun Jul  9 01:30:19 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
 Host: 83.166.138.63 (h2web104.infomaniak.ch)	Status: Up
 Host: 83.166.138.63 (h2web104.infomaniak.ch)	Ports: 20/closed/tcp//ftp-data///, 21/open/tcp//ftp//ProFTPD/, 22/open/tcp//ssh//OpenSSH 6.7p1 (protocol 2.0)/, 80/open/tcp//http//Apache httpd/, 443/open/tcp//ssl|http//Apache httpd/, 2222/closed/tcp//EtherNetIP-1///, 42510/closed/tcp//caerpc///	Ignored State: filtered (993)
-# Nmap done at Sun Jul  2 01:24:04 2023 -- 1 IP address (1 host up) scanned in 25.25 seconds
+# Nmap done at Sun Jul  9 01:30:42 2023 -- 1 IP address (1 host up) scanned in 23.59 seconds
