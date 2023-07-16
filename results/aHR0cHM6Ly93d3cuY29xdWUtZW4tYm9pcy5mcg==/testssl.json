@@ -346,7 +346,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "40 >= 30 days"
+              "finding"      : "33 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -549,14 +549,14 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1688869876"
+              "finding"      : "1689475581"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -591,7 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=11, db;dur=3, asn;desc='8075', edge;desc='IAD', country;desc='US', theme;desc='coque-en-bois/main', pageType;desc='index', servedBy;desc='7jfg', requestID;desc='bb59f435-1a06-44a1-a60e-d95fbad2f37a'Server-Timing: cfRequestDuration;dur=112.999916cloudflare"
+              "finding"      : "Server-Timing: processing;dur=10, db;dur=3, asn;desc='8075', edge;desc='SJC', country;desc='US', theme;desc='coque-en-bois/main', pageType;desc='index', servedBy;desc='r78t', requestID;desc='e94bdb1c-5733-4644-aad9-15d6d25d598d'Server-Timing: cfRequestDuration;dur=186.999798cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -605,21 +605,21 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "10 at '/'"
+              "finding"      : "9 at '/'"
           }
 ,         {
               "id"           : "cookie_secure",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2/10 at '/' marked as secure"
+              "finding"      : "1/9 at '/' marked as secure"
           }
 ,         {
               "id"           : "cookie_httponly",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2/10 at '/' marked as HttpOnly"
+              "finding"      : "1/9 at '/' marked as HttpOnly"
           }
 ,         {
               "id"           : "X-Frame-Options",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "61"
+              "finding"      : "66"
           }
 ]
