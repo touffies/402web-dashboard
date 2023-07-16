@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 09 Jul 2023 01:23:04 GMT",
+    "date": "Sun, 16 Jul 2023 01:27:07 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -178,7 +178,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.6.95",
+      "ip": "142.250.113.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -286,7 +286,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "74.125.70.94",
+      "ip": "142.250.115.94",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -318,9 +318,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "time_zone": "America/Los_Angeles"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -335,23 +335,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5332921,
-            "iso_code": "CA",
-            "names": {
-              "de": "Kalifornien",
-              "en": "California",
-              "es": "California",
-              "fr": "Californie",
-              "ja": "カリフォルニア州",
-              "pt-BR": "Califórnia",
-              "ru": "Калифорния",
-              "zh-CN": "加州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
