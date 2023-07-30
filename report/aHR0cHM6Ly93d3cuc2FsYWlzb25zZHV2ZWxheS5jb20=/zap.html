@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 23 Jul 2023 01:31:55
+		Generated on Sun, 30 Jul 2023 01:23:38
 	</h3>
 
 	<h3>
@@ -156,7 +156,7 @@ td {
 					<div>Medium</div>
 				</td>
 				<td align="center">
-					<div>4</div>
+					<div>5</div>
 				</td>
 			</tr>
 			<tr>
@@ -205,7 +205,12 @@ td {
 			<tr>
 				<td><a href="#10038">Content Security Policy (CSP) Header Not Set</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">13</td>
+				<td align="center">12</td>
+			</tr>
+			<tr>
+				<td><a href="#10098">Cross-Domain Misconfiguration</a></td>
+				<td align="center" class="risk-2">Medium</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10020">Missing Anti-clickjacking Header</a></td>
@@ -255,7 +260,7 @@ td {
 			<tr>
 				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">12</td>
+				<td align="center">13</td>
 			</tr>
 			<tr>
 				<td><a href="#10109">Modern Web Application</a></td>
@@ -305,7 +310,7 @@ td {
 			<tr>
 				<td><a href="#10031">User Controllable HTML Element Attribute (Potential XSS)</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">17</td>
+				<td align="center">16</td>
 			</tr>
 		</table>
 		<div class="spacer-lg"></div>
@@ -789,32 +794,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;orderby=">https://www.salaisonsduvelay.com/*&amp;orderby=</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*/modules/*.css">https://www.salaisonsduvelay.com/*/modules/*.css</a></td>
 					</tr>
 					<tr>
@@ -1100,7 +1079,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">13</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -1147,6 +1126,140 @@ td {
 					<td width="20%">Plugin Id</td>
 					<td width="80%"><a
 						href="https://www.zaproxy.org/docs/alerts/10038/">10038</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-2"><a
+						id="10098"></a>
+						<div>Medium</div></th>
+					<th class="risk-2">Cross-Domain Misconfiguration</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>Web browser data loading may be possible, due to a Cross Origin Resource Sharing (CORS) misconfiguration on the web server</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/modules/soflexibilite/views/img/bike-15.svg">https://www.salaisonsduvelay.com/modules/soflexibilite/views/img/bike-15.svg</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">access-control-allow-origin: *</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/modules/soflexibilite/views/img/car-15.svg">https://www.salaisonsduvelay.com/modules/soflexibilite/views/img/car-15.svg</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">access-control-allow-origin: *</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/modules/soflexibilite/views/img/pitch-15.svg">https://www.salaisonsduvelay.com/modules/soflexibilite/views/img/pitch-15.svg</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">access-control-allow-origin: *</td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">3</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Ensure that sensitive data is not available in an unauthenticated manner (using IP address white-listing, for instance).</div>
+							<br />
+						
+							<div>Configure the &quot;Access-Control-Allow-Origin&quot; HTTP header to a more restrictive set of domains, or remove all CORS headers entirely, to allow the web browser to enforce the Same Origin Policy (SOP) in a more restrictive manner.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%">
+							<a href="https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy">https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</a>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/264.html">264</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">14</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10098/">10098</a></td>
 				</tr>
 			</table>
 			<div class="spacer"></div>
@@ -2684,32 +2797,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;orderby=">https://www.salaisonsduvelay.com/*&amp;orderby=</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*/modules/*.css">https://www.salaisonsduvelay.com/*/modules/*.css</a></td>
 					</tr>
 					<tr>
@@ -2789,6 +2876,32 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?id_currency">https://www.salaisonsduvelay.com/*?id_currency</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?n">https://www.salaisonsduvelay.com/*?n</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3243,7 +3356,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?tag">https://www.salaisonsduvelay.com/*?tag</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3484,7 +3597,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1690075845</td>
+						<td width="80%">1690680148</td>
 					</tr>
 				
 					<tr>
@@ -3562,7 +3675,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1690075848</td>
+						<td width="80%">1690680151</td>
 					</tr>
 				
 					<tr>
@@ -3640,7 +3753,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1690075847</td>
+						<td width="80%">1690680149</td>
 					</tr>
 				
 				<tr>
@@ -3855,7 +3968,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines">https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/21-terrines">https://www.salaisonsduvelay.com/fr/21-terrines</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4090,7 +4203,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=111&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=111&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=128&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=128&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4116,7 +4229,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=128&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=128&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=143&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=143&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4556,6 +4669,32 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?n">https://www.salaisonsduvelay.com/*?n</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">from</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
 					</tr>
 					<tr>
@@ -4737,7 +4876,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">12</td>
+					<td width="80%">13</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4808,7 +4947,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a class=&quot;tp-caption btn-home&quot; href=&quot;/fr/content/4-les-salaisons-du-velay&quot; target=&quot;_self&quot; id=&quot;slide-6-layer-123&quot; data-x=&quot;[&#39;left&#39;,&#39;left&#39;,&#39;center&#39;,&#39;center&#39;]&quot; data-hoffset=&quot;[&#39;15&#39;,&#39;15&#39;,&#39;0&#39;,&#39;0&#39;]&quot; data-y=&quot;[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]&quot; data-voffset=&quot;[&#39;650&#39;,&#39;650&#39;,&#39;555&#39;,&#39;555&#39;]&quot; data-color=&quot;[&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;]&quot; data-width=&quot;none&quot; data-height=&quot;none&quot; data-whitespace=&quot;nowrap&quot; data-transform_idle=&quot;o:1;&quot; data-transform_in=&quot;opacity:0;s:300;e:Power2.easeInOut;&quot; data-transform_out=&quot;opacity:0;s:300;s:300;&quot; data-start=&quot;500&quot; data-splitin=&quot;none&quot; data-splitout=&quot;none&quot; data-actions=&#39;&#39; data-responsive_offset=&quot;off&quot; style=&quot;z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);&quot;&gt;Tout voir &lt;/a&gt;</td>
+						<td width="80%">&lt;a class=&quot;tp-caption btn-home&quot; href=&quot;/fr/content/4-les-salaisons-du-velay&quot; target=&quot;_self&quot; id=&quot;slide-6-layer-365&quot; data-x=&quot;[&#39;left&#39;,&#39;left&#39;,&#39;center&#39;,&#39;center&#39;]&quot; data-hoffset=&quot;[&#39;15&#39;,&#39;15&#39;,&#39;0&#39;,&#39;0&#39;]&quot; data-y=&quot;[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]&quot; data-voffset=&quot;[&#39;650&#39;,&#39;650&#39;,&#39;555&#39;,&#39;555&#39;]&quot; data-color=&quot;[&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;]&quot; data-width=&quot;none&quot; data-height=&quot;none&quot; data-whitespace=&quot;nowrap&quot; data-transform_idle=&quot;o:1;&quot; data-transform_in=&quot;opacity:0;s:300;e:Power2.easeInOut;&quot; data-transform_out=&quot;opacity:0;s:300;s:300;&quot; data-start=&quot;500&quot; data-splitin=&quot;none&quot; data-splitout=&quot;none&quot; data-actions=&#39;&#39; data-responsive_offset=&quot;off&quot; style=&quot;z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);&quot;&gt;Tout voir &lt;/a&gt;</td>
 					</tr>
 				
 					<tr>
@@ -5068,7 +5207,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a class=&quot;tp-caption btn-home&quot; href=&quot;/fr/content/4-les-salaisons-du-velay&quot; target=&quot;_self&quot; id=&quot;slide-6-layer-113&quot; data-x=&quot;[&#39;left&#39;,&#39;left&#39;,&#39;center&#39;,&#39;center&#39;]&quot; data-hoffset=&quot;[&#39;15&#39;,&#39;15&#39;,&#39;0&#39;,&#39;0&#39;]&quot; data-y=&quot;[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]&quot; data-voffset=&quot;[&#39;650&#39;,&#39;650&#39;,&#39;555&#39;,&#39;555&#39;]&quot; data-color=&quot;[&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;]&quot; data-width=&quot;none&quot; data-height=&quot;none&quot; data-whitespace=&quot;nowrap&quot; data-transform_idle=&quot;o:1;&quot; data-transform_in=&quot;opacity:0;s:300;e:Power2.easeInOut;&quot; data-transform_out=&quot;opacity:0;s:300;s:300;&quot; data-start=&quot;500&quot; data-splitin=&quot;none&quot; data-splitout=&quot;none&quot; data-actions=&#39;&#39; data-responsive_offset=&quot;off&quot; style=&quot;z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);&quot;&gt;Tout voir &lt;/a&gt;</td>
+						<td width="80%">&lt;a class=&quot;tp-caption btn-home&quot; href=&quot;/fr/content/4-les-salaisons-du-velay&quot; target=&quot;_self&quot; id=&quot;slide-6-layer-985&quot; data-x=&quot;[&#39;left&#39;,&#39;left&#39;,&#39;center&#39;,&#39;center&#39;]&quot; data-hoffset=&quot;[&#39;15&#39;,&#39;15&#39;,&#39;0&#39;,&#39;0&#39;]&quot; data-y=&quot;[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]&quot; data-voffset=&quot;[&#39;650&#39;,&#39;650&#39;,&#39;555&#39;,&#39;555&#39;]&quot; data-color=&quot;[&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;]&quot; data-width=&quot;none&quot; data-height=&quot;none&quot; data-whitespace=&quot;nowrap&quot; data-transform_idle=&quot;o:1;&quot; data-transform_in=&quot;opacity:0;s:300;e:Power2.easeInOut;&quot; data-transform_out=&quot;opacity:0;s:300;s:300;&quot; data-start=&quot;500&quot; data-splitin=&quot;none&quot; data-splitout=&quot;none&quot; data-actions=&#39;&#39; data-responsive_offset=&quot;off&quot; style=&quot;z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);&quot;&gt;Tout voir &lt;/a&gt;</td>
 					</tr>
 				
 					<tr>
@@ -5305,7 +5444,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines">https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/21-terrines">https://www.salaisonsduvelay.com/fr/21-terrines</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -6064,7 +6203,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">e59335cc22e7451354ef11fc04b89d0fe4f0c74aa5a0ca054977604bb3ba5175%3AAJQgNgFK4WzuoCM19THvn0viqhksvn28PQ4AIrHP4DB0O%2BGok3hKSvn%2F%2BGyAB%2FjOCBwsEW336F56kRZvpVJ9XLBpBlhIjXgegJacn1AFEwsIbLwiN3dNOzsvnQcKJk8NygWa%2BtWwvWhVFtEhMGll%2Bl3DB6CO45uO9FNI4%2FDVKUv9JPwkdzQbQF1pRcRpay4u</td>
+						<td width="80%">ae82bf15d3fb8ed84f461d8db8317bbc1fb4504b93c565978299a0ed3507d0ca%3AAJQgNgFK4WzuoCM19THvnwxTuDYfENrwLRn%2F3LkjcEm81YmYMYEL3roJQCZSiYfgbkCnymtI3VdSnz9qSVnXBaVRHM%2Bg0n%2B8taOz8exFzQoOZWa%2FUbDP9IdYTbJms47nWrr7mi9bLQUpw18Dsfm26CPCbfPsqVZRo%2F2Rvmh12aWJwEYVafnJ2qcWAqwrhZFp</td>
 					</tr>
 				
 					<tr>
@@ -6090,7 +6229,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">d8fc4b8fdeabd41d3366805bf3a1040c950dac686d33f3a9c29ba68354873ec6%3AAJQgNgFK4WzuoCM19THvn4%2Bvk8V1ABA9mLp0uDeM%2Fnenb9BhR6%2Fudb1ocZXgkm2yh%2BHPiZuQuzPJQxv%2FZnd3IthWnfRj9%2Fx4LCyTWYqhH6KE3z5Hr3sDVw8oXAsgJxOVC%2FryvxKEdwIMV6wmZ9Pevvrm8hyWHknBFGeKYtRemII7ZdtHHtFEWXFAxRZHQF3e</td>
+						<td width="80%">1c572ce41f2196abc2d7d353dc7ebbed36225bc56f7d71b53e55640ccc2ea678%3AAJQgNgFK4WzuoCM19THvn%2FAkoDNWUhEE50%2BeZpzNw9aV847qy89SVX%2Fd7T9l93RZ3TVxMxvP9icPevt5RR1qYhOWi%2BLmXmWz31kO%2FTwZsaZ1KMk9lrQkjh49DlRZ%2FP1CJP3wzBvkIn7DnJrw5g23paufkV4znjKdrOqWmQqum3NE5SGB5m%2BMoAbymlOZ6VIL</td>
 					</tr>
 				
 					<tr>
@@ -6116,7 +6255,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f486b884b3ce05780f3f35a5578c07b26faf17212f6a96eed4a2e6261bf57764%3AAJQgNgFK4WzuoCM19THvn4%2Bvk8V1ABA9mLp0uDeM%2Fnenb9BhR6%2Fudb1ocZXgkm2yh%2BHPiZuQuzPJQxv%2FZnd3IthWnfRj9%2Fx4LCyTWYqhH6KFRT4SuDpIqpa5%2FO82rs23sFI7jllY%2B%2BpqZAxrVBVCV74y3AK9et4VLRKDo%2BuYk5lXFMhtZpwsBAdHsMfDiFfV</td>
+						<td width="80%">8c9d318b5cbe0324c7963326e77c6c23b95d742b43db3d7502e1ee650149a681%3AAJQgNgFK4WzuoCM19THvn%2FAkoDNWUhEE50%2BeZpzNw9aV847qy89SVX%2Fd7T9l93RZ3TVxMxvP9icPevt5RR1qYhOWi%2BLmXmWz31kO%2FTwZsaYdbf9e7blTycdvZ4Y%2FltBz%2BXLV8wD5iyZrQdm%2B2kn2plDczgqssEd6IwIQNb%2F9%2BEisrUti5I%2FZeomIAmWpj6GF</td>
 					</tr>
 				
 					<tr>
@@ -6142,7 +6281,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">d8fc4b8fdeabd41d3366805bf3a1040c950dac686d33f3a9c29ba68354873ec6%3AAJQgNgFK4WzuoCM19THvn4%2Bvk8V1ABA9mLp0uDeM%2Fnenb9BhR6%2Fudb1ocZXgkm2yh%2BHPiZuQuzPJQxv%2FZnd3IthWnfRj9%2Fx4LCyTWYqhH6KE3z5Hr3sDVw8oXAsgJxOVC%2FryvxKEdwIMV6wmZ9Pevvrm8hyWHknBFGeKYtRemII7ZdtHHtFEWXFAxRZHQF3e</td>
+						<td width="80%">1c572ce41f2196abc2d7d353dc7ebbed36225bc56f7d71b53e55640ccc2ea678%3AAJQgNgFK4WzuoCM19THvn%2FAkoDNWUhEE50%2BeZpzNw9aV847qy89SVX%2Fd7T9l93RZ3TVxMxvP9icPevt5RR1qYhOWi%2BLmXmWz31kO%2FTwZsaZ1KMk9lrQkjh49DlRZ%2FP1CJP3wzBvkIn7DnJrw5g23paufkV4znjKdrOqWmQqum3NE5SGB5m%2BMoAbymlOZ6VIL</td>
 					</tr>
 				
 					<tr>
@@ -6168,7 +6307,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f486b884b3ce05780f3f35a5578c07b26faf17212f6a96eed4a2e6261bf57764%3AAJQgNgFK4WzuoCM19THvn4%2Bvk8V1ABA9mLp0uDeM%2Fnenb9BhR6%2Fudb1ocZXgkm2yh%2BHPiZuQuzPJQxv%2FZnd3IthWnfRj9%2Fx4LCyTWYqhH6KFRT4SuDpIqpa5%2FO82rs23sFI7jllY%2B%2BpqZAxrVBVCV74y3AK9et4VLRKDo%2BuYk5lXFMhtZpwsBAdHsMfDiFfV</td>
+						<td width="80%">8c9d318b5cbe0324c7963326e77c6c23b95d742b43db3d7502e1ee650149a681%3AAJQgNgFK4WzuoCM19THvn%2FAkoDNWUhEE50%2BeZpzNw9aV847qy89SVX%2Fd7T9l93RZ3TVxMxvP9icPevt5RR1qYhOWi%2BLmXmWz31kO%2FTwZsaYdbf9e7blTycdvZ4Y%2FltBz%2BXLV8wD5iyZrQdm%2B2kn2plDczgqssEd6IwIQNb%2F9%2BEisrUti5I%2FZeomIAmWpj6GF</td>
 					</tr>
 				
 				<tr>
@@ -7078,35 +7217,9 @@ td {
 						<td width="80%"></td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/recherche">https://www.salaisonsduvelay.com/fr/recherche</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">POST</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">search_query</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">17</td>
+					<td width="80%">16</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
