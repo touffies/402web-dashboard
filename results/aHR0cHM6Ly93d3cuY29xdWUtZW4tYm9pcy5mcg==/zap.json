@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 23 Jul 2023 01:23:28",
+	"@generated": "Sun, 30 Jul 2023 01:22:43",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -153,33 +153,41 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "yuDeSICz5dmo11UvtfMbIV1Qm6a3fEaJuO3ug8lIiICPtB60jV04",
-							"otherinfo": "\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\u0668\uFFFDU/\uFFFD\uFFFD\\x001b!]P\uFFFD\uFFFD\uFFFD|F\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD]8"
+							"evidence": "2BXEGNZ7KfMZ2oKWqFPmKv3o7Cm8jw9Ym8ATZhZ8TxOfQxVzsGeDnzFXJc",
+							"otherinfo": "\uFFFD\\x0015\uFFFD\\x0018\uFFFD{)\uFFFD\\x0019\u0682\uFFFD\uFFFDS\uFFFD*\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\\x000fX\uFFFD\uFFFD\\x0013f\\x0016|O\\x0013\uFFFDC\\x0015s\uFFFDg\uFFFD\uFFFD1W%"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2FyRPVTmZNWLhja3mexEWAsrMX2XYQyM1w9YPS",
+							"otherinfo": "\uFFFD\\\uFFFD=T\uFFFDd\u054B\uFFFD6\uFFFD\uFFFD\uFFFDDX\\x000b+1}\uFFFDa\\x000c\uFFFD\uFFFD\\x000fX="
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BdnilYZgA5RKTZCN3BBI3hZanKZEHst",
-							"otherinfo": "\uFFFD\\x0017g\uFFFDV\\x0019\uFFFD\\x000eQ)6B7pA#xYjr\uFFFD\\x0010{-"
+							"evidence": "2B7oKFygq4psiSS8nOjMDf4pyyFwmyqenDFeQkpx5GwQzkc",
+							"otherinfo": "\uFFFD\\x001e\uFFFD(\\\uFFFD\uFFFD\uFFFDl\uFFFD$\uFFFD\uFFFD\uFFFD\uFFFD\r\uFFFD)\uFFFD!p\uFFFD*\uFFFD\uFFFD1^BJq\uFFFDl\\x0010\uFFFDG"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2Fr3G3FERqZbx6eoohao3GJTXnH5XWZTwutOks08qCuKMr5ZTQbjLsn0",
-							"otherinfo": "\uFFFDZ\uFFFD\\x001bqDF\uFFFD[\u01E7\uFFFD\uFFFD\\x0016\uFFFD\uFFFDbS^q\uFFFD]fS\uFFFD\uFFFDN\uFFFD\uFFFD<\uFFFD+\uFFFD2\uFFFDYM\\x0006\uFFFD.\uFFFD\uFFFD"
+							"evidence": "2BK9myHQUQamBjMnpSs6vmpoPdnoyYAxgCwnEz1eKmJPzsop",
+							"otherinfo": "\uFFFD\\x0012\uFFFD\uFFFD!\uFFFDQ\\x0006\uFFFD\\x00063'\uFFFD+:\uFFFDjh=\uFFFD\uFFFD\u02401\uFFFD,'\\x0013=^*bO\uFFFD\uFFFD)"
 						}
 					],
-					"count": "3",
+					"count": "4",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\u0668\uFFFDU/\uFFFD\uFFFD\\x001b!]P\uFFFD\uFFFD\uFFFD|F\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDH\uFFFD\uFFFD\uFFFD\uFFFD\\x001e\uFFFD\uFFFD]8</p>",
+					"otherinfo": "<p>\uFFFD\\x0015\uFFFD\\x0018\uFFFD{)\uFFFD\\x0019\u0682\uFFFD\uFFFDS\uFFFD*\uFFFD\uFFFD\uFFFD)\uFFFD\uFFFD\\x000fX\uFFFD\uFFFD\\x0013f\\x0016|O\\x0013\uFFFDC\\x0015s\uFFFDg\uFFFD\uFFFD1W%</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "8"
 				},
 				{
 					"pluginid": "10049",
