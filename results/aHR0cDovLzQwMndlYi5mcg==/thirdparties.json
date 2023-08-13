@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 06 Aug 2023 00:57:58 GMT",
+    "date": "Sun, 13 Aug 2023 00:55:15 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -53,9 +53,11 @@
       "ip": "83.166.138.63",
       "geoip": {
         "city": {
-          "geoname_id": 2660007,
+          "geoname_id": 8533523,
           "names": {
-            "en": "La Tour-de-Treme"
+            "en": "Moosseedorf",
+            "ru": "Мосзеедорф",
+            "zh-CN": "莫塞多夫"
           }
         },
         "continent": {
@@ -87,13 +89,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 100,
-          "latitude": 46.5867,
-          "longitude": 7.0343,
+          "accuracy_radius": 50,
+          "latitude": 47.0207,
+          "longitude": 7.4846,
           "time_zone": "Europe/Zurich"
         },
         "postal": {
-          "code": "1635"
+          "code": "3302"
         },
         "registered_country": {
           "geoname_id": 2658434,
@@ -111,12 +113,12 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 2660717,
-            "iso_code": "FR",
+            "geoname_id": 2661551,
+            "iso_code": "BE",
             "names": {
-              "de": "Freiburg",
-              "en": "Fribourg",
-              "fr": "Fribourg"
+              "de": "Bern",
+              "en": "Bern",
+              "fr": "Berne"
             }
           }
         ]
@@ -178,8 +180,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "142.251.32.42",
       "geoip": {
+        "city": {
+          "geoname_id": 4361736,
+          "names": {
+            "en": "Marriottsville"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -210,9 +218,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 39.3385,
+          "longitude": -76.9201,
+          "metro_code": 512,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "21104"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -227,7 +239,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4361885,
+            "iso_code": "MD",
+            "names": {
+              "de": "Maryland",
+              "en": "Maryland",
+              "es": "Maryland",
+              "fr": "Maryland",
+              "ja": "メリーランド州",
+              "pt-BR": "Maryland",
+              "ru": "Мэриленд",
+              "zh-CN": "马里兰州"
+            }
+          }
+        ]
       }
     },
     {
@@ -286,8 +314,14 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.253.63.94",
+      "ip": "142.251.46.163",
       "geoip": {
+        "city": {
+          "geoname_id": 4361736,
+          "names": {
+            "en": "Marriottsville"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -318,9 +352,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 39.3385,
+          "longitude": -76.9201,
+          "metro_code": 512,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "21104"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -335,7 +373,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4361885,
+            "iso_code": "MD",
+            "names": {
+              "de": "Maryland",
+              "en": "Maryland",
+              "es": "Maryland",
+              "fr": "Maryland",
+              "ja": "メリーランド州",
+              "pt-BR": "Maryland",
+              "ru": "Мэриленд",
+              "zh-CN": "马里兰州"
+            }
+          }
+        ]
       }
     }
   ]
