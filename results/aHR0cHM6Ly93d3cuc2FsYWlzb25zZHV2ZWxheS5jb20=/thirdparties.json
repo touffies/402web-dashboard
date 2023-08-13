@@ -28,11 +28,11 @@
   "cookies": [
     {
       "name": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-      "value": "80c301d38fad9b099902f730df0293546508006198033294b118908217e599b1%3Ab8Cy208MNMPb3TRSzGOP0PWqh6oTmPZkxeX37aLH8ubwqf8bkEVlTiEvFukwnWRq4BQptYTCCmBJ9jE0lxXwRvHzLyZIpdZZP2vfrdnnQb4%3D",
+      "value": "ca10573148e559f9fddef300be041313185ac87f8183ac4ee62eb0f058d5108a%3Ab8Cy208MNMPb3TRSzGOP0FsoaLsJHRq1ccjNYWh3zaVbd3AQFS0Fw6T44Khw%2BI%2F0i16p9wE973EqEOi%2B%2BP1UVCaCiUMLY4loEpzo9ttPEgo%3D",
       "domain": ".www.salaisonsduvelay.com",
       "path": "/",
-      "expires": 1693011938.772013,
-      "size": 220,
+      "expires": 1693616605.869234,
+      "size": 228,
       "httpOnly": true,
       "secure": true,
       "session": false,
@@ -45,9 +45,9 @@
     "content-encoding": "gzip",
     "content-length": "986",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 06 Aug 2023 01:05:38 GMT",
+    "date": "Sun, 13 Aug 2023 01:03:25 GMT",
     "server": "Apache",
-    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=80c301d38fad9b099902f730df0293546508006198033294b118908217e599b1%3Ab8Cy208MNMPb3TRSzGOP0PWqh6oTmPZkxeX37aLH8ubwqf8bkEVlTiEvFukwnWRq4BQptYTCCmBJ9jE0lxXwRvHzLyZIpdZZP2vfrdnnQb4%3D; expires=Sat, 26-Aug-2023 01:05:38 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
+    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=ca10573148e559f9fddef300be041313185ac87f8183ac4ee62eb0f058d5108a%3Ab8Cy208MNMPb3TRSzGOP0FsoaLsJHRq1ccjNYWh3zaVbd3AQFS0Fw6T44Khw%2BI%2F0i16p9wE973EqEOi%2B%2BP1UVCaCiUMLY4loEpzo9ttPEgo%3D; expires=Sat, 02-Sep-2023 01:03:25 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-ua-compatible": "IE=edge"
@@ -111,8 +111,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.214.138",
+      "ip": "142.251.32.42",
       "geoip": {
+        "city": {
+          "geoname_id": 4361736,
+          "names": {
+            "en": "Marriottsville"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -143,9 +149,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 39.3385,
+          "longitude": -76.9201,
+          "metro_code": 512,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "21104"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -160,13 +170,35 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4361885,
+            "iso_code": "MD",
+            "names": {
+              "de": "Maryland",
+              "en": "Maryland",
+              "es": "Maryland",
+              "fr": "Maryland",
+              "ja": "メリーランド州",
+              "pt-BR": "Maryland",
+              "ru": "Мэриленд",
+              "zh-CN": "马里兰州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.12.99",
+      "ip": "142.251.46.163",
       "geoip": {
+        "city": {
+          "geoname_id": 4361736,
+          "names": {
+            "en": "Marriottsville"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -197,9 +229,13 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 39.3385,
+          "longitude": -76.9201,
+          "metro_code": 512,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "21104"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -214,7 +250,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4361885,
+            "iso_code": "MD",
+            "names": {
+              "de": "Maryland",
+              "en": "Maryland",
+              "es": "Maryland",
+              "fr": "Maryland",
+              "ja": "メリーランド州",
+              "pt-BR": "Maryland",
+              "ru": "Мэриленд",
+              "zh-CN": "马里兰州"
+            }
+          }
+        ]
       }
     }
   ]

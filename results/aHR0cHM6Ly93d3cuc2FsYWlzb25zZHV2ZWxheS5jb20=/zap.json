@@ -1,7 +1,7 @@
 {
 	"@programName": "OWASP ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 6 Aug 2023 01:02:39",
+	"@generated": "Sun, 13 Aug 2023 01:01:46",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -76,6 +76,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
@@ -92,15 +100,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?search_query",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -183,7 +183,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*/modules/roythemescustomizer/*.jpg",
+							"uri": "https://www.salaisonsduvelay.com/*/modules/revsliderprestashop/*.jpg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -191,7 +191,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*/modules/roythemescustomizer/*.jpg",
+							"uri": "https://www.salaisonsduvelay.com/*/modules/revsliderprestashop/*.jpg",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -333,6 +333,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
@@ -349,15 +357,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?search_query",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -448,6 +448,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
@@ -456,15 +464,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -563,6 +563,14 @@
 							"otherinfo": "r\uFFFD\uFFFDI\uFFFDZ\uFFFD\uFFFD'\uFFFD\uFFFDn\uFFFDW\uFFFDk/\uFFFD\uFFFD\uFFFDx\uFFFDm\uFFFD\uFFFD\u077A\uFFFD"
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "com/Salaisons-du-Velay-268143230292685/",
+							"otherinfo": "r\uFFFD\uFFFDI\uFFFDZ\uFFFD\uFFFD'\uFFFD\uFFFDn\uFFFDW\uFFFDk/\uFFFD\uFFFD\uFFFDx\uFFFDm\uFFFD\uFFFD\u077A\uFFFD"
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
@@ -579,15 +587,7 @@
 							"otherinfo": "r\uFFFD\uFFFDI\uFFFDZ\uFFFD\uFFFD'\uFFFD\uFFFDn\uFFFDW\uFFFDk/\uFFFD\uFFFD\uFFFDx\uFFFDm\uFFFD\uFFFD\u077A\uFFFD"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "com/Salaisons-du-Velay-268143230292685/",
-							"otherinfo": "r\uFFFD\uFFFDI\uFFFDZ\uFFFD\uFFFD'\uFFFD\uFFFDn\uFFFDW\uFFFDk/\uFFFD\uFFFD\uFFFDx\uFFFDm\uFFFD\uFFFD\u077A\uFFFD"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/",
+							"uri": "https://www.salaisonsduvelay.com/*?search_query",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -686,7 +686,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -892,7 +892,7 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "46158427aa5c9a9eac4cd6236a87208169f851251e94d0e33b8b490e31b0826b%3Ab8Cy208MNMPb3TRSzGOP0Celx0897SeEG0T5ZciI0mxaeXGrg6xNJRGQpoXRmgQqAAVEsZxUL2YG%2Bqi5g%2BOuglQNmfZTZthErVUbnZMTsgo%3D",
+							"evidence": "c943bee827422207cbdde5d5f9e8d21321a2810b557369733f6a60f5d8865fba%3Ab8Cy208MNMPb3TRSzGOP0FjCGzrcRfiQpHBHl2WsMYXm3%2F6IPvfaFkNMt8Tvzh7ewj4EXVCnRtcXpxKRT2z673OY6V7ALV5vshyoGecy%2FYo%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						}
 					],
@@ -956,7 +956,7 @@
 					"reference": "<p>https://tools.ietf.org/html/rfc7234</p><p>https://tools.ietf.org/html/rfc7231</p><p>http://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html (obsoleted by rfc7234)</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "15"
+					"sourceid": "19"
 				}
 			]
 		}
