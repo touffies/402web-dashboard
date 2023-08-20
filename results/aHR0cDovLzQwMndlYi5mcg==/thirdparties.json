@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 13 Aug 2023 00:55:15 GMT",
+    "date": "Sun, 20 Aug 2023 00:56:23 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -180,14 +180,8 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.251.32.42",
+      "ip": "142.250.114.95",
       "geoip": {
-        "city": {
-          "geoname_id": 4361736,
-          "names": {
-            "en": "Marriottsville"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -218,13 +212,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 39.3385,
-          "longitude": -76.9201,
-          "metro_code": 512,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "21104"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -239,23 +229,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4361885,
-            "iso_code": "MD",
-            "names": {
-              "de": "Maryland",
-              "en": "Maryland",
-              "es": "Maryland",
-              "fr": "Maryland",
-              "ja": "メリーランド州",
-              "pt-BR": "Maryland",
-              "ru": "Мэриленд",
-              "zh-CN": "马里兰州"
-            }
-          }
-        ]
+        }
       }
     },
     {
@@ -314,14 +288,8 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.251.46.163",
+      "ip": "142.250.115.94",
       "geoip": {
-        "city": {
-          "geoname_id": 4361736,
-          "names": {
-            "en": "Marriottsville"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -352,13 +320,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 39.3385,
-          "longitude": -76.9201,
-          "metro_code": 512,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "21104"
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -373,23 +337,7 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 4361885,
-            "iso_code": "MD",
-            "names": {
-              "de": "Maryland",
-              "en": "Maryland",
-              "es": "Maryland",
-              "fr": "Maryland",
-              "ja": "メリーランド州",
-              "pt-BR": "Maryland",
-              "ru": "Мэриленд",
-              "zh-CN": "马里兰州"
-            }
-          }
-        ]
+        }
       }
     }
   ]
