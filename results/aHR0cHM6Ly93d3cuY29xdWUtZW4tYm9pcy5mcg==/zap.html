@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 13 Aug 2023 03:29:26
+		Generated on Sun, 20 Aug 2023 03:34:25
 	</h3>
 
 	<h3>
@@ -148,7 +148,7 @@ td {
 					<div>High</div>
 				</td>
 				<td align="center">
-					<div>0</div>
+					<div>1</div>
 				</td>
 			</tr>
 			<tr>
@@ -198,6 +198,11 @@ td {
 					align="center">Number of Instances</th>
 			</tr>
 			<tr>
+				<td><a href="#10062">PII Disclosure</a></td>
+				<td align="center" class="risk-3">High</td>
+				<td align="center">3</td>
+			</tr>
+			<tr>
 				<td><a href="#10202">Absence of Anti-CSRF Tokens</a></td>
 				<td align="center" class="risk-2">Medium</td>
 				<td align="center">11</td>
@@ -245,17 +250,17 @@ td {
 			<tr>
 				<td><a href="#10010">Cookie No HttpOnly Flag</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">17</td>
+				<td align="center">12</td>
 			</tr>
 			<tr>
 				<td><a href="#10011">Cookie Without Secure Flag</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">19</td>
+				<td align="center">14</td>
 			</tr>
 			<tr>
 				<td><a href="#10054">Cookie without SameSite Attribute</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">4</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10017">Cross-Domain JavaScript Source File Inclusion</a></td>
@@ -300,7 +305,7 @@ td {
 			<tr>
 				<td><a href="#10049">Non-Storable Content</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">1</td>
+				<td align="center">2</td>
 			</tr>
 			<tr>
 				<td><a href="#10015">Re-examine Cache-control Directives</a></td>
@@ -340,7 +345,7 @@ td {
 			<tr>
 				<td><a href="#10049">Storable and Cacheable Content</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">10</td>
+				<td align="center">9</td>
 			</tr>
 		</table>
 		<div class="spacer-lg"></div>
@@ -348,6 +353,161 @@ td {
 
 	
 		<h3>Alert Detail</h3>
+		
+			<table class="results">
+				<tr height="24">
+					<th width="20%" class="risk-3"><a
+						id="10062"></a>
+						<div>High</div></th>
+					<th class="risk-3">PII Disclosure</th>
+				</tr>
+				<tr>
+					<td width="20%">Description</td>
+					<td width="80%">
+							<div>The response contains Personally Identifiable Information, such as CC number, SSN and similar sensitive data.</div>
+							
+						</td>
+				</tr>
+				<TR vAlign="top">
+					<TD colspan="2"></TD>
+				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/coque-google">https://www.coque-en-bois.fr/collections/coque-google</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">6705486987322</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Credit Card Type detected: Maestro
+Bank Identification Number: 670548
+Brand: MAESTRO
+Category: 
+Issuer: ZHELDORBANK JSB</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/coque-google">https://www.coque-en-bois.fr/collections/coque-google</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">6705504845882</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Credit Card Type detected: Maestro
+Bank Identification Number: 670550
+Brand: MAESTRO
+Category: 
+Issuer: ZHELDORBANK JSB</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/coque-google">https://www.coque-en-bois.fr/collections/coque-google</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">6715616755770</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Credit Card Type detected: Maestro
+Bank Identification Number: 671561
+Brand: MAESTRO
+Category: 
+Issuer: </td>
+					</tr>
+				
+				<tr>
+					<td width="20%">Instances</td>
+					<td width="80%">3</td>
+				</tr>
+				<tr>
+					<td width="20%">Solution</td>
+					<td width="80%">
+							<div>Check the response for the potential presence of personally identifiable information (PII), ensure nothing sensitive is leaked by the application.</div>
+							
+						</td>
+				</tr>
+				<tr>
+					<td width="20%">Reference</td>
+					<td width="80%"></td>
+				</tr>
+				<tr>
+					<td width="20%">CWE Id</td>
+					<td width="80%"><a
+						href="https://cwe.mitre.org/data/definitions/359.html">359</a></td>
+				</tr>
+				<tr>
+					<td width="20%">WASC Id</td>
+					<td width="80%">13</td>
+				</tr>
+				<tr>
+					<td width="20%">Plugin Id</td>
+					<td width="80%"><a
+						href="https://www.zaproxy.org/docs/alerts/10062/">10062</a></td>
+				</tr>
+			</table>
+			<div class="spacer"></div>
 		
 			<table class="results">
 				<tr height="24">
@@ -410,6 +570,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form class=&quot;Cart Drawer__Content&quot; action=&quot;/cart&quot; method=&quot;POST&quot; novalidate&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: &quot;&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -436,6 +601,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form action=&quot;/search&quot; name=&quot;GET&quot; role=&quot;search&quot; class=&quot;Search__Form&quot;&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;q&quot; &quot;type&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -461,6 +631,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form method=&quot;post&quot; action=&quot;/contact#footer-newsletter&quot; id=&quot;footer-newsletter&quot; accept-charset=&quot;UTF-8&quot; class=&quot;Footer__Newsletter Form&quot;&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 3: &quot;contact[email]&quot; &quot;contact[tags]&quot; &quot;form_type&quot; &quot;utf8&quot; ].</td>
 					</tr>
 				
 					<tr>
@@ -488,6 +663,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form action=&quot;/search&quot; name=&quot;GET&quot; role=&quot;search&quot; class=&quot;Search__Form&quot;&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: &quot;q&quot; &quot;type&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -514,6 +694,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form method=&quot;post&quot; action=&quot;/contact#footer-newsletter&quot; id=&quot;footer-newsletter&quot; accept-charset=&quot;UTF-8&quot; class=&quot;Footer__Newsletter Form&quot;&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;contact[email]&quot; &quot;contact[tags]&quot; &quot;form_type&quot; &quot;utf8&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -539,6 +724,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form class=&quot;Cart Drawer__Content&quot; action=&quot;/cart&quot; method=&quot;POST&quot; novalidate&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: &quot;&quot; ].</td>
 					</tr>
 				
 					<tr>
@@ -566,6 +756,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form action=&quot;/search&quot; name=&quot;GET&quot; role=&quot;search&quot; class=&quot;Search__Form&quot;&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;q&quot; &quot;type&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -591,6 +786,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form method=&quot;post&quot; action=&quot;/contact#footer-newsletter&quot; id=&quot;footer-newsletter&quot; accept-charset=&quot;UTF-8&quot; class=&quot;Footer__Newsletter Form&quot;&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 3: &quot;contact[email]&quot; &quot;contact[tags]&quot; &quot;form_type&quot; &quot;utf8&quot; ].</td>
 					</tr>
 				
 					<tr>
@@ -618,6 +818,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form class=&quot;Cart Drawer__Content&quot; action=&quot;/cart&quot; method=&quot;POST&quot; novalidate&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: &quot;&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -644,6 +849,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form action=&quot;/search&quot; name=&quot;GET&quot; role=&quot;search&quot; class=&quot;Search__Form&quot;&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;q&quot; &quot;type&quot; ].</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -669,6 +879,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;form method=&quot;post&quot; action=&quot;/contact#footer-newsletter&quot; id=&quot;footer-newsletter&quot; accept-charset=&quot;UTF-8&quot; class=&quot;Footer__Newsletter Form&quot;&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 3: &quot;contact[email]&quot; &quot;contact[tags]&quot; &quot;form_type&quot; &quot;utf8&quot; ].</td>
 					</tr>
 				
 				<tr>
@@ -794,6 +1009,14 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+script-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, prefetch-src, form-action
+
+The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -818,7 +1041,15 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=04ca3ab7-9382-4b00-8f80-cb63bd6867b5</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8dbd298c-b2d1-4f0e-8964-c54632e0d9f4</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, prefetch-src, form-action
+
+The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
 					</tr>
 				
 					<tr>
@@ -845,6 +1076,14 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+script-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, prefetch-src, form-action
+
+The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
 					</tr>
 				
 				<tr>
@@ -938,7 +1177,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=04ca3ab7-9382-4b00-8f80-cb63bd6867b5</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8dbd298c-b2d1-4f0e-8964-c54632e0d9f4</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-eval.</td>
 					</tr>
 				
 				<tr>
@@ -1034,6 +1278,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1058,7 +1307,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=04ca3ab7-9382-4b00-8f80-cb63bd6867b5</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8dbd298c-b2d1-4f0e-8964-c54632e0d9f4</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
 					</tr>
 				
 					<tr>
@@ -1085,6 +1339,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
 					</tr>
 				
 				<tr>
@@ -1180,6 +1439,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1204,7 +1468,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=04ca3ab7-9382-4b00-8f80-cb63bd6867b5</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8dbd298c-b2d1-4f0e-8964-c54632e0d9f4</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
 					</tr>
 				
 					<tr>
@@ -1231,6 +1500,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
 					</tr>
 				
 				<tr>
@@ -1324,6 +1598,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -1423,6 +1702,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1448,6 +1732,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
 					</tr>
 				
 					<tr>
@@ -1475,6 +1764,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1500,6 +1794,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
 					</tr>
 				
 					<tr>
@@ -1527,6 +1826,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1552,6 +1856,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
 					</tr>
 				
 					<tr>
@@ -1579,6 +1888,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1604,6 +1918,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
 					</tr>
 				
 					<tr>
@@ -1631,6 +1950,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1656,6 +1980,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Access-Control-Allow-Origin: *</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
 					</tr>
 				
 				<tr>
@@ -1739,6 +2068,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;link href=&quot;https://monorail-edge.shopifysvc.com&quot; rel=&quot;dns-prefetch&quot;&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1764,6 +2098,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;link rel=&quot;preconnect&quot; href=&quot;https://cdn.shopify.com&quot; crossorigin&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -1791,6 +2130,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;link rel=&quot;preconnect&quot; href=&quot;https://fonts.shopifycdn.com&quot; crossorigin&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1816,6 +2160,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;link rel=&quot;preconnect&quot; href=&quot;https://www.google-analytics.com&quot; crossorigin&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -1846,6 +2195,11 @@ td {
       defer
     &gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -1871,6 +2225,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;script src=&quot;https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js&quot; type=&quot;text/javascript&quot; defer&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 				<tr>
@@ -1949,7 +2308,14 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=04ca3ab7-9382-4b00-8f80-cb63bd6867b5</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8dbd298c-b2d1-4f0e-8964-c54632e0d9f4</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Warnings:
+The report-uri directive has been deprecated in favor of the new report-to directive
+</td>
 					</tr>
 				
 				<tr>
@@ -2045,6 +2411,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _cmp_a</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2070,6 +2441,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2097,6 +2473,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_s</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2122,6 +2503,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2149,6 +2535,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _y</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2174,6 +2565,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2201,6 +2597,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _cmp_a</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2226,6 +2627,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2253,6 +2659,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_s</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2278,6 +2689,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2305,6 +2721,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _y</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2331,140 +2752,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_s</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _s</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_shopify_s</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _shopify_s</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_shopify_y</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _shopify_y</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_y</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _y</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">localization</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: localization</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">17</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2540,6 +2836,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _cmp_a</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2565,6 +2866,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _landing_page</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2592,6 +2898,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _orig_referrer</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2617,6 +2928,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2644,6 +2960,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_s</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2669,6 +2990,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2696,6 +3022,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _y</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2721,6 +3052,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2748,6 +3084,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _cmp_a</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2773,6 +3114,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2800,6 +3146,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_s</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2825,6 +3176,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -2852,6 +3208,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: _y</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -2878,140 +3239,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_s</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _s</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_shopify_s</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _shopify_s</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_shopify_y</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _shopify_y</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_y</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _y</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap.xml">https://www.coque-en-bois.fr/sitemap.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">localization</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: localization</td>
 					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">19</td>
+					<td width="80%">14</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -3087,31 +3323,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/">https://www.coque-en-bois.fr/</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">localization</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: localization</td>
 					</tr>
 				
 					<tr>
@@ -3139,6 +3354,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3165,10 +3385,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">Set-Cookie: localization</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">4</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -3247,6 +3472,11 @@ td {
       defer
     &gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3273,6 +3503,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;script src=&quot;https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js&quot; type=&quot;text/javascript&quot; defer&gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3302,6 +3537,11 @@ td {
       defer
     &gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3327,6 +3567,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;script src=&quot;https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js&quot; type=&quot;text/javascript&quot; defer&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -3357,6 +3602,11 @@ td {
       defer
     &gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3383,6 +3633,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;script src=&quot;https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js&quot; type=&quot;text/javascript&quot; defer&gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3412,6 +3667,11 @@ td {
       defer
     &gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3437,6 +3697,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;script src=&quot;https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js&quot; type=&quot;text/javascript&quot; defer&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -3467,6 +3732,11 @@ td {
       defer
     &gt;&lt;/script&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3492,6 +3762,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;script src=&quot;https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js&quot; type=&quot;text/javascript&quot; defer&gt;&lt;/script&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 				<tr>
@@ -3569,6 +3844,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3593,6 +3873,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -3621,6 +3906,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3645,6 +3935,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -3673,6 +3968,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3697,6 +3997,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -3725,6 +4030,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3749,6 +4059,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -3777,6 +4092,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3803,6 +4123,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -3827,6 +4152,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -3920,6 +4250,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
@@ -4011,6 +4346,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1615546243</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1615546243, which evaluates to: 2021-03-12 10:50:43</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4036,6 +4376,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1617896096</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1617896096, which evaluates to: 2021-04-08 15:34:56</td>
 					</tr>
 				
 					<tr>
@@ -4063,6 +4408,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1617950007</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1617950007, which evaluates to: 2021-04-09 06:33:27</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4088,6 +4438,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1617950324</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1617950324, which evaluates to: 2021-04-09 06:38:44</td>
 					</tr>
 				
 					<tr>
@@ -4115,6 +4470,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1617950478</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1617950478, which evaluates to: 2021-04-09 06:41:18</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4140,6 +4500,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1619712135</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1619712135, which evaluates to: 2021-04-29 16:02:15</td>
 					</tr>
 				
 					<tr>
@@ -4167,6 +4532,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1643117483</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1643117483, which evaluates to: 2022-01-25 13:31:23</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4192,6 +4562,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1643124926</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1643124926, which evaluates to: 2022-01-25 15:35:26</td>
 					</tr>
 				
 					<tr>
@@ -4219,6 +4594,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1648733014</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1648733014, which evaluates to: 2022-03-31 13:23:34</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4244,6 +4624,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1672416496</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1672416496, which evaluates to: 2022-12-30 16:08:16</td>
 					</tr>
 				
 					<tr>
@@ -4271,6 +4656,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675354176</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675354176, which evaluates to: 2023-02-02 16:09:36</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4296,6 +4686,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360454</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360454, which evaluates to: 2023-02-02 17:54:14</td>
 					</tr>
 				
 					<tr>
@@ -4323,6 +4718,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360458</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360458, which evaluates to: 2023-02-02 17:54:18</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4348,6 +4748,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360586</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360586, which evaluates to: 2023-02-02 17:56:26</td>
 					</tr>
 				
 					<tr>
@@ -4375,6 +4780,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360631</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360631, which evaluates to: 2023-02-02 17:57:11</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4400,6 +4810,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360700</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360700, which evaluates to: 2023-02-02 17:58:20</td>
 					</tr>
 				
 					<tr>
@@ -4427,6 +4842,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360701</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360701, which evaluates to: 2023-02-02 17:58:21</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4452,6 +4872,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360831</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360831, which evaluates to: 2023-02-02 18:00:31</td>
 					</tr>
 				
 					<tr>
@@ -4479,6 +4904,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360921</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360921, which evaluates to: 2023-02-02 18:02:01</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4504,6 +4934,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360948</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360948, which evaluates to: 2023-02-02 18:02:28</td>
 					</tr>
 				
 					<tr>
@@ -4531,6 +4966,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360954</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360954, which evaluates to: 2023-02-02 18:02:34</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4556,6 +4996,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360982</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360982, which evaluates to: 2023-02-02 18:03:02</td>
 					</tr>
 				
 					<tr>
@@ -4583,6 +5028,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360984</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360984, which evaluates to: 2023-02-02 18:03:04</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4608,6 +5058,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675360989</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360989, which evaluates to: 2023-02-02 18:03:09</td>
 					</tr>
 				
 					<tr>
@@ -4635,6 +5090,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675360991</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675360991, which evaluates to: 2023-02-02 18:03:11</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4660,6 +5120,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675361009</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675361009, which evaluates to: 2023-02-02 18:03:29</td>
 					</tr>
 				
 					<tr>
@@ -4687,6 +5152,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675361219</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675361219, which evaluates to: 2023-02-02 18:06:59</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4712,6 +5182,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675361323</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675361323, which evaluates to: 2023-02-02 18:08:43</td>
 					</tr>
 				
 					<tr>
@@ -4739,6 +5214,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1675361466</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675361466, which evaluates to: 2023-02-02 18:11:06</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4764,6 +5244,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1675361581</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1675361581, which evaluates to: 2023-02-02 18:13:01</td>
 					</tr>
 				
 					<tr>
@@ -4791,6 +5276,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1678011315</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678011315, which evaluates to: 2023-03-05 10:15:15</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4816,6 +5306,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1678097749</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678097749, which evaluates to: 2023-03-06 10:15:49</td>
 					</tr>
 				
 					<tr>
@@ -4843,6 +5338,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1678097751</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678097751, which evaluates to: 2023-03-06 10:15:51</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4868,6 +5368,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1678107894</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678107894, which evaluates to: 2023-03-06 13:04:54</td>
 					</tr>
 				
 					<tr>
@@ -4895,6 +5400,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1678110123</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678110123, which evaluates to: 2023-03-06 13:42:03</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4920,6 +5430,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1678110124</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678110124, which evaluates to: 2023-03-06 13:42:04</td>
 					</tr>
 				
 					<tr>
@@ -4947,6 +5462,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1678110579</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678110579, which evaluates to: 2023-03-06 13:49:39</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -4972,6 +5492,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1678110580</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1678110580, which evaluates to: 2023-03-06 13:49:40</td>
 					</tr>
 				
 					<tr>
@@ -4999,6 +5524,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">1679570994</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1679570994, which evaluates to: 2023-03-23 11:29:54</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5024,6 +5554,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">1687780227</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">1687780227, which evaluates to: 2023-06-26 11:50:27</td>
 					</tr>
 				
 				<tr>
@@ -5102,7 +5637,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">yoi4Tx6mCZKjbNkXDklqv8KoZccvZ4Hofx5woYe84x</td>
+						<td width="80%">2BFI4U0Ld8I0YizyDfLn3l3LZaG1Tx9OqwUN5p9IOG3S4Zrjj8DBVETH8vJNFaqpMTsxE5u2vAxfBX8DOOpzG6brIS</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�H�Mw�4b,����]�e��ON��H8m�����TD���M��1;1���_8�s��!</td>
 					</tr>
 				
 					<tr>
@@ -5128,33 +5668,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2F2l0HQPv7ygnzxiPFcOokr6n7CRTlD5Ugzr2Eix03SwAGWcFzoz</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
+						<td width="80%">w17EYDuXtGPfToZPzcY971eAeCyUDj</td>
 					</tr>
 					<tr>
 						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">2B7ntbgCsdFDlqbapdUMSifFdJPquY5fx75I5mUijgRQR2</td>
+							class="indent2">Other Info</td>
+						<td width="80%">�^�`;��c�N�O��=�W�x,�</td>
 					</tr>
 				
 					<tr>
@@ -5180,7 +5699,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FW5xnzXi6Fi9ifgoxTbsCE8JrcZDlPpB6w68kxf0USAiVStMHhYpxPY</td>
+						<td width="80%">2BJrYeO9pVHq6iAtr1PbySiGbaUxxChtivT43F</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�ka㽥Q�� -�S��(�m�1�(m����</td>
 					</tr>
 				
 					<tr>
@@ -5206,33 +5730,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FXoUE1RaEQ1K50cNiJQ92jVQTjPT4Cr0DhdINPnZ4</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/admin">https://www.coque-en-bois.fr/admin</a></td>
+						<td width="80%">2FjjucGey5lLcTF7kKq0mkvk5tM28m0viEbXlk</td>
 					</tr>
 					<tr>
 						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">2BvZeKWtXO4NXIteZi2oJOj4yx5JEFBsO3wMBX25B3UDKWs935L9fRtIHOfQubd08L1Ogt</td>
+							class="indent2">Other Info</td>
+						<td width="80%">�X���˙Kq1{����K���6�m/�Fז</td>
 					</tr>
 				
 					<tr>
@@ -5258,7 +5761,44 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FPazR41C0O9D2Uj48Lu70aDUB9baAT1QlqLadBDGLeHPlK5tuNO</td>
+						<td width="80%">HT9rowEaWLVLG76QjV2Soj8aCfiWxGCT9IeaiJOeN0CZnr65IQot39Ktc2Ef5KjHPmnSWcsMPOw3A95</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">?k�X�K���]��?	���`�􇚈��7@����!
+-�ҭsa��&gt;i�Y�&lt;�7�</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/carts">https://www.coque-en-bois.fr/carts</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">2BZ0DqBRiFOXIplqH9VLdWNJwdOPLPym8jwssGq78dky0CPM4KtqtEB6</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�t�Q�S�&quot;�j�KucI�ӏ,���&lt;,�j���2�#��j�@z</td>
 					</tr>
 				
 					<tr>
@@ -5284,7 +5824,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">22V3FINXlmcGJOUUR3c2JBVDJXdzJBMy9EQVdpdi83bW1DYXVRTWlBOHRUM2VLTjcwNzVYbFBhbm1mU2NmdmlBUnVIWHJJWmNDUHdHQllxaHhsSGdhQnc1RDFnc3VtdTk1SFh4VFNuTnJYQkVtYTlzQkp2aHQ5M2ViSDZ0bXdYak9aR2ZBa0JXMGdYUDI0dEVMUVkvbFhMZTRyME42S2ZMaWRPd25iWnlHUWJDVmZSMjVTWFQ2eGRlR1RtaGYwSll2TDYwaUFnY0EyclNlNVBPaVM4N3RQWmRLV09uZjN6TWlCWjduK3k1YXdvc0F2YzVIRGZBOTQ2eG1keTlKRUdVby0tMnNjOXM4a0creUF3K1J6ZS0tcG5Yc1JkTWhtRmdVUDBPY0lwRi9zQT09</td>
+						<td width="80%">22bFhlWFhobFA3eExhcXVSMjNWS1hjVG5pbkR2Mjh3empJZDJKRFloMVZwZ3o5NGQvT2lZWW9weXhvZWppNVVta3ZwRjJ3UDRtcmlMMzRWeGZqY29WQkVWTGtSVGdtQW54UW5MejRhYUZwdlVNTk1HdGkvWnc3UkZEenRrSGxBOS8xdk1KZDVXVndqb0g5YkF5ZDZQdlZza2UvM2x6RXpCRHhOTmdMbVRCYXNnYmZ2OXcyOURub0xhVjJKZStJYmFRTG8wemZiZm9BUnpQeU5QUm56RHNINnppdXB6RU1WQ3VSZGdZa2hqVm5SWDhqRjM1cU5yZkJVbXBNbDM2ZXo3RXo5ZFFaSjAxMVFNPS0tWGZNNjZYbVlPcXk3V1dCWi0taEpYT3pXMkdicnBDWDM5bVpyampEUT09</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�fņU����w��U##5d��5F��Gc#�w���C$�E��gw��FB���������V��UVַgc&#39;uF�&amp;��3Eg�f�6�d$UdƵ%Fv���ǣFgeT���wF���su$dG�F�����dԦCUugv��$�Ceeg6�R�6ǤW�$G���t��D&amp;6v&amp;gc�s#�F���c$�R��&amp;���f&amp;f�&#39;���&amp;�G4�g��W�T�d7U&amp;Fu����f�%���c3W�&amp;d%V���3fW�tW��E�����Նd�ce�Ք��uut%��ք����s$v&#39;&#39;5�3�է&amp;��E�</td>
 					</tr>
 				
 					<tr>
@@ -5310,7 +5855,43 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">tNEpImpHdYT4zqncd9lhS0Hj9INWzZU3lUnYUoImD2vBzJTVyMRuuGfkl7ztrihsliP1zN3adEd4H8AQqsR3NSjaU9UbFpbwikzPtkRtoFWGTmhQ6JemrCeLykr4u7WKm8Q6deKY</td>
+						<td width="80%">2Fu0L6dAyx2ytCo68J4yhUHtdcAtZ55E6vZ5NrQUOJ</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�[�/�@���*:�2�A�u�-g�D��y6�8</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/*sort_by">https://www.coque-en-bois.fr/collections/*sort_by</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Y29xdWUtZW4tYm9pcy5hY2NvdW50Lm15c2hvcGlmeS5jb20</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">coque-en-bois.account.myshopify.com</td>
 					</tr>
 				
 					<tr>
@@ -5336,7 +5917,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2BC9NqcKuXe6Baktlg4AvhVvhWjnNXhf5hH0cJv6udQi85Iss7eZqd</td>
+						<td width="80%">2FlRSJRgRlCopmweE2lbDbWZgy1kL4GRSShqaDXgZSJuYmWXWn4LwUqRX7uWJc</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�YQH�`FP��li[���-d/��I(jh5�e&quot;nbe�Z~�J�_��%</td>
 					</tr>
 				
 					<tr>
@@ -5362,7 +5948,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2B309nYTYUyBWgbN66KDCuKpJkb801dXYMpEWgI</td>
+						<td width="80%">2BqzaFcnYTldPhiSjItw0ABcRNfh6KeyYUTJw9dtzBOHY4xQuhJB7lKluVH1noeBuXJdEvS4sxQNYTwpQbjobnCsH1BlQFIa8FenaAsTM8bR4ST7rOGC</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">��hW&#39;a9]&gt;���p� \D��觲aD���m��c�P�A�R��Q�����r]���a&lt;)A��np�Pe@R�W�h3���$���</td>
 					</tr>
 				
 					<tr>
@@ -5388,7 +5979,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2Fg9SttuoHJvjKkglmZJgsI5QMAdE7MY</td>
+						<td width="80%">2F9Lr0oqPMDaTR6hOE1PJxueRdjaXSFFYcwqz8EptpA1rqyRq1l</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">�_K�J*&lt;��M�8MO&#39;�E��]!Ea�*��)��5����Y</td>
 					</tr>
 				
 				<tr>
@@ -5469,6 +6065,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">from</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 2 times, the first in the element starting with: &quot;&lt;script&gt;
+      (function () {
+        window.onpageshow = function () {
+          if (window.theme.showPageTransition) {
+       &quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5495,6 +6100,14 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">where</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bWHERE\b and was detected in the element starting with: &quot;&lt;script class=&quot;boomerang&quot;&gt;
+(function () {
+  if (window.BOOMR &amp;&amp; (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    re&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5521,6 +6134,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">from</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 2 times, the first in the element starting with: &quot;&lt;script&gt;
+      (function () {
+        window.onpageshow = function () {
+          if (window.theme.showPageTransition) {
+       &quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5546,6 +6168,14 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">where</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bWHERE\b and was detected in the element starting with: &quot;&lt;script class=&quot;boomerang&quot;&gt;
+(function () {
+  if (window.BOOMR &amp;&amp; (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    re&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -5573,6 +6203,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">from</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 2 times, the first in the element starting with: &quot;&lt;script&gt;
+      (function () {
+        window.onpageshow = function () {
+          if (window.theme.showPageTransition) {
+       &quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5599,6 +6238,14 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">where</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bWHERE\b and was detected in the element starting with: &quot;&lt;script class=&quot;boomerang&quot;&gt;
+(function () {
+  if (window.BOOMR &amp;&amp; (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    re&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5624,6 +6271,15 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">from</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 2 times, the first in the element starting with: &quot;&lt;script&gt;
+      (function () {
+        window.onpageshow = function () {
+          if (window.theme.showPageTransition) {
+       &quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 					<tr>
@@ -5651,6 +6307,14 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">where</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bWHERE\b and was detected in the element starting with: &quot;&lt;script class=&quot;boomerang&quot;&gt;
+(function () {
+  if (window.BOOMR &amp;&amp; (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    re&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5677,6 +6341,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">from</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 2 times, the first in the element starting with: &quot;&lt;script&gt;
+      (function () {
+        window.onpageshow = function () {
+          if (window.theme.showPageTransition) {
+       &quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5702,6 +6375,14 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">where</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bWHERE\b and was detected in the element starting with: &quot;&lt;script class=&quot;boomerang&quot;&gt;
+(function () {
+  if (window.BOOMR &amp;&amp; (window.BOOMR.version || window.BOOMR.snippetExecuted)) {
+    re&quot;, see evidence field for the suspicious comment/snippet.</td>
 					</tr>
 				
 				<tr>
@@ -5779,6 +6460,20 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=1a6921ee-ba39-44b9-8469-48733970f4d0
+_s=0f1f037b-f21e-4aaf-a017-f20cb5be32ed
+_shopify_y=1a6921ee-ba39-44b9-8469-48733970f4d0
+_shopify_s=0f1f037b-f21e-4aaf-a017-f20cb5be32ed
+_orig_referrer=
+_landing_page=%2F
+</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5804,6 +6499,20 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=ee3ff07b-f176-4aad-8c4f-3b045d9239b2
+_s=bfdfc894-87c0-4190-a4fe-02222669e03c
+_shopify_y=ee3ff07b-f176-4aad-8c4f-3b045d9239b2
+_shopify_s=bfdfc894-87c0-4190-a4fe-02222669e03c
+_orig_referrer=
+_landing_page=%2F
+</td>
 					</tr>
 				
 					<tr>
@@ -5831,6 +6540,17 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5856,6 +6576,17 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
 					</tr>
 				
 					<tr>
@@ -5883,6 +6614,18 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5908,6 +6651,18 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
 					</tr>
 				
 					<tr>
@@ -5935,6 +6690,18 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -5960,6 +6727,18 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
 					</tr>
 				
 					<tr>
@@ -5987,6 +6766,18 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6012,6 +6803,18 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
 					</tr>
 				
 					<tr>
@@ -6039,6 +6842,18 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D
+_y=8900846c-283a-4bb7-b50e-0e7c2475a9e6
+_s=c4f0dab2-daa5-44ca-990b-123e279f83ac
+_shopify_y=8900846c-283a-4bb7-b50e-0e7c2475a9e6
+_shopify_s=c4f0dab2-daa5-44ca-990b-123e279f83ac
+</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6064,6 +6879,17 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The origin domain used for comparison was: 
+www.coque-en-bois.fr
+_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+_shopify_y=069ecc20-08a1-42c3-9e5f-46fdcf93efa6
+_shopify_s=943df626-5a7b-4e26-8e0e-35fe0ea1cc77
+</td>
 					</tr>
 				
 				<tr>
@@ -6150,6 +6976,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6175,6 +7006,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
 					</tr>
 				
 					<tr>
@@ -6202,6 +7038,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6227,6 +7068,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
 					</tr>
 				
 					<tr>
@@ -6254,6 +7100,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6279,6 +7130,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
 					</tr>
 				
 					<tr>
@@ -6306,6 +7162,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6331,6 +7192,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
 					</tr>
 				
 					<tr>
@@ -6358,6 +7224,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6383,6 +7254,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">&lt;a class=&quot;Slidable__Menu__Main__Link LinkDisabled&quot; href=&quot;#&quot;&gt;iPhone 14&lt;/a&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.</td>
 					</tr>
 				
 				<tr>
@@ -6437,6 +7313,37 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/account">https://www.coque-en-bois.fr/account</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">302</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.coque-en-bois.fr/checkout">https://www.coque-en-bois.fr/checkout</a></td>
 					</tr>
 					<tr>
@@ -6459,10 +7366,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">302</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">1</td>
+					<td width="80%">2</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -6577,6 +7489,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6601,6 +7518,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -6629,6 +7551,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6653,6 +7580,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -6681,6 +7613,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6705,6 +7642,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -6733,6 +7675,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6757,6 +7704,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -6785,6 +7737,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6811,6 +7768,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6835,6 +7797,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -6922,6 +7889,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6947,6 +7919,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -6974,6 +7951,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -6999,6 +7981,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -7026,6 +8013,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7051,6 +8043,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -7078,6 +8075,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7103,6 +8105,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 					<tr>
@@ -7130,6 +8137,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7155,6 +8167,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%">hit</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
 					</tr>
 				
 				<tr>
@@ -7230,7 +8247,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/admin">https://www.coque-en-bois.fr/admin</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7250,6 +8267,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7278,6 +8300,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7302,6 +8329,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7361,7 +8393,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/admin">https://www.coque-en-bois.fr/admin</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7381,6 +8413,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7409,6 +8446,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7433,6 +8475,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7492,7 +8539,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/admin">https://www.coque-en-bois.fr/admin</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7512,6 +8559,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7540,6 +8592,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7564,6 +8621,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7623,7 +8685,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/admin">https://www.coque-en-bois.fr/admin</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7643,6 +8705,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7671,6 +8738,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -7695,6 +8767,11 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
 						<td width="80%"></td>
 					</tr>
 				
@@ -7774,7 +8851,17 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">4d727ee3-92a6-499a-9d07-99f7dd501c16</td>
+						<td width="80%">0f1f037b-f21e-4aaf-a017-f20cb5be32ed</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_s
+cookie:_shopify_y
+cookie:_y
+cookie:_cmp_a
+cookie:_shopify_s</td>
 					</tr>
 				
 					<tr>
@@ -7800,7 +8887,17 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">541b1b57-161d-4cca-bf7a-4a30b41da6a1</td>
+						<td width="80%">bfdfc894-87c0-4190-a4fe-02222669e03c</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_s
+cookie:_shopify_y
+cookie:_y
+cookie:_cmp_a
+cookie:_shopify_s</td>
 					</tr>
 				
 					<tr>
@@ -7826,7 +8923,17 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f962619c-b3c2-4e71-9263-8ab9bec8b2d9</td>
+						<td width="80%">943df626-5a7b-4e26-8e0e-35fe0ea1cc77</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_s
+cookie:_shopify_y
+cookie:_y
+cookie:_cmp_a
+cookie:_shopify_s</td>
 					</tr>
 				
 					<tr>
@@ -7852,7 +8959,17 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">695fc134-9487-48be-af5f-d8dd8c393826</td>
+						<td width="80%">c4f0dab2-daa5-44ca-990b-123e279f83ac</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_s
+cookie:_shopify_y
+cookie:_y
+cookie:_cmp_a
+cookie:_shopify_s</td>
 					</tr>
 				
 					<tr>
@@ -7878,65 +8995,22 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f962619c-b3c2-4e71-9263-8ab9bec8b2d9</td>
+						<td width="80%">943df626-5a7b-4e26-8e0e-35fe0ea1cc77</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_s
+cookie:_shopify_y
+cookie:_y
+cookie:_shopify_s</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/orders">https://www.coque-en-bois.fr/12910100538/orders</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_shopify_s</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">f962619c-b3c2-4e71-9263-8ab9bec8b2d9</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/orders">https://www.coque-en-bois.fr/12910100538/orders</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_shopify_y</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">f47b0163-8437-44d2-84d3-4d90c7fe0575</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/checkout">https://www.coque-en-bois.fr/checkout</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/cover-personnalisable">https://www.coque-en-bois.fr/collections/cover-personnalisable</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7958,11 +9032,81 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_cmp_a</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable">https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/cover-personnalisable">https://www.coque-en-bois.fr/collections/cover-personnalisable</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_shopify_s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">943df626-5a7b-4e26-8e0e-35fe0ea1cc77</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_shopify_s</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/cover-personnalisable">https://www.coque-en-bois.fr/collections/cover-personnalisable</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">069ecc20-08a1-42c3-9e5f-46fdcf93efa6</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_shopify_y</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable">https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7984,11 +9128,17 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%">%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D</td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_cmp_a</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable">https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable">https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8008,13 +9158,19 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f962619c-b3c2-4e71-9263-8ab9bec8b2d9</td>
+						<td width="80%">943df626-5a7b-4e26-8e0e-35fe0ea1cc77</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_shopify_s</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable">https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable">https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -8034,7 +9190,13 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">f47b0163-8437-44d2-84d3-4d90c7fe0575</td>
+						<td width="80%">069ecc20-08a1-42c3-9e5f-46fdcf93efa6</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">
+cookie:_shopify_y</td>
 					</tr>
 				
 				<tr>
@@ -8114,6 +9276,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -8139,6 +9306,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -8166,6 +9338,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -8191,6 +9368,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -8218,31 +9400,10 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
-				
 					<tr>
 						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/carts">https://www.coque-en-bois.fr/carts</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -8270,6 +9431,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -8295,6 +9461,11 @@ td {
 						<td width="20%"
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
 					</tr>
 				
 					<tr>
@@ -8322,6 +9493,11 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -8348,10 +9524,15 @@ td {
 							class="indent2">Evidence</td>
 						<td width="80%"></td>
 					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234.</td>
+					</tr>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">10</td>
+					<td width="80%">9</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
