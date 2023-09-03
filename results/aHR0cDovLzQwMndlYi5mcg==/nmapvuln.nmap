@@ -1,2 +1,26 @@
-# Nmap 7.92 scan initiated Sun Aug 27 01:02:33 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
-# Nmap done at Sun Aug 27 01:02:36 2023 -- 1 IP address (0 hosts up) scanned in 3.52 seconds
+# Nmap 7.92 scan initiated Sun Sep  3 00:58:35 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+Nmap scan report for 402web.fr (83.166.138.63)
+Host is up (0.13s latency).
+Other addresses for 402web.fr (not scanned): 2001:1600:4:13:d294:66ff:fe0e:a4d4
+rDNS record for 83.166.138.63: h2web104.infomaniak.ch
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE  SERVICE      VERSION
+20/tcp    closed ftp-data
+21/tcp    open   ftp          ProFTPD
+22/tcp    open   ssh          OpenSSH 6.7p1 (protocol 2.0)
+| vulners: 
+|   cpe:/a:openbsd:openssh:6.7p1: 
+|     	CVE-2015-5600	8.5	https://vulners.com/cve/CVE-2015-5600
+|     	CVE-2015-6564	6.9	https://vulners.com/cve/CVE-2015-6564
+|     	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
+|_    	SSV:90447	4.6	https://vulners.com/seebug/SSV:90447	*EXPLOIT*
+80/tcp    open   http         Apache httpd
+|_http-server-header: Apache
+443/tcp   open   ssl/http     Apache httpd
+|_http-server-header: Apache
+2222/tcp  closed EtherNetIP-1
+42510/tcp closed caerpc
+Service Info: Host: 83.166.138.63; OS: Unix
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Sun Sep  3 00:58:58 2023 -- 1 IP address (1 host up) scanned in 23.62 seconds
