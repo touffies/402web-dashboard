@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.13.0",
-	"@generated": "Sun, 10 Sep 2023 03:07:15",
+	"@generated": "Sun, 17 Sep 2023 02:49:24",
 	"site":[ 
 		{
 			"@name": "https://www.coque-en-bois.fr",
@@ -139,7 +139,7 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=69ec15f6-f3cf-4383-bc8a-806f5aa05699",
+							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=389da704-fda2-42e2-a51b-5ea192a5e74a",
 							"otherinfo": "The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: \nstyle-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, prefetch-src, form-action\n\nThe directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything."
 						},
 						{
@@ -174,7 +174,7 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=69ec15f6-f3cf-4383-bc8a-806f5aa05699",
+							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=389da704-fda2-42e2-a51b-5ea192a5e74a",
 							"otherinfo": "script-src includes unsafe-eval."
 						}
 					],
@@ -209,7 +209,7 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=69ec15f6-f3cf-4383-bc8a-806f5aa05699",
+							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=389da704-fda2-42e2-a51b-5ea192a5e74a",
 							"otherinfo": "script-src includes unsafe-inline."
 						},
 						{
@@ -252,7 +252,7 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=69ec15f6-f3cf-4383-bc8a-806f5aa05699",
+							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=389da704-fda2-42e2-a51b-5ea192a5e74a",
 							"otherinfo": "style-src includes unsafe-inline."
 						},
 						{
@@ -297,7 +297,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/CSP/Introducing_Content_Security_Policy</p><p>https://cheatsheetseries.owasp.org/cheatsheets/Content_Security_Policy_Cheat_Sheet.html</p><p>http://www.w3.org/TR/CSP/</p><p>http://w3c.github.io/webappsec/specs/content-security-policy/csp-specification.dev.html</p><p>http://www.html5rocks.com/en/tutorials/security/content-security-policy/</p><p>http://caniuse.com/#feat=contentsecuritypolicy</p><p>http://content-security-policy.com/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "370"
+					"sourceid": "383"
 				},
 				{
 					"pluginid": "10098",
@@ -396,7 +396,7 @@
 					"reference": "<p>https://vulncat.fortify.com/en/detail?id=desc.config.dotnet.html5_overly_permissive_cors_policy</p>",
 					"cweid": "264",
 					"wascid": "14",
-					"sourceid": "370"
+					"sourceid": "383"
 				},
 				{
 					"pluginid": "90003",
@@ -453,17 +453,25 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
+							"evidence": "<script src=\"https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js\" type=\"text/javascript\" defer=\"defer\"></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
 							"evidence": "<script src=\"https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js\" type=\"text/javascript\" defer></script>",
 							"otherinfo": ""
 						}
 					],
-					"count": "6",
+					"count": "7",
 					"solution": "<p>Provide a valid integrity attribute to the tag.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/Security/Subresource_Integrity</p>",
 					"cweid": "345",
 					"wascid": "15",
-					"sourceid": "28"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10055",
@@ -480,7 +488,7 @@
 							"method": "GET",
 							"param": "Content-Security-Policy",
 							"attack": "",
-							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=69ec15f6-f3cf-4383-bc8a-806f5aa05699",
+							"evidence": "default-src 'self' data: blob: 'unsafe-inline' 'unsafe-eval' https://* shopify-pos://*; block-all-mixed-content; child-src 'self' https://* shopify-pos://*; connect-src 'self' wss://* https://*; frame-ancestors 'none'; img-src 'self' data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com 'self' 'unsafe-inline' 'unsafe-eval'; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&source%5Bapp%5D=Shopify&source%5Bcontroller%5D=admin%2Fhome&source%5Bsection%5D=admin&source%5Buuid%5D=389da704-fda2-42e2-a51b-5ea192a5e74a",
 							"otherinfo": "Warnings:\nThe report-uri directive has been deprecated in favor of the new report-to directive\n"
 						}
 					],
@@ -837,14 +845,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/cart",
-							"method": "GET",
-							"param": "localization",
-							"attack": "",
-							"evidence": "Set-Cookie: localization",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "localization",
@@ -861,7 +861,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "4",
+					"count": "3",
 					"solution": "<p>Ensure that the SameSite attribute is set to either 'lax' or ideally 'strict' for all cookies.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://tools.ietf.org/html/draft-ietf-httpbis-cookie-same-site</p>",
@@ -890,21 +890,13 @@
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
-							"param": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js",
+							"param": "https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js",
 							"attack": "",
-							"evidence": "<script src=\"https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js\" type=\"text/javascript\" defer></script>",
+							"evidence": "<script src=\"https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js\" type=\"text/javascript\" defer=\"defer\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/*/collections/*sort_by",
-							"method": "GET",
-							"param": "https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL",
-							"attack": "",
-							"evidence": "<script\n      src=\"https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL\"\n      defer\n    ></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/*/collections/*sort_by",
+							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js",
 							"attack": "",
@@ -922,21 +914,13 @@
 						{
 							"uri": "https://www.coque-en-bois.fr/cart",
 							"method": "GET",
-							"param": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js",
+							"param": "https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js",
 							"attack": "",
-							"evidence": "<script src=\"https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js\" type=\"text/javascript\" defer></script>",
+							"evidence": "<script src=\"https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js\" type=\"text/javascript\" defer=\"defer\"></script>",
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/carts",
-							"method": "GET",
-							"param": "https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL",
-							"attack": "",
-							"evidence": "<script\n      src=\"https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL\"\n      defer\n    ></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/carts",
+							"uri": "https://www.coque-en-bois.fr/cart",
 							"method": "GET",
 							"param": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js",
 							"attack": "",
@@ -949,6 +933,14 @@
 							"param": "https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL",
 							"attack": "",
 							"evidence": "<script\n      src=\"https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL\"\n      defer\n    ></script>",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/orders",
+							"method": "GET",
+							"param": "https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js",
+							"attack": "",
+							"evidence": "<script src=\"https://cdn.shopify.com/extensions/1a7cda6d-f19a-4f64-a659-8a52d9b830d4/1.5.0/assets/willdesk.min.js\" type=\"text/javascript\" defer=\"defer\"></script>",
 							"otherinfo": ""
 						},
 						{
@@ -960,7 +952,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "10",
+					"count": "9",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -1073,7 +1065,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Permissions-Policy</p><p>https://developer.chrome.com/blog/feature-policy/</p><p>https://scotthelme.co.uk/a-new-security-header-feature-policy/</p><p>https://w3c.github.io/webappsec-feature-policy/</p><p>https://www.smashingmagazine.com/2018/12/feature-policy/</p>",
 					"cweid": "693",
 					"wascid": "15",
-					"sourceid": "28"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10035",
@@ -1100,7 +1092,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>http://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>http://caniuse.com/stricttransportsecurity</p><p>http://tools.ietf.org/html/rfc6797</p>",
 					"cweid": "319",
 					"wascid": "15",
-					"sourceid": "366"
+					"sourceid": "377"
 				},
 				{
 					"pluginid": "10096",
@@ -1431,9 +1423,41 @@
 							"attack": "",
 							"evidence": "1687780227",
 							"otherinfo": "1687780227, which evaluates to: 2023-06-26 11:50:27"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1694521529",
+							"otherinfo": "1694521529, which evaluates to: 2023-09-12 12:25:29"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1694521541",
+							"otherinfo": "1694521541, which evaluates to: 2023-09-12 12:25:41"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1694521559",
+							"otherinfo": "1694521559, which evaluates to: 2023-09-12 12:25:59"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "1694535370",
+							"otherinfo": "1694535370, which evaluates to: 2023-09-12 16:16:10"
 						}
 					],
-					"count": "40",
+					"count": "44",
 					"solution": "<p>Manually confirm that the timestamp data is not sensitive, and that the data cannot be aggregated to disclose exploitable patterns.</p>",
 					"otherinfo": "<p>1615546243, which evaluates to: 2021-03-12 10:50:43</p>",
 					"reference": "<p>http://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
@@ -1456,105 +1480,105 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "Y29xdWUtZW4tYm9pcy5hY2NvdW50Lm15c2hvcGlmeS5jb20",
-							"otherinfo": "coque-en-bois.account.myshopify.com"
+							"evidence": "2BMOOEq6zGa1yCnQOc0aCGQhGMqIzV23F8VzbMH1qe6fzpbi",
+							"otherinfo": "\uFFFD\\x0013\\x000e8J\uFFFD\uFFFDf\uFFFD\uFFFD)\uFFFD9\uFFFD\\x001a\\x0008d!\\x0018\u0288\uFFFD]\uFFFD\\x0017\uFFFDsl\uFFFD\uFFFD\uFFFD\uFFFD\u0396\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BlHafYUhovbyjOK4NEGWVme5LQG9n3DFB2MRWm5Rp39JbxOJMcAtiO4uAiGLaTk2XMKZa0yrKAL9AyUrSlzwipsKlo0ytuCmICWWMuQU0xXNXKECZZu",
-							"otherinfo": "\uFFFD\\x0019Gi\uFFFD\\x0014\uFFFD\uFFFD\uFFFD\uFFFD3\uFFFD\uFFFD\uFFFD\\x0006YY\uFFFD\uFFFD\\x0006\uFFFD}\uFFFD\\x0014\\x001d\uFFFDEi\uFFFDF\uFFFD\uFFFD%\uFFFDN$\uFFFD\\x0000\uFFFD#\uFFFD\uFFFD\\x0008\uFFFD-\uFFFD\uFFFD\uFFFDs\ne\uFFFD2\uFFFD\uFFFD\\x000b\uFFFD\\x000c\uFFFD\uFFFD)s\uFFFD*l*Z4\uFFFD\u06C2\uFFFD\uFFFD\uFFFDX\u02D0SLW5r\uFFFD\t\uFFFDn"
+							"evidence": "2FviuLH6IWQgBBxLpOpdIy8CXN0IbrD4CP7O7eLaTDlzauiAbmF8Xl2RJQlUYRMpOgP",
+							"otherinfo": "\uFFFD[\u2E31\uFFFD!d \\x0004\\x001cK\uFFFD\uFFFD]#/\\x0002\\\uFFFD\\x0008n\uFFFD\uFFFD\\x0008\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDL9sj\uFFFDna|^]\uFFFD%\tTa\\x0013):\\x0003"
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/*/collections/*sort_by",
+							"uri": "https://www.coque-en-bois.fr/12910100538/checkouts",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "mf6PFBm72C4dwFYZjHlTXozBtWhs88y0nER7hqBlMW",
-							"otherinfo": "\uFFFD\uFFFD\uFFFD\\x0014\\x0019\uFFFD\uFFFD.\\x001d\uFFFDV\\x0019\uFFFDyS^\uFFFD\uFFFD\uFFFDhl\uFFFD\u0334\uFFFDD{\uFFFD\uFFFDe1"
+							"evidence": "LeEo4EK01dyAps9FLmyvKwBlxqPeMjtRsnQiAjdBWnpEFojKptCHYhkTgOkU",
+							"otherinfo": "-\uFFFD(\uFFFDB\uFFFD\uFFFD\u0700\uFFFD\uFFFDE.l\uFFFD+\\x0000e\u01A3\uFFFD2;Q\uFFFDt\"\\x00027AZzD\\x0016\uFFFD\u02A6\u0407b\\x0019\\x0013\uFFFD\uFFFD\\x0014"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/12910100538/orders",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "bkEdco4eMHnXv3fgLg5hFkBJBlm7dudAzT06DV9ktBXYPzl9qMlRdacwO81CAUblI0GZQXyD",
-							"otherinfo": "nA\\x001dr\uFFFD\\x001e0y\u05FFw\uFFFD.\\x000ea\\x0016@I\\x0006Y\uFFFDv\uFFFD@\uFFFD=:\r_d\uFFFD\\x0015\uFFFD?9}\uFFFD\uFFFDQu\uFFFD0;\uFFFDB\\x0001F\uFFFD#A\uFFFDA|\uFFFD"
+							"evidence": "2F6GXeTKttKb2YLncPnl1lxdkOZ4bhbI2aPVCY7cuAeQnLEuR7grpBOWUF3l966",
+							"otherinfo": "\uFFFD^\uFFFD]\uFFFD\u02B6\u049B\u0642\uFFFDp\uFFFD\uFFFD\uFFFD\\]\uFFFD\uFFFDxn\\x0016\uFFFD\u0663\uFFFD\t\uFFFD\u0738\\x0007\uFFFD\uFFFD\uFFFD.G\uFFFD+\uFFFD\\x0013\uFFFDP]\uFFFD\uFFFD\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/account",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "hHl4pO4tGAgWHJDaQT2ssHuSas2WrBLaGGCA8v0cGvJx",
-							"otherinfo": "\uFFFDyx\uFFFD\uFFFD-\\x0018\\x0008\\x0016\\x001c\uFFFD\uFFFDA=\uFFFD\uFFFD{\uFFFDj\u0356\uFFFD\\x0012\uFFFD\\x0018`\uFFFD\uFFFD\uFFFD\\x001c\\x001a\uFFFDq"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/admin",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "QIsdHgkf6sq36a49FLGdxzhmUZc7Vs",
-							"otherinfo": "@\uFFFD\\x001d\\x001e\t\\x001f\uFFFD\u02B7\uFFFD=\\x0014\uFFFD\uFFFD\uFFFD8fQ\uFFFD;V"
+							"evidence": "Oxu1fKRiZE8bVF8CTeyZ7rEyBI9DI1NwlWrAkJIcxiVGU9w",
+							"otherinfo": ";\\x001b\uFFFD|\uFFFDbdO\\x001bT_\\x0002M\uFFFD\uFFFD2\\x0004\uFFFDC#Sp\uFFFDj\uFFFD\uFFFD\uFFFD\\x001c\uFFFD%FS\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/cart",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2FdQGcMa6SsF4Fc3jnmWHXSHdOFqEGoDks",
-							"otherinfo": "\uFFFDWP\\x0019\uFFFD\\x001a\uFFFD+\\x0005\uFFFDW7\uFFFDy\uFFFD\\x001dt\uFFFDt\uFFFDj\\x0010j\\x0003\uFFFD"
+							"evidence": "Y29xdWUtZW4tYm9pcy5hY2NvdW50Lm15c2hvcGlmeS5jb20",
+							"otherinfo": "coque-en-bois.account.myshopify.com"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/carts",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "9XwxO0dSCIvgo8ilg80LBIabWWYSMwXZtBWAeCVMBE3rAcnsbSuWdGTZIiRWbzhyc7qUBrez5WLT7wNamGXDbFGhMFUX8KyScI5",
-							"otherinfo": "\uFFFD|1;GR\\x0008\uFFFD\uFFFD\u0225\uFFFD\uFFFD\\x000b\\x0004\uFFFD\uFFFDYf\\x00123\\x0005\u0674\\x0015\uFFFDx%L\\x0004M\uFFFD\\x0001\uFFFD\uFFFDm+\uFFFDtd\uFFFD\"$Vo8rs\uFFFD\uFFFD\\x0006\uFFFD\uFFFD\uFFFDb\uFFFD\uFFFD\\x0003Z\uFFFDe\uFFFDlQ\uFFFD0U\\x0017\uFFFDp\uFFFD"
+							"evidence": "2FrPoYLIeHR6d8bOFFt7X6c8cuCfTrowBwxz76FoEmD",
+							"otherinfo": "\uFFFDZ\u03E1\uFFFD\uFFFDxtzw\uFFFD\uFFFD\\x0014[{_\uFFFD<r\uFFFD\uFFFDN\uFFFD0\\x0007\\x000cs\uFFFDh\\x0012`"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/checkout",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "22bG1MTXBDendNREw3UFd3SGdqQ1JhNGlncGw1dHNTb0VUTU9ocVgyd2pyVXEzTzVMcGtMRmhuVEhxNmZId1NmaDBISFZDeUc1bXZtU254N2N0V0Mzc09TMFhBN0pJdmNLcjYrYkoxZDRVVHNscTNxNE90QUREd0ZuQXJzeTVtZXFiWkhWdDd5TEFGSDV2T3RuYkRoUmFtVEUzUFM0VExldE0xUVFwVGtMTG10V2dpVjU4WG4vNFhMOVdlV2l0NnJMeXVCL1lMRkRlSU0xcCtYNTdKS1pNNXJwR1RnVFpjaTBwV2t0NkRGUno2WnU2VDJhU0FZWXlhVnpjYTdzTkhuQkdnckZwOVBHdUswPS0tUGF1WXFoUXh4c0hiZ1ByMS0tNVBHczBIemhiU05BdDI1bUdOekJHdz09",
-							"otherinfo": "\uFFFDf\uFFFD\uFFFD\uFFFD\uFFFD\\x00047\uFFFDt\uFFFDD\uFFFDu\\x0005wt\uFFFDv\uFFFD5&\\x0013F\uFFFDw\\x0006\uFFFDWG56\uFFFDUD\uFFFD\uFFFD\uFFFD\\x0015\uFFFD'v\uFFFD%W\\x00134\uFFFDT\uFFFD\\x0006\uFFFD\uFFFDf\uFFFD\uFFFDD\uFFFD\\x0013fd\uFFFDu6f\uFFFD\\x0004\uFFFD\uFFFDd7\uFFFDsV\uFFFDf\uFFFD6\uFFFDv7Et374\uFFFD3\\x0005\uFFFD\\x0013t\uFFFD\uFFFDf4\uFFFD#b\uFFFD$\uFFFD\\x0016CEUG6\uFFFD\\x00137\\x0013D\uFFFDD\\x0014DGtf\uFFFD\\x0017'7\uFFFDV\uFFFDW\\x0016%\uFFFD\uFFFDgCw\uFFFD\uFFFD\\x0014d\uFFFDWd\uFFFDF\uFFFD$F\uFFFD&\\x0016\uFFFDDS5\\x00053ED\uFFFDWD\uFFFD\\x0015\\x0015\\x0017\\x0005F\uFFFD\uFFFD\uFFFD\uFFFDEvv\uFFFDcS\uFFFD\uFFFD\uFFFD\uFFFDE\uFFFD\u00D5vUv\uFFFDCg$\u01D7T\"\uFFFD\uFFFD\uFFFDdFT\uFFFD\uFFFD\\x0017\\x0002\uFFFD\uFFFDSt\uFFFD\uFFFD\uFFFD\uFFFDW'\\x0004uFuE\uFFFD6\uFFFD\\x0007\\x0005v\uFFFDCdDe'\uFFFDe\uFFFDSeC&\\x00154\\x0015\uFFFD\uFFFD\uFFFD\\x0015g\uFFFD6\\x0013w4\uFFFD\uFFFD$vw$g\\x0003\uFFFD\\x0004wT\uFFFD\\x0003\uFFFD\uFFFD\uFFFD\\x0006\\x0017U\uFFFD\\x0016\uFFFD\\x0017\uFFFD\uFFFD4\uFFFD&u\\x0007#\\x0012\uFFFD\uFFFDU\\x0004w3\\x0004\uFFFD\uFFFD\uFFFD%4\uFFFD\\x0017C#V\uFFFDt\uFFFD$ws\uFFFD"
+							"evidence": "22Z0JaakFzZXhXUHppYXVNMjVUdGUzczgyTjdqeXozOFNtSVJaaWpJMEFCQnhtanJVeXExWkxaTWZua2g3Z1RGeWpGemRtU1MyRTVVZ3ROMWhibFZHM3k3cFluY1hPTFV2eWxVM0ZIaFRBSDJVVy80Mnk4NExqWm5NK0FJYStnV0cxaUdHTWMxeGdUSk9NVjd0S0xZSzUvQ3F3Ri9US3RHaUxudEttaHZwWWpsRHNndC9saUFOT3I2ODd0cEhjNUVSWG42dVlUcHJwNnU5RXViMGNKMk4xSmNubkdZVHA2UUFqMlFhTjZOVnJDV2tocElyZlY4Ujl4TGxmeUs5a0t5QzYwVjdtaEhidENrPS0tbzNGc0h4dld4RTVVQjRUUC0tZnN5aWRhUWZ5MlBwbTJmQm1zOU1Qdz09",
+							"otherinfo": "\uFFFDft%\uFFFD\uFFFD\\x00176W\uFFFDu\\x0007\uFFFD\uFFFD\\x0017T\uFFFD#UGFS73\uFFFD$\uFFFDv\uFFFD\uFFFD\uFFFD3\uFFFD6\u0515%\uFFFD\uFFFD\uFFFD\uFFFD\\x0004\\x0014$'\uFFFD\u05A7%W\uFFFD\\x0013\\x0015\uFFFD\u0164\uFFFDf\u6D83vuDg\uFFFD\uFFFDg\uFFFDF\uFFFD53$SUVwD\uFFFD\\x0016\uFFFD&\uFFFDds7\uFFFDw\\x0005\uFFFD\uFFFD5\uFFFD\uFFFD\uFFFDWg\uFFFD\uFFFDS4d\uFFFD\uFFFDD\\x0014\uFFFD%Ur\uFFFDC'\uFFFD\uFFFDD\u01A5\uFFFD\uFFFD\u04B4\\x0014\uFFFD\\x0012\uFFFDuts\\x0016\uFFFDtt\uFFFD3\\x0017\uFFFDuD\uFFFD\uFFFD\uFFFDcwD\uFFFD\u0154\uFFFDR\uFFFD7\\x0017tb\uFFFDD\uFFFDDv\uFFFD\uFFFD\uFFFDD\uFFFD\u0587g\\x0005\uFFFD\uFFFD\uFFFDG6wB\uFFFD\u0194\\x0014\uFFFD\uFFFD#c\uFFFDwG\\x0004\uFFFD3TU%\uFFFD\uFFFDgU\uFFFDG\\x0007'\\x0003gS\uFFFDWV#\\x00064\uFFFD$\uFFFD\\x0014\uFFFD6\uFFFD\uFFFDu\uFFFDG\\x0003e\\x0014\\x0016\uFFFD%\\x0016\\x0014\uFFFDd\uFFFDg$5v\uFFFD\uFFFD\\x0004\uFFFD&ec\uFFFD#\uFFFD\uFFFD\uFFFD\uFFFDg\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD3c\\x0005cv\u0584\uFFFD'D6\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD4g4\uFFFD\uFFFDew\uFFFDSUT#EE\\x0002\uFFFD\uFFFDg7\uFFFD\uFFFDF\\x0015\\x0016g\uFFFD%\\x0007\\x0006\uFFFD&d&\uFFFD3\uFFFD\uFFFD\\x0007s\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/checkouts/",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BxQgzzThQpvNHXKiHL6JAVE4kDFBBuLihd8UruWg7WupWHy26tlRa",
-							"otherinfo": "\uFFFD\\x001cP\uFFFD<\u04C5\no4u\u0288r\uFFFD$\\x0005D\uFFFD@\uFFFD\\x0004\\x001b\uFFFD\uFFFD\\x0017|R\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFDa\uFFFD\u06EBeE"
+							"evidence": "2B8VlkwcCN7p7i5HoMEzY7vBQNG9wOoOZGIO",
+							"otherinfo": "\uFFFD\\x001f\\x0015\uFFFDL\\x001c\\x0008\uFFFD\uFFFD\uFFFD.G\uFFFD\uFFFD3c\uFFFD\uFFFD@\u047D\uFFFD\uFFFD\\x000edb\\x000e"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/orders",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "yMqEjbqIpush4v6cA7NLnY8IGTfs8yNq2S01azuiFnvzaB5kpYIqQz2LNtSFw5",
-							"otherinfo": "\uFFFD\u0284\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD!\uFFFD\uFFFD\uFFFD\\x0003\uFFFDK\uFFFD\uFFFD\\x0008\\x00197\uFFFD\uFFFD#j\uFFFD-5k;\uFFFD\\x0016{\uFFFDh\\x001ed\uFFFD\uFFFD*C=\uFFFD6\u0505\uFFFD"
+							"evidence": "W6L2bTZrRSpSKHZjVRfI0ClCbNMZrtUlarG",
+							"otherinfo": "[\uFFFD\uFFFDm6kE*R(vcU\\x0017\uFFFD\uFFFD)Bl\uFFFD\\x0019\uFFFD\uFFFD%j\uFFFD"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "2BI9b6cNDzS4RQv28ubLkQu6VIgwQAZyb917aAh",
-							"otherinfo": "\uFFFD\\x0012=o\uFFFD\r\\x000f4\uFFFDE\\x000b\uFFFD\uFFFD\uFFFD\u02D1\\x000b\uFFFDT\uFFFD0@\\x0006ro\uFFFD{h\\x0008"
+							"evidence": "2BK0t9ssCLPm01sjOHuDhlcnTRe5mhhMhFe",
+							"otherinfo": "\uFFFD\\x0012\uFFFD\uFFFD\uFFFD,\\x0008\uFFFD\uFFFD\uFFFD[#8{\uFFFD\uFFFDW'M\\x0017\uFFFD\uFFFD\\x0018L\uFFFDW"
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "2BPa2TWcNTseigP15nQ7VkoPvCrWvPgjUUZJAIa0DBs",
+							"otherinfo": "\uFFFD\\x0013\uFFFD\uFFFD5\uFFFD5;\\x001e\uFFFD\\x0003\uFFFD\uFFFDt;VJ\\x000f\uFFFD*\u05BC\uFFFD#QFI\\x0000\uFFFD\uFFFD\\x000c\\x001b"
 						}
 					],
 					"count": "12",
 					"solution": "<p>Manually confirm that the Base64 data does not leak sensitive information, and that the data cannot be aggregated/used to exploit other vulnerabilities.</p>",
-					"otherinfo": "<p>coque-en-bois.account.myshopify.com</p>",
+					"otherinfo": "<p>\uFFFD\\x0013\\x000e8J\uFFFD\uFFFDf\uFFFD\uFFFD)\uFFFD9\uFFFD\\x001a\\x0008d!\\x0018\u0288\uFFFD]\uFFFD\\x0017\uFFFDsl\uFFFD\uFFFD\uFFFD\uFFFD\u0396\uFFFD</p>",
 					"reference": "<p>https://projects.webappsec.org/w/page/13246936/Information%20Leakage</p>",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "1"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10027",
@@ -1671,7 +1695,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=27091b5e-920f-47bb-a3c4-f17973f9d9b3\r\n_s=6ffe0f06-87d7-48cd-bee9-4eda0feeab60\r\n_shopify_y=27091b5e-920f-47bb-a3c4-f17973f9d9b3\r\n_shopify_s=6ffe0f06-87d7-48cd-bee9-4eda0feeab60\r\n_orig_referrer=\r\n_landing_page=%2F\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=76123c6b-afe8-49bc-91c7-2584c9ceb0d3\r\n_s=30360235-ba18-43ba-a568-605cb2edd410\r\n_shopify_y=76123c6b-afe8-49bc-91c7-2584c9ceb0d3\r\n_shopify_s=30360235-ba18-43ba-a568-605cb2edd410\r\n_orig_referrer=\r\n_landing_page=%2F\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr",
@@ -1679,7 +1703,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=f5d508c7-a900-408e-ae28-09af957df9aa\r\n_s=b854048d-92f6-4612-b6a1-5f0ae23c387a\r\n_shopify_y=f5d508c7-a900-408e-ae28-09af957df9aa\r\n_shopify_s=b854048d-92f6-4612-b6a1-5f0ae23c387a\r\n_orig_referrer=\r\n_landing_page=%2F\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=7b73a0af-f83f-4803-bcb6-afa57bafd305\r\n_s=abd1bc93-e3a3-41ee-aa78-07528cea9963\r\n_shopify_y=7b73a0af-f83f-4803-bcb6-afa57bafd305\r\n_shopify_s=abd1bc93-e3a3-41ee-aa78-07528cea9963\r\n_orig_referrer=\r\n_landing_page=%2F\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/*/collections/*sort_by",
@@ -1687,7 +1711,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/12910100538/checkouts",
@@ -1695,7 +1719,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/12910100538/orders",
@@ -1703,7 +1727,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/cart",
@@ -1711,7 +1735,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/carts",
@@ -1719,7 +1743,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/checkout",
@@ -1727,7 +1751,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/checkouts/",
@@ -1735,7 +1759,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/orders",
@@ -1743,7 +1767,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/robots.txt",
@@ -1751,7 +1775,7 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=7daf283e-e2ee-4773-a356-620a298bd087\r\n_s=8e7201dd-80f1-4fc0-8744-2a29a6f570f5\r\n_shopify_y=7daf283e-e2ee-4773-a356-620a298bd087\r\n_shopify_s=8e7201dd-80f1-4fc0-8744-2a29a6f570f5\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D\r\n_y=2c82add5-c520-483b-8bb7-e13d6e72ee78\r\n_s=aea099ba-ac0a-4ef8-a14c-277ba8cad355\r\n_shopify_y=2c82add5-c520-483b-8bb7-e13d6e72ee78\r\n_shopify_s=aea099ba-ac0a-4ef8-a14c-277ba8cad355\r\n"
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/sitemap.xml",
@@ -1759,16 +1783,16 @@
 							"param": "",
 							"attack": "",
 							"evidence": "",
-							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n_shopify_y=2b7f3349-7202-4340-8bdb-44572ef7653f\r\n_shopify_s=5f1c48d2-bddc-48bc-b2f3-aea607639949\r\n"
+							"otherinfo": "The origin domain used for comparison was: \r\nwww.coque-en-bois.fr\r\n_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n_shopify_y=86070361-b305-4bf2-b25f-5ee19942ab2f\r\n_shopify_s=e8e0d0ea-09ce-4187-8379-7fa2105ba4f6\r\n"
 						}
 					],
 					"count": "12",
 					"solution": "<p>Always scope cookies to a FQDN (Fully Qualified Domain Name).</p>",
-					"otherinfo": "<p>The origin domain used for comparison was: </p><p>www.coque-en-bois.fr</p><p>_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D</p><p>_y=27091b5e-920f-47bb-a3c4-f17973f9d9b3</p><p>_s=6ffe0f06-87d7-48cd-bee9-4eda0feeab60</p><p>_shopify_y=27091b5e-920f-47bb-a3c4-f17973f9d9b3</p><p>_shopify_s=6ffe0f06-87d7-48cd-bee9-4eda0feeab60</p><p>_orig_referrer=</p><p>_landing_page=%2F</p><p></p>",
+					"otherinfo": "<p>The origin domain used for comparison was: </p><p>www.coque-en-bois.fr</p><p>_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D</p><p>_y=76123c6b-afe8-49bc-91c7-2584c9ceb0d3</p><p>_s=30360235-ba18-43ba-a568-605cb2edd410</p><p>_shopify_y=76123c6b-afe8-49bc-91c7-2584c9ceb0d3</p><p>_shopify_s=30360235-ba18-43ba-a568-605cb2edd410</p><p>_orig_referrer=</p><p>_landing_page=%2F</p><p></p>",
 					"reference": "<p>https://tools.ietf.org/html/rfc6265#section-4.1</p><p>https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/06-Session_Management_Testing/02-Testing_for_Cookies_Attributes.html</p><p>http://code.google.com/p/browsersec/wiki/Part2#Same-origin_policy_for_cookies</p>",
 					"cweid": "565",
 					"wascid": "15",
-					"sourceid": "28"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10109",
@@ -1785,7 +1809,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1793,7 +1817,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1801,7 +1825,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1809,7 +1833,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1817,7 +1841,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1825,15 +1849,15 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/collections/*%2b",
+							"uri": "https://www.coque-en-bois.fr/collections/*%2B",
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1841,7 +1865,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1849,7 +1873,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						},
 						{
@@ -1857,7 +1881,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 14</a>",
+							"evidence": "<a class=\"Slidable__Menu__Main__Link LinkDisabled\" href=\"#\">iPhone 15</a>",
 							"otherinfo": "Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application."
 						}
 					],
@@ -1902,7 +1926,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "336"
+					"sourceid": "347"
 				},
 				{
 					"pluginid": "10015",
@@ -2054,14 +2078,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/cart",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "hit",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.coque-en-bois.fr/collections/*%2B",
 							"method": "GET",
 							"param": "",
@@ -2079,6 +2095,14 @@
 						},
 						{
 							"uri": "https://www.coque-en-bois.fr/collections/*sort_by",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "hit",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.coque-en-bois.fr/orders",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2151,7 +2175,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -2194,7 +2218,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -2237,7 +2261,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -2280,7 +2304,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "1"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10112",
@@ -2297,7 +2321,7 @@
 							"method": "GET",
 							"param": "_s",
 							"attack": "",
-							"evidence": "6ffe0f06-87d7-48cd-bee9-4eda0feeab60",
+							"evidence": "30360235-ba18-43ba-a568-605cb2edd410",
 							"otherinfo": "\ncookie:_s\ncookie:_shopify_y\ncookie:_y\ncookie:_cmp_a\ncookie:_shopify_s"
 						},
 						{
@@ -2305,15 +2329,15 @@
 							"method": "GET",
 							"param": "_s",
 							"attack": "",
-							"evidence": "b854048d-92f6-4612-b6a1-5f0ae23c387a",
+							"evidence": "abd1bc93-e3a3-41ee-aa78-07528cea9963",
 							"otherinfo": "\ncookie:_s\ncookie:_shopify_y\ncookie:_y\ncookie:_cmp_a\ncookie:_shopify_s"
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/cart",
+							"uri": "https://www.coque-en-bois.fr/orders",
 							"method": "GET",
 							"param": "_s",
 							"attack": "",
-							"evidence": "5f1c48d2-bddc-48bc-b2f3-aea607639949",
+							"evidence": "e8e0d0ea-09ce-4187-8379-7fa2105ba4f6",
 							"otherinfo": "\ncookie:_s\ncookie:_shopify_y\ncookie:_y\ncookie:_cmp_a\ncookie:_shopify_s"
 						},
 						{
@@ -2321,7 +2345,7 @@
 							"method": "GET",
 							"param": "_s",
 							"attack": "",
-							"evidence": "8e7201dd-80f1-4fc0-8744-2a29a6f570f5",
+							"evidence": "aea099ba-ac0a-4ef8-a14c-277ba8cad355",
 							"otherinfo": "\ncookie:_s\ncookie:_shopify_y\ncookie:_y\ncookie:_cmp_a\ncookie:_shopify_s"
 						},
 						{
@@ -2329,11 +2353,11 @@
 							"method": "GET",
 							"param": "_s",
 							"attack": "",
-							"evidence": "5f1c48d2-bddc-48bc-b2f3-aea607639949",
+							"evidence": "e8e0d0ea-09ce-4187-8379-7fa2105ba4f6",
 							"otherinfo": "\ncookie:_s\ncookie:_shopify_y\ncookie:_y\ncookie:_shopify_s"
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-oneplus-la-personnalisable",
+							"uri": "https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable",
 							"method": "GET",
 							"param": "_cmp_a",
 							"attack": "",
@@ -2341,69 +2365,29 @@
 							"otherinfo": "\ncookie:_cmp_a"
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-oneplus-la-personnalisable",
+							"uri": "https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable",
 							"method": "GET",
 							"param": "_shopify_s",
 							"attack": "",
-							"evidence": "5f1c48d2-bddc-48bc-b2f3-aea607639949",
+							"evidence": "e8e0d0ea-09ce-4187-8379-7fa2105ba4f6",
 							"otherinfo": "\ncookie:_shopify_s"
 						},
 						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-oneplus-la-personnalisable",
+							"uri": "https://www.coque-en-bois.fr/products/coque-xiaomi-personnalisable",
 							"method": "GET",
 							"param": "_shopify_y",
 							"attack": "",
-							"evidence": "2b7f3349-7202-4340-8bdb-44572ef7653f",
-							"otherinfo": "\ncookie:_shopify_y"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-oppo-la-personnalisable",
-							"method": "GET",
-							"param": "_shopify_s",
-							"attack": "",
-							"evidence": "5f1c48d2-bddc-48bc-b2f3-aea607639949",
-							"otherinfo": "\ncookie:_shopify_s"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-oppo-la-personnalisable",
-							"method": "GET",
-							"param": "_shopify_y",
-							"attack": "",
-							"evidence": "2b7f3349-7202-4340-8bdb-44572ef7653f",
-							"otherinfo": "\ncookie:_shopify_y"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable",
-							"method": "GET",
-							"param": "_cmp_a",
-							"attack": "",
-							"evidence": "%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D",
-							"otherinfo": "\ncookie:_cmp_a"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable",
-							"method": "GET",
-							"param": "_shopify_s",
-							"attack": "",
-							"evidence": "5f1c48d2-bddc-48bc-b2f3-aea607639949",
-							"otherinfo": "\ncookie:_shopify_s"
-						},
-						{
-							"uri": "https://www.coque-en-bois.fr/products/coque-vivo-la-personnalisable",
-							"method": "GET",
-							"param": "_shopify_y",
-							"attack": "",
-							"evidence": "2b7f3349-7202-4340-8bdb-44572ef7653f",
+							"evidence": "86070361-b305-4bf2-b25f-5ee19942ab2f",
 							"otherinfo": "\ncookie:_shopify_y"
 						}
 					],
-					"count": "13",
+					"count": "8",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p></p><p>cookie:_s</p><p>cookie:_shopify_y</p><p>cookie:_y</p><p>cookie:_cmp_a</p><p>cookie:_shopify_s</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "28"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10049",
@@ -2494,7 +2478,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "28"
+					"sourceid": "43"
 				}
 			]
 		}
