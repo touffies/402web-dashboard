@@ -127,7 +127,7 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 17 Sep 2023 01:16:12
+		Generated on Sun, 24 Sep 2023 01:22:04
 	</h3>
 
 	<h3>
@@ -220,7 +220,7 @@ td {
 			<tr>
 				<td><a href="#90003">Sub Resource Integrity Attribute Missing</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">17</td>
+				<td align="center">13</td>
 			</tr>
 			<tr>
 				<td><a href="#10054">Cookie without SameSite Attribute</a></td>
@@ -255,12 +255,12 @@ td {
 			<tr>
 				<td><a href="#10024">Information Disclosure - Sensitive Information in URL</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">12</td>
+				<td align="center">6</td>
 			</tr>
 			<tr>
 				<td><a href="#10027">Information Disclosure - Suspicious Comments</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">13</td>
+				<td align="center">12</td>
 			</tr>
 			<tr>
 				<td><a href="#10109">Modern Web Application</a></td>
@@ -310,7 +310,7 @@ td {
 			<tr>
 				<td><a href="#10031">User Controllable HTML Element Attribute (Potential XSS)</a></td>
 				<td align="center" class="risk-0">Informational</td>
-				<td align="center">17</td>
+				<td align="center">19</td>
 			</tr>
 		</table>
 		<div class="spacer-lg"></div>
@@ -513,6 +513,68 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?n">https://www.salaisonsduvelay.com/*?n</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;form id=&quot;searchbox&quot; class=&quot;ajax_top&quot; method=&quot;get&quot; action=&quot;https://www.salaisonsduvelay.com/fr/recherche&quot; &gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: &quot;controller&quot; &quot;orderby&quot; &quot;orderway&quot; &quot;search_query_top&quot; ].</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?n">https://www.salaisonsduvelay.com/*?n</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;form action=&quot;https://www.salaisonsduvelay.com/fr/recherche&quot; method=&quot;post&quot; class=&quot;std&quot;&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;search_query&quot; ].</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
 					</tr>
 					<tr>
@@ -607,68 +669,6 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;form action=&quot;https://www.salaisonsduvelay.com/fr/recherche&quot; method=&quot;post&quot; class=&quot;std&quot;&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: &quot;search_query&quot; ].</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?search_query">https://www.salaisonsduvelay.com/*?search_query</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;form id=&quot;searchbox&quot; class=&quot;ajax_top&quot; method=&quot;get&quot; action=&quot;https://www.salaisonsduvelay.com/fr/recherche&quot; &gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: &quot;controller&quot; &quot;orderby&quot; &quot;orderway&quot; &quot;search_query_top&quot; ].</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?search_query">https://www.salaisonsduvelay.com/*?search_query</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -1992,7 +1992,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_451_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_454_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2054,7 +2054,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2096,130 +2096,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_451_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://www.google.com/recaptcha/api.js&quot;&gt;&lt;/script&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
 					</tr>
 					<tr>
@@ -2240,7 +2116,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_451_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_454_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2302,7 +2178,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2364,7 +2240,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_451_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
+						<td width="80%">&lt;link rel=&quot;stylesheet&quot; href=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_454_c3cc10fc55e34d0678817ebbb88a3911_all.css&quot; type=&quot;text/css&quot; media=&quot;all&quot; /&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2426,7 +2302,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2467,7 +2343,7 @@ td {
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">17</td>
+					<td width="80%">13</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -2987,7 +2863,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Parameter</td>
-						<td width="80%">https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
+						<td width="80%">https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2997,7 +2873,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3080,7 +2956,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Parameter</td>
-						<td width="80%">https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
+						<td width="80%">https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3090,7 +2966,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3173,7 +3049,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Parameter</td>
-						<td width="80%">https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
+						<td width="80%">https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3183,7 +3059,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3266,7 +3142,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Parameter</td>
-						<td width="80%">https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
+						<td width="80%">https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3276,7 +3152,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static1.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_219_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
+						<td width="80%">&lt;script type=&quot;text/javascript&quot; src=&quot;https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_222_063ac2437ad7bdc8c8d9247eab0b5a4e.js&quot;&gt;&lt;/script&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4022,37 +3898,6 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?id_currency">https://www.salaisonsduvelay.com/*?id_currency</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
 					</tr>
 					<tr>
@@ -4085,6 +3930,37 @@ td {
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?tag">https://www.salaisonsduvelay.com/*?tag</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4324,18 +4200,18 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1694913303</td>
+						<td width="80%">1695518455</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1694913303, which evaluates to: 2023-09-17 01:15:03</td>
+						<td width="80%">1695518455, which evaluates to: 2023-09-24 01:20:55</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4366,7 +4242,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4397,7 +4273,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderway">https://www.salaisonsduvelay.com/*?orderway</a></td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*?orderby">https://www.salaisonsduvelay.com/*?orderby</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4417,12 +4293,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1694913304</td>
+						<td width="80%">1695518458</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1694913304, which evaluates to: 2023-09-17 01:15:04</td>
+						<td width="80%">1695518458, which evaluates to: 2023-09-24 01:20:58</td>
 					</tr>
 				
 					<tr>
@@ -4510,12 +4386,12 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1694913303</td>
+						<td width="80%">1695518456</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1694913303, which evaluates to: 2023-09-17 01:15:03</td>
+						<td width="80%">1695518456, which evaluates to: 2023-09-24 01:20:56</td>
 					</tr>
 				
 				<tr>
@@ -4999,199 +4875,7 @@ td {
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=110&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=110&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The URL contains potentially sensitive information. The following string was found via the pattern: token
-token</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=111&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=111&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The URL contains potentially sensitive information. The following string was found via the pattern: token
-token</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=128&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=128&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The URL contains potentially sensitive information. The following string was found via the pattern: token
-token</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=143&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=143&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The URL contains potentially sensitive information. The following string was found via the pattern: token
-token</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=144&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=144&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The URL contains potentially sensitive information. The following string was found via the pattern: token
-token</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=23&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=23&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">token</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The URL contains potentially sensitive information. The following string was found via the pattern: token
-token</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=24&amp;token=deec6d3a09deffc57794d0a5dd9323bd">https://www.salaisonsduvelay.com/fr/panier?add=1&amp;id_product=24&amp;token=deec6d3a09deffc57794d0a5dd9323bd</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5382,7 +5066,7 @@ token</td>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">12</td>
+					<td width="80%">6</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -5498,69 +5182,38 @@ token</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;id_currency=">https://www.salaisonsduvelay.com/*&amp;id_currency=</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">from</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;&lt;script type=&quot;text/javascript&quot;&gt;/* &lt;![CDATA[ */;var CUSTOMIZE_TEXTFIELD=1;var FancyboxI18nClose=&#39;Fermer&#39;;var FancyboxI18nNext=&#39;Su&quot;, see evidence field for the suspicious comment/snippet.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;orderby=">https://www.salaisonsduvelay.com/*&amp;orderby=</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;&lt;script type=&quot;text/javascript&quot;&gt;/* &lt;![CDATA[ */;var CUSTOMIZE_TEXTFIELD=1;var FancyboxI18nClose=&#39;Fermer&#39;;var FancyboxI18nNext=&#39;Su&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;orderway=">https://www.salaisonsduvelay.com/*&amp;orderway=</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">from</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected in the element starting with: &quot;&lt;script type=&quot;text/javascript&quot;&gt;/* &lt;![CDATA[ */;var CUSTOMIZE_TEXTFIELD=1;var FancyboxI18nClose=&#39;Fermer&#39;;var FancyboxI18nNext=&#39;Su&quot;, see evidence field for the suspicious comment/snippet.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;tag=">https://www.salaisonsduvelay.com/*&amp;tag=</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5838,7 +5491,7 @@ token</td>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">13</td>
+					<td width="80%">12</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -5909,12 +5562,43 @@ token</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">&lt;a class=&quot;tp-caption btn-home&quot; href=&quot;/fr/content/4-les-salaisons-du-velay&quot; target=&quot;_self&quot; id=&quot;slide-6-layer-64&quot; data-x=&quot;[&#39;left&#39;,&#39;left&#39;,&#39;center&#39;,&#39;center&#39;]&quot; data-hoffset=&quot;[&#39;15&#39;,&#39;15&#39;,&#39;0&#39;,&#39;0&#39;]&quot; data-y=&quot;[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]&quot; data-voffset=&quot;[&#39;650&#39;,&#39;650&#39;,&#39;555&#39;,&#39;555&#39;]&quot; data-color=&quot;[&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;]&quot; data-width=&quot;none&quot; data-height=&quot;none&quot; data-whitespace=&quot;nowrap&quot; data-transform_idle=&quot;o:1;&quot; data-transform_in=&quot;opacity:0;s:300;e:Power2.easeInOut;&quot; data-transform_out=&quot;opacity:0;s:300;s:300;&quot; data-start=&quot;500&quot; data-splitin=&quot;none&quot; data-splitout=&quot;none&quot; data-actions=&#39;&#39; data-responsive_offset=&quot;off&quot; style=&quot;z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);&quot;&gt;Tout voir &lt;/a&gt;</td>
+						<td width="80%">&lt;a class=&quot;tp-caption btn-home&quot; href=&quot;/fr/content/4-les-salaisons-du-velay&quot; target=&quot;_self&quot; id=&quot;slide-6-layer-428&quot; data-x=&quot;[&#39;left&#39;,&#39;left&#39;,&#39;center&#39;,&#39;center&#39;]&quot; data-hoffset=&quot;[&#39;15&#39;,&#39;15&#39;,&#39;0&#39;,&#39;0&#39;]&quot; data-y=&quot;[&#39;top&#39;,&#39;top&#39;,&#39;top&#39;,&#39;top&#39;]&quot; data-voffset=&quot;[&#39;650&#39;,&#39;650&#39;,&#39;555&#39;,&#39;555&#39;]&quot; data-color=&quot;[&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(0, 0, 0, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;,&#39;rgba(50, 50, 50, 1.00)&#39;]&quot; data-width=&quot;none&quot; data-height=&quot;none&quot; data-whitespace=&quot;nowrap&quot; data-transform_idle=&quot;o:1;&quot; data-transform_in=&quot;opacity:0;s:300;e:Power2.easeInOut;&quot; data-transform_out=&quot;opacity:0;s:300;s:300;&quot; data-start=&quot;500&quot; data-splitin=&quot;none&quot; data-splitout=&quot;none&quot; data-actions=&#39;&#39; data-responsive_offset=&quot;off&quot; style=&quot;z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);&quot;&gt;Tout voir &lt;/a&gt;</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">Links have been found with a target of &#39;_self&#39; - this is often used by modern frameworks to force a full page reload.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;id_currency=">https://www.salaisonsduvelay.com/*&amp;id_currency=</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">&lt;noscript&gt;&lt;iframe src=&quot;https://www.googletagmanager.com/ns.html?id=GTM-597P2DN&amp;nojscript=true&quot; height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
 					</tr>
 				
 					<tr>
@@ -5952,37 +5636,6 @@ token</td>
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;orderway=">https://www.salaisonsduvelay.com/*&amp;orderway=</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">&lt;noscript&gt;&lt;iframe src=&quot;https://www.googletagmanager.com/ns.html?id=GTM-597P2DN&amp;nojscript=true&quot; height=&quot;0&quot; width=&quot;0&quot; style=&quot;display:none;visibility:hidden&quot;&gt;&lt;/iframe&gt;&lt;/noscript&gt;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.salaisonsduvelay.com/*&amp;tag=">https://www.salaisonsduvelay.com/*&amp;tag=</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7345,7 +6998,7 @@ token</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">04871ae7ac58225e4802968cbce01aa142bf517011f6022aaf2f5ba583b4c76a%3AE1VaEmEK%2BIo3kWjWnamlx5aY6aHinXVPrri26vQ8ExAJDIevrPPpG%2BuBxpPp9o4T5JAUtFggnFGpHsbbb3m3Djz%2Bt2FQmAXT%2BTMfxBJT6wS2ghlHkMMT10zCcP37%2BDJp40wSd5HoHs%2B46wfGgW8gvG6tdYNkFJeZ5qvIVV%2FlPMF0R9b4zE%2FBSZCbUCF7Gv1G</td>
+						<td width="80%">a1af9e83b235a1ad3bec9b54433f4b5b037eb97fd51706b046d16cdc2b983d27%3AE1VaEmEK%2BIo3kWjWnamlx7s8b9yV0b1LLV3RoJU5iH7McXDBDpz%2F2hECogAU3Ftmrzg%2BZex4%2F8k%2FMLR%2BdatJeGAhxsSPQOk%2FHVza7y3dU7obc93DSOwRr9XQ2N9DcgdSDLIDhOIaLEsMKVtmt0SA5Oh19UVSglzvIKg8CkEZ%2F6Aov9U7986%2ByfP8CkKf0RwX</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7377,7 +7030,7 @@ cookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">7175cecefb88385600329339576daba8f6ed89f2fbf2a98b541ae430cebeb655%3AE1VaEmEK%2BIo3kWjWnamlxyLXI7cQ1gqRIzCLh3Dx5ZYyBDCkwZHysjCXu1fdpsSWQoRAckZMLNDnYV2Hn65y9KtMYP2qtpip%2F2fAi6idA%2BtCktJ0nn8LEN3kqZ2quRU5tOv%2Bu4fMAIA6IfZBLLNKpJ4eYs4K5YARqriRIt2s2nr8SnZnM0PFxqd0QAVs0axU</td>
+						<td width="80%">a5e6e50f37bb967570b8ae14eaa8d03c13d6c0a4d492ce8dc0fb59097edb5535%3AE1VaEmEK%2BIo3kWjWnamlxyHJ1F%2FaO0ENOzYxxknWSjxyTzU7fI6aV9GHgkPqseqnxENoxwYNhE6t9r637Y726ni3BkGDQlDMFTQLVFNz8smXic53A9d%2BW9ma8FDFHrEMxUmN3g1woXUk5L18pQcfvuJeKhX1arLtouEj95Cd9x%2B6VJ1%2FGfeeK%2F4wtMO6wKvN</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7409,7 +7062,7 @@ cookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">7175cecefb88385600329339576daba8f6ed89f2fbf2a98b541ae430cebeb655%3AE1VaEmEK%2BIo3kWjWnamlxyLXI7cQ1gqRIzCLh3Dx5ZYyBDCkwZHysjCXu1fdpsSWQoRAckZMLNDnYV2Hn65y9KtMYP2qtpip%2F2fAi6idA%2BtCktJ0nn8LEN3kqZ2quRU5tOv%2Bu4fMAIA6IfZBLLNKpJ4eYs4K5YARqriRIt2s2nr8SnZnM0PFxqd0QAVs0axU</td>
+						<td width="80%">a5e6e50f37bb967570b8ae14eaa8d03c13d6c0a4d492ce8dc0fb59097edb5535%3AE1VaEmEK%2BIo3kWjWnamlxyHJ1F%2FaO0ENOzYxxknWSjxyTzU7fI6aV9GHgkPqseqnxENoxwYNhE6t9r637Y726ni3BkGDQlDMFTQLVFNz8smXic53A9d%2BW9ma8FDFHrEMxUmN3g1woXUk5L18pQcfvuJeKhX1arLtouEj95Cd9x%2B6VJ1%2FGfeeK%2F4wtMO6wKvN</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7968,6 +7621,92 @@ cookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa</td>
 				<TR vAlign="top">
 					<TD colspan="2"></TD>
 				</TR>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/connexion?back=my-account">https://www.salaisonsduvelay.com/fr/connexion?back=my-account</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">back</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+https://www.salaisonsduvelay.com/fr/connexion?back=my-account
+
+appears to include user input in: 
+
+a(n) [input] tag [value] attribute 
+
+The user input found was:
+back=my-account
+
+The user-controlled value was:
+my-account</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.salaisonsduvelay.com/fr/connexion?back=my-account">https://www.salaisonsduvelay.com/fr/connexion?back=my-account</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">back</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+https://www.salaisonsduvelay.com/fr/connexion?back=my-account
+
+appears to include user input in: 
+
+a(n) [meta] tag [content] attribute 
+
+The user input found was:
+back=my-account
+
+The user-controlled value was:
+https://www.salaisonsduvelay.com/fr/connexion?back=my-account</td>
+					</tr>
 				
 					<tr>
 						<td width="20%"
@@ -8702,7 +8441,7 @@ zap</td>
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">17</td>
+					<td width="80%">19</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
