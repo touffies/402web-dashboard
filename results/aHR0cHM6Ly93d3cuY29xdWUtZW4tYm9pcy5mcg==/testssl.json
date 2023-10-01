@@ -206,7 +206,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -346,7 +346,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "83 >= 30 days"
+              "finding"      : "76 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1695524704"
+              "finding"      : "1696131049"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -591,7 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=12;desc='gc:1', db;dur=3, asn;desc='8075', edge;desc='IAD', country;desc='US', theme;desc='145167515992', pageType;desc='index', servedBy;desc='gh5c', requestID;desc='a37e2092-ab73-4be4-8127-d039371b6a7b'Server-Timing: cfRequestDuration;dur=118.000031cloudflare"
+              "finding"      : "Server-Timing: processing;dur=10, db;dur=3, asn;desc='8075', edge;desc='DFW', country;desc='US', theme;desc='145167515992', pageType;desc='index', servedBy;desc='qnmh', requestID;desc='d3c5c691-0761-43ad-9c1d-b472a67f4508'Server-Timing: cfRequestDuration;dur=145.999908cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "64"
+              "finding"      : "71"
           }
 ]
