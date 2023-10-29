@@ -1,48 +1,48 @@
-# Nmap 7.92 scan initiated Sun Oct 22 01:24:44 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.salaisonsduvelay.com
+# Nmap 7.92 scan initiated Sun Oct 29 01:22:28 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.salaisonsduvelay.com
 Nmap scan report for www.salaisonsduvelay.com (195.144.11.124)
 Host is up (0.16s latency).
 rDNS record for 195.144.11.124: 195-144-11-124.phpnet.fr
 Not shown: 993 closed tcp ports (reset)
-PORT      STATE SERVICE   VERSION
-80/tcp    open  http      Apache
+PORT      STATE SERVICE    VERSION
+80/tcp    open  http       Apache
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 22 Oct 2023 01:25:10 GMT
+|     date: Sun, 29 Oct 2023 01:23:02 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11123|ZTR56|ZTR56; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11123|ZT2z4|ZT2z4; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   GetRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 22 Oct 2023 01:24:10 GMT
+|     date: Sun, 29 Oct 2023 01:22:02 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11110|ZTR56|ZTR56; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11124|ZT2z4|ZT2z4; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   HTTPOptions: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 22 Oct 2023 01:24:52 GMT
+|     date: Sun, 29 Oct 2023 01:22:36 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11112|ZTR56|ZTR56; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11112|ZT2z4|ZT2z4; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
-|     date: Sun, 22 Oct 2023 01:24:57 GMT
+|     date: Sun, 29 Oct 2023 01:22:13 GMT
 |     server: Apache
 |     content-length: 226
 |     content-type: text/html; charset=iso-8859-1
-|     set-cookie: WEBMO-MNO=11113|ZTR56|ZTR56; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11106|ZT2z4|ZT2z4; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
@@ -62,45 +62,45 @@ PORT      STATE SERVICE   VERSION
 |     Your browser sent an invalid request.
 |_    </body></html>
 |_http-server-header: Apache
-443/tcp   open  ssl/https Apache
+443/tcp   open  ssl/https  Apache
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 22 Oct 2023 01:25:04 GMT
+|     date: Sun, 29 Oct 2023 01:22:21 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11113|ZTR58|ZTR58; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11106|ZT2z6|ZT2z6; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   GetRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 22 Oct 2023 01:24:16 GMT
+|     date: Sun, 29 Oct 2023 01:22:09 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11110|ZTR57|ZTR57; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11124|ZT2z5|ZT2z5; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   HTTPOptions: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 22 Oct 2023 01:24:59 GMT
+|     date: Sun, 29 Oct 2023 01:22:43 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11112|ZTR57|ZTR57; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11112|ZT2z6|ZT2z6; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   RTSPRequest: 
 |     HTTP/1.1 400 Bad Request
-|     date: Sun, 22 Oct 2023 01:25:24 GMT
+|     date: Sun, 29 Oct 2023 01:23:16 GMT
 |     server: Apache
 |     content-length: 226
 |     content-type: text/html; charset=iso-8859-1
-|     set-cookie: WEBMO-MNO=11123|ZTR5+|ZTR5+; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11123|ZT2z8|ZT2z8; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     <!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML 2.0//EN">
 |     <html><head>
@@ -120,81 +120,31 @@ PORT      STATE SERVICE   VERSION
 |     Your browser sent an invalid request.
 |_    </body></html>
 |_http-server-header: Apache
-24444/tcp open  ssh       OpenSSH 7.9p1 Debian 10+deb10u3 (protocol 2.0)
-| vulners: 
-|   cpe:/a:openbsd:openssh:7.9p1: 
-|     	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-|     	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-|     	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-|     	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-|     	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-|     	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-|     	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-|_    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
-24800/tcp open  ssh       OpenSSH 7.9p1 Debian 10+deb10u3 (protocol 2.0)
-| vulners: 
-|   cpe:/a:openbsd:openssh:7.9p1: 
-|     	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-|     	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-|     	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-|     	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-|     	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-|     	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-|     	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-|_    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
-25735/tcp open  ssh       OpenSSH 7.9p1 Debian 10+deb10u3 (protocol 2.0)
-| vulners: 
-|   cpe:/a:openbsd:openssh:7.9p1: 
-|     	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-|     	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-|     	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-|     	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-|     	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-|     	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-|     	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-|_    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
-26214/tcp open  ssh       OpenSSH 7.9p1 Debian 10+deb10u3 (protocol 2.0)
-| vulners: 
-|   cpe:/a:openbsd:openssh:7.9p1: 
-|     	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-|     	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-|     	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-|     	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-|     	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-|     	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-|     	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-|_    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
-27000/tcp open  ssh       OpenSSH 7.9p1 Debian 10+deb10u3 (protocol 2.0)
-| vulners: 
-|   cpe:/a:openbsd:openssh:7.9p1: 
-|     	EXPLOITPACK:98FE96309F9524B8C84C508837551A19	5.8	https://vulners.com/exploitpack/EXPLOITPACK:98FE96309F9524B8C84C508837551A19	*EXPLOIT*
-|     	EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	5.8	https://vulners.com/exploitpack/EXPLOITPACK:5330EA02EBDE345BFC9D6DDDD97F9E97	*EXPLOIT*
-|     	EDB-ID:46516	5.8	https://vulners.com/exploitdb/EDB-ID:46516	*EXPLOIT*
-|     	EDB-ID:46193	5.8	https://vulners.com/exploitdb/EDB-ID:46193	*EXPLOIT*
-|     	CVE-2019-6111	5.8	https://vulners.com/cve/CVE-2019-6111
-|     	1337DAY-ID-32328	5.8	https://vulners.com/zdt/1337DAY-ID-32328	*EXPLOIT*
-|     	1337DAY-ID-32009	5.8	https://vulners.com/zdt/1337DAY-ID-32009	*EXPLOIT*
-|_    	PACKETSTORM:151227	0.0	https://vulners.com/packetstorm/PACKETSTORM:151227	*EXPLOIT*
+24444/tcp open  tcpwrapped
+24800/tcp open  tcpwrapped
+25735/tcp open  tcpwrapped
+26214/tcp open  tcpwrapped
+27000/tcp open  tcpwrapped
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=10/22%Time=653479E5%P=x86_64-alpine-linux-musl%
+SF-Port80-TCP:V=7.92%I=7%D=10/29%Time=653DB3DE%P=x86_64-alpine-linux-musl%
 SF:r(GetRequest,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Sun,\x20
-SF:22\x20Oct\x202023\x2001:24:10\x20GMT\r\nserver:\x20Apache\r\nvary:\x20U
+SF:29\x20Oct\x202023\x2001:22:02\x20GMT\r\nserver:\x20Apache\r\nvary:\x20U
 SF:ser-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nset-cookie
-SF::\x20WEBMO-MNO=11110\|ZTR56\|ZTR56;\x20path=/;\x20HttpOnly;\x20SameSite
+SF::\x20WEBMO-MNO=11124\|ZT2z4\|ZT2z4;\x20path=/;\x20HttpOnly;\x20SameSite
 SF:=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST\x20non\x20d
 SF:\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votre\x20compreh
 SF:ension\.\n")%r(HTTPOptions,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndat
-SF:e:\x20Sun,\x2022\x20Oct\x202023\x2001:24:52\x20GMT\r\nserver:\x20Apache
+SF:e:\x20Sun,\x2029\x20Oct\x202023\x2001:22:36\x20GMT\r\nserver:\x20Apache
 SF:\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8
-SF:\r\nset-cookie:\x20WEBMO-MNO=11112\|ZTR56\|ZTR56;\x20path=/;\x20HttpOnl
+SF:\r\nset-cookie:\x20WEBMO-MNO=11112\|ZT2z4\|ZT2z4;\x20path=/;\x20HttpOnl
 SF:y;\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HO
 SF:ST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20vo
 SF:tre\x20comprehension\.\n")%r(RTSPRequest,1D4,"HTTP/1\.1\x20400\x20Bad\x
-SF:20Request\r\ndate:\x20Sun,\x2022\x20Oct\x202023\x2001:24:57\x20GMT\r\ns
+SF:20Request\r\ndate:\x20Sun,\x2029\x20Oct\x202023\x2001:22:13\x20GMT\r\ns
 SF:erver:\x20Apache\r\ncontent-length:\x20226\r\ncontent-type:\x20text/htm
-SF:l;\x20charset=iso-8859-1\r\nset-cookie:\x20WEBMO-MNO=11113\|ZTR56\|ZTR5
-SF:6;\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r
+SF:l;\x20charset=iso-8859-1\r\nset-cookie:\x20WEBMO-MNO=11106\|ZT2z4\|ZT2z
+SF:4;\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r
 SF:\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-//IETF//DTD\x20HTML\x202\.0//EN
 SF:\">\n<html><head>\n<title>400\x20Bad\x20Request</title>\n</head><body>\
 SF:n<h1>Bad\x20Request</h1>\n<p>Your\x20browser\x20sent\x20a\x20request\x2
@@ -204,47 +154,46 @@ SF:\ncontent-length:\x2090\r\ncache-control:\x20no-cache\r\ncontent-type:\
 SF:x20text/html\r\nconnection:\x20close\r\n\r\n<html><body><h1>400\x20Bad\
 SF:x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20request\.\
 SF:n</body></html>\n")%r(FourOhFourRequest,134,"HTTP/1\.1\x20404\x20Not\x2
-SF:0Found\r\ndate:\x20Sun,\x2022\x20Oct\x202023\x2001:25:10\x20GMT\r\nserv
+SF:0Found\r\ndate:\x20Sun,\x2029\x20Oct\x202023\x2001:23:02\x20GMT\r\nserv
 SF:er:\x20Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20
-SF:charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11123\|ZTR56\|ZTR56;\x20path=
+SF:charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11123\|ZT2z4\|ZT2z4;\x20path=
 SF:/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreu
 SF:r:\x20HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merc
 SF:i\x20de\x20votre\x20comprehension\.\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/22%Time=653479EC%P=x86_64-alpine-linu
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=10/29%Time=653DB3E5%P=x86_64-alpine-linu
 SF:x-musl%r(GetRequest,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20S
-SF:un,\x2022\x20Oct\x202023\x2001:24:16\x20GMT\r\nserver:\x20Apache\r\nvar
+SF:un,\x2029\x20Oct\x202023\x2001:22:09\x20GMT\r\nserver:\x20Apache\r\nvar
 SF:y:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nset
-SF:-cookie:\x20WEBMO-MNO=11110\|ZTR57\|ZTR57;\x20path=/;\x20HttpOnly;\x20S
+SF:-cookie:\x20WEBMO-MNO=11124\|ZT2z5\|ZT2z5;\x20path=/;\x20HttpOnly;\x20S
 SF:ameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST\x20n
 SF:on\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votre\x20
 SF:comprehension\.\n")%r(HTTPOptions,134,"HTTP/1\.1\x20404\x20Not\x20Found
-SF:\r\ndate:\x20Sun,\x2022\x20Oct\x202023\x2001:24:59\x20GMT\r\nserver:\x2
+SF:\r\ndate:\x20Sun,\x2029\x20Oct\x202023\x2001:22:43\x20GMT\r\nserver:\x2
 SF:0Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charse
-SF:t=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11112\|ZTR57\|ZTR57;\x20path=/;\x20
+SF:t=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11112\|ZT2z6\|ZT2z6;\x20path=/;\x20
 SF:HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20
 SF:HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20d
 SF:e\x20votre\x20comprehension\.\n")%r(FourOhFourRequest,134,"HTTP/1\.1\x2
-SF:0404\x20Not\x20Found\r\ndate:\x20Sun,\x2022\x20Oct\x202023\x2001:25:04\
+SF:0404\x20Not\x20Found\r\ndate:\x20Sun,\x2029\x20Oct\x202023\x2001:22:21\
 SF:x20GMT\r\nserver:\x20Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20
-SF:text/html;\x20charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11113\|ZTR58\|Z
-SF:TR58;\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20clos
+SF:text/html;\x20charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11106\|ZT2z6\|Z
+SF:T2z6;\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20clos
 SF:e\r\n\r\nErreur:\x20HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/
 SF:><br\x20/>Merci\x20de\x20votre\x20comprehension\.\n")%r(tor-versions,CF
 SF:,"HTTP/1\.1\x20400\x20Bad\x20request\r\ncontent-length:\x2090\r\ncache-
 SF:control:\x20no-cache\r\ncontent-type:\x20text/html\r\nconnection:\x20cl
 SF:ose\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\
 SF:x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RTSPRequest
-SF:,1D4,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ndate:\x20Sun,\x2022\x20Oct\
-SF:x202023\x2001:25:24\x20GMT\r\nserver:\x20Apache\r\ncontent-length:\x202
+SF:,1D4,"HTTP/1\.1\x20400\x20Bad\x20Request\r\ndate:\x20Sun,\x2029\x20Oct\
+SF:x202023\x2001:23:16\x20GMT\r\nserver:\x20Apache\r\ncontent-length:\x202
 SF:26\r\ncontent-type:\x20text/html;\x20charset=iso-8859-1\r\nset-cookie:\
-SF:x20WEBMO-MNO=11123\|ZTR5\+\|ZTR5\+;\x20path=/;\x20HttpOnly;\x20SameSite
-SF:=Strict\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\
-SF:"-//IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x
-SF:20Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20b
-SF:rowser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20no
-SF:t\x20understand\.<br\x20/>\n</p>\n</body></html>\n");
-Service Info: OS: Linux; CPE: cpe:/o:linux:linux_kernel
+SF:x20WEBMO-MNO=11123\|ZT2z8\|ZT2z8;\x20path=/;\x20HttpOnly;\x20SameSite=S
+SF:trict\r\nconnection:\x20close\r\n\r\n<!DOCTYPE\x20HTML\x20PUBLIC\x20\"-
+SF://IETF//DTD\x20HTML\x202\.0//EN\">\n<html><head>\n<title>400\x20Bad\x20
+SF:Request</title>\n</head><body>\n<h1>Bad\x20Request</h1>\n<p>Your\x20bro
+SF:wser\x20sent\x20a\x20request\x20that\x20this\x20server\x20could\x20not\
+SF:x20understand\.<br\x20/>\n</p>\n</body></html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Oct 22 01:25:27 2023 -- 1 IP address (1 host up) scanned in 43.74 seconds
+# Nmap done at Sun Oct 29 01:23:12 2023 -- 1 IP address (1 host up) scanned in 44.18 seconds
