@@ -54,7 +54,7 @@
 <h1>Scan Report<br><small>Nmap 7.92</small>
 </h1>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr</pre>
-<p class="lead">Sun Oct 29 00:58:51 2023 – Sun Oct 29 00:59:12 2023<br>1 hosts scanned.
+<p class="lead">Sun Nov  5 01:00:39 2023 – Sun Nov  5 01:01:19 2023<br>1 hosts scanned.
               1 hosts up.
               0 hosts down.
             </p>
@@ -143,6 +143,7 @@
 <pre style="white-space:pre-wrap; word-wrap:break-word;">
   cpe:/a:openbsd:openssh:6.7p1: 
     	CVE-2015-5600	8.5	https://vulners.com/cve/CVE-2015-5600
+    	PRION:CVE-2020-16088	7.5	https://vulners.com/prion/PRION:CVE-2020-16088
     	CVE-2015-6564	6.9	https://vulners.com/cve/CVE-2015-6564
     	CVE-2018-15919	5.0	https://vulners.com/cve/CVE-2018-15919
     	SSV:90447	4.6	https://vulners.com/seebug/SSV:90447	*EXPLOIT*</pre>
@@ -152,26 +153,131 @@
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
 <td title="Service">http</td>
-<td title="Product">Apache httpd</td>
+<td title="Product">Apache</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest: 
+    HTTP/1.1 403 Forbidden
+    date: Sun, 05 Nov 2023 01:00:53 GMT
+    server: Apache
+    vary: accept-language,accept-charset
+    upgrade: h2
+    connection: Upgrade
+    accept-ranges: bytes
+    content-type: text/html; charset=utf-8
+    content-language: en
+    expires: Sun, 05 Nov 2023 01:00:53 GMT
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+    &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+    &lt;head&gt;
+    &lt;title&gt;Access forbidden!&lt;/title&gt;
+    &lt;link rev="made" href="mailto:null@infomaniak.ch" /&gt;
+    &lt;style type="text/css"&gt;&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    address {margin-left: 3em;}
+    span {font-size: smaller;}
+    /*]]&gt;*/--&gt;&lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1&gt;Access forbidden!&lt;/h1&gt;
+    don't have permission to acc
+  HTTPOptions: 
+    HTTP/1.1 503 Service unavailable
+    date: Sun, 05 Nov 2023 01:00:53 GMT
+    server: Apache
+    upgrade: h2
+    connection: Upgrade
+    content-type: text/html; charset=UTF-8
+    &lt;!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+    &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"&gt;
+    &lt;head&gt;
+    &lt;title&gt;web host not found&lt;/title&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    host &lt;i&gt;&lt;br /&gt;
+    &lt;b&gt;Warning&lt;/b&gt;: Undefined array key "HTTP_HOST" in &lt;b&gt;/home/www/72c208e76fa31285f1d1d12ce648923a/web/index.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+    &lt;/i&gt; does not exist.
+    &lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</pre>
 </td></tr>
 <tr class="success">
 <td title="Port">443</td>
 <td title="Protocol">tcp</td>
 <td title="State / Reason">open<br>syn-ack</td>
-<td title="Service">http</td>
-<td title="Product">Apache httpd</td>
+<td title="Service">https</td>
+<td title="Product">Apache</td>
 <td title="Version"></td>
 <td title="Extra Info"></td>
 </tr>
 <tr><td colspan="7">
-<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version=cpe:/a:apache:http_server">cpe:/a:apache:http_server</a><h5>http-server-header</h5>
+<a href="https://nvd.nist.gov/vuln/search/results?form_type=Advanced&amp;cves=on&amp;cpe_version="></a><h5>http-server-header</h5>
 <pre style="white-space:pre-wrap; word-wrap:break-word;">Apache</pre>
+<h5>fingerprint-strings</h5>
+<pre style="white-space:pre-wrap; word-wrap:break-word;">
+  GetRequest: 
+    HTTP/1.1 403 Forbidden
+    date: Sun, 05 Nov 2023 01:00:59 GMT
+    server: Apache
+    vary: accept-language,accept-charset
+    strict-transport-security: max-age=16000000
+    upgrade: h2
+    connection: Upgrade
+    accept-ranges: bytes
+    content-type: text/html; charset=utf-8
+    content-language: en
+    expires: Sun, 05 Nov 2023 01:00:59 GMT
+    &lt;?xml version="1.0" encoding="UTF-8"?&gt;
+    &lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+    &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"&gt;
+    &lt;head&gt;
+    &lt;title&gt;Access forbidden!&lt;/title&gt;
+    &lt;link rev="made" href="mailto:null@infomaniak.ch" /&gt;
+    &lt;style type="text/css"&gt;&lt;!--/*--&gt;&lt;![CDATA[/*&gt;&lt;!--*/ 
+    body { color: #000000; background-color: #FFFFFF; }
+    a:link { color: #0000CC; }
+    address {margin-left: 3em;}
+    span {font-size: smaller;}
+    /*]]&gt;*/--&gt;&lt;/style&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    &lt;h1&gt;Access forbidden!&lt;/h1&gt;
+  HTTPOptions: 
+    HTTP/1.1 503 Service unavailable
+    date: Sun, 05 Nov 2023 01:00:59 GMT
+    server: Apache
+    strict-transport-security: max-age=16000000
+    upgrade: h2
+    connection: Upgrade
+    content-type: text/html; charset=UTF-8
+    &lt;!DOCTYPE html
+    PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd"&gt;
+    &lt;html xmlns="http://www.w3.org/1999/xhtml" lang="en-US" xml:lang="en-US"&gt;
+    &lt;head&gt;
+    &lt;title&gt;web host not found&lt;/title&gt;
+    &lt;meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" /&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+    host &lt;i&gt;&lt;br /&gt;
+    &lt;b&gt;Warning&lt;/b&gt;: Undefined array key "HTTP_HOST" in &lt;b&gt;/home/www/72c208e76fa31285f1d1d12ce648923a/web/index.php&lt;/b&gt; on line &lt;b&gt;15&lt;/b&gt;&lt;br /&gt;
+    &lt;/i&gt; does not exist.
+    &lt;/p&gt;
+    &lt;/body&gt;
+    &lt;/html&gt;</pre>
 </td></tr>
 <tr class="active">
 <td>2222</td>
@@ -233,19 +339,19 @@
 <td>80</td>
 <td>tcp</td>
 <td>http</td>
-<td>Apache httpd</td>
+<td>Apache</td>
 <td></td>
-<td>cpe:/a:apache:http_server</td>
+<td></td>
 <td></td>
 </tr>
 <tr>
 <td>83.166.138.63 - 402web.fr</td>
 <td>443</td>
 <td>tcp</td>
-<td>http</td>
-<td>Apache httpd</td>
+<td>https</td>
+<td>Apache</td>
 <td></td>
-<td>cpe:/a:apache:http_server</td>
+<td></td>
 <td></td>
 </tr>
 </tbody>
