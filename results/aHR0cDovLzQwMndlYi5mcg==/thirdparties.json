@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 05 Nov 2023 00:58:51 GMT",
+    "date": "Sun, 12 Nov 2023 01:00:19 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -53,11 +53,12 @@
       "ip": "83.166.138.63",
       "geoip": {
         "city": {
-          "geoname_id": 8533523,
+          "geoname_id": 2659296,
           "names": {
-            "en": "Moosseedorf",
-            "ru": "Мосзеедорф",
-            "zh-CN": "莫塞多夫"
+            "en": "Onex",
+            "ja": "オネ",
+            "ru": "Оне",
+            "zh-CN": "奥内"
           }
         },
         "continent": {
@@ -89,13 +90,13 @@
           }
         },
         "location": {
-          "accuracy_radius": 50,
-          "latitude": 47.0207,
-          "longitude": 7.4846,
+          "accuracy_radius": 100,
+          "latitude": 46.1877,
+          "longitude": 6.0981,
           "time_zone": "Europe/Zurich"
         },
         "postal": {
-          "code": "3302"
+          "code": "1213"
         },
         "registered_country": {
           "geoname_id": 2658434,
@@ -113,12 +114,16 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 2661551,
-            "iso_code": "BE",
+            "geoname_id": 2660645,
+            "iso_code": "GE",
             "names": {
-              "de": "Bern",
-              "en": "Bern",
-              "fr": "Berne"
+              "de": "Genf",
+              "en": "Geneva",
+              "es": "Cantón de Ginebra",
+              "fr": "Genève",
+              "ja": "ジュネーヴ州",
+              "pt-BR": "Genebra",
+              "ru": "Женева"
             }
           }
         ]
@@ -180,7 +185,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.170",
+      "ip": "142.250.115.95",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -288,7 +293,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.35",
+      "ip": "142.250.113.94",
       "geoip": {
         "continent": {
           "code": "NA",
