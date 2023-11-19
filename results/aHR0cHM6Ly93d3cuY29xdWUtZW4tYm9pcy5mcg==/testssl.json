@@ -206,7 +206,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "not supported"
+              "finding"      : "supported"
           }
 ,         {
               "id"           : "TLS_timestamp",
@@ -269,7 +269,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "03B17412241CAA3D5E84829141921DD900ED"
+              "finding"      : "038F61444F23FCDD9A37E4253B0F30E36744"
           }
 ,         {
               "id"           : "cert_serialNumberLen",
@@ -283,21 +283,21 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "EA982CF710834A60B0AD3C7D76E7ED66D21777CC"
+              "finding"      : "4CBEB6B4EBB644CF5B169945925D6663D5B2520E"
           }
 ,         {
               "id"           : "cert_fingerprintSHA256",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "9513B46B85C9B2B940CFA760BB9F67870AFC0D2DD50E2BB4DE12E63B223BDA55"
+              "finding"      : "15FC539E75C67358D8902224A8AF56DE5B39243A499BD2B201095CF5B91165E7"
           }
 ,         {
               "id"           : "cert",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE9jCCA96gAwIBAgISA7F0EiQcqj1ehIKRQZId2QDtMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzA5MTcyMDE5MTVaFw0yMzEyMTYyMDE5MTRaMB8xHTAbBgNVBAMTFHd3dy5jb3F1ZS1lbi1ib2lzLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt0a77FkahsGbp/7N4bytGBsvOtuApxr7M0UyDiAdG5ihB9QqCV9dtGipWGa2DafGdyCbqUaJsql8WarEhkTcvb8FgIZNl9P0Zo6AwW5BdCwDBBJZpnJeEnFEHGnxq87nOIeKr3XRYiTxYG7Q2E0D8UssmVFBzcFwj4poyHa2cvxjKi3F5BfGnIkMwGcv84G9nWe4xCpo6NYb22cxWYYgYfVJzuVFOA70h4etQ1EKFQNsOi3cNzat+x36jxOrviWqe4QGq9+XEW3HH/v325bDZ9HPjPARxI0Ig7DIglwwcPVN0vgHat5Sepfg4+jQbfyTvG7EcvhV/p3icCf7j8c4+QIDAQABo4ICFzCCAhMwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBS6IjMOzgXZrKnP7w4avGmNH4Yj/DAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAfBgNVHREEGDAWghR3d3cuY29xdWUtZW4tYm9pcy5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQUGCisGAQQB1nkCBAIEgfYEgfMA8QB2ALc++yTfnE26dfI5xbpY9Gxd/ELPep81xJ4dCYEl7bSZAAABiqUDD00AAAQDAEcwRQIhAKkqDJs7dL2wdBIuxI2VYBU/XiEt3DYe2O1YpvCrWTKsAiAqeG/YoTyR2FxADmQo6TlDIbF6od0m0h8vSyq23/J3cQB3AOg+0No+9QY1MudXKLyJa8kD08vREWvs62nhd31tBr1uAAABiqUDD0MAAAQDAEgwRgIhAKDUn9xLQzwrHsaHOK/hvMX/Avipb5TLJG/9uMDUYHwZAiEAwizPW2mERva9p4h6cWvJUlx/XfTE8SLNvC58O+CZmLQwDQYJKoZIhvcNAQELBQADggEBAGaDXoiF/KKC+B++Sg20dokYeMyb3KwTLUdjRitBXXzSJ+jxhU0GaIMlcKnnPI7KkRQrPTztCqB2rmIOFgY4jFZJf3CkTorRqXer1KUrftIB8r3RCILINy/qcPknUKY8vLFaNrCyExGDeHLJQcTu57/E0zzePTlrd7o3JgvFGRt953+LLnTb0fcD+EokKJAQLupXN+C3VTjehGsGykcWJGxr6i4xFaMusdQGkPO/q4tEU0QQ4iVpLfZBy40/QaQfB2uco2/v0Hg/Q4IIho6EXrXZu1Su7z2eE2NRhfPYSckHGHAk1eOw7EHDic67hvQZUok1J5yFypbaFgs1B8m/svk=\n-----END CERTIFICATE-----"
+              "finding"      : "-----BEGIN CERTIFICATE-----\nMIIE9DCCA9ygAwIBAgISA49hRE8j/N2aN+QlOw8w42dEMA0GCSqGSIb3DQEBCwUAMDIxCzAJBgNVBAYTAlVTMRYwFAYDVQQKEw1MZXQncyBFbmNyeXB0MQswCQYDVQQDEwJSMzAeFw0yMzExMTYxOTIxNDhaFw0yNDAyMTQxOTIxNDdaMB8xHTAbBgNVBAMTFHd3dy5jb3F1ZS1lbi1ib2lzLmZyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvtCpo+tKHe0ZulcXaigcqBizXc+hFHnq841q0lYpDtNp6h/qM6eapGOTGUru3y/f3KTfkwJrDF32i8bIyTWwhDBE9bTjGZpoWsk5P7Z99aZ3QJQ+AtQe+fY6hQSiaRdjMCCZoXgVk7Rp0/emC/6GH+L3t1ioTUidRdYk+RP0/ylDfLqJEDWPtG2TbxzS2dhE7EX7A0bTZEDPjv0em9i83d0l6sK3VD8IJyOrpztKteftWXxeZtS1Gy6YXvrNS6euUyzd4VMvyAIpu+efl20TbFojkp07p53N6rQ8okzxGMpDOlA1nlNZfBmj1MDZDd+Vvf5SR865EcLzuobjRmxmuQIDAQABo4ICFTCCAhEwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQo5AGyzqsTaBbijP6OifycpOk19DAfBgNVHSMEGDAWgBQULrMXt1hWy65QCUDmH6+dixTCxjBVBggrBgEFBQcBAQRJMEcwIQYIKwYBBQUHMAGGFWh0dHA6Ly9yMy5vLmxlbmNyLm9yZzAiBggrBgEFBQcwAoYWaHR0cDovL3IzLmkubGVuY3Iub3JnLzAfBgNVHREEGDAWghR3d3cuY29xdWUtZW4tYm9pcy5mcjATBgNVHSAEDDAKMAgGBmeBDAECATCCAQMGCisGAQQB1nkCBAIEgfQEgfEA7wB2AEiw42vapkc0D+VqAvqdMOscUgHLVt0sgdm7v6s52IRzAAABi9nMBVgAAAQDAEcwRQIhALpFEzhe7C9ixKZlHd9ZwOegi+oPYdkUbrIhlsvkPH6VAiBSPRxE/Z7dtjPB8vgKMPuBiG7MNDazrFNZUkwCdN3q6gB1AHb/iD8KtvuVUcJhzPWHujS0pM27KdxoQgqf5mdMWjp0AAABi9nMBbAAAAQDAEYwRAIgbilGgZEQb7e9JWskGnvDIwOY8SBBWXbADhrG+xeaHsgCIGMfMWgmxoPRM2HOY5FYWf5KAzSIag8Y2M89SL50TpHzMA0GCSqGSIb3DQEBCwUAA4IBAQCWDHdlrqNr4zMdVimAXYJwHjOJHHfZJ2Xl7SkN1CtKvCvDqy+hwusZ4P9HdNBGFFmJHbFsTYWdcdwQzC3nLLZRpSqqKc+FfGVf+uBGS1jdu8TZYQ0LmYQ1dGYAc1R9AQ8BZG9NKEuXH6YpZvCHnTHkTGOWIaU1um5Dv5Sp7XRd8rkjPR1JMfSGT1jsx41IMtjMOYTv0wiz3AqxLWEMIggubljqVKATIXvkt7l4GgZlf25NOkwp/7EEGHTnLe3ho+g75+p9ODdYLqq0fPsiT5JZ3QnXQnoI2vvZ/IVvaiI0LgmVOjakkQ7Y3ZCMU//yM36HyvUo5Hu8qfFR3Z+DSVU7\n-----END CERTIFICATE-----"
           }
 ,         {
               "id"           : "cert_commonName",
@@ -346,21 +346,21 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "34 >= 30 days"
+              "finding"      : "87 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "2023-09-17 20:19"
+              "finding"      : "2023-11-16 19:21"
           }
 ,         {
               "id"           : "cert_notAfter",
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "2023-12-16 20:19"
+              "finding"      : "2024-02-14 19:21"
           }
 ,         {
               "id"           : "cert_extlifeSpan",
@@ -556,7 +556,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1699759301"
+              "finding"      : "1700362800"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -591,7 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=10, db;dur=3, asn;desc='8075', edge;desc='DFW', country;desc='US', theme;desc='145167515992', pageType;desc='index', servedBy;desc='rjck', requestID;desc='444cfce1-f123-4fb5-bc83-329bfc658669'Server-Timing: cfRequestDuration;dur=151.999950cloudflare"
+              "finding"      : "Server-Timing: processing;dur=10, db;dur=3, asn;desc='8075', edge;desc='IAD', country;desc='US', theme;desc='145167515992', pageType;desc='index', servedBy;desc='s5b9', requestID;desc='568ca7aa-6968-4da0-9f7b-f10402c9aaa6'Server-Timing: cfRequestDuration;dur=117.999792cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -778,7 +778,7 @@
               "severity"     : "INFO",
               "cve"          : "CVE-2016-0800 CVE-2016-0703",
               "cwe"          : "CWE-310",
-              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=9513B46B85C9B2B940CFA760BB9F67870AFC0D2DD50E2BB4DE12E63B223BDA55"
+              "finding"      : "Make sure you don't use this certificate elsewhere with SSLv2 enabled services, see https://search.censys.io/search?resource=hosts&virtual_hosts=INCLUDE&q=15FC539E75C67358D8902224A8AF56DE5B39243A499BD2B201095CF5B91165E7"
           }
 ,         {
               "id"           : "LOGJAM",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "71"
+              "finding"      : "59"
           }
 ]
