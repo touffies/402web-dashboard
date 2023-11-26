@@ -1,16 +1,16 @@
 {
   "trackers": [
     {
-      "type": "unknown",
-      "url": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js"
-    },
-    {
       "type": "polyfill.io",
       "url": "https://cdn.polyfill.io/v3/polyfill.min.js?unknown=polyfill&features=fetch,Element.prototype.closest,Element.prototype.remove,Element.prototype.classList,Array.prototype.includes,Array.prototype.fill,Object.assign,CustomEvent,IntersectionObserver,IntersectionObserverEntry,URL",
       "details": {
         "id": "polyfill.io",
         "message": "Bundle your polyfills and host locally"
       }
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/JsWidget.js"
     },
     {
       "type": "unknown",
@@ -66,18 +66,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/Organisateur_de_bureau.svg?v=1672416496"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/Support_d_cran.svg?v=1672416496"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/Support_d_ordinateur_portable.svg?v=1672416496"
-    },
-    {
-      "type": "unknown",
       "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/Personnalisation_5f463460-b071-4cd0-adde-1e19417f5006.svg?v=1678110123"
     },
     {
@@ -125,14 +113,6 @@
       "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/Cable_USB_6bd09348-d6f5-4d11-98cc-532d8eeb8827.svg?v=1678110124"
     },
     {
-      "type": "unknown",
-      "url": "https://static.willdesk.com/c/willdesk.min.js?v=1700362762008"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static.willdesk.com/c/willdesk.min.js?v=1700362762077"
-    },
-    {
       "type": "facebook",
       "url": "https://connect.facebook.net/en_US/fbevents.js",
       "details": {
@@ -149,16 +129,12 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/signals/config/183997692479597?v=2.9.138&r=stable&domain=www.coque-en-bois.fr",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
+      "type": "unknown",
+      "url": "https://static.willdesk.com/c/willdesk.min.js?v=1700969420960"
     },
     {
       "type": "unknown",
-      "url": "https://static.willdesk.com/c/willdesk-entrance.min.js?v=202311171758"
+      "url": "https://static.willdesk.com/c/willdesk.min.js?v=1700969421194"
     },
     {
       "type": "google tag manager",
@@ -170,19 +146,15 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HXMZT7KSHG&gtm=45je3b81v9101681644&_p=1700362762083&gcd=11l1l1l1l1&dma=0&cid=1511634515.1700362762&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1700362762&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1001",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HXMZT7KSHG&gtm=45je3b81v9101681644&_p=1700969420919&gcd=11l1l1l1l1&dma=0&cid=1736234030.1700969421&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1700969421&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1081",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
       }
     },
     {
-      "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/setting/getCShopSetting?domain=coque-en-bois.myshopify.com"
-    },
-    {
       "type": "facebook",
-      "url": "https://www.facebook.com/tr/?id=183997692479597&ev=PageView&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&rl=&if=false&ts=1700362762342&sw=800&sh=600&v=2.9.138&r=stable&a=shopify&ec=0&o=4254&fbp=fb.1.1700362762340.58510247&ler=empty&it=1700362762254&coo=false&eid=sh-e584b97a-E82C-409E-B6B5-EDF777472F33&rqm=GET",
+      "url": "https://connect.facebook.net/signals/config/183997692479597?v=2.9.138&r=stable&domain=www.coque-en-bois.fr",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -190,7 +162,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-D9ZE5LB4KQ&gtm=45ve3b81v9120987999&_p=1700362762083&gcd=11l1l1l1l1&dma=0&cid=1511634515.1700362762&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1700362762&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1070"
+      "url": "https://static.willdesk.com/c/willdesk-entrance.min.js?v=202311211804"
+    },
+    {
+      "type": "unknown",
+      "url": "https://api.willdesk.com/api/v1/setting/getCShopSetting?domain=coque-en-bois.myshopify.com"
+    },
+    {
+      "type": "unknown",
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-D9ZE5LB4KQ&gtm=45ve3b81v9120987999&_p=1700969420919&gcd=11l1l1l1l1&dma=0&cid=1736234030.1700969421&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1700969421&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1212"
     },
     {
       "type": "unknown",
@@ -209,8 +189,28 @@
       "url": "https://api.willdesk.com/api/v1/crawl/getHtml?domain=https://u.willdesk.com&shop=coque-en-bois.myshopify.com"
     },
     {
+      "type": "facebook",
+      "url": "https://www.facebook.com/tr/?id=183997692479597&ev=PageView&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&rl=&if=false&ts=1700969421499&sw=800&sh=600&v=2.9.138&r=stable&a=shopify&ec=0&o=4254&fbp=fb.1.1700969421498.220158914&ler=empty&it=1700969421331&coo=false&eid=sh-09ad9a9e-D865-44F3-3863-3D5AE46AA3FC&rqm=GET",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
       "type": "unknown",
       "url": "https://api.willdesk.com/api/v1/autoanswer/execPostRule"
+    },
+    {
+      "type": "unknown",
+      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
+    },
+    {
+      "type": "unknown",
+      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
+    },
+    {
+      "type": "unknown",
+      "url": "https://img.willdesk.com/prod/avatar/21561/2023/07/10/86308efc83aaf3c8477ef24e2ce4936bcoque-en-bois-favicon_96x.png?x-oss-process=image/resize,w_64,h_64,m_lfit"
     },
     {
       "type": "unknown",
@@ -225,6 +225,10 @@
       }
     },
     {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.esm.fr.084457fafc66979a5f33.js"
+    },
+    {
       "type": "google",
       "url": "https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js",
       "details": {
@@ -234,11 +238,11 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.esm.fr.cf55eaa28d9a3700d3d8.js"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/199.esm.fr.54f1d78d032ded4b9a89.js"
     },
     {
       "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
+      "url": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/cache/jsv2/8972.html"
     },
     {
       "type": "unknown",
@@ -250,15 +254,15 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/199.esm.fr.54f1d78d032ded4b9a89.js"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/783.esm.fr.722912f02b3f3be9b68c.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/598.esm.fr.6d2db308fb9597b8a04f.js"
     },
     {
       "type": "unknown",
       "url": "https://platform.smile.io/v1/smile_ui/init?channel_key=channel_3q1X42gIWZD2GRWbz4zvf0z4"
-    },
-    {
-      "type": "unknown",
-      "url": "https://www.societe-des-avis-garantis.fr/wp-content/plugins/ag-core/widgets/cache/jsv2/8972.html"
     },
     {
       "type": "unknown",
@@ -273,22 +277,6 @@
       "url": "https://cdn.sweettooth.io/v1/images/launcher_icons/present.svg?color=%23FFFFFF"
     },
     {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/783.esm.fr.722912f02b3f3be9b68c.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/598.esm.fr.6d2db308fb9597b8a04f.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.esm.fr.4ce987d9ea3f7bbc9b9d.js"
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.googleapis.com/css?family=Oswald:400,700",
       "details": {
@@ -298,19 +286,19 @@
     },
     {
       "type": "unknown",
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1700362762886"
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1700969421856"
     },
     {
       "type": "unknown",
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1700362762887"
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1700969421857"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.esm.fr.e55dd478f312a7b80a01.js"
     },
     {
       "type": "unknown",
       "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/731.esm.fr.cb6b141fdd0e9091a359.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://img.willdesk.com/prod/avatar/21561/2023/07/10/86308efc83aaf3c8477ef24e2ce4936bcoque-en-bois-favicon_96x.png?x-oss-process=image/resize,w_64,h_64,m_lfit"
     },
     {
       "type": "unknown",
@@ -326,7 +314,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Redesign.esm.fr.c7c80cd58728ebc01bb5.js"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/Redesign.esm.fr.ecab473a72b2cd21f2ba.js"
     },
     {
       "type": "unknown",
@@ -355,11 +343,25 @@
   ],
   "cookies": [
     {
-      "name": "_ga_D9ZE5LB4KQ",
-      "value": "GS1.1.1700362762.1.0.1700362762.0.0.0",
+      "name": "_fbp",
+      "value": "fb.1.1700969421498.220158914",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1763434762,
+      "expires": 1708745421,
+      "size": 32,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_ga_D9ZE5LB4KQ",
+      "value": "GS1.1.1700969421.1.0.1700969421.0.0.0",
+      "domain": ".coque-en-bois.fr",
+      "path": "/",
+      "expires": 1764041421,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -369,25 +371,11 @@
       "sourcePort": 443
     },
     {
-      "name": "_fbp",
-      "value": "fb.1.1700362762340.58510247",
-      "domain": ".coque-en-bois.fr",
-      "path": "/",
-      "expires": 1708138762,
-      "size": 31,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
       "name": "_ga",
-      "value": "GA1.1.1511634515.1700362762",
+      "value": "GA1.1.1736234030.1700969421",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1763434762,
+      "expires": 1764041421,
       "size": 30,
       "httpOnly": false,
       "secure": false,
@@ -398,10 +386,10 @@
     },
     {
       "name": "_shopify_sa_t",
-      "value": "2023-11-19T02%3A59%3A22.134Z",
+      "value": "2023-11-26T03%3A30%3A20.983Z",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1700364562,
+      "expires": 1700971220,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -416,7 +404,7 @@
       "value": "%2F",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1701572361.624005,
+      "expires": 1702179020.446359,
       "size": 16,
       "httpOnly": true,
       "secure": false,
@@ -431,7 +419,7 @@
       "value": "",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1701572361.623996,
+      "expires": 1702179020.44635,
       "size": 14,
       "httpOnly": true,
       "secure": false,
@@ -443,10 +431,10 @@
     },
     {
       "name": "_shopify_s",
-      "value": "9baa5467-74a5-4026-a6fb-fc7803b980ef",
+      "value": "7731ea0e-1ffb-46fc-a66b-e9f33d294562",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1700364561,
+      "expires": 1700971220,
       "size": 46,
       "httpOnly": false,
       "secure": false,
@@ -458,10 +446,10 @@
     },
     {
       "name": "_ga_HXMZT7KSHG",
-      "value": "GS1.1.1700362762.1.0.1700362762.0.0.0",
+      "value": "GS1.1.1700969421.1.0.1700969421.0.0.0",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1763434762,
+      "expires": 1764041421,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -472,10 +460,10 @@
     },
     {
       "name": "_shopify_y",
-      "value": "0e93dc11-c9ba-4acd-a8da-76b67a49c0db",
+      "value": "73a70063-30c6-4a50-928d-5d20e830171c",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1731898761.623974,
+      "expires": 1732505420.446329,
       "size": 46,
       "httpOnly": false,
       "secure": false,
@@ -487,11 +475,11 @@
     },
     {
       "name": "_cmp_a",
-      "value": "%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D",
+      "value": "%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1700449161.623958,
-      "size": 198,
+      "expires": 1701055820.4463,
+      "size": 199,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -505,7 +493,7 @@
       "value": "",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1700364562,
+      "expires": 1700971220,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -520,7 +508,7 @@
       "value": "FR",
       "domain": "www.coque-en-bois.fr",
       "path": "/",
-      "expires": 1731985161.623945,
+      "expires": 1732591820.446288,
       "size": 14,
       "httpOnly": false,
       "secure": false,
@@ -534,7 +522,7 @@
       "value": "",
       "domain": "www.coque-en-bois.fr",
       "path": "/",
-      "expires": 1731985161.623921,
+      "expires": 1732591820.446251,
       "size": 19,
       "httpOnly": true,
       "secure": true,
@@ -546,10 +534,10 @@
     },
     {
       "name": "keep_alive",
-      "value": "119d16eb-a567-4029-8d36-3f8f6992ea87",
+      "value": "0e0d13c5-c9a9-40a0-acc7-2ad540deb418",
       "domain": "www.coque-en-bois.fr",
       "path": "/",
-      "expires": 1700364561.623817,
+      "expires": 1700971220.446153,
       "size": 46,
       "httpOnly": true,
       "secure": false,
@@ -563,29 +551,29 @@
   "headers": {
     "alt-svc": "h3=\":443\"; ma=86400",
     "cf-cache-status": "DYNAMIC",
-    "cf-ray": "8285325b6e1e2d1c-IAD",
+    "cf-ray": "82bf0d5ca8f57d6b-LAX",
     "content-encoding": "br",
     "content-language": "fr",
     "content-security-policy": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 19 Nov 2023 02:59:21 GMT",
-    "etag": "W/\"cacheable:259cba0c06bb57f91de542b8d65bce5c\"",
+    "date": "Sun, 26 Nov 2023 03:30:20 GMT",
+    "etag": "W/\"cacheable:cbebea1de5c59695e4297e17df89431a\"",
     "link": "<https://cdn.shopify.com>; rel=\"preconnect\", <https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin",
     "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
     "powered-by": "Shopify",
-    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=TD87fUXO0kRxCWJgvOGrINEdvospSHRn1MECNNipHqr5%2BiLsoxF4eOEXKUHgOKS8%2BWflt0AcfBdSoTUhR79J8Z6VX1dx%2FmjqwzqKaD2AwxaUG9LjYsazUtpqrU92hTU%2FG1e07bso\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=06auoW0%2FbGvGWg8c2EqzKjY4OxeHBnVXfdP6ZAHbU2b30ZAb67t%2BT1qVdDshvb%2FfkdcJJEYQs8DmLL%2BbpM89M4e4KUed65oa7PMbRtOZp6B%2BE6nL3yhSjJsBrwph6Iw8FL2RohaH\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
     "server": "cloudflare",
-    "server-timing": "processing;dur=10, db;dur=3, asn;desc=\"8075\", edge;desc=\"IAD\", country;desc=\"US\", theme;desc=\"145167515992\", pageType;desc=\"index\", servedBy;desc=\"s5b9\", requestID;desc=\"c3f50dea-0e77-4e57-a9d0-add2566751d2\"\ncfRequestDuration;dur=118.000031",
-    "set-cookie": "keep_alive=119d16eb-a567-4029-8d36-3f8f6992ea87; path=/; expires=Sun, 19 Nov 2023 03:29:21 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Tue, 19 Nov 2024 02:59:21 GMT; secure; HttpOnly; SameSite=Lax\nlocalization=FR; path=/; expires=Tue, 19 Nov 2024 02:59:21 GMT\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Atrue%7D; domain=coque-en-bois.fr; path=/; expires=Mon, 20 Nov 2023 02:59:21 GMT; SameSite=Lax\n_shopify_y=0e93dc11-c9ba-4acd-a8da-76b67a49c0db; Expires=Mon, 18-Nov-24 02:59:21 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_shopify_s=9baa5467-74a5-4026-a6fb-fc7803b980ef; Expires=Sun, 19-Nov-23 03:29:21 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_orig_referrer=; Expires=Sun, 03-Dec-23 02:59:21 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Sun, 03-Dec-23 02:59:21 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax",
+    "server-timing": "processing;dur=10, db;dur=3, asn;desc=\"8075\", edge;desc=\"LAX\", country;desc=\"US\", theme;desc=\"145167515992\", pageType;desc=\"index\", servedBy;desc=\"v8dc\", requestID;desc=\"b457ca2b-6c52-4edc-8c55-e48c4aff8c5a\"\ncfRequestDuration;dur=177.999973, earlyhints",
+    "set-cookie": "keep_alive=0e0d13c5-c9a9-40a0-acc7-2ad540deb418; path=/; expires=Sun, 26 Nov 2023 04:00:20 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Tue, 26 Nov 2024 03:30:20 GMT; secure; HttpOnly; SameSite=Lax\nlocalization=FR; path=/; expires=Tue, 26 Nov 2024 03:30:20 GMT\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22merchant_geo%22%3A%22FR%22%2C%22sale_of_data_region%22%3Afalse%7D; domain=coque-en-bois.fr; path=/; expires=Mon, 27 Nov 2023 03:30:20 GMT; SameSite=Lax\n_shopify_y=73a70063-30c6-4a50-928d-5d20e830171c; Expires=Mon, 25-Nov-24 03:30:20 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_shopify_s=7731ea0e-1ffb-46fc-a66b-e9f33d294562; Expires=Sun, 26-Nov-23 04:00:20 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_orig_referrer=; Expires=Sun, 10-Dec-23 03:30:20 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Sun, 10-Dec-23 03:30:20 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax",
     "strict-transport-security": "max-age=7889238",
     "vary": "Accept",
     "x-cache": "hit, server",
     "x-content-type-options": "nosniff",
-    "x-dc": "gcp-us-east4,gcp-europe-west4,gcp-europe-west4",
+    "x-dc": "gcp-us-west2,gcp-europe-west4,gcp-europe-west4",
     "x-download-options": "noopen",
     "x-frame-options": "DENY",
     "x-permitted-cross-domain-policies": "none",
-    "x-request-id": "c3f50dea-0e77-4e57-a9d0-add2566751d2",
+    "x-request-id": "b457ca2b-6c52-4edc-8c55-e48c4aff8c5a",
     "x-shardid": "343",
     "x-shopid": "12910100538",
     "x-shopify-stage": "production",
@@ -641,8 +629,8 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 45.4153,
-          "longitude": -75.6894,
+          "latitude": 45.413,
+          "longitude": -75.7011,
           "time_zone": "America/Toronto"
         },
         "postal": {
@@ -679,36 +667,20 @@
       }
     },
     {
-      "hostname": "www.societe-des-avis-garantis.fr",
-      "ip": "104.26.6.7",
-      "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
       "hostname": "cdn.polyfill.io",
-      "ip": "146.75.37.26",
+      "ip": "146.75.93.26",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5368361,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "Los Angeles",
+            "en": "Los Angeles",
+            "es": "Los Ángeles",
+            "fr": "Los Angeles",
+            "ja": "ロサンゼルス",
+            "pt-BR": "Los Angeles",
+            "ru": "Лос-Анджелес",
+            "zh-CN": "洛杉矶"
           }
         },
         "continent": {
@@ -741,13 +713,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "metro_code": 803,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
+          "code": "90012"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -765,18 +737,40 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
+      }
+    },
+    {
+      "hostname": "www.societe-des-avis-garantis.fr",
+      "ip": "104.26.7.7",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
       }
     },
     {
@@ -834,39 +828,14 @@
       }
     },
     {
-      "hostname": "static.willdesk.com",
-      "ip": "104.26.3.165",
-      "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
       "hostname": "connect.facebook.net",
-      "ip": "157.240.245.8",
+      "ip": "31.13.66.19",
       "geoip": {
         "city": {
-          "geoname_id": 4951257,
+          "geoname_id": 4744870,
           "names": {
-            "de": "Somerville",
-            "en": "Somerville",
-            "fr": "Somerville",
-            "ja": "サマービル",
-            "pt-BR": "Somerville",
-            "ru": "Сомервилл",
-            "zh-CN": "萨默维尔"
+            "en": "Ashburn",
+            "ru": "Ашберн"
           }
         },
         "continent": {
@@ -899,37 +868,40 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 42.3797,
-          "longitude": -71.1034,
-          "metro_code": 506,
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "02143"
+          "code": "20149"
         },
         "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
           "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
           }
         },
         "subdivisions": [
           {
-            "geoname_id": 6254926,
-            "iso_code": "MA",
+            "geoname_id": 6254928,
+            "iso_code": "VA",
             "names": {
-              "en": "Massachusetts",
-              "fr": "Massachusetts",
-              "ja": "マサチューセッツ州",
-              "ru": "Массачусетс"
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
             }
           }
         ]
@@ -937,7 +909,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.122.97",
+      "ip": "142.250.188.232",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -990,8 +962,28 @@
       }
     },
     {
+      "hostname": "static.willdesk.com",
+      "ip": "104.26.2.165",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
       "hostname": "www.google-analytics.com",
-      "ip": "142.251.111.101",
+      "ip": "142.250.188.238",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1064,92 +1056,8 @@
       }
     },
     {
-      "hostname": "www.facebook.com",
-      "ip": "157.240.3.35",
-      "geoip": {
-        "city": {
-          "geoname_id": 5809844,
-          "names": {
-            "de": "Seattle",
-            "en": "Seattle",
-            "es": "Seattle",
-            "fr": "Seattle",
-            "ja": "シアトル",
-            "pt-BR": "Seattle",
-            "ru": "Сиэтл"
-          }
-        },
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 47.6034,
-          "longitude": -122.3414,
-          "metro_code": 819,
-          "time_zone": "America/Los_Angeles"
-        },
-        "postal": {
-          "code": "98160"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5815135,
-            "iso_code": "WA",
-            "names": {
-              "en": "Washington",
-              "es": "Washington",
-              "fr": "Washington",
-              "ja": "ワシントン州",
-              "ru": "Вашингтон",
-              "zh-CN": "华盛顿州"
-            }
-          }
-        ]
-      }
-    },
-    {
       "hostname": "www.merchant-center-analytics.goog",
-      "ip": "172.253.63.101",
+      "ip": "142.250.188.238",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1203,8 +1111,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.122.95",
+      "ip": "142.250.72.170",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -1234,11 +1148,131 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 500,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
         },
+        "postal": {
+          "code": "11803"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "www.facebook.com",
+      "ip": "31.13.66.35",
+      "geoip": {
+        "city": {
+          "geoname_id": 4744870,
+          "names": {
+            "en": "Ashburn",
+            "ru": "Ашберн"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "Vereinigte Staaten",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 39.0469,
+          "longitude": -77.4903,
+          "metro_code": 511,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "20149"
+        },
+        "registered_country": {
+          "geoname_id": 2963597,
+          "is_in_european_union": true,
+          "iso_code": "IE",
+          "names": {
+            "de": "Irland",
+            "en": "Ireland",
+            "es": "Irlanda",
+            "fr": "Irlande",
+            "ja": "アイルランド",
+            "pt-BR": "Irlanda",
+            "ru": "Ирландия",
+            "zh-CN": "爱尔兰"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 6254928,
+            "iso_code": "VA",
+            "names": {
+              "en": "Virginia",
+              "fr": "Virginie",
+              "ja": "バージニア州",
+              "pt-BR": "Virgínia",
+              "ru": "Вирджиния",
+              "zh-CN": "弗吉尼亚州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "img.willdesk.com",
+      "ip": "104.26.2.165",
+      "geoip": {
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
@@ -1257,7 +1291,7 @@
     },
     {
       "hostname": "js.smile.io",
-      "ip": "99.84.208.64",
+      "ip": "18.154.132.92",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1311,7 +1345,7 @@
     },
     {
       "hostname": "d1639lhkj5l89m.cloudfront.net",
-      "ip": "3.162.93.15",
+      "ip": "18.154.207.17",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1343,8 +1377,8 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
+          "latitude": 41.8764,
+          "longitude": -87.6133,
           "time_zone": "America/Chicago"
         },
         "registered_country": {
@@ -1360,12 +1394,27 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 4896861,
+            "iso_code": "IL",
+            "names": {
+              "en": "Illinois",
+              "es": "Illinois",
+              "fr": "Illinois",
+              "ja": "イリノイ州",
+              "pt-BR": "Ilinóis",
+              "ru": "Иллинойс",
+              "zh-CN": "伊利诺伊州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "172.253.63.95",
+      "ip": "142.250.217.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1419,7 +1468,7 @@
     },
     {
       "hostname": "platform.smile.io",
-      "ip": "3.162.112.41",
+      "ip": "3.163.125.88",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1473,7 +1522,7 @@
     },
     {
       "hostname": "cdn.sweettooth.io",
-      "ip": "3.162.112.58",
+      "ip": "3.163.125.47",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1529,60 +1578,6 @@
       "hostname": "static.cloudflareinsights.com",
       "ip": "104.16.57.101",
       "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "img.willdesk.com",
-      "ip": "172.67.68.93",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "Vereinigte Staaten",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
