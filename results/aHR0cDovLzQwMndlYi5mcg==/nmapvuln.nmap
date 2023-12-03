@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Nov 26 01:02:55 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
+# Nmap 7.92 scan initiated Sun Dec  3 01:02:56 2023 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln 402web.fr
 Nmap scan report for 402web.fr (83.166.138.63)
-Host is up (0.15s latency).
+Host is up (0.17s latency).
 Other addresses for 402web.fr (not scanned): 2001:1600:4:13:d294:66ff:fe0e:a4d4
 rDNS record for 83.166.138.63: h2web104.infomaniak.ch
 Not shown: 993 filtered tcp ports (no-response)
@@ -22,7 +22,7 @@ PORT      STATE  SERVICE      VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 403 Forbidden
-|     date: Sun, 26 Nov 2023 01:03:10 GMT
+|     date: Sun, 03 Dec 2023 01:03:12 GMT
 |     server: Apache
 |     vary: accept-language,accept-charset
 |     upgrade: h2
@@ -30,7 +30,7 @@ PORT      STATE  SERVICE      VERSION
 |     accept-ranges: bytes
 |     content-type: text/html; charset=utf-8
 |     content-language: en
-|     expires: Sun, 26 Nov 2023 01:03:10 GMT
+|     expires: Sun, 03 Dec 2023 01:03:12 GMT
 |     <?xml version="1.0" encoding="UTF-8"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -50,7 +50,7 @@ PORT      STATE  SERVICE      VERSION
 |     don't have permission to acc
 |   HTTPOptions: 
 |     HTTP/1.1 503 Service unavailable
-|     date: Sun, 26 Nov 2023 01:03:10 GMT
+|     date: Sun, 03 Dec 2023 01:03:12 GMT
 |     server: Apache
 |     upgrade: h2
 |     connection: Upgrade
@@ -75,7 +75,7 @@ PORT      STATE  SERVICE      VERSION
 | fingerprint-strings: 
 |   GetRequest: 
 |     HTTP/1.1 403 Forbidden
-|     date: Sun, 26 Nov 2023 01:03:17 GMT
+|     date: Sun, 03 Dec 2023 01:03:18 GMT
 |     server: Apache
 |     vary: accept-language,accept-charset
 |     strict-transport-security: max-age=16000000
@@ -84,7 +84,7 @@ PORT      STATE  SERVICE      VERSION
 |     accept-ranges: bytes
 |     content-type: text/html; charset=utf-8
 |     content-language: en
-|     expires: Sun, 26 Nov 2023 01:03:17 GMT
+|     expires: Sun, 03 Dec 2023 01:03:18 GMT
 |     <?xml version="1.0" encoding="UTF-8"?>
 |     <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
 |     "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
@@ -103,7 +103,7 @@ PORT      STATE  SERVICE      VERSION
 |     <h1>Access forbidden!</h1>
 |   HTTPOptions: 
 |     HTTP/1.1 503 Service unavailable
-|     date: Sun, 26 Nov 2023 01:03:17 GMT
+|     date: Sun, 03 Dec 2023 01:03:19 GMT
 |     server: Apache
 |     strict-transport-security: max-age=16000000
 |     upgrade: h2
@@ -128,73 +128,73 @@ PORT      STATE  SERVICE      VERSION
 42510/tcp closed caerpc
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=11/26%Time=6562994E%P=x86_64-alpine-linux-musl%
-SF:r(GetRequest,4E9,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Sun,\x2026\
-SF:x20Nov\x202023\x2001:03:10\x20GMT\r\nserver:\x20Apache\r\nvary:\x20acce
-SF:pt-language,accept-charset\r\nupgrade:\x20h2\r\nconnection:\x20Upgrade\
-SF:r\naccept-ranges:\x20bytes\r\ncontent-type:\x20text/html;\x20charset=ut
-SF:f-8\r\ncontent-language:\x20en\r\nexpires:\x20Sun,\x2026\x20Nov\x202023
-SF:\x2001:03:10\x20GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"UTF
-SF:-8\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\
-SF:x20Strict//EN\"\n\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-str
-SF:ict\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20lang=
-SF:\"en\"\x20xml:lang=\"en\">\n<head>\n<title>Access\x20forbidden!</title>
-SF:\n<link\x20rev=\"made\"\x20href=\"mailto:null@infomaniak\.ch\"\x20/>\n<
-SF:style\x20type=\"text/css\"><!--/\*--><!\[CDATA\[/\*><!--\*/\x20\n\x20\x
-SF:20\x20\x20body\x20{\x20color:\x20#000000;\x20background-color:\x20#FFFF
-SF:FF;\x20}\n\x20\x20\x20\x20a:link\x20{\x20color:\x20#0000CC;\x20}\n\x20\
-SF:x20\x20\x20p,\x20address\x20{margin-left:\x203em;}\n\x20\x20\x20\x20spa
-SF:n\x20{font-size:\x20smaller;}\n/\*\]\]>\*/--></style>\n</head>\n\n<body
-SF:>\n<h1>Access\x20forbidden!</h1>\n<p>\n\n\n\x20\x20\n\n\x20\x20\x20\x20
-SF:You\x20don't\x20have\x20permission\x20to\x20acc")%r(HTTPOptions,2C1,"HT
-SF:TP/1\.1\x20503\x20Service\x20unavailable\r\ndate:\x20Sun,\x2026\x20Nov\
-SF:x202023\x2001:03:10\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h2\r\nco
-SF:nnection:\x20Upgrade\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\
-SF:n\r\n<!DOCTYPE\x20html\n\tPUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20T
-SF:ransitional//EN\"\n\t\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-tra
-SF:nsitional\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x2
-SF:0lang=\"en-US\"\x20xml:lang=\"en-US\">\n<head>\n<title>web\x20host\x20n
-SF:ot\x20found</title>\n<meta\x20http-equiv=\"Content-Type\"\x20content=\"
-SF:text/html;\x20charset=iso-8859-1\"\x20/>\n</head>\n<body>\n\n<p>\n\tThe
-SF:\x20web\x20host\x20<i><br\x20/>\n<b>Warning</b>:\x20\x20Undefined\x20ar
-SF:ray\x20key\x20\"HTTP_HOST\"\x20in\x20<b>/home/www/72c208e76fa31285f1d1d
-SF:12ce648923a/web/index\.php</b>\x20on\x20line\x20<b>15</b><br\x20/>\n</i
-SF:>\x20does\x20not\x20exist\.\n</p>\n\n</body>\n</html>\n");
+SF-Port80-TCP:V=7.92%I=7%D=12/3%Time=656BD3D0%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,4E9,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Sun,\x2003\x
+SF:20Dec\x202023\x2001:03:12\x20GMT\r\nserver:\x20Apache\r\nvary:\x20accep
+SF:t-language,accept-charset\r\nupgrade:\x20h2\r\nconnection:\x20Upgrade\r
+SF:\naccept-ranges:\x20bytes\r\ncontent-type:\x20text/html;\x20charset=utf
+SF:-8\r\ncontent-language:\x20en\r\nexpires:\x20Sun,\x2003\x20Dec\x202023\
+SF:x2001:03:12\x20GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"UTF-
+SF:8\"\?>\n<!DOCTYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x
+SF:20Strict//EN\"\n\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-stri
+SF:ct\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20lang=\
+SF:"en\"\x20xml:lang=\"en\">\n<head>\n<title>Access\x20forbidden!</title>\
+SF:n<link\x20rev=\"made\"\x20href=\"mailto:null@infomaniak\.ch\"\x20/>\n<s
+SF:tyle\x20type=\"text/css\"><!--/\*--><!\[CDATA\[/\*><!--\*/\x20\n\x20\x2
+SF:0\x20\x20body\x20{\x20color:\x20#000000;\x20background-color:\x20#FFFFF
+SF:F;\x20}\n\x20\x20\x20\x20a:link\x20{\x20color:\x20#0000CC;\x20}\n\x20\x
+SF:20\x20\x20p,\x20address\x20{margin-left:\x203em;}\n\x20\x20\x20\x20span
+SF:\x20{font-size:\x20smaller;}\n/\*\]\]>\*/--></style>\n</head>\n\n<body>
+SF:\n<h1>Access\x20forbidden!</h1>\n<p>\n\n\n\x20\x20\n\n\x20\x20\x20\x20Y
+SF:ou\x20don't\x20have\x20permission\x20to\x20acc")%r(HTTPOptions,2C1,"HTT
+SF:P/1\.1\x20503\x20Service\x20unavailable\r\ndate:\x20Sun,\x2003\x20Dec\x
+SF:202023\x2001:03:12\x20GMT\r\nserver:\x20Apache\r\nupgrade:\x20h2\r\ncon
+SF:nection:\x20Upgrade\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\n
+SF:\r\n<!DOCTYPE\x20html\n\tPUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Tr
+SF:ansitional//EN\"\n\t\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-tran
+SF:sitional\.dtd\">\n<html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20
+SF:lang=\"en-US\"\x20xml:lang=\"en-US\">\n<head>\n<title>web\x20host\x20no
+SF:t\x20found</title>\n<meta\x20http-equiv=\"Content-Type\"\x20content=\"t
+SF:ext/html;\x20charset=iso-8859-1\"\x20/>\n</head>\n<body>\n\n<p>\n\tThe\
+SF:x20web\x20host\x20<i><br\x20/>\n<b>Warning</b>:\x20\x20Undefined\x20arr
+SF:ay\x20key\x20\"HTTP_HOST\"\x20in\x20<b>/home/www/72c208e76fa31285f1d1d1
+SF:2ce648923a/web/index\.php</b>\x20on\x20line\x20<b>15</b><br\x20/>\n</i>
+SF:\x20does\x20not\x20exist\.\n</p>\n\n</body>\n</html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=11/26%Time=65629955%P=x86_64-alpine-linu
-SF:x-musl%r(GetRequest,516,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Sun,
-SF:\x2026\x20Nov\x202023\x2001:03:17\x20GMT\r\nserver:\x20Apache\r\nvary:\
-SF:x20accept-language,accept-charset\r\nstrict-transport-security:\x20max-
-SF:age=16000000\r\nupgrade:\x20h2\r\nconnection:\x20Upgrade\r\naccept-rang
-SF:es:\x20bytes\r\ncontent-type:\x20text/html;\x20charset=utf-8\r\ncontent
-SF:-language:\x20en\r\nexpires:\x20Sun,\x2026\x20Nov\x202023\x2001:03:17\x
-SF:20GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\n<!DOC
-SF:TYPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Strict//EN\
-SF:"\n\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-strict\.dtd\">\n<
-SF:html\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20lang=\"en\"\x20xml:
-SF:lang=\"en\">\n<head>\n<title>Access\x20forbidden!</title>\n<link\x20rev
-SF:=\"made\"\x20href=\"mailto:null@infomaniak\.ch\"\x20/>\n<style\x20type=
-SF:\"text/css\"><!--/\*--><!\[CDATA\[/\*><!--\*/\x20\n\x20\x20\x20\x20body
-SF:\x20{\x20color:\x20#000000;\x20background-color:\x20#FFFFFF;\x20}\n\x20
-SF:\x20\x20\x20a:link\x20{\x20color:\x20#0000CC;\x20}\n\x20\x20\x20\x20p,\
-SF:x20address\x20{margin-left:\x203em;}\n\x20\x20\x20\x20span\x20{font-siz
-SF:e:\x20smaller;}\n/\*\]\]>\*/--></style>\n</head>\n\n<body>\n<h1>Access\
-SF:x20forbidden!</h1>\n<")%r(HTTPOptions,2EE,"HTTP/1\.1\x20503\x20Service\
-SF:x20unavailable\r\ndate:\x20Sun,\x2026\x20Nov\x202023\x2001:03:17\x20GMT
-SF:\r\nserver:\x20Apache\r\nstrict-transport-security:\x20max-age=16000000
-SF:\r\nupgrade:\x20h2\r\nconnection:\x20Upgrade\r\ncontent-type:\x20text/h
-SF:tml;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20html\n\tPUBLIC\x20\"-//W3C//D
-SF:TD\x20XHTML\x201\.0\x20Transitional//EN\"\n\t\x20\"http://www\.w3\.org/
-SF:TR/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"http://www\
-SF:.w3\.org/1999/xhtml\"\x20lang=\"en-US\"\x20xml:lang=\"en-US\">\n<head>\
-SF:n<title>web\x20host\x20not\x20found</title>\n<meta\x20http-equiv=\"Cont
-SF:ent-Type\"\x20content=\"text/html;\x20charset=iso-8859-1\"\x20/>\n</hea
-SF:d>\n<body>\n\n<p>\n\tThe\x20web\x20host\x20<i><br\x20/>\n<b>Warning</b>
-SF::\x20\x20Undefined\x20array\x20key\x20\"HTTP_HOST\"\x20in\x20<b>/home/w
-SF:ww/72c208e76fa31285f1d1d12ce648923a/web/index\.php</b>\x20on\x20line\x2
-SF:0<b>15</b><br\x20/>\n</i>\x20does\x20not\x20exist\.\n</p>\n\n</body>\n<
-SF:/html>\n");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=12/3%Time=656BD3D7%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,516,"HTTP/1\.1\x20403\x20Forbidden\r\ndate:\x20Sun,\
+SF:x2003\x20Dec\x202023\x2001:03:18\x20GMT\r\nserver:\x20Apache\r\nvary:\x
+SF:20accept-language,accept-charset\r\nstrict-transport-security:\x20max-a
+SF:ge=16000000\r\nupgrade:\x20h2\r\nconnection:\x20Upgrade\r\naccept-range
+SF:s:\x20bytes\r\ncontent-type:\x20text/html;\x20charset=utf-8\r\ncontent-
+SF:language:\x20en\r\nexpires:\x20Sun,\x2003\x20Dec\x202023\x2001:03:18\x2
+SF:0GMT\r\n\r\n<\?xml\x20version=\"1\.0\"\x20encoding=\"UTF-8\"\?>\n<!DOCT
+SF:YPE\x20html\x20PUBLIC\x20\"-//W3C//DTD\x20XHTML\x201\.0\x20Strict//EN\"
+SF:\n\x20\x20\"http://www\.w3\.org/TR/xhtml1/DTD/xhtml1-strict\.dtd\">\n<h
+SF:tml\x20xmlns=\"http://www\.w3\.org/1999/xhtml\"\x20lang=\"en\"\x20xml:l
+SF:ang=\"en\">\n<head>\n<title>Access\x20forbidden!</title>\n<link\x20rev=
+SF:\"made\"\x20href=\"mailto:null@infomaniak\.ch\"\x20/>\n<style\x20type=\
+SF:"text/css\"><!--/\*--><!\[CDATA\[/\*><!--\*/\x20\n\x20\x20\x20\x20body\
+SF:x20{\x20color:\x20#000000;\x20background-color:\x20#FFFFFF;\x20}\n\x20\
+SF:x20\x20\x20a:link\x20{\x20color:\x20#0000CC;\x20}\n\x20\x20\x20\x20p,\x
+SF:20address\x20{margin-left:\x203em;}\n\x20\x20\x20\x20span\x20{font-size
+SF::\x20smaller;}\n/\*\]\]>\*/--></style>\n</head>\n\n<body>\n<h1>Access\x
+SF:20forbidden!</h1>\n<")%r(HTTPOptions,2EE,"HTTP/1\.1\x20503\x20Service\x
+SF:20unavailable\r\ndate:\x20Sun,\x2003\x20Dec\x202023\x2001:03:19\x20GMT\
+SF:r\nserver:\x20Apache\r\nstrict-transport-security:\x20max-age=16000000\
+SF:r\nupgrade:\x20h2\r\nconnection:\x20Upgrade\r\ncontent-type:\x20text/ht
+SF:ml;\x20charset=UTF-8\r\n\r\n<!DOCTYPE\x20html\n\tPUBLIC\x20\"-//W3C//DT
+SF:D\x20XHTML\x201\.0\x20Transitional//EN\"\n\t\x20\"http://www\.w3\.org/T
+SF:R/xhtml1/DTD/xhtml1-transitional\.dtd\">\n<html\x20xmlns=\"http://www\.
+SF:w3\.org/1999/xhtml\"\x20lang=\"en-US\"\x20xml:lang=\"en-US\">\n<head>\n
+SF:<title>web\x20host\x20not\x20found</title>\n<meta\x20http-equiv=\"Conte
+SF:nt-Type\"\x20content=\"text/html;\x20charset=iso-8859-1\"\x20/>\n</head
+SF:>\n<body>\n\n<p>\n\tThe\x20web\x20host\x20<i><br\x20/>\n<b>Warning</b>:
+SF:\x20\x20Undefined\x20array\x20key\x20\"HTTP_HOST\"\x20in\x20<b>/home/ww
+SF:w/72c208e76fa31285f1d1d12ce648923a/web/index\.php</b>\x20on\x20line\x20
+SF:<b>15</b><br\x20/>\n</i>\x20does\x20not\x20exist\.\n</p>\n\n</body>\n</
+SF:html>\n");
 Service Info: Host: 83.166.138.63; OS: Unix
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Nov 26 01:03:41 2023 -- 1 IP address (1 host up) scanned in 46.46 seconds
+# Nmap done at Sun Dec  3 01:03:45 2023 -- 1 IP address (1 host up) scanned in 48.99 seconds
