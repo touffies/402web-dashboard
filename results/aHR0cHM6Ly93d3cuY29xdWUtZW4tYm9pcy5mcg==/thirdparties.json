@@ -2,7 +2,7 @@
   "trackers": [
     {
       "type": "unknown",
-      "url": "https://shop.app/checkouts/internal/preloads.js?permanent-domain=coque-en-bois.myshopify.com&locale=fr-FR"
+      "url": "https://shop.app/checkouts/internal/preloads.js?locale=fr-FR&shop_id=12910100538"
     },
     {
       "type": "unknown",
@@ -22,7 +22,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/extensions/3d8813ab-11bb-4779-9d88-fef5a8e0725a/willdesk-live-chat-helpdesk-1/assets/willdesk.min.js"
+      "url": "https://cdn.shopify.com/extensions/f0d8ded0-7f04-4e7b-a246-c2d1ed21e7c7/willdesk-live-chat-helpdesk-4/assets/willdesk.min.js"
     },
     {
       "type": "google tag manager",
@@ -129,18 +129,6 @@
       "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/Cable_USB_6bd09348-d6f5-4d11-98cc-532d8eeb8827.svg?v=1678110124"
     },
     {
-      "type": "unknown",
-      "url": "https://static.willdesk.com/c/willdesk.min.js?v=1708829504101"
-    },
-    {
-      "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/shop/local/entranceJs?customerDomain=https://u.willdesk.com&shopDomain=coque-en-bois.myshopify.com&callback=willdeskEntanceCallback"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static.willdesk.com/c/willdesk.min.js"
-    },
-    {
       "type": "facebook",
       "url": "https://connect.facebook.net/en_US/fbevents.js",
       "details": {
@@ -153,18 +141,6 @@
       "url": "https://s.pinimg.com/ct/core.js"
     },
     {
-      "type": "hotjar",
-      "url": "https://static.hotjar.com/c/hotjar-3331206.js?sv=7",
-      "details": {
-        "id": "hotjar",
-        "message": "Dont use HotJar"
-      }
-    },
-    {
-      "type": "unknown",
-      "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CK615Q3C77U25LTFV5JG&lib=ttq"
-    },
-    {
       "type": "google tag manager",
       "url": "https://www.googletagmanager.com/gtag/js?id=G-HXMZT7KSHG",
       "details": {
@@ -173,12 +149,8 @@
       }
     },
     {
-      "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/gtag/js?id=G-HXMZT7KSHG&l=dataLayer&cx=c",
-      "details": {
-        "id": "google tag manager",
-        "message": "Use hosted Matomo instance"
-      }
+      "type": "unknown",
+      "url": "https://static.willdesk.com/c/willdesk.min.js?v=1709435685255"
     },
     {
       "type": "unknown",
@@ -190,7 +162,7 @@
     },
     {
       "type": "unknown",
-      "url": "https://static.klaviyo.com/onsite/js/runtime.b82c45de5209c8130a94.js?cb=1"
+      "url": "https://static.klaviyo.com/onsite/js/runtime.16b91ab83d3d4843eeba.js?cb=1"
     },
     {
       "type": "unknown",
@@ -213,12 +185,36 @@
       "url": "https://static.klaviyo.com/onsite/js/signup_forms.f183415fc04b0931e86c.js?cb=1"
     },
     {
-      "type": "unknown",
-      "url": "https://s.pinimg.com/ct/lib/main.742e9fad.js"
+      "type": "hotjar",
+      "url": "https://static.hotjar.com/c/hotjar-3331206.js?sv=7",
+      "details": {
+        "id": "hotjar",
+        "message": "Dont use HotJar"
+      }
     },
     {
       "type": "unknown",
-      "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTNhZGZiOTRkMQ.js"
+      "url": "https://analytics.tiktok.com/i18n/pixel/events.js?sdkid=CK615Q3C77U25LTFV5JG&lib=ttq"
+    },
+    {
+      "type": "google tag manager",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-HXMZT7KSHG&l=dataLayer&cx=c",
+      "details": {
+        "id": "google tag manager",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://api.willdesk.com/api/v1/shop/local/entranceJs?customerDomain=https://u.willdesk.com&shopDomain=coque-en-bois.myshopify.com&callback=willdeskEntanceCallback"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.willdesk.com/c/willdesk.min.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://s.pinimg.com/ct/lib/main.cb6ceab7.js"
     },
     {
       "type": "unknown",
@@ -241,22 +237,6 @@
       }
     },
     {
-      "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HXMZT7KSHG&gtm=45je42l0v9101681644za220&_p=1708829503846&gcd=13l3l3l3l1&npa=0&dma=0&cid=672939427.1708829505&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1708829504&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=922",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/signals/config/183997692479597?v=2.9.147&r=stable&domain=www.coque-en-bois.fr&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "google fonts",
       "url": "https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap",
       "details": {
@@ -265,16 +245,44 @@
       }
     },
     {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-HXMZT7KSHG&gtm=45je42t1v9101681644za220&_p=1709435684854&gcd=13l3l3l3l1&npa=0&dma=0&cid=737870018.1709435686&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1709435685&sct=1&seg=0&en=page_view&_fv=1&_nsi=1&_ss=1&_ee=1&tfd=1054",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://analytics.tiktok.com/i18n/pixel/static/main.MTNhZGZiOTRkMQ.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://ct.pinterest.com/user/?tid=2613394335637&pd=%7B%22np%22%3A%22shopify%22%7D&cb=1709435685680&dep=2%2CPAGE_LOAD"
+    },
+    {
+      "type": "unknown",
+      "url": "https://ct.pinterest.com/user/?event=PageVisit&ed=%7B%22np%22%3A%22shopify%22%2C%22eventID%22%3A%22sh-024e8b50-83D7-49A9-3385-040971BDEB8D%22%7D&tid=2613394335637&cb=1709435685686&dep=5%2CEVENT_TAGS_ABSENT"
+    },
+    {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/signals/config/183997692479597?v=2.9.148&r=stable&domain=www.coque-en-bois.fr&hme=20c913bdcd4be51a752120153aa5caaecb3ee86c7f26cf737846e40b202aba68&ex_m=62%2C106%2C94%2C98%2C53%2C3%2C88%2C61%2C14%2C86%2C79%2C44%2C46%2C150%2C153%2C164%2C160%2C161%2C163%2C25%2C89%2C45%2C68%2C162%2C145%2C148%2C157%2C158%2C165%2C115%2C13%2C43%2C169%2C168%2C117%2C16%2C29%2C32%2C1%2C36%2C57%2C58%2C59%2C63%2C83%2C15%2C12%2C85%2C82%2C81%2C95%2C97%2C31%2C96%2C26%2C22%2C146%2C149%2C124%2C24%2C9%2C10%2C11%2C5%2C6%2C21%2C19%2C20%2C49%2C54%2C56%2C66%2C90%2C23%2C67%2C8%2C7%2C71%2C41%2C18%2C92%2C91%2C17%2C4%2C73%2C80%2C72%2C78%2C40%2C39%2C77%2C33%2C35%2C76%2C48%2C74%2C28%2C37%2C65%2C0%2C84%2C75%2C2%2C30%2C55%2C34%2C93%2C38%2C70%2C60%2C99%2C52%2C51%2C27%2C87%2C50%2C47%2C42%2C69%2C64%2C100",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
+      "type": "unknown",
+      "url": "https://ct.pinterest.com/v3/?tid=2613394335637&pd=%7B%22np%22%3A%22shopify%22%2C%22external_id%22%3A%22803c21b5442f0bcec08a9317cb52d9de3883bead19513799fa622a3a819a61e2%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.coque-en-bois.fr%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%22cb6ceab7%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1709435685760"
+    },
+    {
       "type": "unknown",
       "url": "https://api.willdesk.com/api/v1/setting/getCShopSetting?domain=coque-en-bois.myshopify.com"
     },
     {
       "type": "unknown",
-      "url": "https://ct.pinterest.com/user/?tid=2613394335637&pd=%7B%22np%22%3A%22shopify%22%7D&cb=1708829504629&dep=2%2CPAGE_LOAD"
-    },
-    {
-      "type": "unknown",
-      "url": "https://ct.pinterest.com/user/?event=PageVisit&ed=%7B%22np%22%3A%22shopify%22%2C%22eventID%22%3A%22sh-de2cf467-5861-4D3D-6F0B-9A67E2D92E7D%22%7D&tid=2613394335637&cb=1708829504635&dep=5%2CEVENT_TAGS_ABSENT"
+      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-D9ZE5LB4KQ&gtm=45ve42t1v9120987999za200&_p=1709435684854&gcd=13l3l3l3l1&npa=0&dma=0&cid=737870018.1709435686&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1709435685&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1206"
     },
     {
       "type": "unknown",
@@ -286,14 +294,6 @@
     },
     {
       "type": "unknown",
-      "url": "https://ct.pinterest.com/v3/?tid=2613394335637&pd=%7B%22np%22%3A%22shopify%22%2C%22external_id%22%3A%223d54d862d23538480a34e40794fd5e3bc4e4353e3b86509fc8e0dbc28dba417b%22%7D&event=init&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.coque-en-bois.fr%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%22742e9fad%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D&cb=1708829504723"
-    },
-    {
-      "type": "unknown",
-      "url": "https://www.merchant-center-analytics.goog/mc/collect?v=2&tid=MC-D9ZE5LB4KQ&gtm=45ve42l0v9120987999za200&_p=1708829503846&gcd=13l3l3l3l1&npa=0&dma=0&cid=672939427.1708829505&ul=en-us&sr=800x600&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&pscdl=noapi&_s=1&dp=%2F&dt=Coque%20en%20Bois%20%C2%AE%20%7C%20Coque%20t%C3%A9l%C3%A9phone%20en%20bois%20%26%20Accessoire&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&sid=1708829504&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1123"
-    },
-    {
-      "type": "unknown",
       "url": "https://api.willdesk.com/api/v1/autoanswer/execPostRule"
     },
     {
@@ -301,8 +301,16 @@
       "url": "https://api.willdesk.com/api/v1/shop/local/getCustomerHtmlLinks?customerDomain=https://u.willdesk.com&shopDomain=coque-en-bois.myshopify.com"
     },
     {
+      "type": "unknown",
+      "url": "https://api.willdesk.com/api/v1/autoanswer/execPostRule"
+    },
+    {
+      "type": "unknown",
+      "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22np%22%3A%22shopify%22%2C%22eventID%22%3A%22sh-024e8b50-83D7-49A9-3385-040971BDEB8D%22%7D&tid=2613394335637&cb=1709435685974&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22shopify%22%2C%22external_id%22%3A%22803c21b5442f0bcec08a9317cb52d9de3883bead19513799fa622a3a819a61e2%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.coque-en-bois.fr%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%22cb6ceab7%22%2C%22is_eu%22%3Atrue%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D"
+    },
+    {
       "type": "facebook",
-      "url": "https://www.facebook.com/tr/?id=183997692479597&ev=PageView&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&rl=&if=false&ts=1708829504874&sw=800&sh=600&v=2.9.147&r=stable&a=shopify&ec=0&o=4254&fbp=fb.1.1708829504872.955958696&ler=empty&it=1708829504608&coo=false&eid=sh-de2cf467-5861-4D3D-6F0B-9A67E2D92E7D&exp=e1&rqm=GET",
+      "url": "https://www.facebook.com/tr/?id=183997692479597&ev=PageView&dl=https%3A%2F%2Fwww.coque-en-bois.fr%2F&rl=&if=false&ts=1709435686011&sw=800&sh=600&v=2.9.148&r=stable&a=shopify&ec=0&o=4254&fbp=fb.1.1709435686008.1329712858&ler=empty&it=1709435685720&coo=false&eid=sh-024e8b50-83D7-49A9-3385-040971BDEB8D&rqm=GET",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -310,11 +318,27 @@
     },
     {
       "type": "unknown",
-      "url": "https://ct.pinterest.com/v3/?event=PageVisit&ed=%7B%22np%22%3A%22shopify%22%2C%22eventID%22%3A%22sh-de2cf467-5861-4D3D-6F0B-9A67E2D92E7D%22%7D&tid=2613394335637&cb=1708829504887&dep=5%2CEVENT_TAGS_ABSENT&pd=%7B%22np%22%3A%22shopify%22%2C%22external_id%22%3A%223d54d862d23538480a34e40794fd5e3bc4e4353e3b86509fc8e0dbc28dba417b%22%2C%22pin_unauth%22%3A%22dWlkPU1tUTJPVFZtTldJdE16RTJNUzAwTVRGa0xXSmxNemd0WlRjM1pUVTVZV0psWm1ReA%22%7D&ad=%7B%22loc%22%3A%22https%3A%2F%2Fwww.coque-en-bois.fr%2F%22%2C%22ref%22%3A%22%22%2C%22if%22%3Afalse%2C%22sh%22%3A600%2C%22sw%22%3A800%2C%22mh%22%3A%22742e9fad%22%2C%22is_eu%22%3Afalse%2C%22architecture%22%3A%22%22%2C%22bitness%22%3A%22%22%2C%22brands%22%3A%5B%5D%2C%22mobile%22%3Afalse%2C%22model%22%3A%22%22%2C%22platform%22%3A%22%22%2C%22platformVersion%22%3A%22%22%2C%22uaFullVersion%22%3A%22%22%2C%22ecm_enabled%22%3Afalse%7D"
+      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
     },
     {
       "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/autoanswer/execPostRule"
+      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.klaviyo.com/onsite/js/vendors~atlas~ClientStore~renderReviewsWidgets.18bd4076289f092e4f0a.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://static.klaviyo.com/onsite/js/ClientStore.d3cdbca8413f2ac0312a.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=UgkagC"
+    },
+    {
+      "type": "unknown",
+      "url": "https://img.willdesk.com/prod/avatar/21561/2023/07/10/86308efc83aaf3c8477ef24e2ce4936bcoque-en-bois-favicon_96x.png?x-oss-process=image/resize,w_64,h_64,m_lfit"
     },
     {
       "type": "cloudfront",
@@ -323,10 +347,6 @@
         "id": "cloudfront",
         "message": "Host files locally"
       }
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.esm.fr.a41b4652d49c65ed7f1c.js"
     },
     {
       "type": "google",
@@ -338,11 +358,15 @@
     },
     {
       "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/runtime.esm.fr.56d4fcfba20e4ecfe68a.js"
+    },
+    {
+      "type": "unknown",
       "url": "https://ct.pinterest.com/ct.html"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/922.esm.fr.a5a28cab4faebf38479c.js"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/35.esm.fr.226ce46fea43f49e7a73.js"
     },
     {
       "type": "unknown",
@@ -350,19 +374,63 @@
     },
     {
       "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/936.esm.fr.09c5c29c388a4d5c205b.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=UgkagC"
+    },
+    {
+      "type": "unknown",
       "url": "https://analytics.tiktok.com/api/v2/pixel/act"
     },
     {
       "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/681.esm.fr.c795b7930dab1907dd68.js"
     },
     {
       "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/936.esm.fr.c1ca29a983dc37a85725.js"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.esm.fr.4f6b075f45f661ab8e4d.js"
     },
     {
       "type": "unknown",
-      "url": "https://api.willdesk.com/api/v1/customerService/listPublicCustomerService"
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/751.esm.fr.e7c87ec84b88595f964f.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/21.esm.fr.0cfd722a52252391ef58.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/100.esm.fr.ad2f643ddfcd69662b67.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/OnePage.esm.fr.78f583fc3c584de268ae.js"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/35.esm.fr.0930be5f31adfcd457e5.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.esm.fr.cfbb45fd8786be5943fa.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/21.esm.fr.a9036e45b2438ff44a91.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/268.esm.fr.6708f859411f563b2bed.css"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/coque-en-bois-logo_b81ee012-73b0-417c-ab50-15f1fc395e64_x320.png?v=1615449103"
+    },
+    {
+      "type": "unknown",
+      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/fond-noir_2000x.png?v=1615546464"
     },
     {
       "type": "google fonts",
@@ -374,7 +442,7 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1708829505078",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1709435686166",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
@@ -382,161 +450,21 @@
     },
     {
       "type": "cloudflare",
-      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1708829505079",
+      "url": "https://static.cloudflareinsights.com/beacon.min.js/v84a3a4012de94ce1a686ba8c167c359c1696973893317?_=1709435686167",
       "details": {
         "id": "cloudflare",
         "message": "Host files locally"
-      }
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/681.esm.fr.4949170c705e5391536c.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://img.willdesk.com/prod/avatar/0/2023/07/10/f3af70a3c9f407512bb4274a9453b079Photo%20C.ACCAMBRAY.jpg?x-oss-process=image/resize,w_64,h_64,m_lfit"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.esm.fr.dcc8255da6bdb174ef95.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/751.esm.fr.e7c87ec84b88595f964f.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/21.esm.fr.673ea387d278b8072e41.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/100.esm.fr.ad2f643ddfcd69662b67.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/OnePage.esm.fr.ce4c9e11c64aa7bc059d.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/922.esm.fr.4d3f797635fd7e454be6.css"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/app.esm.fr.4fac962c00cbe417416a.css"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/21.esm.fr.cba6ce0195ec0c2405de.css"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/shopifycloud/checkout-web/assets/268.esm.fr.1df06160ef65a8871767.css"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/coque-en-bois-logo_b81ee012-73b0-417c-ab50-15f1fc395e64_x320.png?v=1615449103"
-    },
-    {
-      "type": "unknown",
-      "url": "https://cdn.shopify.com/s/files/1/0129/1010/0538/files/fond-noir_2000x.png?v=1615546464"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static-tracking.klaviyo.com/onsite/js/vendors~atlas~ClientStore~renderReviewsWidgets.18bd4076289f092e4f0a.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static-tracking.klaviyo.com/onsite/js/ClientStore.cef427492e94e593358a.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=UgkagC"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static-tracking.klaviyo.com/onsite/js/532.e78261b96f2f156ee1da.css"
-    },
-    {
-      "type": "unknown",
-      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=UgkagC"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static-tracking.klaviyo.com/onsite/js/styles.ccf9eb43fb94f6b4efde.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static-tracking.klaviyo.com/onsite/js/vendors~Render.29de68cdf8bbacc135c2.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://static-tracking.klaviyo.com/onsite/js/Render.826956295ee02e68fbd3.js"
-    },
-    {
-      "type": "unknown",
-      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=UgkagC"
-    },
-    {
-      "type": "unknown",
-      "url": "https://a.klaviyo.com/onsite/track-analytics?company_id=UgkagC"
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/kanit/v15/nKKZ-Go6G5tXcraVGwA.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/kanit/v15/nKKU-Go6G5tXcr4uPhWnVaE.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/kanit/v15/nKKU-Go6G5tXcr5mOBWnVaE.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/kanit/v15/nKKZ-Go6G5tXcraVGwA.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/kanit/v15/nKKU-Go6G5tXcr4uPhWnVaE.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
-      }
-    },
-    {
-      "type": "google fonts",
-      "url": "https://fonts.gstatic.com/s/kanit/v15/nKKU-Go6G5tXcr5mOBWnVaE.woff2",
-      "details": {
-        "id": "google fonts",
-        "message": "Host the font locally with https://github.com/neverpanic/google-font-download or https://google-webfonts-helper.herokuapp.com/"
       }
     }
   ],
   "cookies": [
     {
       "name": "_fbp",
-      "value": "fb.1.1708829504872.955958696",
+      "value": "fb.1.1709435686008.1329712858",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1716605504,
-      "size": 32,
+      "expires": 1717211686,
+      "size": 33,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -546,10 +474,10 @@
     },
     {
       "name": "_ga_D9ZE5LB4KQ",
-      "value": "GS1.1.1708829504.1.0.1708829504.0.0.0",
+      "value": "GS1.1.1709435685.1.0.1709435685.0.0.0",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1771901504,
+      "expires": 1772507685,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -563,7 +491,7 @@
       "value": "1",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1742525504,
+      "expires": 1743131685,
       "size": 18,
       "httpOnly": false,
       "secure": false,
@@ -574,10 +502,10 @@
     },
     {
       "name": "_ga",
-      "value": "GA1.1.672939427.1708829505",
+      "value": "GA1.1.737870018.1709435686",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1771901504,
+      "expires": 1772507685,
       "size": 29,
       "httpOnly": false,
       "secure": false,
@@ -587,26 +515,11 @@
       "sourcePort": 443
     },
     {
-      "name": "keep_alive",
-      "value": "cb63488e-f7bf-40e1-bfd1-bcec8a6b3078",
-      "domain": "www.coque-en-bois.fr",
-      "path": "/",
-      "expires": 1708831304.375541,
-      "size": 46,
-      "httpOnly": true,
-      "secure": false,
-      "session": false,
-      "sameSite": "Lax",
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
       "name": "_pin_unauth",
-      "value": "dWlkPU1tUTJPVFZtTldJdE16RTJNUzAwTVRGa0xXSmxNemd0WlRjM1pUVTVZV0psWm1ReA",
+      "value": "dWlkPVlqUmpNVEk0WlRjdFlUa3dPQzAwTjJJM0xXRmlPVGd0WlRRNU1qUTFaVEUwTkRRMw",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1740365504,
+      "expires": 1740971685,
       "size": 81,
       "httpOnly": false,
       "secure": false,
@@ -617,10 +530,10 @@
     },
     {
       "name": "_shopify_sa_t",
-      "value": "2024-02-25T02%3A51%3A44.364Z",
+      "value": "2024-03-03T03%3A14%3A45.344Z",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1708831304,
+      "expires": 1709437485,
       "size": 41,
       "httpOnly": false,
       "secure": false,
@@ -632,10 +545,10 @@
     },
     {
       "name": "__kla_id",
-      "value": "eyJjaWQiOiJZVEl3WlRVMU5qWXRZVEZpWmkwME5EVTVMVGxtT0dJdE16UTJOV1V4TldNeVlXUXgiLCIkcmVmZXJyZXIiOnsidHMiOjE3MDg4Mjk1MDUsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmNvcXVlLWVuLWJvaXMuZnIvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzA4ODI5NTA1LCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5jb3F1ZS1lbi1ib2lzLmZyLyJ9fQ==",
+      "value": "eyJjaWQiOiJaRGRqWVdVM09EQXRNV0U0WWkwME5ETTFMV0ptWVRNdE5UUXlZemszWldFMU16VmoiLCIkcmVmZXJyZXIiOnsidHMiOjE3MDk0MzU2ODYsInZhbHVlIjoiIiwiZmlyc3RfcGFnZSI6Imh0dHBzOi8vd3d3LmNvcXVlLWVuLWJvaXMuZnIvIn0sIiRsYXN0X3JlZmVycmVyIjp7InRzIjoxNzA5NDM1Njg2LCJ2YWx1ZSI6IiIsImZpcnN0X3BhZ2UiOiJodHRwczovL3d3dy5jb3F1ZS1lbi1ib2lzLmZyLyJ9fQ==",
       "domain": "www.coque-en-bois.fr",
       "path": "/",
-      "expires": 1771901504,
+      "expires": 1772507685,
       "size": 324,
       "httpOnly": false,
       "secure": false,
@@ -646,10 +559,10 @@
     },
     {
       "name": "_shopify_s",
-      "value": "40088e69-e018-4e34-9e85-84348135f098",
+      "value": "4fea640d-461b-4a5b-ad29-2b25fcaee228",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1708831304,
+      "expires": 1709437485,
       "size": 46,
       "httpOnly": false,
       "secure": false,
@@ -661,10 +574,10 @@
     },
     {
       "name": "_ttp",
-      "value": "I_zI83wtzSs0pzkLbL1MuhQRELM",
+      "value": "fE5t8VEXwoxletyQplyPpSMe5zR",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1742525504,
+      "expires": 1743131685,
       "size": 31,
       "httpOnly": false,
       "secure": false,
@@ -678,7 +591,7 @@
       "value": "%2F",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1710039103.795077,
+      "expires": 1710645284.806463,
       "size": 16,
       "httpOnly": true,
       "secure": false,
@@ -693,7 +606,7 @@
       "value": "",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1710039103.795066,
+      "expires": 1710645284.806454,
       "size": 14,
       "httpOnly": true,
       "secure": false,
@@ -705,10 +618,10 @@
     },
     {
       "name": "_ga_HXMZT7KSHG",
-      "value": "GS1.1.1708829504.1.0.1708829504.0.0.0",
+      "value": "GS1.1.1709435685.1.0.1709435685.0.0.0",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1771901504,
+      "expires": 1772507685,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -719,10 +632,10 @@
     },
     {
       "name": "_shopify_y",
-      "value": "74ba7299-d257-4bc7-8a07-2b4c417b08b0",
+      "value": "27b489a3-2802-430f-8b1c-993d92f9a5c7",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1740365503.795044,
+      "expires": 1740971684.806436,
       "size": 46,
       "httpOnly": false,
       "secure": false,
@@ -737,7 +650,7 @@
       "value": "%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1708915904.375591,
+      "expires": 1709522084.806403,
       "size": 167,
       "httpOnly": false,
       "secure": false,
@@ -749,11 +662,11 @@
     },
     {
       "name": "_tracking_consent",
-      "value": "%7B%22lim%22%3A%5B%22CMP%22%5D%2C%22v%22%3A%222.1%22%2C%22reg%22%3A%22CCPA%22%2C%22region%22%3A%22USVA%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22s%22%3A%22%22%2C%22p%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%7D",
+      "value": "%7B%22reg%22%3A%22CCPA%22%2C%22region%22%3A%22USCA%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%7D",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1740365503.795013,
-      "size": 237,
+      "expires": 1740971684.806422,
+      "size": 207,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -767,7 +680,7 @@
       "value": "",
       "domain": ".coque-en-bois.fr",
       "path": "/",
-      "expires": 1708831304,
+      "expires": 1709437485,
       "size": 13,
       "httpOnly": false,
       "secure": false,
@@ -782,7 +695,7 @@
       "value": "FR",
       "domain": "www.coque-en-bois.fr",
       "path": "/",
-      "expires": 1740451903.794985,
+      "expires": 1740971684.806386,
       "size": 14,
       "httpOnly": false,
       "secure": false,
@@ -796,10 +709,25 @@
       "value": "",
       "domain": "www.coque-en-bois.fr",
       "path": "/",
-      "expires": 1740451904.509711,
+      "expires": 1740971684.80636,
       "size": 19,
       "httpOnly": true,
       "secure": true,
+      "session": false,
+      "sameSite": "Lax",
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "keep_alive",
+      "value": "1ceb1255-71e3-4786-b965-5095a3867240",
+      "domain": "www.coque-en-bois.fr",
+      "path": "/",
+      "expires": 1709437484.806256,
+      "size": 46,
+      "httpOnly": true,
+      "secure": false,
       "session": false,
       "sameSite": "Lax",
       "sameParty": false,
@@ -810,29 +738,29 @@
   "headers": {
     "alt-svc": "h3=\":443\"; ma=86400",
     "cf-cache-status": "DYNAMIC",
-    "cf-ray": "85aca5ede9e01730-IAD",
+    "cf-ray": "85e67544e960fa22-SJC",
     "content-encoding": "br",
     "content-language": "fr",
     "content-security-policy": "block-all-mixed-content; frame-ancestors 'none'; upgrade-insecure-requests;",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 25 Feb 2024 02:51:43 GMT",
-    "etag": "W/\"cacheable:f9750010bf9d914ab575c13968c40e32\"",
+    "date": "Sun, 03 Mar 2024 03:14:44 GMT",
+    "etag": "W/\"cacheable:0c4df408b62f9764338035e59798e34b\"",
     "link": "<https://cdn.shopify.com>; rel=\"preconnect\", <https://cdn.shopify.com>; rel=\"preconnect\"; crossorigin",
     "nel": "{\"success_fraction\":0.01,\"report_to\":\"cf-nel\",\"max_age\":604800}",
     "powered-by": "Shopify",
-    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=pNofpE1gzgDOreZM6Q4PmEl%2FP4Une%2BnHN25mudM%2FhzrwFXqQ7%2BkbuA%2ByDDS%2BxBXlcOcArC68DRcrf4S9uwVEVCBmKHintkAujQwtIGK%2FYwibOZI%2FGc40B8D%2BbHbrh0i1G4pCfcj3\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
+    "report-to": "{\"endpoints\":[{\"url\":\"https:\\/\\/a.nel.cloudflare.com\\/report\\/v3?s=MMOir6Csa9GLKZ%2BKmp6AwW%2BnivNxFgyhuP0tzixZtEAb0TQN1Q2Lj4wt9Q8WoDmkZCpfSWPytRPkejzK2Bu%2FvsT6e8nPLYCjO7unsIHgPa2bGZjSOcALN6m5K15HFPofEFveR2oq\"}],\"group\":\"cf-nel\",\"max_age\":604800}",
     "server": "cloudflare",
-    "server-timing": "processing;dur=16, db;dur=3, asn;desc=\"8075\", edge;desc=\"IAD\", country;desc=\"US\", theme;desc=\"145167515992\", pageType;desc=\"index\", servedBy;desc=\"9j9l\", requestID;desc=\"c3c73fd3-3979-4172-a799-bafd76b66e5d\"\ncfRequestDuration;dur=123.999834, earlyhints",
-    "set-cookie": "keep_alive=b83b2d43-e884-4eb2-b6ff-d8695d03e61a; path=/; expires=Sun, 25 Feb 2024 03:21:43 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Tue, 25 Feb 2025 02:51:43 GMT; secure; HttpOnly; SameSite=Lax\nlocalization=FR; path=/; expires=Tue, 25 Feb 2025 02:51:43 GMT\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=coque-en-bois.fr; path=/; expires=Mon, 26 Feb 2024 02:51:43 GMT; SameSite=Lax\n_tracking_consent=%7B%22lim%22%3A%5B%22CMP%22%5D%2C%22v%22%3A%222.1%22%2C%22reg%22%3A%22CCPA%22%2C%22region%22%3A%22USVA%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22s%22%3A%22%22%2C%22p%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%7D; Expires=Mon, 24-Feb-25 02:51:43 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_shopify_y=74ba7299-d257-4bc7-8a07-2b4c417b08b0; Expires=Mon, 24-Feb-25 02:51:43 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_shopify_s=40088e69-e018-4e34-9e85-84348135f098; Expires=Sun, 25-Feb-24 03:21:43 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_orig_referrer=; Expires=Sun, 10-Mar-24 02:51:43 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Sun, 10-Mar-24 02:51:43 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax",
+    "server-timing": "processing;dur=11, db;dur=3, asn;desc=\"8075\", edge;desc=\"SJC\", country;desc=\"US\", theme;desc=\"145167515992\", pageType;desc=\"index\", servedBy;desc=\"srf4\", requestID;desc=\"d772a578-6c83-4ae0-9eed-7cb5b78e12d2-1709435684\"\ncfRequestDuration;dur=186.000109, earlyhints",
+    "set-cookie": "keep_alive=1ceb1255-71e3-4786-b965-5095a3867240; path=/; expires=Sun, 03 Mar 2024 03:44:44 GMT; HttpOnly; SameSite=Lax\nsecure_customer_sig=; path=/; expires=Mon, 03 Mar 2025 03:14:44 GMT; secure; HttpOnly; SameSite=Lax\nlocalization=FR; path=/; expires=Mon, 03 Mar 2025 03:14:44 GMT\n_cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D; domain=coque-en-bois.fr; path=/; expires=Mon, 04 Mar 2024 03:14:44 GMT; SameSite=Lax\n_tracking_consent=%7B%22reg%22%3A%22CCPA%22%2C%22region%22%3A%22USCA%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%7D; Expires=Mon, 03-Mar-25 03:14:44 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_shopify_y=27b489a3-2802-430f-8b1c-993d92f9a5c7; Expires=Mon, 03-Mar-25 03:14:44 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_shopify_s=4fea640d-461b-4a5b-ad29-2b25fcaee228; Expires=Sun, 03-Mar-24 03:44:44 GMT; Domain=coque-en-bois.fr; Path=/; SameSite=Lax\n_orig_referrer=; Expires=Sun, 17-Mar-24 03:14:44 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax\n_landing_page=%2F; Expires=Sun, 17-Mar-24 03:14:44 GMT; Domain=coque-en-bois.fr; Path=/; HttpOnly; SameSite=Lax",
     "strict-transport-security": "max-age=7889238",
     "vary": "Accept",
     "x-cache": "hit, server",
     "x-content-type-options": "nosniff",
-    "x-dc": "gcp-us-east4,gcp-europe-west4,gcp-europe-west4",
+    "x-dc": "gcp-us-west2,gcp-europe-west4,gcp-europe-west4",
     "x-download-options": "noopen",
     "x-frame-options": "DENY",
     "x-permitted-cross-domain-policies": "none",
-    "x-request-id": "c3c73fd3-3979-4172-a799-bafd76b66e5d",
+    "x-request-id": "d772a578-6c83-4ae0-9eed-7cb5b78e12d2-1709435684",
     "x-shardid": "343",
     "x-shopid": "12910100538",
     "x-shopify-stage": "production",
@@ -1010,27 +938,7 @@
     },
     {
       "hostname": "www.societe-des-avis-garantis.fr",
-      "ip": "104.26.6.7",
-      "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "cdn.polyfill.io",
-      "ip": "156.251.70.41",
+      "ip": "172.67.68.83",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1067,32 +975,36 @@
           "time_zone": "America/Chicago"
         },
         "registered_country": {
-          "geoname_id": 241170,
-          "iso_code": "SC",
+          "geoname_id": 6252001,
+          "iso_code": "US",
           "names": {
-            "de": "Seychellen",
-            "en": "Seychelles",
-            "es": "Seychelles",
-            "fr": "Seychelles",
-            "ja": "セーシェル",
-            "pt-BR": "Ilhas Seychelles",
-            "ru": "Сейшельские о-ва",
-            "zh-CN": "塞舌尔"
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
           }
         }
       }
     },
     {
-      "hostname": "static.klaviyo.com",
-      "ip": "146.75.38.133",
+      "hostname": "cdn.polyfill.io",
+      "ip": "38.124.43.227",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5393015,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -1125,13 +1037,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1149,15 +1061,103 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "static.klaviyo.com",
+      "ip": "151.101.42.133",
+      "geoip": {
+        "city": {
+          "geoname_id": 5392171,
+          "names": {
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "95141"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -1219,8 +1219,14 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.253.62.97",
+      "ip": "142.250.72.168",
       "geoip": {
+        "city": {
+          "geoname_id": 5131638,
+          "names": {
+            "en": "Plainview"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -1250,10 +1256,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 100,
+          "latitude": 40.7746,
+          "longitude": -73.4761,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11803"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1268,81 +1278,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
-      }
-    },
-    {
-      "hostname": "static.willdesk.com",
-      "ip": "104.26.2.165",
-      "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "api.willdesk.com",
-      "ip": "172.67.68.93",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
         },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
           }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
+        ]
       }
     },
     {
@@ -1427,13 +1379,18 @@
     },
     {
       "hostname": "s.pinimg.com",
-      "ip": "23.202.153.6",
+      "ip": "151.101.40.84",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5392171,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -1466,13 +1423,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20149"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1490,15 +1447,158 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
+      }
+    },
+    {
+      "hostname": "static.willdesk.com",
+      "ip": "172.67.68.93",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "static-tracking.klaviyo.com",
+      "ip": "151.101.202.133",
+      "geoip": {
+        "city": {
+          "geoname_id": 5393015,
+          "names": {
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
+          }
+        },
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 20,
+          "latitude": 37.3931,
+          "longitude": -121.962,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
+        },
+        "postal": {
+          "code": "95054"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -1506,7 +1606,7 @@
     },
     {
       "hostname": "static.hotjar.com",
-      "ip": "18.160.41.58",
+      "ip": "108.139.10.66",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -1560,13 +1660,19 @@
     },
     {
       "hostname": "analytics.tiktok.com",
-      "ip": "23.48.104.114",
+      "ip": "69.192.139.77",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5393015,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -1599,13 +1705,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20149"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1623,71 +1729,26 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
       }
     },
     {
-      "hostname": "static-tracking.klaviyo.com",
-      "ip": "146.75.38.133",
+      "hostname": "api.willdesk.com",
+      "ip": "104.26.2.165",
       "geoip": {
-        "city": {
-          "geoname_id": 4781530,
-          "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
-          }
-        },
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "20190"
-        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
@@ -1701,34 +1762,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
-            "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "fast.a.klaviyo.com",
-      "ip": "146.75.38.133",
+      "ip": "151.101.42.133",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5392171,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -1761,13 +1811,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1785,15 +1835,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -1801,15 +1853,18 @@
     },
     {
       "hostname": "static-forms.klaviyo.com",
-      "ip": "146.75.38.133",
+      "ip": "151.101.42.133",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5392171,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "San José",
+            "en": "San Jose",
+            "es": "San José",
+            "fr": "San José",
+            "ja": "サンノゼ",
+            "pt-BR": "San José",
+            "ru": "Сан-Хосе"
           }
         },
         "continent": {
@@ -1842,81 +1897,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.1835,
+          "longitude": -121.7714,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
-        },
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
-            "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "hostname": "www.google-analytics.com",
-      "ip": "216.239.38.178",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 34.0544,
-          "longitude": -118.244,
-          "time_zone": "America/Los_Angeles"
+          "code": "95141"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -1952,7 +1939,61 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.253.63.95",
+      "ip": "142.250.189.170",
+      "geoip": {
+        "continent": {
+          "code": "NA",
+          "geoname_id": 6255149,
+          "names": {
+            "de": "Nordamerika",
+            "en": "North America",
+            "es": "Norteamérica",
+            "fr": "Amérique du Nord",
+            "ja": "北アメリカ",
+            "pt-BR": "América do Norte",
+            "ru": "Северная Америка",
+            "zh-CN": "北美洲"
+          }
+        },
+        "country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        },
+        "location": {
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
+        },
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "www.google-analytics.com",
+      "ip": "142.250.188.14",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -2006,15 +2047,19 @@
     },
     {
       "hostname": "ct.pinterest.com",
-      "ip": "146.75.36.84",
+      "ip": "23.37.17.8",
       "geoip": {
         "city": {
-          "geoname_id": 4781530,
+          "geoname_id": 5393015,
           "names": {
-            "de": "Reston",
-            "en": "Reston",
-            "ja": "レストン",
-            "ru": "Рестон"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -2047,13 +2092,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 38.9609,
-          "longitude": -77.3429,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20190"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -2071,15 +2116,17 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
@@ -2087,14 +2134,8 @@
     },
     {
       "hostname": "www.merchant-center-analytics.goog",
-      "ip": "142.251.16.138",
+      "ip": "142.250.191.78",
       "geoip": {
-        "city": {
-          "geoname_id": 5133273,
-          "names": {
-            "en": "Queens"
-          }
-        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -2124,14 +2165,10 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.66,
-          "longitude": -73.839,
-          "metro_code": 501,
-          "time_zone": "America/New_York"
-        },
-        "postal": {
-          "code": "11414"
+          "accuracy_radius": 1000,
+          "latitude": 37.751,
+          "longitude": -97.822,
+          "time_zone": "America/Chicago"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -2146,34 +2183,24 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        },
-        "subdivisions": [
-          {
-            "geoname_id": 5128638,
-            "iso_code": "NY",
-            "names": {
-              "de": "New York",
-              "en": "New York",
-              "es": "Nueva York",
-              "fr": "New York",
-              "ja": "ニューヨーク州",
-              "pt-BR": "Nova Iorque",
-              "ru": "Нью-Йорк",
-              "zh-CN": "纽约州"
-            }
-          }
-        ]
+        }
       }
     },
     {
       "hostname": "www.facebook.com",
-      "ip": "157.240.229.35",
+      "ip": "157.240.22.35",
       "geoip": {
         "city": {
-          "geoname_id": 4744870,
+          "geoname_id": 5393015,
           "names": {
-            "en": "Ashburn",
-            "ru": "Ашберн"
+            "de": "Santa Clara",
+            "en": "Santa Clara",
+            "es": "Santa Clara",
+            "fr": "Santa Clara",
+            "ja": "サンタクララ",
+            "pt-BR": "Santa Clara",
+            "ru": "Санта-Клара",
+            "zh-CN": "圣克拉拉"
           }
         },
         "continent": {
@@ -2206,13 +2233,13 @@
         },
         "location": {
           "accuracy_radius": 20,
-          "latitude": 39.0469,
-          "longitude": -77.4903,
-          "metro_code": 511,
-          "time_zone": "America/New_York"
+          "latitude": 37.353,
+          "longitude": -121.9543,
+          "metro_code": 807,
+          "time_zone": "America/Los_Angeles"
         },
         "postal": {
-          "code": "20149"
+          "code": "95052"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -2230,23 +2257,65 @@
         },
         "subdivisions": [
           {
-            "geoname_id": 6254928,
-            "iso_code": "VA",
+            "geoname_id": 5332921,
+            "iso_code": "CA",
             "names": {
-              "en": "Virginia",
-              "fr": "Virginie",
-              "ja": "バージニア州",
-              "pt-BR": "Virgínia",
-              "ru": "Вирджиния",
-              "zh-CN": "弗吉尼亚州"
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
             }
           }
         ]
       }
     },
     {
+      "hostname": "a.klaviyo.com",
+      "ip": "104.18.2.187",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
+      "hostname": "img.willdesk.com",
+      "ip": "104.26.2.165",
+      "geoip": {
+        "registered_country": {
+          "geoname_id": 6252001,
+          "iso_code": "US",
+          "names": {
+            "de": "USA",
+            "en": "United States",
+            "es": "Estados Unidos",
+            "fr": "États Unis",
+            "ja": "アメリカ",
+            "pt-BR": "EUA",
+            "ru": "США",
+            "zh-CN": "美国"
+          }
+        }
+      }
+    },
+    {
       "hostname": "d1639lhkj5l89m.cloudfront.net",
-      "ip": "3.162.93.15",
+      "ip": "18.155.204.147",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -2300,12 +2369,12 @@
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.251.179.95",
+      "ip": "142.251.46.234",
       "geoip": {
         "city": {
-          "geoname_id": 5116931,
+          "geoname_id": 5133273,
           "names": {
-            "en": "Farmingdale"
+            "en": "Queens"
           }
         },
         "continent": {
@@ -2337,14 +2406,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 500,
-          "latitude": 40.7306,
-          "longitude": -73.4313,
+          "accuracy_radius": 50,
+          "latitude": 40.66,
+          "longitude": -73.839,
           "metro_code": 501,
           "time_zone": "America/New_York"
         },
         "postal": {
-          "code": "11735"
+          "code": "11414"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -2380,102 +2449,8 @@
     },
     {
       "hostname": "static.cloudflareinsights.com",
-      "ip": "104.16.56.101",
+      "ip": "104.16.57.101",
       "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "img.willdesk.com",
-      "ip": "104.26.2.165",
-      "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "a.klaviyo.com",
-      "ip": "104.18.2.187",
-      "geoip": {
-        "registered_country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        }
-      }
-    },
-    {
-      "hostname": "fonts.gstatic.com",
-      "ip": "172.253.63.94",
-      "geoip": {
-        "continent": {
-          "code": "NA",
-          "geoname_id": 6255149,
-          "names": {
-            "de": "Nordamerika",
-            "en": "North America",
-            "es": "Norteamérica",
-            "fr": "Amérique du Nord",
-            "ja": "北アメリカ",
-            "pt-BR": "América do Norte",
-            "ru": "Северная Америка",
-            "zh-CN": "北美洲"
-          }
-        },
-        "country": {
-          "geoname_id": 6252001,
-          "iso_code": "US",
-          "names": {
-            "de": "USA",
-            "en": "United States",
-            "es": "Estados Unidos",
-            "fr": "États Unis",
-            "ja": "アメリカ",
-            "pt-BR": "EUA",
-            "ru": "США",
-            "zh-CN": "美国"
-          }
-        },
-        "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
-        },
         "registered_country": {
           "geoname_id": 6252001,
           "iso_code": "US",
