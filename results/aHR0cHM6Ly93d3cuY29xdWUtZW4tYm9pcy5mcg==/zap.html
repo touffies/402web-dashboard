@@ -127,12 +127,18 @@ td {
 	</h2>
 
 	<h3>
-		Generated on Sun, 10 Mar 2024 03:03:18
+		Generated on Sun, 17 Mar 2024 03:13:31
 	</h3>
 
 	<h3>
 		ZAP Version: 2.14.0
 	</h3>
+
+	<h4>
+		ZAP is supported by the <a
+			href="https://crashoverride.com/open-source">Crash Override Open
+			Source Fellowship</a>
+	</h4>
 
 	
 		<h3 class="left-header">Summary of Alerts</h3>
@@ -235,7 +241,7 @@ td {
 			<tr>
 				<td><a href="#10098">Cross-Domain Misconfiguration</a></td>
 				<td align="center" class="risk-2">Medium</td>
-				<td align="center">12</td>
+				<td align="center">1</td>
 			</tr>
 			<tr>
 				<td><a href="#90003">Sub Resource Integrity Attribute Missing</a></td>
@@ -245,17 +251,17 @@ td {
 			<tr>
 				<td><a href="#10055">CSP: Notices</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">2</td>
+				<td align="center">3</td>
 			</tr>
 			<tr>
 				<td><a href="#10010">Cookie No HttpOnly Flag</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">14</td>
+				<td align="center">17</td>
 			</tr>
 			<tr>
 				<td><a href="#10011">Cookie Without Secure Flag</a></td>
 				<td align="center" class="risk-1">Low</td>
-				<td align="center">16</td>
+				<td align="center">17</td>
 			</tr>
 			<tr>
 				<td><a href="#10054">Cookie without SameSite Attribute</a></td>
@@ -2777,40 +2783,6 @@ Issuer: </td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
-script-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, form-action
-
-The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
@@ -2831,7 +2803,7 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=b24450aa-a4bd-4a57-a1a4-6dd124e6ca8f-1710039413</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=f78486b1-ef6e-41e2-b90d-351316ab6b9e-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -2865,13 +2837,47 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=d18609e2-ad96-408d-be61-af1dd248f725-1710039413</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8e281bad-b842-4d3b-93ff-a04c9046dda8-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
 						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
 style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, form-action
+
+The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=59dc144b-f0cf-4b29-9c7a-2470f0acd7c2-1710644951</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">The following directives either allow wildcard sources (or ancestors), are not defined, or are overly broadly defined: 
+script-src, style-src, img-src, connect-src, frame-src, font-src, media-src, object-src, manifest-src, worker-src, form-action
 
 The directive(s): form-action are among the directives that do not fallback to default-src, missing/excluding them is the same as allowing anything.</td>
 					</tr>
@@ -2964,7 +2970,7 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=d18609e2-ad96-408d-be61-af1dd248f725-1710039413</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8e281bad-b842-4d3b-93ff-a04c9046dda8-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3040,37 +3046,6 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">script-src includes unsafe-inline.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
@@ -3091,7 +3066,7 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=b24450aa-a4bd-4a57-a1a4-6dd124e6ca8f-1710039413</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=f78486b1-ef6e-41e2-b90d-351316ab6b9e-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3122,7 +3097,38 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=d18609e2-ad96-408d-be61-af1dd248f725-1710039413</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8e281bad-b842-4d3b-93ff-a04c9046dda8-1710644951</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">script-src includes unsafe-inline.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=59dc144b-f0cf-4b29-9c7a-2470f0acd7c2-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3198,37 +3204,6 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">Content-Security-Policy</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests;</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">style-src includes unsafe-inline.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
@@ -3249,7 +3224,7 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=b24450aa-a4bd-4a57-a1a4-6dd124e6ca8f-1710039413</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=f78486b1-ef6e-41e2-b90d-351316ab6b9e-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3280,7 +3255,38 @@ The directive(s): form-action are among the directives that do not fallback to d
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=d18609e2-ad96-408d-be61-af1dd248f725-1710039413</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8e281bad-b842-4d3b-93ff-a04c9046dda8-1710644951</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">style-src includes unsafe-inline.</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=59dc144b-f0cf-4b29-9c7a-2470f0acd7c2-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -3486,350 +3492,9 @@ The directive(s): form-action are among the directives that do not fallback to d
 						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
 					</tr>
 				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/chargeur-magsafe">https://www.coque-en-bois.fr/products/chargeur-magsafe</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/ecran-en-verre-trempe-pour-iphone">https://www.coque-en-bois.fr/products/ecran-en-verre-trempe-pour-iphone</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/ecran-en-verre-trempe-pour-samsung">https://www.coque-en-bois.fr/products/ecran-en-verre-trempe-pour-samsung</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-ipad">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-ipad</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-google">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-google</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-honor">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-honor</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-one-plus">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-one-plus</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-oppo">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-oppo</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-vivo">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-vivo</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-xiaomi">https://www.coque-en-bois.fr/products/lecran-en-verre-trempe-pour-xiaomi</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/products/protection-de-camera-pour-iphone">https://www.coque-en-bois.fr/products/protection-de-camera-pour-iphone</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Access-Control-Allow-Origin: *</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">The CORS misconfiguration on the web server permits cross-domain read requests from arbitrary third party domains, using unauthenticated APIs on this domain. Web browser implementations do not permit arbitrary third parties to read the response from authenticated APIs, however. This reduces the risk somewhat. This misconfiguration could be used by an attacker to access data that is available in an unauthenticated manner, but which uses some other form of security, such as IP address white-listing.</td>
-					</tr>
-				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">12</td>
+					<td width="80%">1</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4525,7 +4190,7 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=b24450aa-a4bd-4a57-a1a4-6dd124e6ca8f-1710039413</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=f78486b1-ef6e-41e2-b90d-351316ab6b9e-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4558,7 +4223,40 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=d18609e2-ad96-408d-be61-af1dd248f725-1710039413</td>
+						<td width="80%">default-src &#39;self&#39; data: blob: &#39;unsafe-inline&#39; &#39;unsafe-eval&#39; https://* shopify-pos://*; block-all-mixed-content; child-src &#39;self&#39; https://* shopify-pos://*; connect-src &#39;self&#39; wss://* https://*; frame-ancestors &#39;none&#39;; img-src &#39;self&#39; data: blob: https:; script-src https://cdn.shopify.com https://cdn.shopifycdn.net https://checkout.shopifycs.com https://api.stripe.com https://mpsnare.iesnare.com https://appcenter.intuit.com https://www.paypal.com https://js.braintreegateway.com https://c.paypal.com https://maps.googleapis.com https://www.google-analytics.com https://v.shopify.com &#39;self&#39; &#39;unsafe-inline&#39; &#39;unsafe-eval&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=index&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=admin%2Fhome&amp;source%5Bsection%5D=admin&amp;source%5Buuid%5D=8e281bad-b842-4d3b-93ff-a04c9046dda8-1710644951</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">Warnings:
+The report-uri directive has been deprecated in favor of the new report-to directive
+</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">content-security-policy</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">block-all-mixed-content; frame-ancestors &#39;none&#39;; upgrade-insecure-requests; report-uri /csp-report?source%5Baction%5D=not_found&amp;source%5Bapp%5D=Shopify&amp;source%5Bcontroller%5D=storefront_section%2Fshop&amp;source%5Bsection%5D=storefront&amp;source%5Buuid%5D=59dc144b-f0cf-4b29-9c7a-2470f0acd7c2-1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4570,7 +4268,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">2</td>
+					<td width="80%">3</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -4636,7 +4334,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4667,7 +4365,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4698,7 +4396,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4729,38 +4427,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_tracking_consent</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _tracking_consent</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -4780,7 +4447,131 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: localization</td>
+						<td width="80%">set-cookie: localization</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_cmp_a</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: _cmp_a</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_shopify_s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: _shopify_s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: _shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">localization</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">set-cookie: localization</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5069,7 +4860,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">14</td>
+					<td width="80%">17</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -5123,7 +4914,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5154,69 +4945,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_landing_page</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _landing_page</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_orig_referrer</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _orig_referrer</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5247,7 +4976,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5278,38 +5007,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">_tracking_consent</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: _tracking_consent</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr">https://www.coque-en-bois.fr</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5329,7 +5027,131 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Set-Cookie: localization</td>
+						<td width="80%">set-cookie: localization</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_cmp_a</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: _cmp_a</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_shopify_s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: _shopify_s</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">_shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">Set-Cookie: _shopify_y</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">localization</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">set-cookie: localization</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -5618,7 +5440,7 @@ The report-uri directive has been deprecated in favor of the new report-to direc
 				
 				<tr>
 					<td width="20%">Instances</td>
-					<td width="80%">16</td>
+					<td width="80%">17</td>
 				</tr>
 				<tr>
 					<td width="20%">Solution</td>
@@ -6677,12 +6499,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6708,12 +6530,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6739,12 +6561,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6770,12 +6592,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6801,12 +6623,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6832,12 +6654,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6863,12 +6685,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6894,12 +6716,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6925,12 +6747,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6956,12 +6778,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -6987,12 +6809,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -7018,12 +6840,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 					<tr>
@@ -7049,12 +6871,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">1710039413</td>
+						<td width="80%">1710644951</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">1710039413, which evaluates to: 2024-03-10 02:56:53</td>
+						<td width="80%">1710644951, which evaluates to: 2024-03-17 03:09:11</td>
 					</tr>
 				
 				<tr>
@@ -7133,13 +6955,12 @@ type=&quot;text/javascript&quot;&gt;&lt;/script&gt;</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">PRD3JD6kR3KF9RSY0sEKY8Kj8NGhAwPRwr7Ipb8vFV</td>
+						<td width="80%">Y29xdWUtZW4tYm9pcy5hY2NvdW50Lm15c2hvcGlmeS5jb20</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">=�$&gt;�Gr�����
-c£�ѡ�¾ȥ�/</td>
+						<td width="80%">coque-en-bois.account.myshopify.com</td>
 					</tr>
 				
 					<tr>
@@ -7165,13 +6986,43 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">Q7uQI9JZa6ZXXn4eDyNae5a5Cp3gthGDv89I</td>
+						<td width="80%">c28yd6qYZsERqLJUh4JfKSaq4vxQoZig</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">C��#�Yk�W^~#Z{��
-�����H</td>
+						<td width="80%">so2w��f���T��_)&amp;���P���</td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/checkouts">https://www.coque-en-bois.fr/12910100538/checkouts</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%">PyDqSUjgDMbufSpOpTmKKeOJCBw1RX7</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%">? �IH���}*N�9�)�5E~</td>
 					</tr>
 				
 					<tr>
@@ -7197,12 +7048,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2F3u1OA2eB5TlzWH5QdH7bCnpvNPRab59Iy6Mz609XMHmRCNTSJCPl8xdgwXM12nciNwwMyN</td>
+						<td width="80%">2F25vEx1TRCDzqvdZkB4HBWF5I9aHrCouMeDxf8VdG1SxENjVL8tDSeP6M21Pheu7w16EjvGyalUCJ1y6Zy9lxu3H8GV7bDr</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�]���6xS�5��G���OE���3&gt;��s��M&quot;B&gt;_1v3]�r#p�̍</td>
+						<td width="80%">�]��LuM�Ϋ�f@x��Z���ǃ��tmR�CcT�-&#39;��͵&gt;��z;�ɩT�r霽������</td>
 					</tr>
 				
 					<tr>
@@ -7228,13 +7079,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">pB80LRbOCq5cSdaOM3jCnvvKx5vZEoM41Rvg3BysQzyKtAVHTfkR8nB0RsTMu0K1EspSw706RGysio</td>
+						<td width="80%">2B92tMMJFvSHojjh8NOtaFnmKdjWgtOvEZUOsKj45sBqNw96Fjt2dS6KETgJA7vokUwC2HBcP2KkLOTjndOCpgQTffl18EXytQcXXOFEEbE</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�4-�
-�\I֎3x��Ǜ��8����C&lt;��GM��ptF�̻B��Rý:Dl��</td>
+						<td width="80%">�v��	�8��ӭhY�)�ւӯ������j7z;vu.�8	��L�p\?b�,��ӂ�}�u�E�\�D�</td>
 					</tr>
 				
 					<tr>
@@ -7260,12 +7110,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FqsLVlEgDpk4CAyCROyKxmiuqIlEcVFyKOg9q</td>
+						<td width="80%">2F5V4S3gxsaDEazOoBacPIFq2rZA7hW5TgiXpeDD0ttgCzRrEtnXOQ9aSehUoZq</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�Z�-YD�:d� 2	�+���%�Eȣ��</td>
+						<td width="80%">�^U�-��ƃ�Π�&lt;�jڶ@��N������`4k��9ZI�T��</td>
 					</tr>
 				
 					<tr>
@@ -7291,12 +7141,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FG8K07BlE3CBWruTt8oFnYW0dzl78</td>
+						<td width="80%">2FACwzI5T9FZqdQ5TXn4JWVK6NZOcK</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�Q�+N��M�j�N�(v����</td>
+						<td width="80%">�P�29O�Y��9My�%eJ��Np</td>
 					</tr>
 				
 					<tr>
@@ -7322,18 +7172,18 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2FaZjRz3R3b66TNYEiLYJ7sgxxoeBkbv1Xn03FJq3eFk9MrccUkgkIVwrbU7x7eHJqbng6wE6AC302AuR6yQJWFwWiMBBHmqRQPnfuVj</td>
+						<td width="80%">2rTxTKEskiwD73LVNPlS0n1RxYlpUsxDAFDmxp7ndxIEqXrYNfWJRVFTs8cexbjX0bljvNyIZURLzxowdhmz8gL3RCNbpeosTxqB2Y6M2w0iQMdTsfC9dyaC8iDNwghJ0KBD8IpB</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�V���Gv��3X&quot;�&#39;� �F��y��Rj��d���qI ��p��;Ƿ�&amp;�烬� ��`.G��%apZ#y�E�~�c</td>
+						<td width="80%">ڴ�L�,�,�r�4�R�}QŉiR�C P�ƞ�w�z�5��EQS��Ÿ�ѹc�܈eDK�0v���D#[��,O�َ��&quot;@�S��w&amp;�� ��IРC��A</td>
 					</tr>
 				
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/checkout">https://www.coque-en-bois.fr/checkout</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/checkouts/">https://www.coque-en-bois.fr/checkouts/</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -7353,44 +7203,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">fr/checkouts/cn/Z2NwLWV1cm9wZS13ZXN0NDowMUhSSzROREI2NERFTTk0NFFHWjdWOFkxQw</td>
+						<td width="80%">2FqWI2Ab8sgLsshFWZMuFLSmX39FeDRDZckN</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">~�܅�$��l���gcp-europe-west4:01HRK4NDB64DEM944QGZ7V8Y1C</td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/collections/*sort_by">https://www.coque-en-bois.fr/collections/*sort_by</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%">2BnGU1irBCHcGVUQqHuv7grL2ks6vdjsijl</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%">��SX�!�U�{��
-��K:���9</td>
+						<td width="80%">�Z�#`����EY�.��_Ex4Ce�</td>
 					</tr>
 				
 					<tr>
@@ -7416,12 +7234,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2Bs0WAezx9CAj1su1HceLjlIdmQC7CBWDE6jpNPba1</td>
+						<td width="80%">2FoJBB26kc7FbDjwaLQQ6yykQXUPASoyjw</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�4X��Ѐ�[.�w.9Hvd� VN����k</td>
+						<td width="80%">�Z	����l8�h��,�Au*2�</td>
 					</tr>
 				
 					<tr>
@@ -7447,12 +7265,12 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2BtMnTYRwodISn8VApHEYmKRiblv6XrcEg</td>
+						<td width="80%">2B5VgxRyB8DrkVZ2Aef6015k5CMMoQI1e4NhQftaGS</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�L�6HJ��bb���o�z�</td>
+						<td width="80%">�U�r��Vv���^d�#�5{�aA�Z</td>
 					</tr>
 				
 					<tr>
@@ -7478,12 +7296,13 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2BR22FAvXWpjZQDpPyUffBJMURN9CIOGeYDI5dUcraRGR1aL</td>
+						<td width="80%">2F9AC18fdgrpJJ3O116fTSyzDcOwOT84WwcicOIHL010TPmabiOVsraIDjvo7I0e6r1dqKHW2A8RHQRlTxXXdCTq589wkVcw8japxHYhZINbNcyqyu7DhdwsfsQzB9kkFuf</td>
 					</tr>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">�v�P/]jce �?%|LQ}��y������FGV�</td>
+						<td width="80%">�_@_v
+�$���^�M,�ð9?8[&quot;p�/MtL��n#����;���]����eO�t$���p�W0�6��v!d�[5̪��Å�,~�3�$�</td>
 					</tr>
 				
 				<tr>
@@ -7567,7 +7386,7 @@ c£�ѡ�¾ȥ�/</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Other Info</td>
-						<td width="80%">The following pattern was used: \bFROM\b and was detected 2 times, the first in the element starting with: &quot;&lt;script&gt;
+						<td width="80%">The following pattern was used: \bFROM\b and was detected 3 times, the first in the element starting with: &quot;&lt;script&gt;
       (function () {
         window.onpageshow = function () {
           if (window.theme.showPageTransition) {
@@ -7965,9 +7784,9 @@ c£�ѡ�¾ȥ�/</td>
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_tracking_consent=%7B%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%7D%7D%2C%22region%22%3A%22USIL%22%2C%22reg%22%3A%22%22%2C%22v%22%3A%222.1%22%7D
-_shopify_y=444bdc4f-d862-4114-b8b9-d285a81532b7
-_shopify_s=5de68583-ecf3-4aa7-aa6b-e3b32a8ac84a
+_tracking_consent=%7B%22reg%22%3A%22CCPA%22%2C%22region%22%3A%22USCA%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%2C%22v%22%3A%222.1%22%7D
+_shopify_y=271deccc-f5be-4b81-82b8-2de66169c42b
+_shopify_s=72fe1ae4-61eb-404e-8a73-1c3c85aabcd8
 _orig_referrer=
 _landing_page=%2F
 </td>
@@ -8004,9 +7823,9 @@ _landing_page=%2F
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_tracking_consent=%7B%22reg%22%3A%22%22%2C%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22a%22%3A%22%22%2C%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%7D%7D%2C%22region%22%3A%22USIL%22%7D
-_shopify_y=967876a7-df98-4932-8e60-7f965b22057f
-_shopify_s=ef6fc648-139b-4c15-8efe-3f1471447bc2
+_tracking_consent=%7B%22region%22%3A%22USCA%22%2C%22reg%22%3A%22CCPA%22%2C%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%7D
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 _orig_referrer=
 _landing_page=%2F
 </td>
@@ -8043,8 +7862,8 @@ _landing_page=%2F
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8079,8 +7898,8 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=76ab23e4-0a6d-4579-86d0-b4ef4a871718
-_shopify_s=2c4efc87-0409-409d-9226-560478fbb639
+_shopify_y=946abf36-7fbb-4057-91ad-138955f2808a
+_shopify_s=9c324b90-3902-4306-85f6-806ad069a466
 </td>
 					</tr>
 				
@@ -8115,8 +7934,8 @@ _shopify_s=2c4efc87-0409-409d-9226-560478fbb639
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8151,8 +7970,8 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8187,8 +8006,8 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8223,8 +8042,8 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8259,8 +8078,8 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=76ab23e4-0a6d-4579-86d0-b4ef4a871718
-_shopify_s=2c4efc87-0409-409d-9226-560478fbb639
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8295,8 +8114,8 @@ _shopify_s=2c4efc87-0409-409d-9226-560478fbb639
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_shopify_y=52073fc1-476f-4da5-8206-9436c5a9e777
+_shopify_s=1b7333a1-8c2b-4a68-8d76-674b094f0d6f
 </td>
 					</tr>
 				
@@ -8331,9 +8150,9 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
 _cmp_a=%7B%22purposes%22%3A%7B%22a%22%3Atrue%2C%22p%22%3Atrue%2C%22m%22%3Atrue%2C%22t%22%3Atrue%7D%2C%22display_banner%22%3Afalse%2C%22sale_of_data_region%22%3Afalse%7D
-_tracking_consent=%7B%22region%22%3A%22USIL%22%2C%22reg%22%3A%22%22%2C%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%7D
-_shopify_y=b3c2b10c-552e-4108-ae90-0c6f547fb772
-_shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
+_tracking_consent=%7B%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22s%22%3A%22%22%2C%22p%22%3A%22%22%7D%7D%2C%22region%22%3A%22USCA%22%2C%22reg%22%3A%22CCPA%22%7D
+_shopify_y=dc842ff8-49f6-455b-9948-e3751c94dd7c
+_shopify_s=82072889-1eff-4243-b2c4-befd5c1de76d
 </td>
 					</tr>
 				
@@ -8367,9 +8186,9 @@ _shopify_s=2446c16e-c679-43d9-bd88-7e2189a1eb58
 							class="indent2">Other Info</td>
 						<td width="80%">The origin domain used for comparison was: 
 www.coque-en-bois.fr
-_tracking_consent=%7B%22v%22%3A%222.1%22%2C%22region%22%3A%22USIL%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22s%22%3A%22%22%2C%22a%22%3A%22%22%2C%22m%22%3A%22%22%2C%22p%22%3A%22%22%7D%7D%2C%22reg%22%3A%22%22%7D
-_shopify_y=76ab23e4-0a6d-4579-86d0-b4ef4a871718
-_shopify_s=2c4efc87-0409-409d-9226-560478fbb639
+_tracking_consent=%7B%22reg%22%3A%22CCPA%22%2C%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%2C%22region%22%3A%22USCA%22%7D
+_shopify_y=946abf36-7fbb-4057-91ad-138955f2808a
+_shopify_s=9c324b90-3902-4306-85f6-806ad069a466
 </td>
 					</tr>
 				
@@ -9134,37 +8953,6 @@ _shopify_s=2c4efc87-0409-409d-9226-560478fbb639
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap_blogs_1.xml">https://www.coque-en-bois.fr/sitemap_blogs_1.xml</a></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Method</td>
-						<td width="80%">GET</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Parameter</td>
-						<td width="80%">cache-control</td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Attack</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Evidence</td>
-						<td width="80%"></td>
-					</tr>
-					<tr>
-						<td width="20%"
-							class="indent2">Other Info</td>
-						<td width="80%"></td>
-					</tr>
-				
-					<tr>
-						<td width="20%"
-							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap_collections_1.xml">https://www.coque-en-bois.fr/sitemap_collections_1.xml</a></td>
 					</tr>
 					<tr>
@@ -9197,6 +8985,37 @@ _shopify_s=2c4efc87-0409-409d-9226-560478fbb639
 						<td width="20%"
 							class="indent1">URL</td>
 						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap_pages_1.xml">https://www.coque-en-bois.fr/sitemap_pages_1.xml</a></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Method</td>
+						<td width="80%">GET</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Parameter</td>
+						<td width="80%">cache-control</td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Attack</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Evidence</td>
+						<td width="80%"></td>
+					</tr>
+					<tr>
+						<td width="20%"
+							class="indent2">Other Info</td>
+						<td width="80%"></td>
+					</tr>
+				
+					<tr>
+						<td width="20%"
+							class="indent1">URL</td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/sitemap_products_1.xml?amp;to=8343238574424&amp;from=2296267604026">https://www.coque-en-bois.fr/sitemap_products_1.xml?amp;to=8343238574424&amp;from=2296267604026</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10301,7 +10120,7 @@ _shopify_s=2c4efc87-0409-409d-9226-560478fbb639
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">444bdc4f-d862-4114-b8b9-d285a81532b7</td>
+						<td width="80%">271deccc-f5be-4b81-82b8-2de66169c42b</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10336,7 +10155,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">967876a7-df98-4932-8e60-7f965b22057f</td>
+						<td width="80%">52073fc1-476f-4da5-8206-9436c5a9e777</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10371,7 +10190,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">b3c2b10c-552e-4108-ae90-0c6f547fb772</td>
+						<td width="80%">52073fc1-476f-4da5-8206-9436c5a9e777</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10385,7 +10204,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent1">URL</td>
-						<td width="80%"><a href="https://www.coque-en-bois.fr/cart">https://www.coque-en-bois.fr/cart</a></td>
+						<td width="80%"><a href="https://www.coque-en-bois.fr/12910100538/orders">https://www.coque-en-bois.fr/12910100538/orders</a></td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10405,7 +10224,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">b3c2b10c-552e-4108-ae90-0c6f547fb772</td>
+						<td width="80%">946abf36-7fbb-4057-91ad-138955f2808a</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10439,7 +10258,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">b3c2b10c-552e-4108-ae90-0c6f547fb772</td>
+						<td width="80%">52073fc1-476f-4da5-8206-9436c5a9e777</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10473,7 +10292,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">b3c2b10c-552e-4108-ae90-0c6f547fb772</td>
+						<td width="80%">52073fc1-476f-4da5-8206-9436c5a9e777</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10507,7 +10326,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">b3c2b10c-552e-4108-ae90-0c6f547fb772</td>
+						<td width="80%">dc842ff8-49f6-455b-9948-e3751c94dd7c</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10542,7 +10361,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">76ab23e4-0a6d-4579-86d0-b4ef4a871718</td>
+						<td width="80%">946abf36-7fbb-4057-91ad-138955f2808a</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10576,7 +10395,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">%7B%22region%22%3A%22USIL%22%2C%22reg%22%3A%22%22%2C%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22s%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%7D%7D%7D</td>
+						<td width="80%">%7B%22region%22%3A%22USCA%22%2C%22reg%22%3A%22CCPA%22%2C%22v%22%3A%222.1%22%2C%22con%22%3A%7B%22CMP%22%3A%7B%22p%22%3A%22%22%2C%22m%22%3A%22%22%2C%22a%22%3A%22%22%2C%22s%22%3A%22%22%7D%7D%7D</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10640,7 +10459,7 @@ cookie:_cmp_a</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">2446c16e-c679-43d9-bd88-7e2189a1eb58</td>
+						<td width="80%">1b7333a1-8c2b-4a68-8d76-674b094f0d6f</td>
 					</tr>
 					<tr>
 						<td width="20%"
@@ -10672,7 +10491,7 @@ cookie:_shopify_s</td>
 					<tr>
 						<td width="20%"
 							class="indent2">Evidence</td>
-						<td width="80%">b3c2b10c-552e-4108-ae90-0c6f547fb772</td>
+						<td width="80%">52073fc1-476f-4da5-8206-9436c5a9e777</td>
 					</tr>
 					<tr>
 						<td width="20%"
