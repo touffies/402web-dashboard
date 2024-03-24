@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 17 Mar 2024 01:15:54",
+	"@generated": "Sun, 24 Mar 2024 01:19:59",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -28,7 +28,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ]."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -36,7 +36,39 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ]."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"https://www.salaisonsduvelay.com/fr/recherche\" method=\"post\" class=\"std\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"search_query\" ]."
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form id=\"searchbox\" class=\"ajax_top\" method=\"get\" action=\"https://www.salaisonsduvelay.com/fr/recherche\" >",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ]."
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form action=\"https://www.salaisonsduvelay.com/fr/recherche\" method=\"post\" class=\"std\">",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"search_query\" ]."
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*?n",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "<form id=\"searchbox\" class=\"ajax_top\" method=\"get\" action=\"https://www.salaisonsduvelay.com/fr/recherche\" >",
+							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ]."
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*?n",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -124,7 +156,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: \"search_query\" ]."
 						}
 					],
-					"count": "13",
+					"count": "17",
 					"solution": "<p>Phase: Architecture and Design</p><p>Use a vetted library or framework that does not allow this weakness to occur or provides constructs that make this weakness easier to avoid.</p><p>For example, use anti-CSRF packages such as the OWASP CSRFGuard.</p><p></p><p>Phase: Implementation</p><p>Ensure that your application is free of cross-site scripting issues, because most CSRF defenses can be bypassed using attacker-controlled script.</p><p></p><p>Phase: Architecture and Design</p><p>Generate a unique nonce for each form, place the nonce into the form, and verify the nonce upon receipt of the form. Be sure that the nonce is not predictable (CWE-330).</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Identify especially dangerous operations. When the user performs a dangerous operation, send a separate confirmation request to ensure that the user intended to perform that operation.</p><p>Note that this can be bypassed using XSS.</p><p></p><p>Use the ESAPI Session Management control.</p><p>This control includes a component for CSRF.</p><p></p><p>Do not use the GET method for any request that triggers a state change.</p><p></p><p>Phase: Implementation</p><p>Check the HTTP Referer header to see if the request originated from an expected page. This could break legitimate functionality, because users or proxies may have disabled sending the Referer for privacy reasons.</p>",
 					"otherinfo": "<p>No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ].</p>",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Cross-Site_Request_Forgery_Prevention_Cheat_Sheet.html</p><p>https://cwe.mitre.org/data/definitions/352.html</p>",
@@ -274,22 +306,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/14-les-produits-regionaux",
-							"method": "GET",
-							"param": "x-frame-options",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -330,6 +346,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/fr/23-epicerie-fine",
+							"method": "GET",
+							"param": "x-frame-options",
+							"attack": "",
+							"evidence": "",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/fr/commande",
 							"method": "GET",
 							"param": "x-frame-options",
@@ -362,7 +386,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>Modern Web browsers support the Content-Security-Policy and X-Frame-Options HTTP headers. Ensure one of them is set on all web pages returned by your site/app.</p><p>If you expect the page to be framed only by pages on your server (e.g. it's part of a FRAMESET) then you'll want to use SAMEORIGIN, otherwise if you never expect the page to be framed, you should use DENY. Alternatively consider implementing Content Security Policy's \"frame-ancestors\" directive.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options</p>",
@@ -528,30 +552,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/14-les-produits-regionaux",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -568,6 +568,14 @@
 							"otherinfo": ""
 						},
 						{
+							"uri": "https://www.salaisonsduvelay.com/fr/19-jambons-d-auvergne",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"otherinfo": ""
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/fr/21-terrines",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -577,6 +585,22 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/23-epicerie-fine",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/29-vins-d-ardeche",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
@@ -643,7 +667,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
 							"method": "GET",
 							"param": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
 							"attack": "",
@@ -651,7 +675,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
 							"method": "GET",
 							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_229_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
 							"attack": "",
@@ -659,7 +683,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
 							"method": "GET",
 							"param": "https://www.google.com/recaptcha/api.js",
 							"attack": "",
@@ -929,7 +953,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -945,7 +969,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1008,8 +1032,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1710638084",
-							"otherinfo": "1710638084, which evaluates to: 2024-03-17 01:14:44"
+							"evidence": "1711243129",
+							"otherinfo": "1711243129, which evaluates to: 2024-03-24 01:18:49"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
@@ -1032,8 +1056,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1710638086",
-							"otherinfo": "1710638086, which evaluates to: 2024-03-17 01:14:46"
+							"evidence": "1711243131",
+							"otherinfo": "1711243131, which evaluates to: 2024-03-24 01:18:51"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -1056,8 +1080,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1710638086",
-							"otherinfo": "1710638086, which evaluates to: 2024-03-17 01:14:46"
+							"evidence": "1711243130",
+							"otherinfo": "1711243130, which evaluates to: 2024-03-24 01:18:50"
 						}
 					],
 					"count": "9",
@@ -1067,33 +1091,6 @@
 					"cweid": "200",
 					"wascid": "13",
 					"sourceid": "1"
-				},
-				{
-					"pluginid": "10111",
-					"alertRef": "10111",
-					"alert": "Authentication Request Identified",
-					"name": "Authentication Request Identified",
-					"riskcode": "0",
-					"confidence": "1",
-					"riskdesc": "Informational (Low)",
-					"desc": "<p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to \"Auto-Detect\" then this rule will change the authentication to match the request identified.</p>",
-					"instances":[ 
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/connexion",
-							"method": "POST",
-							"param": "email",
-							"attack": "",
-							"evidence": "passwd",
-							"otherinfo": "userParam=email\nuserValue=zaproxy@example.com\npasswordParam=passwd\nreferer=https://www.salaisonsduvelay.com/fr/connexion?back=my-account"
-						}
-					],
-					"count": "1",
-					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
-					"otherinfo": "<p>userParam=email</p><p>userValue=zaproxy@example.com</p><p>passwordParam=passwd</p><p>referer=https://www.salaisonsduvelay.com/fr/connexion?back=my-account</p>",
-					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</p>",
-					"cweid": "-1",
-					"wascid": "-1",
-					"sourceid": "1466"
 				},
 				{
 					"pluginid": "10094",
@@ -1130,23 +1127,23 @@
 							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=",
-							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=",
-							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=",
+							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/18-pieces-sechees",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=",
+							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/19-jambons-d-auvergne",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1221,6 +1218,30 @@
 					"desc": "<p>The request appeared to contain sensitive information leaked in the URL. This can violate PCI and most organizational compliance policies. You can configure the list of strings for this check to add or remove values specific to your environment.</p>",
 					"instances":[ 
 						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=111&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=128&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=140&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"method": "GET",
+							"param": "token",
+							"attack": "",
+							"evidence": "token",
+							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
+						},
+						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=144&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
@@ -1237,23 +1258,7 @@
 							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=25&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token",
-							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=35&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token",
-							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=4&token=deec6d3a09deffc57794d0a5dd9323bd",
+							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=24&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
 							"attack": "",
@@ -1301,14 +1306,6 @@
 							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=72&token=deec6d3a09deffc57794d0a5dd9323bd",
-							"method": "GET",
-							"param": "token",
-							"attack": "",
-							"evidence": "token",
-							"otherinfo": "The URL contains potentially sensitive information. The following string was found via the pattern: token\ntoken"
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/panier?add=1&id_product=74&token=deec6d3a09deffc57794d0a5dd9323bd",
 							"method": "GET",
 							"param": "token",
@@ -1323,7 +1320,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "729"
+					"sourceid": "800"
 				},
 				{
 					"pluginid": "10027",
@@ -1352,7 +1349,7 @@
 							"otherinfo": "The following pattern was used: \\bQUERY\\b and was detected in the element starting with: \"<script\ttype=\"application/ld+json\">{\n\t\t\t\"@context\":\t\"http://schema.org\",\n\t\t\t\"@type\": \"WebSite\",\n\t\t\t\"url\": \"https://www.salaisons\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&back=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1360,7 +1357,7 @@
 							"otherinfo": "The following pattern was used: \\bFROM\\b and was detected in the element starting with: \"<script type=\"text/javascript\">/* <![CDATA[ */;var CUSTOMIZE_TEXTFIELD=1;var FancyboxI18nClose='Fermer';var FancyboxI18nNext='Su\", see evidence field for the suspicious comment/snippet."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderway=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1455,11 +1452,11 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption btn-home\" href=\"/fr/content/4-les-salaisons-du-velay\" target=\"_self\" id=\"slide-6-layer-723\" data-x=\"['left','left','center','center']\" data-hoffset=\"['15','15','0','0']\" data-y=\"['top','top','top','top']\" data-voffset=\"['650','650','555','555']\" data-color=\"['rgba(0, 0, 0, 1.00)','rgba(0, 0, 0, 1.00)','rgba(50, 50, 50, 1.00)','rgba(50, 50, 50, 1.00)']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"opacity:0;s:300;e:Power2.easeInOut;\" data-transform_out=\"opacity:0;s:300;s:300;\" data-start=\"500\" data-splitin=\"none\" data-splitout=\"none\" data-actions='' data-responsive_offset=\"off\" style=\"z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);\">Tout voir </a>",
+							"evidence": "<a class=\"tp-caption btn-home\" href=\"/fr/content/4-les-salaisons-du-velay\" target=\"_self\" id=\"slide-6-layer-930\" data-x=\"['left','left','center','center']\" data-hoffset=\"['15','15','0','0']\" data-y=\"['top','top','top','top']\" data-voffset=\"['650','650','555','555']\" data-color=\"['rgba(0, 0, 0, 1.00)','rgba(0, 0, 0, 1.00)','rgba(50, 50, 50, 1.00)','rgba(50, 50, 50, 1.00)']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"opacity:0;s:300;e:Power2.easeInOut;\" data-transform_out=\"opacity:0;s:300;s:300;\" data-start=\"500\" data-splitin=\"none\" data-splitout=\"none\" data-actions='' data-responsive_offset=\"off\" style=\"z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);\">Tout voir </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&back=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1467,7 +1464,7 @@
 							"otherinfo": "A noScript tag has been found, which is an indication that the application works differently with JavaScript enabled compared to when it is not."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderway=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1582,14 +1579,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
-							"method": "GET",
-							"param": "cache-control",
-							"attack": "",
-							"evidence": "max-age=0",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
 							"method": "GET",
 							"param": "cache-control",
@@ -1670,7 +1659,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>For secure content, ensure the cache-control HTTP header is set with \"no-cache, no-store, must-revalidate\". If an asset should be cached consider setting the directives \"public, max-age, immutable\".</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Session_Management_Cheat_Sheet.html#web-content-caching</p><p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Cache-Control</p><p>https://grayduck.mn/2021/09/13/cache-control-recommendations/</p>",
@@ -1697,7 +1686,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*/modules/*.js",
+							"uri": "https://www.salaisonsduvelay.com/*/modules/*.css",
 							"method": "GET",
 							"param": "Sec-Fetch-Dest",
 							"attack": "",
@@ -1719,7 +1708,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -1740,7 +1729,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*/modules/*.js",
+							"uri": "https://www.salaisonsduvelay.com/*/modules/*.css",
 							"method": "GET",
 							"param": "Sec-Fetch-Mode",
 							"attack": "",
@@ -1762,7 +1751,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -1783,7 +1772,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*/modules/*.js",
+							"uri": "https://www.salaisonsduvelay.com/*/modules/*.css",
 							"method": "GET",
 							"param": "Sec-Fetch-Site",
 							"attack": "",
@@ -1805,7 +1794,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "90005",
@@ -1826,7 +1815,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*/modules/*.js",
+							"uri": "https://www.salaisonsduvelay.com/*/modules/*.css",
 							"method": "GET",
 							"param": "Sec-Fetch-User",
 							"attack": "",
@@ -1848,7 +1837,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "39"
+					"sourceid": "43"
 				},
 				{
 					"pluginid": "10112",
@@ -1865,7 +1854,7 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "bbded968be181a68ce9d0ec258b59cc55f6abb3a895bc766564ec32adcae7713%3AYCEuhchdBoZQk%2F6EZq0O9aUBxmug8jWLSWpB1NnKhp6cWdyXlFqG7NVkTFX2jlDxZwEoq2i00Xo6TaibAJq%2BM1rbKdpTSu%2F3x%2F3xL2ao%2FvjSJ2%2BCQKPfy8Rw9ORXuwEYg71zeYupeCCmzg4CjfYQoyHYM4xdpqjJBLF2nH7tsXk%3D",
+							"evidence": "199c126f44005ec0181e37a5e8b85ff511e31c4c29e48810c7caa0e1133a3b8b%3AYCEuhchdBoZQk%2F6EZq0O9e6u%2B%2FNqwSuVxt5Vj%2Bf0KuGq%2BA2BM%2BMuxlzJH0T%2BWKc2S9EVMJ91BWdOWvV1HvJbRaBGWMnlJzJlpUoayExg6K%2FQVd2kJ%2BelFJbx22RClOXeJmxFSxEuzJt1yRy3AqE3PzTv6MtmdxG1w44b6o134Jw%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1873,7 +1862,7 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "327d74613554b70526de443667fd34d63fb9e5e6b357d3d29e7dd40a1c2c0065%3AYCEuhchdBoZQk%2F6EZq0O9Vs%2BQBx6xCLOg48W6o2vI4bCuYBsfkdeHwRXpXWvkl%2F5LC%2BoOPqV2HHDFQco1PjDw%2FjBUKEHe5kEocj7u6DztJUQfZF7qrLPCaNzvlzxqDSkpz7gsCQNI3rNnrAiE9SfOYFviAadMuXAY4iiapvRnFs%3D",
+							"evidence": "bbb61515a7a8599f18c53fc112970db18b0bf37a651f29c9d21ff6f1655fcfa1%3AYCEuhchdBoZQk%2F6EZq0O9azUfbDr%2Bjz6RDMlo96hcbRb%2F3zWmDAEeeisFOhlL9JLrStGuUUCwmTeWRJAA2aU%2FxrcoNBxoaVbA4pk5IO1KBpWEzLH8BItHs0JQhI4DClMApQ0UN78tPmNYfpwwAnZubDzkZg0YtncL3UiKLTzIYw%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1881,15 +1870,7 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "3ef6af2af1f1752294e7d795f46ea2d51a4d7d5dcabca4214029664fdfc75a97%3AYCEuhchdBoZQk%2F6EZq0O9Vs%2BQBx6xCLOg48W6o2vI4bCuYBsfkdeHwRXpXWvkl%2F5LC%2BoOPqV2HHDFQco1PjDw%2FzZIZ37e%2B9b2xgb1cegApkUmk05%2BcnSmn38lWITL4fkQmeVgF12FWNFeBk6iaiLEOp0mvYcGn6GmbXp9abzdn0%3D",
-							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "6f1cca3e8483d8fecb36b4e6197b92750db3991361b037a01757f965de0d7eb8%3AYCEuhchdBoZQk%2F6EZq0O9Vs%2BQBx6xCLOg48W6o2vI4bCuYBsfkdeHwRXpXWvkl%2F5LC%2BoOPqV2HHDFQco1PjDwzTxVF9Ay5mu3rNYTWITNdWd9NajlIdh%2B6aIE9k4Z7phUN1YUOGzEVZ%2FFl0UBNS6nZBY3cBMgqtpvIeHFs7goA8%3D",
+							"evidence": "1212109c434f775050817e86c02d37e6cecb3a6d9a725204b0a0d8ac31572386%3AYCEuhchdBoZQk%2F6EZq0O9eNT7Ep7I%2FsOYBy%2B6G6ddbsHlJt8w8lT%2BMQv28nA%2Fuz2Aykok3xwG1rSm42KZmPTJdOm3xmO%2FaFv4Kb8IfHEbeZHp018ePqOxCAnLv447kSWk5fV7LBjWYhMF85eC8ZYhvm9WQbH0qVtpdObgt5JIBs%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1897,23 +1878,23 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "5826c2784204f076cd973247c406142858930584a86dd88e2f40a5c41116df3a%3AYCEuhchdBoZQk%2F6EZq0O9TLXdwzTmZBk8nSItJBFuET0fu7HvcFI%2BcWcPf4TRhFlSjOpmTU6QQfEmyBS3Sm164IBKlt0SZFkenbHAGVUqYgr%2BLaygaw77B9EMsdIFl7IKYOZRKzFfGYT40uQjL%2FEpNretRq0p26zXA5DGlWp6QA%3D",
+							"evidence": "143346a97587196002da0ffde3b1a687f5156719e9ebb49e7e40f32df51f6bf1%3AYCEuhchdBoZQk%2F6EZq0O9azUfbDr%2Bjz6RDMlo96hcbRb%2F3zWmDAEeeisFOhlL9JLrStGuUUCwmTeWRJAA2aU%2F4sTf6H%2FelwKd4YsGRkAsqLNhUZkn6WBkHDK8uJh80tqMNk0PFS2aDeAdP8DE0W5%2BrohXsv1Ys38Hel0wuHsBG8%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?tag",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "5826c2784204f076cd973247c406142858930584a86dd88e2f40a5c41116df3a%3AYCEuhchdBoZQk%2F6EZq0O9TLXdwzTmZBk8nSItJBFuET0fu7HvcFI%2BcWcPf4TRhFlSjOpmTU6QQfEmyBS3Sm164IBKlt0SZFkenbHAGVUqYgr%2BLaygaw77B9EMsdIFl7IKYOZRKzFfGYT40uQjL%2FEpNretRq0p26zXA5DGlWp6QA%3D",
+							"evidence": "143346a97587196002da0ffde3b1a687f5156719e9ebb49e7e40f32df51f6bf1%3AYCEuhchdBoZQk%2F6EZq0O9azUfbDr%2Bjz6RDMlo96hcbRb%2F3zWmDAEeeisFOhlL9JLrStGuUUCwmTeWRJAA2aU%2F4sTf6H%2FelwKd4YsGRkAsqLNhUZkn6WBkHDK8uJh80tqMNk0PFS2aDeAdP8DE0W5%2BrohXsv1Ys38Hel0wuHsBG8%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*controller=address",
+							"uri": "https://www.salaisonsduvelay.com/*controller=cart",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "6f1cca3e8483d8fecb36b4e6197b92750db3991361b037a01757f965de0d7eb8%3AYCEuhchdBoZQk%2F6EZq0O9Vs%2BQBx6xCLOg48W6o2vI4bCuYBsfkdeHwRXpXWvkl%2F5LC%2BoOPqV2HHDFQco1PjDwzTxVF9Ay5mu3rNYTWITNdWd9NajlIdh%2B6aIE9k4Z7phUN1YUOGzEVZ%2FFl0UBNS6nZBY3cBMgqtpvIeHFs7goA8%3D",
+							"evidence": "1212109c434f775050817e86c02d37e6cecb3a6d9a725204b0a0d8ac31572386%3AYCEuhchdBoZQk%2F6EZq0O9eNT7Ep7I%2FsOYBy%2B6G6ddbsHlJt8w8lT%2BMQv28nA%2Fuz2Aykok3xwG1rSm42KZmPTJdOm3xmO%2FaFv4Kb8IfHEbeZHp018ePqOxCAnLv447kSWk5fV7LBjWYhMF85eC8ZYhvm9WQbH0qVtpdObgt5JIBs%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1921,15 +1902,23 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "6f1cca3e8483d8fecb36b4e6197b92750db3991361b037a01757f965de0d7eb8%3AYCEuhchdBoZQk%2F6EZq0O9Vs%2BQBx6xCLOg48W6o2vI4bCuYBsfkdeHwRXpXWvkl%2F5LC%2BoOPqV2HHDFQco1PjDwzTxVF9Ay5mu3rNYTWITNdWd9NajlIdh%2B6aIE9k4Z7phUN1YUOGzEVZ%2FFl0UBNS6nZBY3cBMgqtpvIeHFs7goA8%3D",
+							"evidence": "1212109c434f775050817e86c02d37e6cecb3a6d9a725204b0a0d8ac31572386%3AYCEuhchdBoZQk%2F6EZq0O9eNT7Ep7I%2FsOYBy%2B6G6ddbsHlJt8w8lT%2BMQv28nA%2Fuz2Aykok3xwG1rSm42KZmPTJdOm3xmO%2FaFv4Kb8IfHEbeZHp018ePqOxCAnLv447kSWk5fV7LBjWYhMF85eC8ZYhvm9WQbH0qVtpdObgt5JIBs%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*controller=history",
+							"uri": "https://www.salaisonsduvelay.com/*controller=images.inc",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "6f1cca3e8483d8fecb36b4e6197b92750db3991361b037a01757f965de0d7eb8%3AYCEuhchdBoZQk%2F6EZq0O9Vs%2BQBx6xCLOg48W6o2vI4bCuYBsfkdeHwRXpXWvkl%2F5LC%2BoOPqV2HHDFQco1PjDwzTxVF9Ay5mu3rNYTWITNdWd9NajlIdh%2B6aIE9k4Z7phUN1YUOGzEVZ%2FFl0UBNS6nZBY3cBMgqtpvIeHFs7goA8%3D",
+							"evidence": "1212109c434f775050817e86c02d37e6cecb3a6d9a725204b0a0d8ac31572386%3AYCEuhchdBoZQk%2F6EZq0O9eNT7Ep7I%2FsOYBy%2B6G6ddbsHlJt8w8lT%2BMQv28nA%2Fuz2Aykok3xwG1rSm42KZmPTJdOm3xmO%2FaFv4Kb8IfHEbeZHp018ePqOxCAnLv447kSWk5fV7LBjWYhMF85eC8ZYhvm9WQbH0qVtpdObgt5JIBs%3D",
+							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*controller=order-slip",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "1212109c434f775050817e86c02d37e6cecb3a6d9a725204b0a0d8ac31572386%3AYCEuhchdBoZQk%2F6EZq0O9eNT7Ep7I%2FsOYBy%2B6G6ddbsHlJt8w8lT%2BMQv28nA%2Fuz2Aykok3xwG1rSm42KZmPTJdOm3xmO%2FaFv4Kb8IfHEbeZHp018ePqOxCAnLv447kSWk5fV7LBjWYhMF85eC8ZYhvm9WQbH0qVtpdObgt5JIBs%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						}
 					],
@@ -2000,7 +1989,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?back",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2008,7 +1997,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?orderby",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2038,7 +2027,7 @@
 					"reference": "<p>https://datatracker.ietf.org/doc/html/rfc7234</p><p>https://datatracker.ietf.org/doc/html/rfc7231</p><p>https://www.w3.org/Protocols/rfc2616/rfc2616-sec13.html</p>",
 					"cweid": "524",
 					"wascid": "13",
-					"sourceid": "85"
+					"sourceid": "82"
 				},
 				{
 					"pluginid": "10049",
@@ -2220,7 +2209,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "496"
+					"sourceid": "482"
 				}
 			]
 		}
