@@ -40,7 +40,7 @@
     "content-encoding": "gzip",
     "content-length": "1550",
     "content-type": "text/html",
-    "date": "Sun, 17 Mar 2024 00:58:00 GMT",
+    "date": "Sun, 24 Mar 2024 01:00:03 GMT",
     "etag": "\"f92-5e7726452acc2-gzip\"",
     "last-modified": "Tue, 30 Aug 2022 09:56:18 GMT",
     "server": "Apache",
@@ -119,7 +119,7 @@
             "names": {
               "de": "Genf",
               "en": "Geneva",
-              "es": "Cantón de Ginebra",
+              "es": "Ginebra",
               "fr": "Genève",
               "ja": "ジュネーヴ州",
               "pt-BR": "Genebra",
@@ -185,8 +185,14 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "142.250.191.74",
+      "ip": "142.251.46.234",
       "geoip": {
+        "city": {
+          "geoname_id": 5133273,
+          "names": {
+            "en": "Queens"
+          }
+        },
         "continent": {
           "code": "NA",
           "geoname_id": 6255149,
@@ -216,10 +222,14 @@
           }
         },
         "location": {
-          "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "accuracy_radius": 50,
+          "latitude": 40.66,
+          "longitude": -73.839,
+          "metro_code": 501,
+          "time_zone": "America/New_York"
+        },
+        "postal": {
+          "code": "11414"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -234,7 +244,23 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5128638,
+            "iso_code": "NY",
+            "names": {
+              "de": "New York",
+              "en": "New York",
+              "es": "Nueva York",
+              "fr": "New York",
+              "ja": "ニューヨーク州",
+              "pt-BR": "Nova Iorque",
+              "ru": "Нью-Йорк",
+              "zh-CN": "纽约州"
+            }
+          }
+        ]
       }
     },
     {
@@ -293,7 +319,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "172.217.12.99",
+      "ip": "142.250.191.67",
       "geoip": {
         "continent": {
           "code": "NA",
