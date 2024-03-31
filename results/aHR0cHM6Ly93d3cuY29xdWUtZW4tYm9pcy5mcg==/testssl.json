@@ -346,7 +346,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "81 >= 30 days"
+              "finding"      : "74 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -556,7 +556,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1711249123"
+              "finding"      : "1711856843"
           }
 ,         {
               "id"           : "HSTS_time",
@@ -591,7 +591,7 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "Server-Timing: processing;dur=16;desc='gc:2', db;dur=3, asn;desc='8075', edge;desc='SJC', country;desc='US', theme;desc='145167515992', pageType;desc='index', servedBy;desc='mtcx', requestID;desc='5aead111-b1fc-4e88-8033-e3f3599f4bb7-1711249122'Server-Timing: cfRequestDuration;dur=211.999893cloudflare"
+              "finding"      : "Server-Timing: processing;dur=13;desc='gc:1', db;dur=3, asn;desc='8075', edge;desc='SJC', country;desc='US', theme;desc='145167515992', pageType;desc='index', servedBy;desc='h48c', requestID;desc='0396079c-90c8-4b53-85b8-b9dec2a5a80f-1711856843'Server-Timing: cfRequestDuration;dur=200.999975cloudflare"
           }
 ,         {
               "id"           : "banner_application",
@@ -1161,6 +1161,6 @@
               "ip"           : "www.coque-en-bois.fr/23.227.38.74",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "60"
+              "finding"      : "57"
           }
 ]
