@@ -1,7 +1,7 @@
 {
 	"@programName": "ZAP",
 	"@version": "2.14.0",
-	"@generated": "Sun, 31 Mar 2024 01:19:54",
+	"@generated": "Sun, 7 Apr 2024 01:15:55",
 	"site":[ 
 		{
 			"@name": "https://www.salaisonsduvelay.com",
@@ -28,7 +28,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ]."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?back",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -36,7 +36,7 @@
 							"otherinfo": "No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: \"controller\" \"orderby\" \"orderway\" \"search_query_top\" ]."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?back",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -413,7 +413,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -421,7 +421,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -429,7 +429,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -437,7 +437,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -497,6 +497,14 @@
 					"instances":[ 
 						{
 							"uri": "https://www.salaisonsduvelay.com",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"otherinfo": ""
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
@@ -568,14 +576,6 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/29-vins-d-ardeche",
-							"method": "GET",
-							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"attack": "",
-							"evidence": "set-cookie: PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-							"otherinfo": ""
-						},
-						{
 							"uri": "https://www.salaisonsduvelay.com/fr/nous-contacter",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
@@ -635,7 +635,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
 							"attack": "",
@@ -643,7 +643,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_229_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
 							"attack": "",
@@ -651,7 +651,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "https://www.google.com/recaptcha/api.js",
 							"attack": "",
@@ -676,30 +676,6 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderway",
-							"method": "GET",
-							"param": "https://www.google.com/recaptcha/api.js",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://www.google.com/recaptcha/api.js\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
-							"method": "GET",
-							"param": "https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_229_063ac2437ad7bdc8c8d9247eab0b5a4e.js",
-							"attack": "",
-							"evidence": "<script type=\"text/javascript\" src=\"https://static2.salaisonsduvelay.com/themes/salaisonduvelay/cache/v_229_063ac2437ad7bdc8c8d9247eab0b5a4e.js\"></script>",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
 							"method": "GET",
 							"param": "https://www.google.com/recaptcha/api.js",
 							"attack": "",
@@ -731,7 +707,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "15",
+					"count": "12",
 					"solution": "<p>Ensure JavaScript source files are loaded from only trusted sources, and the sources can't be controlled by end users of the application.</p>",
 					"otherinfo": "",
 					"reference": "",
@@ -758,7 +734,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*&orderway=",
+							"uri": "https://www.salaisonsduvelay.com/*&orderby=",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -921,7 +897,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?back",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -937,15 +913,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?orderway",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "",
-							"otherinfo": ""
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?search_query",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -969,7 +937,7 @@
 							"otherinfo": ""
 						}
 					],
-					"count": "13",
+					"count": "12",
 					"solution": "<p>Ensure that your web server, application server, load balancer, etc. is configured to enforce Strict-Transport-Security.</p>",
 					"otherinfo": "",
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Strict_Transport_Security_Cheat_Sheet.html</p><p>https://owasp.org/www-community/Security_Headers</p><p>https://en.wikipedia.org/wiki/HTTP_Strict_Transport_Security</p><p>https://caniuse.com/stricttransportsecurity</p><p>https://datatracker.ietf.org/doc/html/rfc6797</p>",
@@ -1008,8 +976,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1711847924",
-							"otherinfo": "1711847924, which evaluates to: 2024-03-31 01:18:44"
+							"evidence": "1712452485",
+							"otherinfo": "1712452485, which evaluates to: 2024-04-07 01:14:45"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/*?orderby",
@@ -1032,8 +1000,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1711847925",
-							"otherinfo": "1711847925, which evaluates to: 2024-03-31 01:18:45"
+							"evidence": "1712452486",
+							"otherinfo": "1712452486, which evaluates to: 2024-04-07 01:14:46"
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/sitemap.xml",
@@ -1056,8 +1024,8 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "1711847925",
-							"otherinfo": "1711847925, which evaluates to: 2024-03-31 01:18:45"
+							"evidence": "1712452486",
+							"otherinfo": "1712452486, which evaluates to: 2024-04-07 01:14:46"
 						}
 					],
 					"count": "9",
@@ -1093,7 +1061,7 @@
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/auth-req-id/</p>",
 					"cweid": "-1",
 					"wascid": "-1",
-					"sourceid": "1420"
+					"sourceid": "1480"
 				},
 				{
 					"pluginid": "10094",
@@ -1114,7 +1082,15 @@
 							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/14-les-produits-regionaux",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
+							"method": "GET",
+							"param": "",
+							"attack": "",
+							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=",
+							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1155,14 +1131,6 @@
 						},
 						{
 							"uri": "https://www.salaisonsduvelay.com/fr/22-conserves-et-plats-cuisines",
-							"method": "GET",
-							"param": "",
-							"attack": "",
-							"evidence": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=",
-							"otherinfo": ">\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\uFFFD\u019E\u9FB7\uFFFD_7\uFFFD\u077B\uFFFD\uFFFD\uFFFDkNy\uFFFDMZ\uFFFD\uFFFD"
-						},
-						{
-							"uri": "https://www.salaisonsduvelay.com/fr/29-vins-d-ardeche",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1323,7 +1291,7 @@
 					"reference": "",
 					"cweid": "200",
 					"wascid": "13",
-					"sourceid": "730"
+					"sourceid": "735"
 				},
 				{
 					"pluginid": "10027",
@@ -1455,7 +1423,7 @@
 							"method": "GET",
 							"param": "",
 							"attack": "",
-							"evidence": "<a class=\"tp-caption btn-home\" href=\"/fr/content/4-les-salaisons-du-velay\" target=\"_self\" id=\"slide-6-layer-575\" data-x=\"['left','left','center','center']\" data-hoffset=\"['15','15','0','0']\" data-y=\"['top','top','top','top']\" data-voffset=\"['650','650','555','555']\" data-color=\"['rgba(0, 0, 0, 1.00)','rgba(0, 0, 0, 1.00)','rgba(50, 50, 50, 1.00)','rgba(50, 50, 50, 1.00)']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"opacity:0;s:300;e:Power2.easeInOut;\" data-transform_out=\"opacity:0;s:300;s:300;\" data-start=\"500\" data-splitin=\"none\" data-splitout=\"none\" data-actions='' data-responsive_offset=\"off\" style=\"z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);\">Tout voir </a>",
+							"evidence": "<a class=\"tp-caption btn-home\" href=\"/fr/content/4-les-salaisons-du-velay\" target=\"_self\" id=\"slide-6-layer-250\" data-x=\"['left','left','center','center']\" data-hoffset=\"['15','15','0','0']\" data-y=\"['top','top','top','top']\" data-voffset=\"['650','650','555','555']\" data-color=\"['rgba(0, 0, 0, 1.00)','rgba(0, 0, 0, 1.00)','rgba(50, 50, 50, 1.00)','rgba(50, 50, 50, 1.00)']\" data-width=\"none\" data-height=\"none\" data-whitespace=\"nowrap\" data-transform_idle=\"o:1;\" data-transform_in=\"opacity:0;s:300;e:Power2.easeInOut;\" data-transform_out=\"opacity:0;s:300;s:300;\" data-start=\"500\" data-splitin=\"none\" data-splitout=\"none\" data-actions='' data-responsive_offset=\"off\" style=\"z-index: 9; white-space: nowrap; font-size: 16px; line-height: 16px; font-weight: 700; color: rgba(0, 0, 0, 1.00);padding:12px 30px 12px 30px;border-color:rgba(0, 0, 0, 0);\">Tout voir </a>",
 							"otherinfo": "Links have been found with a target of '_self' - this is often used by modern frameworks to force a full page reload."
 						},
 						{
@@ -1582,7 +1550,7 @@
 							"otherinfo": ""
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/fr/17-saucissons-et-saucisses",
+							"uri": "https://www.salaisonsduvelay.com/fr/13-nos-produits",
 							"method": "GET",
 							"param": "cache-control",
 							"attack": "",
@@ -1711,7 +1679,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Dest</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "40"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -1754,7 +1722,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Mode</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "40"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -1797,7 +1765,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-Site</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "40"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "90005",
@@ -1840,7 +1808,7 @@
 					"reference": "<p>https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-Fetch-User</p>",
 					"cweid": "352",
 					"wascid": "9",
-					"sourceid": "40"
+					"sourceid": "27"
 				},
 				{
 					"pluginid": "10112",
@@ -1857,7 +1825,15 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "3d1dcfef78da20daf0130d39f7770468c2143d45c040c138edc8ff817efbd5c4%3AYCEuhchdBoZQk%2F6EZq0O9bxIbGJdPi6r1%2FrkVdyE5%2BG8jKslCo39s2kiimHG7DabDMClcC5ZTgjqiJVXkDyQ29%2B9wDBXA%2FGT55fJnH9hLJC0%2FkNg9THY9b5ckvBeet0NlJIXFIf7E8pSRITfJ1pDIi9P%2F6Za8MvxVImQHGXXOFg%3D",
+							"evidence": "9d6563a6348e6984e540b8c0070ab71a9f65cf538ba8adbe22b207328f59cff2%3ApBjoStmsfTEjbKWNJfUpiTe6a9YW9zNh9%2FjMyufyn%2BuS4Pjz3tVLf8MG7%2BIsWUnYZiJxW5gk%2FWEbgpCEXBWgnlHrzvOo0aq6wh7JGSt4x%2B4BHDj4nqX1kGRwB8uowyG0erEyZfSQ7AV6VgyZ7CdOUCsPQcyD%2B07GQSM4LLGkvUk%3D",
+							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "c5af86922bce46e3a52dac39131ed7eccb26570be3f663787054579b8b40eac2%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbMWcB9YcsMwSzUi%2FEYuXjRSUVy%2FzoVbQK98nzvvjprxLsJfY%2Bwugr499YlAjpIOweY16l87OJsYj%2BhxnhnT2%2FAE%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1865,7 +1841,7 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "8a09f45cdba798e9dd8d47d12afe511ac7c58dada7def0df94988ecf01655508%3AYCEuhchdBoZQk%2F6EZq0O9VyPACe4XZ8y1QczurjRAVqXKQSifZ3w0pD7bxqFPgJDMYjceWTZdSXITqkOpyESko%2F86l0RvmE%2BnGmisI7i4y%2Fxqr1sUDFrXgqJRtqliQ4%2B1Y5fZJNZSC%2FXvdm77m3dtAIn%2F2XKCIZgUPC2iDNio2M%3D",
+							"evidence": "e182c43226da9806c3012641dd0ad7095feb353520ba7fab18ad8d663785df53%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbFaWU9H914buA2LxFWe1l%2F8ZHgaUlp%2FU%2FflGhWQt%2BprFuF8kKIvVng8l%2FJWgPiafgkI9vZ7UByziEsyjLhi8PLo%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1873,7 +1849,7 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "8a09f45cdba798e9dd8d47d12afe511ac7c58dada7def0df94988ecf01655508%3AYCEuhchdBoZQk%2F6EZq0O9VyPACe4XZ8y1QczurjRAVqXKQSifZ3w0pD7bxqFPgJDMYjceWTZdSXITqkOpyESko%2F86l0RvmE%2BnGmisI7i4y%2Fxqr1sUDFrXgqJRtqliQ4%2B1Y5fZJNZSC%2FXvdm77m3dtAIn%2F2XKCIZgUPC2iDNio2M%3D",
+							"evidence": "e182c43226da9806c3012641dd0ad7095feb353520ba7fab18ad8d663785df53%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbFaWU9H914buA2LxFWe1l%2F8ZHgaUlp%2FU%2FflGhWQt%2BprFuF8kKIvVng8l%2FJWgPiafgkI9vZ7UByziEsyjLhi8PLo%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
@@ -1881,19 +1857,35 @@
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "8a09f45cdba798e9dd8d47d12afe511ac7c58dada7def0df94988ecf01655508%3AYCEuhchdBoZQk%2F6EZq0O9VyPACe4XZ8y1QczurjRAVqXKQSifZ3w0pD7bxqFPgJDMYjceWTZdSXITqkOpyESko%2F86l0RvmE%2BnGmisI7i4y%2Fxqr1sUDFrXgqJRtqliQ4%2B1Y5fZJNZSC%2FXvdm77m3dtAIn%2F2XKCIZgUPC2iDNio2M%3D",
+							"evidence": "c5af86922bce46e3a52dac39131ed7eccb26570be3f663787054579b8b40eac2%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbMWcB9YcsMwSzUi%2FEYuXjRSUVy%2FzoVbQK98nzvvjprxLsJfY%2Bwugr499YlAjpIOweY16l87OJsYj%2BhxnhnT2%2FAE%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*controller=images.inc",
+							"uri": "https://www.salaisonsduvelay.com/*controller=my-account",
 							"method": "GET",
 							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
 							"attack": "",
-							"evidence": "8a09f45cdba798e9dd8d47d12afe511ac7c58dada7def0df94988ecf01655508%3AYCEuhchdBoZQk%2F6EZq0O9VyPACe4XZ8y1QczurjRAVqXKQSifZ3w0pD7bxqFPgJDMYjceWTZdSXITqkOpyESko%2F86l0RvmE%2BnGmisI7i4y%2Fxqr1sUDFrXgqJRtqliQ4%2B1Y5fZJNZSC%2FXvdm77m3dtAIn%2F2XKCIZgUPC2iDNio2M%3D",
+							"evidence": "c5af86922bce46e3a52dac39131ed7eccb26570be3f663787054579b8b40eac2%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbMWcB9YcsMwSzUi%2FEYuXjRSUVy%2FzoVbQK98nzvvjprxLsJfY%2Bwugr499YlAjpIOweY16l87OJsYj%2BhxnhnT2%2FAE%3D",
+							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*controller=order",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "c5af86922bce46e3a52dac39131ed7eccb26570be3f663787054579b8b40eac2%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbMWcB9YcsMwSzUi%2FEYuXjRSUVy%2FzoVbQK98nzvvjprxLsJfY%2Bwugr499YlAjpIOweY16l87OJsYj%2BhxnhnT2%2FAE%3D",
+							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
+						},
+						{
+							"uri": "https://www.salaisonsduvelay.com/*controller=order-slip",
+							"method": "GET",
+							"param": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
+							"attack": "",
+							"evidence": "c5af86922bce46e3a52dac39131ed7eccb26570be3f663787054579b8b40eac2%3ApBjoStmsfTEjbKWNJfUpieve%2BgOlLrdEh6%2F0b2z8LuOd7ih%2FH8biHoKoJL07qOEHyyGe1Nc0EdQv4ydVlmTwbMWcB9YcsMwSzUi%2FEYuXjRSUVy%2FzoVbQK98nzvvjprxLsJfY%2Bwugr499YlAjpIOweY16l87OJsYj%2BhxnhnT2%2FAE%3D",
 							"otherinfo": "\ncookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa"
 						}
 					],
-					"count": "5",
+					"count": "8",
 					"solution": "<p>This is an informational alert rather than a vulnerability and so there is nothing to fix.</p>",
 					"otherinfo": "<p></p><p>cookie:PrestaShop-d88ae6b6381834d2794f1a055301a0fa</p>",
 					"reference": "<p>https://www.zaproxy.org/docs/desktop/addons/authentication-helper/session-mgmt-id</p>",
@@ -1960,7 +1952,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?id_currency",
+							"uri": "https://www.salaisonsduvelay.com/*?orderby",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -1968,7 +1960,7 @@
 							"otherinfo": "In the absence of an explicitly specified caching lifetime directive in the response, a liberal lifetime heuristic of 1 year was assumed. This is permitted by rfc7234."
 						},
 						{
-							"uri": "https://www.salaisonsduvelay.com/*?tag",
+							"uri": "https://www.salaisonsduvelay.com/*?orderway",
 							"method": "GET",
 							"param": "",
 							"attack": "",
@@ -2188,7 +2180,7 @@
 					"reference": "<p>https://cheatsheetseries.owasp.org/cheatsheets/Input_Validation_Cheat_Sheet.html</p>",
 					"cweid": "20",
 					"wascid": "20",
-					"sourceid": "494"
+					"sourceid": "496"
 				}
 			]
 		}
