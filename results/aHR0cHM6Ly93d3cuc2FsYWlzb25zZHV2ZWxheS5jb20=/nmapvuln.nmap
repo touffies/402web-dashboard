@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Apr  7 01:17:56 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.salaisonsduvelay.com
+# Nmap 7.92 scan initiated Sun Apr 14 01:33:10 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.salaisonsduvelay.com
 Nmap scan report for www.salaisonsduvelay.com (195.144.11.124)
-Host is up (0.082s latency).
+Host is up (0.080s latency).
 rDNS record for 195.144.11.124: 195-144-11-124.phpnet.fr
 Not shown: 993 closed tcp ports (reset)
 PORT      STATE SERVICE   VERSION
@@ -8,31 +8,31 @@ PORT      STATE SERVICE   VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 07 Apr 2024 01:17:32 GMT
+|     date: Sun, 14 Apr 2024 01:36:18 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11121|ZhH0U|ZhH0U; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11123|ZhsyY|ZhsyY; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   GetRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 07 Apr 2024 01:10:09 GMT
+|     date: Sun, 14 Apr 2024 01:32:58 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11110|ZhH0U|ZhH0U; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11112|ZhsyY|ZhsyY; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   HTTPOptions: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 07 Apr 2024 01:17:31 GMT
+|     date: Sun, 14 Apr 2024 01:33:26 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11121|ZhH0U|ZhH0U; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11113|ZhsyY|ZhsyY; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
@@ -50,31 +50,31 @@ PORT      STATE SERVICE   VERSION
 | fingerprint-strings: 
 |   FourOhFourRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 07 Apr 2024 01:17:50 GMT
+|     date: Sun, 14 Apr 2024 01:36:24 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11116|ZhH0V|ZhH0V; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11123|Zhsya|Zhsya; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   GetRequest: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 07 Apr 2024 01:14:29 GMT
+|     date: Sun, 14 Apr 2024 01:33:04 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11124|ZhH0V|ZhH0V; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11112|ZhsyZ|ZhsyZ; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
 |   HTTPOptions: 
 |     HTTP/1.1 404 Not Found
-|     date: Sun, 07 Apr 2024 01:23:56 GMT
+|     date: Sun, 14 Apr 2024 01:33:32 GMT
 |     server: Apache
 |     vary: User-Agent
 |     content-type: text/html; charset=UTF-8
-|     set-cookie: WEBMO-MNO=11120|ZhH0V|ZhH0V; path=/; HttpOnly; SameSite=Strict
+|     set-cookie: WEBMO-MNO=11113|Zhsya|Zhsya; path=/; HttpOnly; SameSite=Strict
 |     connection: close
 |     Erreur: HTTP_HOST non d
 |     fini (18)<br /><br />Merci de votre comprehension.
@@ -95,71 +95,71 @@ PORT      STATE SERVICE   VERSION
 27000/tcp open  flexlm0?
 2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port80-TCP:V=7.92%I=7%D=4/7%Time=6611F44D%P=x86_64-alpine-linux-musl%r(
-SF:GetRequest,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Sun,\x2007
-SF:\x20Apr\x202024\x2001:10:09\x20GMT\r\nserver:\x20Apache\r\nvary:\x20Use
-SF:r-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nset-cookie:\
-SF:x20WEBMO-MNO=11110\|ZhH0U\|ZhH0U;\x20path=/;\x20HttpOnly;\x20SameSite=S
-SF:trict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST\x20non\x20d\x
-SF:c3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votre\x20comprehen
-SF:sion\.\n")%r(HTTPOptions,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:
-SF:\x20Sun,\x2007\x20Apr\x202024\x2001:17:31\x20GMT\r\nserver:\x20Apache\r
-SF:\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r
-SF:\nset-cookie:\x20WEBMO-MNO=11121\|ZhH0U\|ZhH0U;\x20path=/;\x20HttpOnly;
-SF:\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST
-SF:\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votr
-SF:e\x20comprehension\.\n")%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20r
-SF:equest\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConnec
-SF:tion:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>400
-SF:\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20re
-SF:quest\.\n</body></html>\n")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20Bad\x20r
-SF:equest\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConnec
-SF:tion:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>400
-SF:\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20re
-SF:quest\.\n</body></html>\n")%r(FourOhFourRequest,134,"HTTP/1\.1\x20404\x
-SF:20Not\x20Found\r\ndate:\x20Sun,\x2007\x20Apr\x202024\x2001:17:32\x20GMT
-SF:\r\nserver:\x20Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/h
-SF:tml;\x20charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11121\|ZhH0U\|ZhH0U;\
-SF:x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r\n\
-SF:r\nErreur:\x20HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x
-SF:20/>Merci\x20de\x20votre\x20comprehension\.\n")%r(RPCCheck,CF,"HTTP/1\.
-SF:1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\x
-SF:20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r\
-SF:n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x2
-SF:0an\x20invalid\x20request\.\n</body></html>\n");
+SF-Port80-TCP:V=7.92%I=7%D=4/14%Time=661B325E%P=x86_64-alpine-linux-musl%r
+SF:(GetRequest,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Sun,\x201
+SF:4\x20Apr\x202024\x2001:32:58\x20GMT\r\nserver:\x20Apache\r\nvary:\x20Us
+SF:er-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nset-cookie:
+SF:\x20WEBMO-MNO=11112\|ZhsyY\|ZhsyY;\x20path=/;\x20HttpOnly;\x20SameSite=
+SF:Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST\x20non\x20d\
+SF:xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votre\x20comprehe
+SF:nsion\.\n")%r(HTTPOptions,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate
+SF::\x20Sun,\x2014\x20Apr\x202024\x2001:33:26\x20GMT\r\nserver:\x20Apache\
+SF:r\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\
+SF:r\nset-cookie:\x20WEBMO-MNO=11113\|ZhsyY\|ZhsyY;\x20path=/;\x20HttpOnly
+SF:;\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOS
+SF:T\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20vot
+SF:re\x20comprehension\.\n")%r(RTSPRequest,CF,"HTTP/1\.1\x20400\x20Bad\x20
+SF:request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConne
+SF:ction:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>40
+SF:0\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20r
+SF:equest\.\n</body></html>\n")%r(X11Probe,CF,"HTTP/1\.1\x20400\x20Bad\x20
+SF:request\r\nContent-length:\x2090\r\nCache-Control:\x20no-cache\r\nConne
+SF:ction:\x20close\r\nContent-Type:\x20text/html\r\n\r\n<html><body><h1>40
+SF:0\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x20an\x20invalid\x20r
+SF:equest\.\n</body></html>\n")%r(FourOhFourRequest,134,"HTTP/1\.1\x20404\
+SF:x20Not\x20Found\r\ndate:\x20Sun,\x2014\x20Apr\x202024\x2001:36:18\x20GM
+SF:T\r\nserver:\x20Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/
+SF:html;\x20charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11123\|ZhsyY\|ZhsyY;
+SF:\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r\n
+SF:\r\nErreur:\x20HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\
+SF:x20/>Merci\x20de\x20votre\x20comprehension\.\n")%r(RPCCheck,CF,"HTTP/1\
+SF:.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Control:\
+SF:x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/html\r\n\r
+SF:\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x20sent\x
+SF:20an\x20invalid\x20request\.\n</body></html>\n");
 ==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
-SF-Port443-TCP:V=7.92%T=SSL%I=7%D=4/7%Time=6611F453%P=x86_64-alpine-linux-
-SF:musl%r(GetRequest,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Sun
-SF:,\x2007\x20Apr\x202024\x2001:14:29\x20GMT\r\nserver:\x20Apache\r\nvary:
-SF:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nset-c
-SF:ookie:\x20WEBMO-MNO=11124\|ZhH0V\|ZhH0V;\x20path=/;\x20HttpOnly;\x20Sam
-SF:eSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST\x20non
-SF:\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votre\x20co
-SF:mprehension\.\n")%r(HTTPOptions,134,"HTTP/1\.1\x20404\x20Not\x20Found\r
-SF:\ndate:\x20Sun,\x2007\x20Apr\x202024\x2001:23:56\x20GMT\r\nserver:\x20A
-SF:pache\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=
-SF:UTF-8\r\nset-cookie:\x20WEBMO-MNO=11120\|ZhH0V\|ZhH0V;\x20path=/;\x20Ht
-SF:tpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HT
-SF:TP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\
-SF:x20votre\x20comprehension\.\n")%r(FourOhFourRequest,134,"HTTP/1\.1\x204
-SF:04\x20Not\x20Found\r\ndate:\x20Sun,\x2007\x20Apr\x202024\x2001:17:50\x2
-SF:0GMT\r\nserver:\x20Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20te
-SF:xt/html;\x20charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11116\|ZhH0V\|ZhH
-SF:0V;\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\
-SF:r\n\r\nErreur:\x20HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><
-SF:br\x20/>Merci\x20de\x20votre\x20comprehension\.\n")%r(tor-versions,CF,"
-SF:HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-Co
-SF:ntrol:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/htm
-SF:l\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x2
-SF:0sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RTSPRequest,C
-SF:F,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache
-SF:-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/
-SF:html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser
-SF:\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RPCCheck,C
-SF:F,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache
-SF:-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/
-SF:html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser
-SF:\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
+SF-Port443-TCP:V=7.92%T=SSL%I=7%D=4/14%Time=661B3264%P=x86_64-alpine-linux
+SF:-musl%r(GetRequest,134,"HTTP/1\.1\x20404\x20Not\x20Found\r\ndate:\x20Su
+SF:n,\x2014\x20Apr\x202024\x2001:33:04\x20GMT\r\nserver:\x20Apache\r\nvary
+SF::\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset=UTF-8\r\nset-
+SF:cookie:\x20WEBMO-MNO=11112\|ZhsyZ\|ZhsyZ;\x20path=/;\x20HttpOnly;\x20Sa
+SF:meSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20HTTP_HOST\x20no
+SF:n\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de\x20votre\x20c
+SF:omprehension\.\n")%r(HTTPOptions,134,"HTTP/1\.1\x20404\x20Not\x20Found\
+SF:r\ndate:\x20Sun,\x2014\x20Apr\x202024\x2001:33:32\x20GMT\r\nserver:\x20
+SF:Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20text/html;\x20charset
+SF:=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11113\|Zhsya\|Zhsya;\x20path=/;\x20H
+SF:ttpOnly;\x20SameSite=Strict\r\nconnection:\x20close\r\n\r\nErreur:\x20H
+SF:TTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/><br\x20/>Merci\x20de
+SF:\x20votre\x20comprehension\.\n")%r(FourOhFourRequest,134,"HTTP/1\.1\x20
+SF:404\x20Not\x20Found\r\ndate:\x20Sun,\x2014\x20Apr\x202024\x2001:36:24\x
+SF:20GMT\r\nserver:\x20Apache\r\nvary:\x20User-Agent\r\ncontent-type:\x20t
+SF:ext/html;\x20charset=UTF-8\r\nset-cookie:\x20WEBMO-MNO=11123\|Zhsya\|Zh
+SF:sya;\x20path=/;\x20HttpOnly;\x20SameSite=Strict\r\nconnection:\x20close
+SF:\r\n\r\nErreur:\x20HTTP_HOST\x20non\x20d\xc3\xa9fini\x20\(18\)<br\x20/>
+SF:<br\x20/>Merci\x20de\x20votre\x20comprehension\.\n")%r(tor-versions,CF,
+SF:"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCache-C
+SF:ontrol:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text/ht
+SF:ml\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browser\x
+SF:20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RTSPRequest,
+SF:CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCach
+SF:e-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text
+SF:/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browse
+SF:r\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n")%r(RPCCheck,
+SF:CF,"HTTP/1\.1\x20400\x20Bad\x20request\r\nContent-length:\x2090\r\nCach
+SF:e-Control:\x20no-cache\r\nConnection:\x20close\r\nContent-Type:\x20text
+SF:/html\r\n\r\n<html><body><h1>400\x20Bad\x20request</h1>\nYour\x20browse
+SF:r\x20sent\x20an\x20invalid\x20request\.\n</body></html>\n");
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Apr  7 01:18:29 2024 -- 1 IP address (1 host up) scanned in 33.04 seconds
+# Nmap done at Sun Apr 14 01:33:42 2024 -- 1 IP address (1 host up) scanned in 32.20 seconds
