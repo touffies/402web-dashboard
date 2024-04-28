@@ -1,6 +1,6 @@
-# Nmap 7.92 scan initiated Sun Apr 21 03:31:33 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.coque-en-bois.fr
+# Nmap 7.92 scan initiated Sun Apr 28 03:33:03 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.coque-en-bois.fr
 Nmap scan report for www.coque-en-bois.fr (23.227.38.74)
-Host is up (0.0016s latency).
+Host is up (0.0021s latency).
 Other addresses for www.coque-en-bois.fr (not scanned): 2620:127:f00f:e::
 rDNS record for 23.227.38.74: shops.myshopify.com
 Not shown: 996 filtered tcp ports (no-response)
@@ -15,4 +15,4 @@ PORT     STATE SERVICE  VERSION
 |_http-server-header: cloudflare
 
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
-# Nmap done at Sun Apr 21 03:31:51 2024 -- 1 IP address (1 host up) scanned in 17.98 seconds
+# Nmap done at Sun Apr 28 03:33:21 2024 -- 1 IP address (1 host up) scanned in 18.35 seconds
