@@ -1,4 +1,4 @@
-# Nmap 7.92 scan initiated Sun Jun  9 01:24:35 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.salaisonsduvelay.com
+# Nmap 7.92 scan initiated Sun Jun 16 01:23:28 2024 as: nmap -sV --script vulners --script-args mincvss=5.0 -oA /data/nmapvuln www.salaisonsduvelay.com
 Host: 195.144.11.124 (195-144-11-124.phpnet.fr)	Status: Up
-Host: 195.144.11.124 (195-144-11-124.phpnet.fr)	Ports: 80/open/tcp//http//Apache/, 443/open/tcp//ssl|https//Apache/, 24444/open/tcp//unknown///, 24800/open/tcp//unknown///, 25735/open/tcp//unknown///, 26214/open/tcp//unknown///, 27000/open/tcp//flexlm0?///	Ignored State: closed (993)
-# Nmap done at Sun Jun  9 01:25:10 2024 -- 1 IP address (1 host up) scanned in 35.09 seconds
+Host: 195.144.11.124 (195-144-11-124.phpnet.fr)	Ports: 80/open/tcp//http//Apache/, 222/filtered/tcp//rsh-spx///, 443/open/tcp//ssl|https//Apache/, 24444/open/tcp//unknown///, 24800/open/tcp//unknown///, 25735/open/tcp//unknown///, 26214/open/tcp//unknown///, 27000/open/tcp//flexlm0?///	Ignored State: closed (992)
+# Nmap done at Sun Jun 16 01:24:10 2024 -- 1 IP address (1 host up) scanned in 42.18 seconds
