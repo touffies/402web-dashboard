@@ -41,6 +41,14 @@
       }
     },
     {
+      "type": "google analytics",
+      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "details": {
+        "id": "google analytics",
+        "message": "Use hosted Matomo instance"
+      }
+    },
+    {
       "type": "google",
       "url": "https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js",
       "details": {
@@ -57,35 +65,11 @@
       }
     },
     {
-      "type": "facebook",
-      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.172&r=stable&domain=www.salaisonsduvelay.com&hme=d82868061a8c707cd31395a3055e7449daa03bd520872727258c39e6af34523e&ex_m=70%2C120%2C106%2C110%2C61%2C4%2C99%2C69%2C16%2C96%2C88%2C51%2C54%2C171%2C174%2C186%2C182%2C183%2C185%2C29%2C100%2C53%2C77%2C184%2C166%2C169%2C179%2C180%2C187%2C130%2C41%2C34%2C142%2C15%2C50%2C193%2C192%2C132%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C92%2C17%2C14%2C95%2C91%2C90%2C107%2C52%2C109%2C39%2C108%2C30%2C93%2C26%2C167%2C170%2C139%2C85%2C56%2C83%2C33%2C73%2C0%2C94%2C32%2C28%2C82%2C87%2C47%2C46%2C86%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C101%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C103%2C102%2C104%2C97%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C89%2C81%2C44%2C35%2C84%2C2%2C36%2C63%2C42%2C105%2C45%2C79%2C68%2C111%2C60%2C59%2C31%2C98%2C58%2C55%2C49%2C78%2C72%2C24%2C112",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
-      }
-    },
-    {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/plugins/ua/ec.js",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=1071249443&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAACAMI~&jid=1651046604&gjid=2051594575&cid=430413122.1729993098&tid=UA-109038707-1&_gid=937492227.1729993098&_r=1&_slc=1&gtm=45He4ao0n81597P2DNv78495454za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=101533422~101823848&z=834421679",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "google analytics",
-      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j101&a=617305577&t=pageview&cu=EUR&_s=1&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&ul=en-us&de=UTF-8&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sd=24-bit&sr=800x600&vp=800x600&je=0&_u=aGBAAEALAAAAACAMI~&jid=907934223&gjid=597667938&cid=1231296592.1729387795&tid=UA-109038707-1&_gid=426163793.1729387795&_r=1&_slc=1&gtm=45He4ah0n81597P2DNv78495454za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=101686685&z=1623594271",
-      "details": {
-        "id": "google analytics",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
-      "type": "facebook",
-      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1729387794996&sw=800&sh=600&v=2.9.172&r=stable&ec=0&o=4254&fbp=fb.1.1729387794995.693035052166182086&ler=empty&it=1729387794913&coo=false&rqm=GET",
-      "details": {
-        "id": "facebook",
-        "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
@@ -98,10 +82,26 @@
     },
     {
       "type": "google analytics",
-      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J1B0DW0GY0&gtm=45je4ah0v9133608023za200&_p=1729387794497&gcd=13l3l3l3l2l1&npa=0&dma=0&tag_exp=101529666~101533422~101686685~101836706&ul=en-us&sr=800x600&cid=1231296592.1729387795&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_eu=EBAI&_s=1&cu=EUR&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sid=1729387795&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1685",
+      "url": "https://www.google-analytics.com/g/collect?v=2&tid=G-J1B0DW0GY0&gtm=45je4ao0v9133608023za200&_p=1729993098066&gcd=13l3l3l3l2l1&npa=0&dma=0&tag_exp=101533421~101823848&ul=en-us&sr=800x600&cid=430413122.1729993098&ir=1&uaa=&uab=&uafvl=&uamb=0&uam=&uap=&uapv=&uaw=0&frm=0&pscdl=noapi&_eu=EBAI&_s=1&cu=EUR&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&dt=Salaisons%20du%20Velay%20-%20Fabrication%20artisanale%20de%20saucissons%20secs%2C%20jambons%20secs%20d%27Auvergne%20-%20Viandes%20de%20Haute-Loire&sid=1729993098&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&tfd=1747",
       "details": {
         "id": "google analytics",
         "message": "Use hosted Matomo instance"
+      }
+    },
+    {
+      "type": "facebook",
+      "url": "https://connect.facebook.net/signals/config/235934110312770?v=2.9.174&r=stable&domain=www.salaisonsduvelay.com&hme=ead923021ccd3483ef3b9b04703d0a78b943fbdc01e8d7cec21c5059f1f4a5e9&ex_m=70%2C121%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C172%2C175%2C187%2C183%2C184%2C186%2C29%2C101%2C53%2C77%2C185%2C167%2C170%2C180%2C181%2C188%2C131%2C41%2C189%2C190%2C34%2C143%2C15%2C50%2C194%2C193%2C133%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C168%2C171%2C140%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
+      }
+    },
+    {
+      "type": "facebook",
+      "url": "https://www.facebook.com/tr/?id=235934110312770&ev=PageView&dl=https%3A%2F%2Fwww.salaisonsduvelay.com%2Ffr%2F&rl=&if=false&ts=1729993098767&sw=800&sh=600&v=2.9.174&r=stable&ec=0&o=4254&fbp=fb.1.1729993098765.402293995614270277&ler=empty&it=1729993098596&coo=false&rqm=GET",
+      "details": {
+        "id": "facebook",
+        "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
@@ -138,7 +138,7 @@
     },
     {
       "type": "google",
-      "url": "https://www.gstatic.com/recaptcha/releases/aR-zv8WjtWx4lAw-tRCA-zca/recaptcha__en.js",
+      "url": "https://www.gstatic.com/recaptcha/releases/-ZG7BC9TxCVEbzIO2m429usb/recaptcha__en.js",
       "details": {
         "id": "google",
         "message": "Use hosted Matomo instance"
@@ -154,7 +154,7 @@
     },
     {
       "type": "facebook",
-      "url": "https://connect.facebook.net/fr_FR/all.js?hash=807b0da5218194f070ba5acb530cc462",
+      "url": "https://connect.facebook.net/fr_FR/all.js?hash=6369b0da94f9ba01838d25555d8463f8",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
@@ -170,32 +170,52 @@
     },
     {
       "type": "facebook",
-      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df48b9b158558f7af4%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Ff7f955b0ff760baa1%26relation%3Dparent.parent&color_scheme=light&container_width=800&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
+      "url": "https://www.facebook.com/plugins/like_box.php?app_id=334341610034299&channel=https%3A%2F%2Fstaticxx.facebook.com%2Fx%2Fconnect%2Fxd_arbiter%2F%3Fversion%3D46%23cb%3Df1debd64170aea821%26domain%3Dwww.salaisonsduvelay.com%26is_canvas%3Dfalse%26origin%3Dhttps%253A%252F%252Fwww.salaisonsduvelay.com%252Fff92af04848a1963e%26relation%3Dparent.parent&color_scheme=light&container_width=0&header=false&href=https%3A%2F%2Fwww.facebook.com%2Fsalaisonsduvelay%2F&locale=fr_FR&sdk=joey&show_border=false&show_faces=true&stream=false&width=256",
       "details": {
         "id": "facebook",
         "message": "Dont embed facebook scripts, use your own tweet embed"
       }
     },
     {
-      "type": "google tag manager",
-      "url": "https://www.googletagmanager.com/a?v=3&t=l&pid=1279117689&rv=4ah0&tag_exp=101529666~101533422~101686685~101836706&u=AAAAAAAIAAAAACCAAAE&ut=Ag&h=Ag&gtm=45je4ah0v9133608023za200&ccid=133608023&cid=G-J1B0DW0GY0&l=L1063.S26.B0.E1503.I2046.EC7.TC14.HTC0~gtm.init.S0.V0.E35.TS5ogtgasend.TI10.TE0.TS5ogtreferralexclusion.TI12.TE1.TS5ogtsessiontimeout.TI13.TE0.TS5ogt1pdatav2.TI14.TE1.TS5ccdgalast.TI15.TE0.TS5ccdautoredact.TI16.TE0.TS5ogteventcreate.TI17.TE0.TS5ogteventcreate.TI18.TE0.TS5ccdconversionmarking.TI19.TE0.TS5ccdgaregscope.TI20.TE1.TS5ccdgaadslink.TI21.TE0.TS5setproductsettings.TI22.TE0.TS5ccdgafirst.TI23.TE0~gtm.js.S0.V0.E24.TS5gct.TI7.TE0~*.S0.V0.E22~*~gtm.dom.S0.V0.E18~gtm.load.S0.V0.E5~gtm.init_consent.S1.V1.E35~GA622",
-      "details": {
-        "id": "google tag manager",
-        "message": "Use hosted Matomo instance"
-      }
-    },
-    {
       "type": "unknown",
-      "url": "https://static.xx.fbcdn.net/rsrc.php/v4/yD/l/0,cross/xjSQ907nXKJ.css"
+      "url": "https://static.xx.fbcdn.net/rsrc.php/v4/yL/l/0,cross/hx1QQk3LL6t.css"
     }
   ],
   "cookies": [
     {
-      "name": "_ga_J1B0DW0GY0",
-      "value": "GS1.2.1729387795.1.0.1729387795.0.0.0",
+      "name": "_gid",
+      "value": "GA1.2.937492227.1729993098",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1792459795,
+      "expires": 1730079498,
+      "size": 30,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_ga",
+      "value": "GA1.2.430413122.1729993098",
+      "domain": ".salaisonsduvelay.com",
+      "path": "/",
+      "expires": 1793065098,
+      "size": 29,
+      "httpOnly": false,
+      "secure": false,
+      "session": false,
+      "sameParty": false,
+      "sourceScheme": "Secure",
+      "sourcePort": 443
+    },
+    {
+      "name": "_ga_J1B0DW0GY0",
+      "value": "GS1.2.1729993098.1.0.1729993098.0.0.0",
+      "domain": ".salaisonsduvelay.com",
+      "path": "/",
+      "expires": 1793065098,
       "size": 51,
       "httpOnly": false,
       "secure": false,
@@ -205,12 +225,12 @@
       "sourcePort": 443
     },
     {
-      "name": "_gid",
-      "value": "GA1.2.426163793.1729387795",
+      "name": "_fbp",
+      "value": "fb.1.1729993098765.402293995614270277",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1729474194,
-      "size": 30,
+      "expires": 1737769098,
+      "size": 41,
       "httpOnly": false,
       "secure": false,
       "session": false,
@@ -223,7 +243,7 @@
       "value": "1",
       "domain": ".salaisonsduvelay.com",
       "path": "/",
-      "expires": 1729387854,
+      "expires": 1729993158,
       "size": 20,
       "httpOnly": false,
       "secure": false,
@@ -233,40 +253,12 @@
       "sourcePort": 443
     },
     {
-      "name": "_fbp",
-      "value": "fb.1.1729387794995.693035052166182086",
-      "domain": ".salaisonsduvelay.com",
-      "path": "/",
-      "expires": 1737163794,
-      "size": 41,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
-      "name": "_ga",
-      "value": "GA1.2.1231296592.1729387795",
-      "domain": ".salaisonsduvelay.com",
-      "path": "/",
-      "expires": 1792459794,
-      "size": 30,
-      "httpOnly": false,
-      "secure": false,
-      "session": false,
-      "sameParty": false,
-      "sourceScheme": "Secure",
-      "sourcePort": 443
-    },
-    {
       "name": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa",
-      "value": "cd5dbb6e0aa84726dc6106f81abc7384a0f0e0881fa6557eb6079650ecf04c94%3AFEM0%2FfrU6C88nDXQh%2Ba6CrsnR%2Fkzodak1WRxA5%2BBaslvd687AbW1DNlhNwilcLjfURHf52pSdV65Jeza2xwVwGE5s%2B%2Fj6JV%2F378L5TdNdJB8i8%2B%2B4Yj9Q1%2BfdEgJaQexNM1CSShoKsDG%2BhnRkPnJmj8Ft9i5qtSqBxkSwDOcE58%3D",
+      "value": "c26dad74ed181187871a2dac124902eb72099126a2ae9327387d7b045f048add%3AFEM0%2FfrU6C88nDXQh%2Ba6CmcZwaLXHpC%2B2I3cEof1lhSfhmA96TNavm%2B2%2FLcYmnRjOI%2BaAYtSdYl6Fn3EoR%2F5zjvjzcJ9ruQ2YtfFuvhbiZ8cygZlKgGrIqADo1E4R2jsslUeVyESvCavP3%2FiJhbpfS6I%2FzbC1rPYYJY5v3NlNQo%3D",
       "domain": ".www.salaisonsduvelay.com",
       "path": "/",
-      "expires": 1731115794.486159,
-      "size": 306,
+      "expires": 1731721098.055042,
+      "size": 302,
       "httpOnly": true,
       "secure": true,
       "session": false,
@@ -278,14 +270,14 @@
   "headers": {
     "cache-control": "max-age=0",
     "content-encoding": "gzip",
-    "content-length": "14390",
+    "content-length": "15332",
     "content-type": "text/html; charset=utf-8",
-    "date": "Sun, 20 Oct 2024 01:29:54 GMT",
-    "expires": "Sun, 20 Oct 2024 01:29:54 GMT",
+    "date": "Sun, 27 Oct 2024 01:38:17 GMT",
+    "expires": "Sun, 27 Oct 2024 01:38:17 GMT",
     "p3p": "CP=\"IDC DSP COR CURa ADMa OUR IND PHY ONL COM STA\"",
     "powered-by": "PrestaShop",
     "server": "Apache",
-    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=cd5dbb6e0aa84726dc6106f81abc7384a0f0e0881fa6557eb6079650ecf04c94%3AFEM0%2FfrU6C88nDXQh%2Ba6CrsnR%2Fkzodak1WRxA5%2BBaslvd687AbW1DNlhNwilcLjfURHf52pSdV65Jeza2xwVwGE5s%2B%2Fj6JV%2F378L5TdNdJB8i8%2B%2B4Yj9Q1%2BfdEgJaQexNM1CSShoKsDG%2BhnRkPnJmj8Ft9i5qtSqBxkSwDOcE58%3D; expires=Sat, 09-Nov-2024 01:29:54 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
+    "set-cookie": "PrestaShop-d88ae6b6381834d2794f1a055301a0fa=c26dad74ed181187871a2dac124902eb72099126a2ae9327387d7b045f048add%3AFEM0%2FfrU6C88nDXQh%2Ba6CmcZwaLXHpC%2B2I3cEof1lhSfhmA96TNavm%2B2%2FLcYmnRjOI%2BaAYtSdYl6Fn3EoR%2F5zjvjzcJ9ruQ2YtfFuvhbiZ8cygZlKgGrIqADo1E4R2jsslUeVyESvCavP3%2FiJhbpfS6I%2FzbC1rPYYJY5v3NlNQo%3D; expires=Sat, 16-Nov-2024 01:38:17 GMT; Max-Age=1728000; path=/; domain=www.salaisonsduvelay.com; secure; HttpOnly",
     "vary": "Accept-Encoding",
     "x-content-type-options": "nosniff",
     "x-ua-compatible": "IE=edge"
@@ -349,7 +341,7 @@
     },
     {
       "hostname": "fonts.googleapis.com",
-      "ip": "172.217.4.202",
+      "ip": "142.250.189.170",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -403,7 +395,7 @@
     },
     {
       "hostname": "www.googletagmanager.com",
-      "ip": "172.217.4.200",
+      "ip": "142.251.46.168",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -545,7 +537,7 @@
     },
     {
       "hostname": "www.google-analytics.com",
-      "ip": "172.217.4.46",
+      "ip": "216.239.32.178",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -577,9 +569,9 @@
         },
         "location": {
           "accuracy_radius": 1000,
-          "latitude": 37.751,
-          "longitude": -97.822,
-          "time_zone": "America/Chicago"
+          "latitude": 34.0544,
+          "longitude": -118.244,
+          "time_zone": "America/Los_Angeles"
         },
         "registered_country": {
           "geoname_id": 6252001,
@@ -594,12 +586,28 @@
             "ru": "США",
             "zh-CN": "美国"
           }
-        }
+        },
+        "subdivisions": [
+          {
+            "geoname_id": 5332921,
+            "iso_code": "CA",
+            "names": {
+              "de": "Kalifornien",
+              "en": "California",
+              "es": "California",
+              "fr": "Californie",
+              "ja": "カリフォルニア州",
+              "pt-BR": "Califórnia",
+              "ru": "Калифорния",
+              "zh-CN": "加州"
+            }
+          }
+        ]
       }
     },
     {
       "hostname": "ajax.googleapis.com",
-      "ip": "142.250.190.138",
+      "ip": "142.251.214.138",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -653,7 +661,7 @@
     },
     {
       "hostname": "www.google.com",
-      "ip": "142.250.190.68",
+      "ip": "142.251.46.228",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -795,7 +803,7 @@
     },
     {
       "hostname": "fonts.gstatic.com",
-      "ip": "142.250.190.67",
+      "ip": "142.251.46.163",
       "geoip": {
         "continent": {
           "code": "NA",
@@ -849,7 +857,7 @@
     },
     {
       "hostname": "www.gstatic.com",
-      "ip": "142.250.191.99",
+      "ip": "172.217.12.99",
       "geoip": {
         "continent": {
           "code": "NA",
