@@ -346,7 +346,7 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "OK",
-              "finding"      : "63 >= 30 days"
+              "finding"      : "56 >= 30 days"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -500,14 +500,14 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "0 seconds from localtime"
+              "finding"      : "-1 seconds from localtime"
           }
 ,         {
               "id"           : "HTTP_headerTime",
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1733017666"
+              "finding"      : "1733622083"
           }
 ,         {
               "id"           : "HSTS",
@@ -1084,6 +1084,6 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "59"
+              "finding"      : "53"
           }
 ]
