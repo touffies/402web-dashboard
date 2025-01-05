@@ -311,7 +311,7 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "*.phpnet.org"
+              "finding"      : "*.mutu.ownz.us"
           }
 ,         {
               "id"           : "cert_subjectAltName",
@@ -345,8 +345,8 @@
               "id"           : "cert_expirationStatus",
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
-              "severity"     : "OK",
-              "finding"      : "35 >= 30 days"
+              "severity"     : "MEDIUM",
+              "finding"      : "expires < 30 days (28)"
           }
 ,         {
               "id"           : "cert_notBefore",
@@ -359,7 +359,7 @@
               "id"           : "cert_notAfter",
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
-              "severity"     : "OK",
+              "severity"     : "MEDIUM",
               "finding"      : "2025-02-02 01:58"
           }
 ,         {
@@ -507,7 +507,7 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "1735435900"
+              "finding"      : "1736041189"
           }
 ,         {
               "id"           : "HSTS",
@@ -1084,6 +1084,6 @@
               "ip"           : "www.salaisonsduvelay.com/195.144.11.124",
               "port"         : "443",
               "severity"     : "INFO",
-              "finding"      : "99"
+              "finding"      : "97"
           }
 ]
